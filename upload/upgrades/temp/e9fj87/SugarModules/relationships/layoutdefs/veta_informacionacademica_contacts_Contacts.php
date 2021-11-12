@@ -1,0 +1,23 @@
+<?php
+ // created: 2019-12-02 08:33:45
+$layout_defs["Contacts"]["subpanel_setup"]['veta_informacionacademica_contacts'] = array (
+  'order' => 100,
+  'module' => 'Veta_InformacionAcademica',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_INFORMACIONACADEMICA_CONTACTS_FROM_VETA_INFORMACIONACADEMICA_TITLE',
+  'get_subpanel_data' => 'veta_informacionacademica_contacts',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);

@@ -1,0 +1,112 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'Veta_ServicioCliente',
+    'varName' => 'Veta_ServicioCliente',
+    'orderBy' => 'veta_serviciocliente.name',
+    'whereClauses' => array (
+  'name' => 'veta_serviciocliente.name',
+  'estado' => 'veta_serviciocliente.estado',
+  'veta_serviciocliente_opportunities_name' => 'veta_serviciocliente.veta_serviciocliente_opportunities_name',
+  'assigned_user_id' => 'veta_serviciocliente.assigned_user_id',
+),
+    'searchInputs' => array (
+  1 => 'name',
+  4 => 'estado',
+  5 => 'veta_serviciocliente_opportunities_name',
+  6 => 'assigned_user_id',
+),
+    'searchdefs' => array (
+  'name' => 
+  array (
+    'name' => 'name',
+    'width' => '10%',
+  ),
+  'estado' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_ESTADO',
+    'width' => '10%',
+    'name' => 'estado',
+  ),
+  'veta_serviciocliente_opportunities_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_VETA_SERVICIOCLIENTE_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE',
+    'id' => 'VETA_SERVICIOCLIENTE_OPPORTUNITIESOPPORTUNITIES_IDA',
+    'width' => '10%',
+    'name' => 'veta_serviciocliente_opportunities_name',
+  ),
+  'assigned_user_id' => 
+  array (
+    'name' => 'assigned_user_id',
+    'label' => 'LBL_ASSIGNED_TO',
+    'type' => 'enum',
+    'function' => 
+    array (
+      'name' => 'get_user_array',
+      'params' => 
+      array (
+        0 => false,
+      ),
+    ),
+    'width' => '10%',
+  ),
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+    'name' => 'name',
+  ),
+  'ESTADO' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_ESTADO',
+    'width' => '10%',
+    'name' => 'estado',
+  ),
+  'VETA_SERVICIOCLIENTE_OPPORTUNITIES_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_VETA_SERVICIOCLIENTE_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE',
+    'id' => 'VETA_SERVICIOCLIENTE_OPPORTUNITIESOPPORTUNITIES_IDA',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'veta_serviciocliente_opportunities_name',
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '9%',
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+    'name' => 'assigned_user_name',
+  ),
+  'DESCRIPTION' => 
+  array (
+    'type' => 'text',
+    'label' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => '10%',
+    'default' => true,
+    'name' => 'description',
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'date_entered',
+  ),
+),
+);
