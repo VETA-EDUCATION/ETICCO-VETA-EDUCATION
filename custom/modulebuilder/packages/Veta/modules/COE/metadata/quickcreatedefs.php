@@ -1,0 +1,96 @@
+<?php
+$module_name = 'Veta_COE';
+$viewdefs [$module_name] = 
+array (
+  'QuickCreate' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'veta_coe_veta_aplicacion_name',
+            'label' => 'LBL_VETA_COE_VETA_APLICACION_FROM_VETA_APLICACION_TITLE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'assigned_user_name',
+          1 => 
+          array (
+            'name' => 'estado',
+            'studio' => 'visible',
+            'label' => 'LBL_ESTADO',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fecha_correccion',
+            'label' => 'LBL_FECHA_CORRECCION',
+          ),
+          1 => 
+          array (
+            'name' => 'fecha_correccion2',
+            'label' => 'LBL_FECHA_CORRECCION2',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fecha_solicitud',
+            'label' => 'LBL_FECHA_SOLICITUD',
+          ),
+          1 => 
+          array (
+            'name' => 'fecha_envio_estudiante',
+            'label' => 'LBL_FECHA_ENVIO_ESTUDIANTE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

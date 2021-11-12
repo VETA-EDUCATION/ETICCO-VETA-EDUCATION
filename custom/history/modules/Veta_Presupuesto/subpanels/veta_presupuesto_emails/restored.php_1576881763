@@ -1,0 +1,36 @@
+<?php
+// created: 2019-12-20 17:42:39
+$layout_defs = array (
+  'object_image' => 
+  array (
+    'widget_class' => 'SubPanelIcon',
+    'width' => '2%',
+  ),
+  'name' => 
+  array (
+    'vname' => 'LBL_LIST_SUBJECT',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '68%',
+  ),
+  'case_name' => 
+  array (
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_record_key' => 'case_id',
+    'target_module' => 'Cases',
+    'module' => 'Cases',
+    'vname' => 'LBL_LIST_CASE',
+    'width' => '20%',
+    'force_exists' => true,
+    'sortable' => false,
+  ),
+  'contact_id' => 
+  array (
+    'usage' => 'query_only',
+    'force_exists' => true,
+  ),
+  'date_modified' => 
+  array (
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '10%',
+  ),
+);

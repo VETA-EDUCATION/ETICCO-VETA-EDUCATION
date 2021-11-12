@@ -1,0 +1,18 @@
+Wed, 28 Jul 2021 19:28:01 -0500 [UpgradeWizard] - setting session variables...
+Wed, 28 Jul 2021 19:28:01 -0500 [UpgradeWizard] - -----------------------------------------------------------------------------
+Wed, 28 Jul 2021 19:28:01 -0500 [UpgradeWizard] - Upgrade started. At start.php
+Wed, 28 Jul 2021 19:28:01 -0500 [UpgradeWizard] - at unlinkUWTempFiles()
+Wed, 28 Jul 2021 19:28:01 -0500 [UpgradeWizard] - finished!
+Wed, 28 Jul 2021 19:28:01 -0500 [UpgradeWizard] - resetting $_SESSION
+Wed, 28 Jul 2021 19:58:39 -0500 [UpgradeWizard] - setting session variables...
+Wed, 28 Jul 2021 19:58:39 -0500 [UpgradeWizard] - -----------------------------------------------------------------------------
+Wed, 28 Jul 2021 19:58:39 -0500 [UpgradeWizard] - Upgrade started. At start.php
+Wed, 28 Jul 2021 19:58:39 -0500 [UpgradeWizard] - at unlinkUWTempFiles()
+Wed, 28 Jul 2021 19:58:39 -0500 [UpgradeWizard] - finished!
+Wed, 28 Jul 2021 19:58:39 -0500 [UpgradeWizard] - resetting $_SESSION
+Wed, 11 Aug 2021 14:06:25 -0500 [UpgradeWizard] - setting session variables...
+Wed, 11 Aug 2021 14:06:25 -0500 [UpgradeWizard] - -----------------------------------------------------------------------------
+Wed, 11 Aug 2021 14:06:25 -0500 [UpgradeWizard] - Upgrade started. At start.php
+Wed, 11 Aug 2021 14:06:25 -0500 [UpgradeWizard] - at unlinkUWTempFiles()
+Wed, 11 Aug 2021 14:06:25 -0500 [UpgradeWizard] - finished!
+Wed, 11 Aug 2021 14:06:25 -0500 [UpgradeWizard] - resetting $_SESSION
