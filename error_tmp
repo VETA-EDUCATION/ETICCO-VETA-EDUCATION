@@ -1,0 +1,58 @@
+SELECT leads.id AS ID, 
+                    CONCAT(leads.first_name, ' ' , leads.last_name) AS NOMBRE,
+                    CONCAT(asignado.first_name, ' ', asignado.last_name) AS ASIGNADO,
+                    TRIM(UPPER(asignado.address_city)) AS OFICINA,
+                    leads.phone_home as TELCASA,
+                    leads.phone_mobile as CELULAR,
+                    leads_cstm.fecha_expiracion_visa_c AS FECHAEXPIRACIONVISA,
+                    leads_cstm.expiracion_visa_c AS FECHAEXPIRACIONVISATEXTO,
+                    leads_cstm.edad_c AS EDAD,
+                    leads.date_modified AS FECHAMODIFICACION,
+                    if(leads.converted = 1, "YES", "NO" )AS CONVERTIDO,
+                    leads.status AS ESTADO,
+                    leads.lead_source AS FUENTE,
+                    leads_cstm.pais_c AS PAIS,
+                    leads_cstm.departamento_c AS DPTO,
+                    leads_cstm.ciudad_c AS CIUDAD,
+                    leads_cstm.visa_c AS VISA,
+                    leads_cstm.pasaporte_c AS PASAPORTE,
+                    leads_cstm.ciudad_tmp_c AS CIUDADTMP,
+                    leads_cstm.carrera_universitaria_c AS CARRERAUNIVERSITARIA,
+                    leads_cstm.trabajo_actual_c AS TRABAJOACTUAL,
+                    campaigns.name as CAMPANA                    
+                FROM leads 
+                INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id 
+                INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida = leads.id AND veta_requerimiento_leads_c.deleted = 0 
+                INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb                
+                LEFT JOIN users asignado ON asignado.id = leads.assigned_user_id AND asignado.deleted = 0
+                LEFT JOIN campaigns ON campaigns.id = leads.campaign_id AND campaigns.deleted = 0 
+                WHERE veta_requerimiento.deleted = 0 AND veta_requerimiento.id = '80f90eea-0e3f-3c16-aff6-6120e45bc26f'
+SELECT leads.id AS ID, 
+                    CONCAT(leads.first_name, ' ' , leads.last_name) AS NOMBRE,
+                    CONCAT(asignado.first_name, ' ', asignado.last_name) AS ASIGNADO,
+                    TRIM(UPPER(asignado.address_city)) AS OFICINA,
+                    leads.phone_home as TELCASA,
+                    leads.phone_mobile as CELULAR,
+                    leads_cstm.fecha_expiracion_visa_c AS FECHAEXPIRACIONVISA,
+                    leads_cstm.expiracion_visa_c AS FECHAEXPIRACIONVISATEXTO,
+                    leads_cstm.edad_c AS EDAD,
+                    leads.date_modified AS FECHAMODIFICACION,
+                    if(leads.converted = 1, "YES", "NO" )AS CONVERTIDO,
+                    leads.status AS ESTADO,
+                    leads.lead_source AS FUENTE,
+                    leads_cstm.pais_c AS PAIS,
+                    leads_cstm.departamento_c AS DPTO,
+                    leads_cstm.ciudad_c AS CIUDAD,
+                    leads_cstm.visa_c AS VISA,
+                    leads_cstm.pasaporte_c AS PASAPORTE,
+                    leads_cstm.ciudad_tmp_c AS CIUDADTMP,
+                    leads_cstm.carrera_universitaria_c AS CARRERAUNIVERSITARIA,
+                    leads_cstm.trabajo_actual_c AS TRABAJOACTUAL,
+                    campaigns.name as CAMPANA                    
+                FROM leads 
+                INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id 
+                INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida = leads.id AND veta_requerimiento_leads_c.deleted = 0 
+                INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb                
+                LEFT JOIN users asignado ON asignado.id = leads.assigned_user_id AND asignado.deleted = 0
+                LEFT JOIN campaigns ON campaigns.id = leads.campaign_id AND campaigns.deleted = 0 
+                WHERE veta_requerimiento.deleted = 0 AND veta_requerimiento.id = 'ee16eebb-5786-0bf8-a6bf-60855e08a82b'

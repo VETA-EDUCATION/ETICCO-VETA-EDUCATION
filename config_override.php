@@ -1,0 +1,47 @@
+<?php
+/***CONFIGURATOR***/
+$sugar_config['disable_persistent_connections'] = false;
+$sugar_config['enable_line_editing_detail'] = false;
+$sugar_config['default_module_favicon'] = false;
+$sugar_config['dashlet_auto_refresh_min'] = '-1';
+$sugar_config['stack_trace_errors'] = false;
+$sugar_config['dbconfigoption']['collation'] = 'utf8_general_ci';
+$sugar_config['default_decimal_seperator'] = ',';
+$sugar_config['default_locale_name_format'] = 'f l';
+$sugar_config['default_number_grouping_seperator'] = '.';
+$sugar_config['disabled_languages'] = '';
+$sugar_config['enable_line_editing_list'] = false;
+$sugar_config['default_language'] = 'es_ES';
+$sugar_config['developerMode'] = false;
+$sugar_config['logger']['level'] = 'fatal';
+$sugar_config['logger']['file']['maxSize'] = '5MB';
+$sugar_config['default_currency_name'] = 'Peso Colombiano';
+$sugar_config['default_date_format'] = 'd-m-Y';
+$sugar_config['email_allow_send_as_user'] = true;
+$sugar_config['email_xss'] = 'YToxOntzOjY6InNjcmlwdCI7czo2OiJzY3JpcHQiO30=';
+$sugar_config['hide_history_contacts_emails']['Cases'] = false;
+$sugar_config['hide_history_contacts_emails']['Accounts'] = false;
+$sugar_config['hide_history_contacts_emails']['Opportunities'] = false;
+$sugar_config['passwordsetting']['SystemGeneratedPasswordON'] = '0';
+$sugar_config['passwordsetting']['generatepasswordtmpl'] = 'e23611d2-1327-e8c2-1169-5a8727bb38a9';
+$sugar_config['passwordsetting']['lostpasswordtmpl'] = 'e3982ad8-23c4-b338-311b-5a872775d64a';
+$sugar_config['passwordsetting']['oneupper'] = '0';
+$sugar_config['passwordsetting']['onelower'] = '0';
+$sugar_config['passwordsetting']['onenumber'] = '0';
+$sugar_config['passwordsetting']['onespecial'] = '0';
+$sugar_config['passwordsetting']['minpwdlength'] = '';
+$sugar_config['passwordsetting']['forgotpasswordON'] = '1';
+$sugar_config['SAML_loginurl'] = '';
+$sugar_config['SAML_logouturl'] = '';
+$sugar_config['SAML_X509Cert'] = '';
+$sugar_config['authenticationClass'] = '';
+$sugar_config['addAjaxBannedModules'][0] = 'SecurityGroups';
+$sugar_config['email_confirm_opt_in_email_template_id'] = '3ef77793-1198-8dd8-fbbe-5d9df36c57b0';
+$sugar_config['list_max_entries_per_subpanel'] = '10';
+$sugar_config['list_max_entries_per_page'] = '44';
+$sugar_config['max_dashlets_homepage'] = '10';
+$sugar_config['calculate_response_time'] = false;
+$sugar_config['verify_client_ip'] = false;
+$sugar_config['email_default_delete_attachments'] = false;
+$sugar_config['email_warning_notifications'] = false;
+/***CONFIGURATOR***/
