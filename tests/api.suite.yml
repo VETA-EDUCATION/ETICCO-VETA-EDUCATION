@@ -1,0 +1,6 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+              url: http://localhost/crm.australiaveta.com.soel/service/v4/rest.php
+              depends: PhpBrowser
