@@ -12,6 +12,7 @@ class PresupuestoPDF extends FPDF
 
     public function generate_pdf( Veta_Presupuesto $p ) {
 
+        global $sugar_config;
         $this->p = $p;
         //$this = new PresupuestoPDF( 'P' , 'mm' , 'Letter' );
 
@@ -21,7 +22,8 @@ class PresupuestoPDF extends FPDF
         $this->print_details();
         $this->print_notas();
 
-        $this->Output( $this->p->id . '.pdf' );
+        //$this->Output( $this->p->id . '.pdf' );
+        $this->Output( $sugar_config[ 'upload_dir' ]  .  $this->p->id . '.pdf' , 'F');
     }
 
     public function header() {
@@ -79,6 +81,7 @@ class PresupuestoPDF extends FPDF
 
         $curso = new Veta_Curso();
         $curso->retrieve($d->veta_curso_id_c);
+	$this->moneda = $c-> moneda_c;	
 
         $this->Ln( 7 );
         $this->SetFont( 'Arial' , 'B' , 9 );
@@ -113,13 +116,13 @@ class PresupuestoPDF extends FPDF
         $this->Ln( 5 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( 'Precio por Semana ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_por_semana * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_por_semana * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
         // ---------------------------------------------------- BONO DE DESCUENTO ----------------------------------------
         $this->Ln( 5 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( 'Descuento ' . substr( $d->descripcion_bono , 0 , 110 ) ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( '-' . number_format( ( $d->bono * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( '-' . number_format( ( $d->bono * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
         // ---------------------------------------------------- VALOR DEL CURSO ----------------------------------------
 
@@ -127,7 +130,7 @@ class PresupuestoPDF extends FPDF
         $this->Cell( 5 );
         $this->Cell( 50 , 3 , utf8_decode( "Valor del Curso " ) , 0 , 0 , 'L' );
         //$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) - ( $d->inscripcion * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_curso * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_curso * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
 
         // ---------------------------------------------------- INSCRIPCION ----------------------------------------
@@ -135,20 +138,20 @@ class PresupuestoPDF extends FPDF
         $this->Ln( 5 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( "Valor de la Inscripción " ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( $d->inscripcion * 1 , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( $d->inscripcion * 1 , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
 
         // ---------------------------------------------------- COSTO MATERIALES ----------------------------------------
         $this->Ln( 5 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( 'Costo Materiales ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->costo_materiales * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->costo_materiales * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
         // ---------------------------------------------------- COSTO EXTRA ----------------------------------------
         $this->Ln( 5 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( 'Costo Extra ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->costo_extra * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->costo_extra * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
 
         // ---------------------------------------------------- TOTAL ----------------------------------------
@@ -157,12 +160,12 @@ class PresupuestoPDF extends FPDF
         $this->SetFont( 'Arial' , 'B' , 9 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( 'TOTAL: ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
 
         $this->Ln( 5 );
         $this->Cell( 5 );
         $this->Cell( 100 , 3 , utf8_decode( 'DEPOSITO: ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->deposito * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->deposito * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
         $this->total_depositos += ( $d->deposito * 1 );
         $this->descuento += ($d->bono * 1);
 
@@ -187,7 +190,7 @@ class PresupuestoPDF extends FPDF
                 $this->Ln( 5 );
                 $this->Cell( 5 );
                 $this->Cell( 100 , 3 , utf8_decode( "Examen Médico " ) , 0 , 0 , 'L' );
-                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->examen_medico * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->examen_medico * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
             }
 
             if( ! empty( $p->seguro ) and $p->seguro > 0 ) {
@@ -199,7 +202,7 @@ class PresupuestoPDF extends FPDF
                     $my_seguro = "( " . $p->asegurador . " " . $p->duracion . " meses " . $p->tipo_seguro . " )";
 
                 $this->Cell( 100 , 3 , utf8_decode( "Valor del Seguro  " . $my_seguro . " " ) , 0 , 0 , 'L' );
-                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->seguro * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->seguro * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
             }
 
             if( ! empty( $p->total_visa ) and $p->total_visa > 0 ) {
@@ -210,10 +213,64 @@ class PresupuestoPDF extends FPDF
                 $this->Ln( 5 );
                 $this->Cell( 5 );
                 $this->Cell( 100 , 3 , utf8_decode( "Valor de la visa ( " . $visa->name . " )" ) , 0 , 0 , 'L' );
-                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->total_visa * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->total_visa * 1 ) , 2 , ',' , '.' ) ) .' '. $this->moneda , 0 , 0 , 'R' );
             }
 
             $this->Ln( 7 );
+        }
+
+//OTROS SERVICIOS
+          if( ( ! empty( $p->tiquete_c ) and $p->tiquete_c > 0 ) or ( ! empty( $p->aeropuerto_c ) and $p->aeropuerto_c > 0 ) or ( ! empty( $p->tour_c ) and $p->tour_c > 0 ) or ( ! empty( $p->hospedaje_c ) and $p->hospedaje_c > 0 ) or ( ! empty( $p->mmm_c ) and $p->mmm_c > 0 )) 
+        {
+              $this->Ln( 7 );
+            $this->SetFont( 'Arial' , 'B' , 9 );
+            $this->Cell( 0 , 3 , utf8_decode( "OTROS SERVICIOS " ) , 0 , 0 , 'L' );
+            $this->Ln( 4 );
+            $this->print_line( $this->getY() );
+
+            $this->SetFont( 'Arial' , '' , 8 );
+            
+            if( ! empty( $p->tiquete_c ) and ( $p->tiquete_c * 1 ) > 0 ) {
+
+                $this->Ln( 5 );
+                $this->Cell( 5 );
+                $this->Cell( 100 , 3 , utf8_decode( "Veta Travel Tiquete" ) , 0 , 0 , 'L' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->tiquete_c * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+            }
+            
+            if( ! empty( $p->aeropuerto_c ) and ( $p->aeropuerto_c * 1 ) > 0 ) {
+
+                $this->Ln( 5 );
+                $this->Cell( 5 );
+                $this->Cell( 100 , 3 , utf8_decode( "Veta Travel Aeropuerto" ) , 0 , 0 , 'L' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->aeropuerto_c * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+            }
+            
+            if( ! empty( $p->tour_c ) and ( $p->tour_c * 1 ) > 0 ) {
+
+                $this->Ln( 5 );
+                $this->Cell( 5 );
+                $this->Cell( 100 , 3 , utf8_decode( "Veta Travel Tour" ) , 0 , 0 , 'L' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->tour_c * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+            }
+            
+            if( ! empty( $p->hospedaje_c ) and ( $p->hospedaje_c * 1 ) > 0 ) {
+
+                $this->Ln( 5 );
+                $this->Cell( 5 );
+                $this->Cell( 100 , 3 , utf8_decode( "Hospedaje" ) , 0 , 0 , 'L' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->hospedaje_c * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+            }
+            
+            if( ! empty( $p->mmm_c ) and ( $p->mmm_c * 1 ) > 0 ) {
+
+                $this->Ln( 5 );
+                $this->Cell( 5 );
+                $this->Cell( 100 , 3 , utf8_decode( "Migration" ) , 0 , 0 , 'L' );
+                $this->Cell( 0 , 3 , utf8_decode( number_format( ( $p->mmm_c * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+            }
+            
+            $this->Ln( 4 );
         }
     }
 
@@ -228,7 +285,7 @@ class PresupuestoPDF extends FPDF
         $this->SetFont( 'Arial' , '' , 8 );
         $this->Cell( 150 , 8 , utf8_decode( $d->descripcion_bono ) , 0 , 0 , 'L' , true );
         $this->SetTextColor( 23 , 44 , 255 );
-        $this->Cell( 0 , 8 , utf8_decode( number_format( ( $d->bono * 1 ) , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
+        $this->Cell( 0 , 8 , utf8_decode( number_format( ( $d->bono * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' , true );
         $this->print_line( $this->GetY() );
         $this->Ln( 15 );
         $this->print_separator( $this->GetY() );
@@ -238,6 +295,7 @@ class PresupuestoPDF extends FPDF
     private function print_details() {
 
         global $app_list_strings;
+	$trm = new Veta_TRM();
         $dets                  = $this->p->get_linked_beans( 'veta_detallepresupuesto_veta_presupuesto' , 'Veta_DetallePresupuesto' );
         $this->total_depositos = 0;
         $this->descuento = 0;
@@ -254,7 +312,8 @@ class PresupuestoPDF extends FPDF
         $this->SetFont( 'Arial' , 'B' , 9 );
         $this->Cell( 100 , 6 , utf8_decode( "TOTAL GENERAL" ) , 0 , 0 , 'L' , true );
         $this->SetFont( 'Arial' , 'B' , 10 );
-        $this->Cell( 0 , 6 , utf8_decode( number_format( $this->p->gran_total * 1 , 2 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
+	$this->Cell( 20 , 6 , utf8_decode( number_format( $this->p->getGranTotalMoneda($this->moneda), 2 , ',' , '.' ) ) .' '.$this->p->moneda_c , 0 , 0 , 'R' , true );
+        $this->Cell( 0 , 6 , utf8_decode( number_format( $this->p->gran_total * 1 , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' , true );
 
         $this->Ln( 7 );
 
@@ -265,14 +324,15 @@ class PresupuestoPDF extends FPDF
         $this->Cell( 100 , 6 , utf8_decode( "DESCUENTO " ) , 0 , 0 , 'L' , true );
         $this->SetFont( 'Arial' , 'B' , 10 );
         $descuento = ( $this->p->descuento * 1 );
-        $this->Cell( 0 , 6 , utf8_decode( number_format( $descuento * 1 , 0 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
+        $this->Cell( 0 , 6 , utf8_decode( number_format( $descuento * 1 , 0 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' , true );
 
         $this->Ln( 7 );
 
         $this->Cell( 100 , 6 , utf8_decode( "TOTAL PRIMER PAGO " ) , 0 , 0 , 'L' , true );
         $this->SetFont( 'Arial' , 'B' , 10 );
-        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->descuento * 1);
-        $this->Cell( 0 , 6 , utf8_decode( number_format( $primer_pago * 1 , 0 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
+        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->descuento * 1) + ( $this->p->tiquete_c * 1 )+ ( $this->p->aeropuerto_c * 1 )+ ( $this->p->tour_c * 1 )+ ( $this->p->hospedaje_c * 1 )+ ( $this->p->mmm_c * 1 );
+        $this->Cell( 20 , 6 , utf8_decode( number_format( $primer_pago * 1 * $trm->get_trm($this->moneda,$this->p->moneda_c) , 2 , ',' , '.' ) ) .' '.$this->p->moneda_c , 0 , 0 , 'R' , true );
+        $this->Cell( 0 , 6 , utf8_decode( number_format( $primer_pago * 1 , 0 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' , true );
 
         $this->Ln( 8 );
 

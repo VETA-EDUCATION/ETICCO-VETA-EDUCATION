@@ -111,6 +111,42 @@ class Veta_Abono extends Basic
     public function save( $check_notify = false )
     {
 
+  	$idcollege ="";
+        //Se obtiene el recibo asociado a la cuenta de cobro
+        $recibo = new Veta_Recibo();
+        if ( $_REQUEST[ "relate_to" ] == 'veta_abono_veta_recibo' ) {
+            $recibo->retrieve( $_REQUEST[ "relate_id" ] );
+        } 
+        
+        $detallerebs = $recibo->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
+        foreach ( $detallerebs as $detalle )
+        {
+            $idcollege = $detalle->veta_college_id_c;
+        }
+        
+        $college = new Veta_College();
+        $college->retrieve( $idcollege );
+        $monedaCollege = $college->moneda_c;
+        $trm = new Veta_TRM();
+	$descuento = 0;
+	if($this->decuentotasa_c != null){
+		$descuento = $this->decuentotasa_c;
+	}
+
+	if($monedaCollege == $this->monedapago_c){
+		$cambio = 1;
+		$calculo = ($this->abono_c)/($cambio);
+	}
+	else{        
+		$cambio = $trm->get_trm($monedaCollege,$this->monedapago_c);
+		$calculo = ($this->abono_c)/($cambio*(1-($descuento/100)));
+	}
+        $GLOBALS['log']-> error("En abono primer cambio".$cambio."moneda college".$monedaCollege."moneda pago".$this->monedapago_c); 
+        //$calculo = ($this->abono_c)/($cambio*(1+(2/100)-($this->decuentotasa_c/100)));
+        $GLOBALS['log']-> error("En abono ".$calculo); 
+        
+        $this->monto = $calculo;
+   
         $r = new Veta_Recibo();
 
         if ( $r->is_gerente_contable() )
@@ -198,4 +234,34 @@ class Veta_Abono extends Basic
 
         exit;
     }
+
+public function update_abono_fromdetallerecibo(){
+    
+        $idcollege ="";
+        
+
+        
+        //Se obtiene el recibo asociado al abono
+        $recibos = $this->get_linked_beans('veta_abono_veta_recibo','Veta_Recibo');
+        foreach ( $recibos as $r ) {
+            $detallerebs = $r->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );    
+            foreach ( $detallerebs as $detalle )
+            {
+                $idcollege = $detalle->veta_college_id_c;
+                $college = new Veta_College();
+                $college->retrieve( $idcollege );
+                $monedaCollege = $college->moneda_c;
+                $trm = new Veta_TRM();
+                $cambio = $trm->get_trm($monedaCollege,$this->monedapago_c);
+                $GLOBALS['log']-> error("En abono".$cambio."moneda".$monedaCollege."monedapago".$this->monedapago_c); 
+                $calculo = ($this->abono_c)/($cambio*(1+(2/100)-($this->decuentotasa_c/100)));
+                $GLOBALS['log']-> error("En abono ".$calculo); 
+                $this->monto = $calculo;
+                parent::save( false );
+            }
+             
+        }
+        
+    }
+
 }

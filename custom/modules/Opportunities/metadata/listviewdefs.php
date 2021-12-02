@@ -235,6 +235,13 @@ array (
     'label' => 'LBL_MODIFIED',
     'default' => false,
   ),
+  'SOEL_CAMPUS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_CAMPUS',
+    'width' => '10%',
+    'default' => false,
+  ),
   'PENDIENTE_PAGO_COLEGIOS_C' => 
   array (
     'type' => 'currency',
@@ -278,6 +285,13 @@ array (
     'default' => false,
     'label' => 'LBL_FECHA_ULTIMO_CONTACTO',
     'width' => '10%',
+  ),
+  'SOEL_DOCS_APROBADOS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_DOCS_APROBADOS',
+    'width' => '10%',
+    'default' => false,
   ),
   'SOEL_DOCS_CARGADOS' => 
   array (

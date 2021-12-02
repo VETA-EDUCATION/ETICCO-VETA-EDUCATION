@@ -137,6 +137,7 @@ $listViewDefs [$module_name] =
                 'label' => 'LBL_SOEL_FECHA_VIAJE',
                 'width' => '10%',
                 'default' => true,
+                'sortable' => false,
             ),
         'SOEL_OFICINA_COMERCIAL' =>
             array(

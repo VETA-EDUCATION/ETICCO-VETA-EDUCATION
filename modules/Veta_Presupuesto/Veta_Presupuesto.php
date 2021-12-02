@@ -273,33 +273,60 @@ class Veta_Presupuesto extends Basic
         $this->primer_pago = 0;
         $this->subtotal    = 0;
         $this->gran_total  = 0;
+        $monedaCollege = "";
 
         $dets = $this->get_linked_beans( 'veta_detallepresupuesto_veta_presupuesto', 'Veta_DetallePresupuesto' );
 
         foreach ( $dets as $d ) {
-
             $this->primer_pago += ( $d->deposito * 1 ) - ( $d->bono * 1 );
             $this->subtotal    += ( $d->total_curso * 1 );
+            
+            $c = new Veta_College();
+            $c->retrieve( $d->veta_college_id1_c );
+            $monedaCollege = $c-> moneda_c;
+            $GLOBALS['log']-> error("En el for del detalle".$monedaCollege); 
         }
 
-        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 );
-
-        $trm = new Veta_TRM();
-        $trm = $trm->get_trm();
-
-        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 );
-        $this->usd        = $this->gran_total * $trm->aud;
-        $this->pesos      = $this->usd * $trm->pesos * 1;
-        $this->mxn        = $this->usd * $trm->mxn * 1;
-        $this->clp        = $this->usd * $trm->clp * 1;
-
-        $this->aud_usd = $trm->aud;
-        $this->usd_cop = $trm->pesos;
-        $this->usd_mxn = $trm->mxn;
-        $this->usd_clp = $trm->clp;
-
+        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) + ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 );
+        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 )+ ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 );
+     
+        if(count($dets) > 0){
+            $trm = new Veta_TRM();
+    
+            $usd = $trm->get_trm($monedaCollege,"USD");
+            $GLOBALS['log']-> error("usd".$usd);
+            $GLOBALS['log']-> error("gran total".$this->gran_total); 
+            
+            $pesos = $trm->get_trm("USD","COP");
+            
+            $this->usd        = $this->gran_total * $usd;
+            $this->pesos      = $this->usd * $pesos;
+            $this->mxn        = $this->usd * $trm->get_trm("USD","MXN") * 1;
+            $this->clp        = $this->usd * $trm->get_trm("USD","CLP") * 1;
+    
+            $this->aud_usd = ($trm->get_trm("AUD","USD")/1);
+            $this->usd_cop = ($trm->get_trm("USD","COP")/1);
+            $this->usd_mxn = ($trm->get_trm("USD","MXN")/1);
+            $this->clp_usd = ($trm->get_trm("USD","CLP")/1);
+        }
+        
         parent::save( false );
+        
     }
+
+     /**
+     * Calcula el gran total en la moneda del colegio
+     * @param $monedaCollege La moneda del colegio
+     */
+    public function getGranTotalMoneda($monedaCollege){
+        $trm = new Veta_TRM();
+        
+        $cambio = $trm->get_trm($monedaCollege,$this->moneda_c);
+        
+        return $this->gran_total * $cambio;
+        
+    }
+
 
     /**
      * Muestra un mensaje de error en pantalla

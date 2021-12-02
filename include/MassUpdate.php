@@ -607,6 +607,14 @@ eoq;
                             $even = !$even;
                             $newhtml .= $this->addDate($displayname, $field["name"]);
                             break;
+			case "decimal":
+
+                        if($field['massupdate'] == 1){
+
+                            $even = !$even; 
+                            $newhtml .= $this->addTextBox($displayname,  $field["name"]);
+
+                        } break;
                         default:
                             $newhtml .= $this->addDefault($displayname, $field, $even);
                             break;
@@ -725,6 +733,15 @@ EOJS;
         }
 
         return call_user_func($function, $focus, $vardef['name'], '', 'MassUpdate');
+    }
+
+public function addTextBox($displayname, $field){
+        $displayname = addslashes($displayname);
+        $html = <<<EOQ
+        <td scope="row" width="20%">$displayname</td>
+    <td class='dataField' width="30%"><input type="text" name='$field' size="12" id='{$field}' maxlength='10' value=""></td>
+EOQ;
+        return $html;
     }
 
     /**

@@ -1,5 +1,5 @@
 <?php
-// created: 2021-08-12 15:08:09
+// created: 2021-11-09 18:06:03
 $mod_strings = array (
   'LBL_COMISION_C' => 'Comision',
   'LBL_ESTADO_RECOLECCION_DOCUMENTO' => 'Estado recolección documentos',
@@ -63,4 +63,5 @@ $mod_strings = array (
   'LBL_SOEL_ASIGNADO_SERVICIO_CLIENTE' => 'Asignado Servicio al Cliente',
   'LBL_SOEL_ASIGNADO_VISAS' => 'Asignado Visas',
   'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Doc. Casos',
+  'LBL_DOC_COMENTARIOS_OPPORTUNITIES_FROM_DOC_COMENTARIOS_TITLE' => 'Comentarios',
 );

@@ -36,6 +36,15 @@ $dictionary['Opportunity']['fields']['soel_docs_cargados'] = array(
     
 );
 
+$dictionary['Opportunity']['fields']['soel_docs_aprobados'] = array(
+    'name' => 'soel_docs_aprobados',
+    'vname' => 'LBL_SOEL_DOCS_APROBADOS',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    
+    
+);
+
 
 $dictionary['Opportunity']['fields']['soel_date_estudiante'] = array(
     'name' => 'soel_date_estudiante',

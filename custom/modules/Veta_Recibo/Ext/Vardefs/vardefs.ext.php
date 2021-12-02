@@ -257,4 +257,40 @@ $dictionary["Veta_Recibo"]["fields"]["veta_recibo_opportunitiesopportunities_idb
   'vname' => 'LBL_VETA_RECIBO_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE',
 );
 
+
+ // created: 2021-11-21 10:48:55
+$dictionary['Veta_Recibo']['fields']['moneda_c']['inline_edit']='1';
+$dictionary['Veta_Recibo']['fields']['moneda_c']['labelValue']='Moneda pago';
+
+ 
+
+ // created: 2021-11-21 10:50:24
+$dictionary['Veta_Recibo']['fields']['tour_c']['inline_edit']='1';
+$dictionary['Veta_Recibo']['fields']['tour_c']['labelValue']='Veta Travel Tour';
+
+ 
+
+ // created: 2021-11-21 10:49:26
+$dictionary['Veta_Recibo']['fields']['tiquete_c']['inline_edit']='1';
+$dictionary['Veta_Recibo']['fields']['tiquete_c']['labelValue']='Veta Travel Tiquete';
+
+ 
+
+ // created: 2021-11-21 10:49:52
+$dictionary['Veta_Recibo']['fields']['hospedaje_c']['inline_edit']='1';
+$dictionary['Veta_Recibo']['fields']['hospedaje_c']['labelValue']='Hospedaje';
+
+ 
+
+ // created: 2021-11-21 10:50:08
+$dictionary['Veta_Recibo']['fields']['aeropuerto_c']['inline_edit']='1';
+$dictionary['Veta_Recibo']['fields']['aeropuerto_c']['labelValue']='Veta Travel Aeropuerto';
+
+ 
+
+ // created: 2021-11-21 10:49:39
+$dictionary['Veta_Recibo']['fields']['mmm_c']['inline_edit']='1';
+$dictionary['Veta_Recibo']['fields']['mmm_c']['labelValue']='MMM';
+
+ 
 ?>

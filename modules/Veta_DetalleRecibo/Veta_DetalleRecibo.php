@@ -90,6 +90,11 @@ class Veta_DetalleRecibo extends Basic {
 
         foreach ( $recibos as $r ) {
             $r->update_totals();
+	    $abonos = $r->get_linked_beans('veta_abono_veta_recibo','Veta_Abono');
+            foreach ( $abonos as $a ) {
+                $a->update_abono_fromdetallerecibo();
+                
+            }
         }
     }
 

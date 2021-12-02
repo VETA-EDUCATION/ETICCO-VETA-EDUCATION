@@ -169,7 +169,8 @@ $mod_strings = array(
     'LBL_ESTABLECER_PERDIDA' => 'Colocar Oportunidad como Perdida despues de 60 dias sin cambios',
     'LBL_ACTUALIZAR_ESTADO_CURSOS' => 'Coloca un curso como inactivo si ya paso el tiempo de expiracion'   ,
     'LBL_ACTUALIZAR_ESTADO_REQUERIMIENTOS' => 'Actualiza el estado de los requerimientos usando la fecha de expiracion de la visa y la fecha de viaje',
-    'LBL_RECALCULAR_CONSECUTIVOS' => 'Recalcula los consecutivos de los proceso de venta'
+    'LBL_RECALCULAR_CONSECUTIVOS' => 'Recalcula los consecutivos de los proceso de venta',
+ 'LBL_ACTUALIZAR_TRM' => 'Actualiza TRM'
 
 );
 

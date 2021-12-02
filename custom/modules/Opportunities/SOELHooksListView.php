@@ -108,6 +108,20 @@ and dda.estadodocumento ='Cargado' and dda.deleted = 0 and ddaoc.deleted =0 and 
 			$focus->soel_docs_cargados = $rowCargados['CUENTA'];
 		}			
 		
+		$queryAprobados =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM(
+			SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
+			WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Aprobado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
+			UNION ALL
+			select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
+			where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
+			and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+		$resultAprobados = $focus->db->query($queryAprobados, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowAprobados = $focus->db->fetchByAssoc($resultAprobados);
+		
+		if($rowAprobados != null){
+			$focus->soel_docs_aprobados = $rowAprobados['CUENTA'];
+		}		
+		
 		$queryFechaEstudiantes = "select dd.date_entered as fecha
 		from doc_docssolicitados dd , doc_docssolicitados_opportunities_c docop
 		where docop.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."' 
@@ -143,6 +157,19 @@ order by fecha desc limit 1
         $rowFechaAsesor= $focus->db->fetchByAssoc($resultFechaAsesor);
 		if($rowFechaAsesor!= null){
 			$focus->soel_date_asesor= $rowFechaAsesor['fecha'];
+		}
+
+$queryCampus = "select vc.campus as CAMPUS from veta_curso vc 
+                        inner join veta_detallerecibo vd on vc.id = vd.veta_curso_id_c 
+                        inner join veta_detallerecibo_veta_recibo_c vdvrc on vd.id = vdvrc.veta_detallerecibo_veta_reciboveta_detallerecibo_idb 
+                        inner join veta_recibo vr on vdvrc.veta_detallerecibo_veta_reciboveta_recibo_ida = vr.id 
+                        inner join veta_recibo_opportunities_c vroc on vr.id = vroc.veta_recibo_opportunitiesveta_recibo_ida 
+                        where vroc.veta_recibo_opportunitiesopportunities_idb ='".$focus->id."' order by vc.intake desc limit 1";
+                        
+        $resultCampus = $focus->db->query($queryCampus, true, "Error obteniendo campus");
+        $rowCampus = $focus->db->fetchByAssoc($resultCampus);
+		if($rowCampus!= null){
+			$focus->soel_campus= $rowCampus['CAMPUS'];
 		}	
     }
 

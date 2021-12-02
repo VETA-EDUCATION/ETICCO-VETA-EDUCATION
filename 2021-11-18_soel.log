@@ -1,0 +1,32 @@
+[2021-11-18 01:37:45] Veta_Recibo: person para EC person->module_name = Contacts person->id = 81458874-5b92-b552-6b9a-60cd51ace2f2
+
+[2021-11-18 11:33:49] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'c7b50657-ca36-84e8-810b-60b49cc6ea9f' , lead_id_c = '132916da-0983-d82c-e6a7-5f7a8492ebb7' WHERE id = 'e17fe843-525e-5a23-c881-6195d25dbb5d'
+
+[2021-11-18 12:05:08] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '140885fa-4b51-620e-dbdb-6010c74e7348' , lead_id_c = '94fc07ea-48dd-1029-f282-6010a6907d2d' WHERE id = '5564a5d2-63a3-f607-bb2e-6192022fba99'
+
+[2021-11-18 12:46:44] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd8e4936d-4f09-e281-4b48-5f8e3196857f' , lead_id_c = 'c98f6831-1b77-aa2b-d66e-5f6df0a3ff4b' WHERE id = 'a745b355-44e9-6ef0-5362-6194474af258'
+
+[2021-11-18 14:45:47] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '1df4ded9-7676-5714-da09-5efcd3a190d7' , lead_id_c = 'a52e79cc-1d8f-8b18-7f9f-5ee1300fda0f' WHERE id = '78d83d49-feff-d918-b40c-5f0ded32b30f'
+
+[2021-11-18 16:20:50] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '8bf30861-442e-2cee-b332-5faf087a36a3' , lead_id_c = '3428fa34-de49-0380-425d-5f1a0a9d055f' WHERE id = '4fd2c449-41d9-232b-5e20-5faf08e4b4b5'
+
+[2021-11-18 17:25:13] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '3d9bf5b8-9818-33b8-55b3-61956a1f9e73' , lead_id_c = '3e75259a-eeb2-96ce-36e0-61847ddb678c' WHERE id = 'd710dc6b-0eb7-9618-846e-6195683113db'
+
+[2021-11-18 18:48:40] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'c7b50657-ca36-84e8-810b-60b49cc6ea9f' , lead_id_c = '132916da-0983-d82c-e6a7-5f7a8492ebb7' WHERE id = 'e17fe843-525e-5a23-c881-6195d25dbb5d'
+
+[2021-11-18 21:38:49] Veta_Recibo: person para LIBERTY person->module_name = Leads person->id = 266815c3-974a-6085-b47a-5c75c5ed02df
+
+[2021-11-18 21:46:56] Veta_Recibo: person para CROWN INTERNATIONAL COLLEGE person->module_name = Contacts person->id = c2eb2930-ddad-8325-2c5d-5f6d6663bcc1
+
+[2021-11-18 21:52:24] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'c2eb2930-ddad-8325-2c5d-5f6d6663bcc1' , lead_id_c = 'd56f99af-093c-674e-151c-5ef16f7e1984' WHERE id = 'b999ce05-9899-826b-a542-619710849525'
+
+[2021-11-18 21:52:24] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'c2eb2930-ddad-8325-2c5d-5f6d6663bcc1' , lead_id_c = 'd56f99af-093c-674e-151c-5ef16f7e1984' WHERE id = 'b999ce05-9899-826b-a542-619710849525'
+
+[2021-11-18 22:05:29] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = '266815c3-974a-6085-b47a-5c75c5ed02df' WHERE id = 'e37c42b5-602a-5ff6-2df7-61970e9659ff'
+
+[2021-11-18 22:08:47] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = '266815c3-974a-6085-b47a-5c75c5ed02df' WHERE id = 'e37c42b5-602a-5ff6-2df7-61970e9659ff'
+
+[2021-11-18 22:24:22] Veta_Recibo: person para TAFE WESTERN AUSTRALIA  person->module_name = Contacts person->id = 1b930594-d2d3-8bc3-d06b-5f23b129037c
+
+[2021-11-18 22:34:33] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd8e4936d-4f09-e281-4b48-5f8e3196857f' , lead_id_c = 'c98f6831-1b77-aa2b-d66e-5f6df0a3ff4b' WHERE id = 'a745b355-44e9-6ef0-5362-6194474af258'
+

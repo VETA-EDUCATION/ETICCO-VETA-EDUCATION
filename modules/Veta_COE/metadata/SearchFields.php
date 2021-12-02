@@ -86,6 +86,90 @@ $searchFields[$module_name] = array(
     ),
     //Range Search Support
 
+    #region Fecha de Solicitud
+    'range_fecha_solicitud' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_solicitud' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_solicitud' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #end region
+
+    #region Fecha de Correccion
+    'range_fecha_correccion' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_correccion' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_correccion' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #end region
+    
+    #region Fecha de Correccion 2
+    'range_fecha_correccion2' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_correccion2' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_correccion2' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #end region
+
+    #region Fecha Envio Estudiante
+    'range_fecha_envio_estudiante' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_envio_estudiante' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_envio_estudiante' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #endregion
+
     'range_soel_fecha_viaje' =>
         array (
             'query_type' => 'format',

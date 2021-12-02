@@ -237,8 +237,9 @@ $dictionary['Veta_COE'] = array(
                 'unified_search' => false,
                 'merge_filter' => 'disabled',
                 'size' => '20',
-                'enable_range_search' => false,
+                'enable_range_search' => true,
                 'dbType' => 'datetime',
+                'options' => 'date_range_search_dom'
             ),
         'fecha_correccion' =>
             array(
@@ -259,8 +260,9 @@ $dictionary['Veta_COE'] = array(
                 'unified_search' => false,
                 'merge_filter' => 'disabled',
                 'size' => '20',
-                'enable_range_search' => false,
+                'enable_range_search' => true,
                 'dbType' => 'datetime',
+                'options' => 'date_range_search_dom'
             ),
         'fecha_correccion2' =>
             array(
@@ -281,8 +283,9 @@ $dictionary['Veta_COE'] = array(
                 'unified_search' => false,
                 'merge_filter' => 'disabled',
                 'size' => '20',
-                'enable_range_search' => false,
+                'enable_range_search' => true,
                 'dbType' => 'datetime',
+                'options' => 'date_range_search_dom'
             ),
         'fecha_envio_estudiante' =>
             array(
@@ -303,8 +306,9 @@ $dictionary['Veta_COE'] = array(
                 'unified_search' => false,
                 'merge_filter' => 'disabled',
                 'size' => '20',
-                'enable_range_search' => false,
+                'enable_range_search' => true,
                 'dbType' => 'datetime',
+                'options' => 'date_range_search_dom'
             ),
         'fecha_solicitud' =>
             array(
@@ -325,8 +329,9 @@ $dictionary['Veta_COE'] = array(
                 'unified_search' => false,
                 'merge_filter' => 'disabled',
                 'size' => '20',
-                'enable_range_search' => false,
+                'enable_range_search' => true,
                 'dbType' => 'datetime',
+                'options' => 'date_range_search_dom'
             ),
     ),
     'relationships' => array(),

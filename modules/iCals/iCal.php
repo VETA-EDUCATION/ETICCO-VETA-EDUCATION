@@ -499,6 +499,15 @@ class iCal extends vCal
             $ical_array[] = array("DTSTART", str_replace("Z", "", $this->getUtcTime($endstamp)));
             $ical_array[] = array("END", "STANDARD");
         }
+		
+		if (!array_key_exists('end', $dstRange) && !array_key_exists('start', $dstRange)){
+    $timezone = new DateTimeZone($timezoneName);
+    $offset   = $timezone->getOffset(new DateTime) / 60;
+        $ical_array[] = array("BEGIN", "STANDARD");
+        $ical_array[] = array("TZOFFSETFROM", $this->convertMinsToHoursAndMins($offset));
+        $ical_array[] = array("TZOFFSETTO", $this->convertMinsToHoursAndMins($offset));
+        $ical_array[] = array("END", "STANDARD");
+   }
 
         $ical_array[] = array("END", "VTIMEZONE");
 

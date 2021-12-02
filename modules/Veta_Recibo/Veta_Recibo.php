@@ -149,7 +149,7 @@ class Veta_Recibo extends Basic
         if ( $this->is_gerente_contable() )
         {
             $this->set_consecutivo();
-            $this->update_totals( false );
+            //$this->update_totals( false );
 
             //if( $this->estado != 'Descartado' and $this->estado != 'Devolucion_Proceso' and $this->estado != 'Devolucion_Finalizado' and $this->estado != 'Nuevo' ) {
             if ( $this->estado == 'Nuevo' or $this->estado == 'Abono' or $this->estado == 'Pagado' )
@@ -465,7 +465,13 @@ class Veta_Recibo extends Basic
             $r->total_visa          = $p->total_visa * 1;
             $r->assigned_user_id    = $p->assigned_user_id;
             $r->descuento           = $p->descuento * 1;
-
+	    $r->moneda_c            = $p->moneda_c;
+            $r->tiquete_c           =$p->tiquete_c * 1;
+            $r->mmm_c               =$p->mmm_c * 1;
+            $r->hospedaje_c         =$p->hospedaje_c * 1;
+            $r->aeropuerto_c        =$p->aeropuerto_c * 1;
+            $r->tour_c              =$p->tour_c * 1;
+/*
             $trm = new Veta_TRM();
             $trm = $trm->get_trm();
 
@@ -478,7 +484,7 @@ class Veta_Recibo extends Basic
             $r->usd_cop = $trm->pesos;
             $r->usd_mxn = $trm->mxn;
             $r->usd_clp = $trm->clp;
-
+*/
             $r->save( false );
 
             $requerimientos = $p->get_linked_beans( 'veta_requerimiento_veta_presupuesto', 'Veta_Requerimiento' );
@@ -517,6 +523,7 @@ class Veta_Recibo extends Basic
 
                 $dt->load_relationship( 'veta_detallerecibo_veta_recibo' );
                 $dt->veta_detallerecibo_veta_recibo->add( $r->id );
+$GLOBALS['log']-> error("En save detallerecibo".$this->subtotal); 
             }
 
             $p->load_relationship( 'veta_recibo_veta_presupuesto' );
@@ -537,6 +544,7 @@ class Veta_Recibo extends Basic
                 $r->load_relationship( 'veta_recibo_contacts' );
                 $r->veta_recibo_contacts->add( $contact->id );
             }
+	    $this->update_totals( false );
         }
 
         return $r;
@@ -552,6 +560,9 @@ class Veta_Recibo extends Basic
         $this->primer_pago = 0;
         $this->subtotal    = 0;
         $this->gran_total  = 0;
+	$monedaCollege = "";
+
+$GLOBALS['log']-> error("Update totals moneda1".$monedaCollege); 
 
         $dets = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
 
@@ -560,23 +571,31 @@ class Veta_Recibo extends Basic
 
             $this->primer_pago += ( $d->deposito * 1 ) - ( $d->bono * 1 );
             $this->subtotal    += ( $d->total_curso * 1 );
+	    $GLOBALS['log']-> error("En save".$this->subtotal); 
+            $c = new Veta_College();
+            $c->retrieve( $d->veta_college_id1_c );
+            $monedaCollege = $c-> moneda_c;
         }
+$GLOBALS['log']-> error("Update totals moneda2".$monedaCollege); 
 
         $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 );
 
         $trm = new Veta_TRM();
-        $trm = $trm->get_trm();
+        //$trm = $trm->get_trm();
+	$usd = $trm->get_trm($monedaCollege,"USD");
+        $pesos = $trm->get_trm("USD","COP");
 
-        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 );
-        $this->usd        = $this->gran_total * $trm->aud;
-        $this->pesos      = $this->usd * $trm->pesos * 1;
-        $this->mxn        = $this->usd * $trm->mxn * 1;
-        $this->clp        = $this->usd * $trm->clp * 1;
+        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 )+ ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 );
+        
+        $this->usd        = $this->gran_total * $usd;
+        $this->pesos      = $this->usd * $pesos * 1;
+        $this->mxn        = $this->usd * $trm->get_trm("USD","MXN") * 1;
+        $this->clp        = $this->usd * $trm->get_trm("USD","CLP") * 1;
 
-        $this->aud_usd = $trm->aud;
-        $this->usd_cop = $trm->pesos;
-        $this->usd_mxn = $trm->mxn;
-        $this->usd_clp = $trm->clp;
+        $this->aud_usd = $trm->get_trm("AUD","USD");
+        $this->usd_cop = $trm->get_trm("USD","COP");
+        $this->usd_mxn = $trm->get_trm("USD","MXN");
+        $this->usd_clp = $trm->get_trm("USD","CLP");
 
         $this->update_cartera( $save ); // Este metodo salva la cuenta de cobro
 
@@ -743,6 +762,19 @@ class Veta_Recibo extends Basic
                 }
             }
         }
+    }
+
+	/**
+     * Calcula el gran total en la moneda del colegio
+     * @param $monedaCollege La moneda del colegio
+     */
+    public function getGranTotalMoneda($monedaCollege){
+        $trm = new Veta_TRM();
+        
+        $cambio = $trm->get_trm($monedaCollege,$this->moneda_c);
+        
+        return $this->gran_total * $cambio;
+        
     }
 
     private function heredar_info( Opportunity $o, Contact $c )

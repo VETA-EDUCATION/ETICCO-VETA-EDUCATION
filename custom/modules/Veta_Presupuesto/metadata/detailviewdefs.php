@@ -55,6 +55,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_DETAILVIEW_PANEL2' => 
         array (
           'newTab' => false,
@@ -71,8 +76,9 @@ array (
           0 => 'name',
           1 => 
           array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
+            'name' => 'moneda_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONEDA',
           ),
         ),
         1 => 
@@ -140,6 +146,11 @@ array (
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
+          1 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
         ),
       ),
       'lbl_detailview_panel1' => 
@@ -193,6 +204,44 @@ array (
             'name' => 'total_visa',
             'label' => 'LBL_TOTAL_VISA',
           ),
+        ),
+      ),
+      'lbl_detailview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'aeropuerto_c',
+            'label' => 'LBL_AEROPUERTO',
+          ),
+          1 => 
+          array (
+            'name' => 'tiquete_c',
+            'label' => 'LBL_TIQUETE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tour_c',
+            'label' => 'LBL_TOUR',
+          ),
+          1 => 
+          array (
+            'name' => 'mmm_c',
+            'label' => 'LBL_MMM',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'hospedaje_c',
+            'label' => 'LBL_HOSPEDAJE',
+          ),
+          1 => '',
         ),
       ),
       'lbl_detailview_panel2' => 

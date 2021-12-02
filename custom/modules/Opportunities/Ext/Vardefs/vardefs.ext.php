@@ -212,6 +212,15 @@ $dictionary['Opportunity']['fields']['soel_docs_cargados'] = array(
     
 );
 
+$dictionary['Opportunity']['fields']['soel_docs_aprobados'] = array(
+    'name' => 'soel_docs_aprobados',
+    'vname' => 'LBL_SOEL_DOCS_APROBADOS',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    
+    
+);
+
 
 $dictionary['Opportunity']['fields']['soel_date_estudiante'] = array(
     'name' => 'soel_date_estudiante',
@@ -338,6 +347,15 @@ $dictionary["Opportunity"]["fields"]["veta_pagocolegios_opportunities"] = array 
   'vname' => 'LBL_VETA_PAGOCOLEGIOS_OPPORTUNITIES_FROM_VETA_PAGOCOLEGIOS_TITLE',
 );
 
+
+
+$dictionary['Opportunity']['fields']['soel_campus'] = array(
+    'name' => 'soel_campus',
+    'vname' => 'LBL_SOEL_CAMPUS',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    
+);
 
 $dictionary['Opportunity']['fields']['soel_visto_bueno_comercial'] = array(
     'name' => 'soel_visto_bueno_comercial',

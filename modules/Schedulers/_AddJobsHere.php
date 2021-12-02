@@ -87,7 +87,8 @@ $job_strings = array(
     25 => 'establecer_perdida',
     26 => 'actualizar_estado_cursos',
     27 => 'actualizar_estado_requerimientos',
-    28 => 'recalcular_consecutivos'
+    28 => 'recalcular_consecutivos',
+    29 => 'actualizar_TRM'	
 
 );
 
@@ -1152,6 +1153,41 @@ function recalcular_consecutivos()
         $q = "UPDATE opportunities SET name = '" . $consecutivo . "' WHERE id = '" . $row['id'] . "'";
         $db->query($q);
         $consecutivo++;
+    }
+
+
+    return true;
+}
+
+function actualizar_TRM()
+{
+    $consecutivo = 1;
+    
+    $auth = base64_encode("prueba359256063:j9smguuqnaerc89350ecavtflp");
+    $context = stream_context_create([
+    "http" => [
+        "header" => "Authorization: Basic $auth"
+    ]
+    ]);
+
+    $db = DBManagerFactory::getInstance();
+    $query = "SELECT * FROM veta_trm_cstm";
+
+    $res = $db->query($query);
+
+    while ($row = $db->fetchByAssoc($res)) {
+        $monedafrom = $row['monedafrom_c'];
+        $monedato = $row['monedato_c'];
+        //$GLOBALS['log']-> error("Primero".$monedafrom);
+        //$GLOBALS['log']-> error("Segundo".$monedato);
+        $response  = json_decode(file_get_contents("https://xecdapi.xe.com/v1/convert_from.json/?from=".$monedafrom."&to=".$monedato."&amount=1", false, $context ),true);
+        
+        $cambio = $response['to'][0]['mid'] * (1+($row['tasaadm_c']/100));
+        
+        $q = "UPDATE veta_trm_cstm SET trm_c = ".$cambio. " WHERE id_c = '". $row['id_c']."'";
+        //$GLOBALS['log']-> error("UPDATE veta_trm_cstm SET trm_c = ".$cambio. " WHERE id_c = '". $row['id_c']."'");
+        $db->query($q);
+        
     }
 
 

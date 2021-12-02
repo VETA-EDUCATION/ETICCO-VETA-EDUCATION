@@ -46,6 +46,14 @@ $dictionary['Veta_Aplicacion']['fields']['soel_referido'] = array(
 );
 
 
+$dictionary['Veta_Aplicacion']['fields']['soel_paiscolegio'] = array(
+    'name' => 'soel_paiscolegio',
+    'vname' => 'LBL_SOEL_PAISCOLEGIO',
+    'type' => 'varchar',
+    'source' => 'non-db',
+);
+
+
 $dictionary['Veta_Aplicacion']['fields']['soel_fecha_expiracion_visa'] = array(
     'name' => 'soel_fecha_expiracion_visa',
     'vname' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',

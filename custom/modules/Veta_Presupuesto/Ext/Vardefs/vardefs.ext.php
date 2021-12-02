@@ -162,4 +162,60 @@ $dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_leadsleads_ida"] = a
   'vname' => 'LBL_VETA_PRESUPUESTO_LEADS_FROM_VETA_PRESUPUESTO_TITLE',
 );
 
+
+ // created: 2021-11-20 21:27:46
+$dictionary['Veta_Presupuesto']['fields']['moneda_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['moneda_c']['labelValue']='Moneda Pago';
+
+ 
+
+ // created: 2021-11-20 21:31:00
+$dictionary['Veta_Presupuesto']['fields']['tour_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['tour_c']['labelValue']='Veta Travel Tour';
+
+ 
+
+ // created: 2021-11-20 21:29:07
+$dictionary['Veta_Presupuesto']['fields']['tiquete_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['tiquete_c']['labelValue']='Veta Travel Tiquete';
+
+ 
+
+ // created: 2021-11-20 21:29:46
+$dictionary['Veta_Presupuesto']['fields']['hospedaje_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['hospedaje_c']['labelValue']='Hospedaje';
+
+ 
+
+ // created: 2021-11-20 21:30:15
+$dictionary['Veta_Presupuesto']['fields']['aeropuerto_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['aeropuerto_c']['labelValue']='Veta Travel Aeropuerto';
+
+ 
+
+ // created: 2021-11-20 23:09:39
+$dictionary['Veta_Presupuesto']['fields']['usd_cop']['precision']='4';
+
+ 
+
+ // created: 2021-11-20 21:29:24
+$dictionary['Veta_Presupuesto']['fields']['mmm_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['mmm_c']['labelValue']='MMM';
+
+ 
+
+ // created: 2021-11-20 23:10:37
+$dictionary['Veta_Presupuesto']['fields']['clp_usd']['precision']='4';
+
+ 
+
+ // created: 2021-11-20 23:10:21
+$dictionary['Veta_Presupuesto']['fields']['usd_mxn']['precision']='4';
+
+ 
+
+ // created: 2021-11-20 23:10:02
+$dictionary['Veta_Presupuesto']['fields']['aud_usd']['precision']='4';
+
+ 
 ?>
