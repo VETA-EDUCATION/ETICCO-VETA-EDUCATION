@@ -247,14 +247,26 @@ public function update_abono_fromdetallerecibo(){
             $detallerebs = $r->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );    
             foreach ( $detallerebs as $detalle )
             {
-                $idcollege = $detalle->veta_college_id_c;
-                $college = new Veta_College();
-                $college->retrieve( $idcollege );
-                $monedaCollege = $college->moneda_c;
-                $trm = new Veta_TRM();
-                $cambio = $trm->get_trm($monedaCollege,$this->monedapago_c);
-                $GLOBALS['log']-> error("En abono".$cambio."moneda".$monedaCollege."monedapago".$this->monedapago_c); 
-                $calculo = ($this->abono_c)/($cambio*(1+(2/100)-($this->decuentotasa_c/100)));
+                if($this->descuentotasa_c != null){
+					$descuento = $this->descuentotasa_c;
+				}
+
+						$idcollege = $detalle->veta_college_id_c;
+						$college = new Veta_College();
+						$college->retrieve( $idcollege );
+						$monedaCollege = $college->moneda_c;
+						$trm = new Veta_TRM();
+
+				if($monedaCollege == $this->monedapago_c){
+					$cambio = 1;
+					$calculo = ($this->abono_c)/($cambio);
+				}
+				else{        
+					$cambio = $trm->get_trm($monedaCollege,$this->monedapago_c);
+					$calculo = ($this->abono_c)/($cambio*(1-($descuento/100)));
+				}
+				
+				$GLOBALS['log']-> error("En abono".$cambio."moneda".$monedaCollege."monedapago".$this->monedapago_c); 
                 $GLOBALS['log']-> error("En abono ".$calculo); 
                 $this->monto = $calculo;
                 parent::save( false );
