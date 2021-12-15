@@ -19928,3 +19928,92 @@ Mon Nov 29 08:03:59 2021 [4766][1a494c88-d06a-a2a7-d7a1-5d712c15d760][ERROR] War
 Mon Nov 29 08:03:59 2021 [4766][1a494c88-d06a-a2a7-d7a1-5d712c15d760][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
 Mon Nov 29 08:04:26 2021 [4175][1a494c88-d06a-a2a7-d7a1-5d712c15d760][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
 Mon Nov 29 08:04:26 2021 [4175][1a494c88-d06a-a2a7-d7a1-5d712c15d760][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:17 2021 [11932][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:20 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:26 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:26 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:28 2021 [11945][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:19:28 2021 [11945][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:28 2021 [11945][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:19:28 2021 [11945][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:28 2021 [11945][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:19:28 2021 [11945][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:28 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:28 2021 [11946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:29 2021 [11935][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:30 2021 [11935][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:19:30 2021 [11935][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:30 2021 [11935][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:19:30 2021 [11935][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:30 2021 [11935][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:19:30 2021 [11935][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:19:31 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:34 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:34 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:35 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:35 2021 [11949][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:35 2021 [11949][1][ERROR] error: no ieID
+Tue Dec 14 19:19:35 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:37 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:51 2021 [11932][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:51 2021 [11932][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:52 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:54 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:55 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:55 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:19:57 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:01 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:01 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:02 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:20:02 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:20:02 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:20:02 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:20:02 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:20:02 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:20:02 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:03 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:20:03 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:20:03 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:20:03 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:20:03 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Dec 14 19:20:03 2021 [11936][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Dec 14 19:20:04 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:10 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:10 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:12 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:12 2021 [11946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:19 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:19 2021 [11948][-none-][ERROR] File 'modules/AOD_Index/Index/Index/_aiba.cfs' is not readable.
+Tue Dec 14 19:20:22 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:23 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:23 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:20:25 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:21:12 2021 [11947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:21:25 2021 [11949][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:22:13 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:22:25 2021 [11932][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:23:15 2021 [11933][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:23:25 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:24:16 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:24:25 2021 [11946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:25:17 2021 [11935][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:25:25 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:26:25 2021 [11947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:26:42 2021 [11949][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:27:25 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:28:25 2021 [11932][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:28:42 2021 [11933][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:29:25 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:29:42 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:30:25 2021 [11946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:31:25 2021 [11935][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:31:42 2021 [11948][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:32:25 2021 [11947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:33:25 2021 [11949][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:33:42 2021 [11945][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:34:25 2021 [11932][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:34:42 2021 [11933][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:35:25 2021 [11936][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:36:25 2021 [11934][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:36:42 2021 [11946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Tue Dec 14 19:37:25 2021 [11935][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
