@@ -39,7 +39,7 @@
         }
 
         function cancelar() {
-            location.replace("/index.php?entryPoint=exportarrequerimientos") ;
+            location.replace("/index.php?module=Veta_Requerimiento&action=index") ;
         }
 
     </script>
