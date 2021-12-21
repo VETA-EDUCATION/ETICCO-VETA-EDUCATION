@@ -38,10 +38,11 @@ $sugar_config['authenticationClass'] = '';
 $sugar_config['addAjaxBannedModules'][0] = 'SecurityGroups';
 $sugar_config['email_confirm_opt_in_email_template_id'] = '3ef77793-1198-8dd8-fbbe-5d9df36c57b0';
 $sugar_config['list_max_entries_per_subpanel'] = '10';
-$sugar_config['list_max_entries_per_page'] = '88';
+$sugar_config['list_max_entries_per_page'] = '50';
 $sugar_config['max_dashlets_homepage'] = '10';
 $sugar_config['calculate_response_time'] = false;
 $sugar_config['verify_client_ip'] = false;
 $sugar_config['email_default_delete_attachments'] = false;
 $sugar_config['email_warning_notifications'] = false;
+$sugar_config['aod']['enable_aod'] = false;
 /***CONFIGURATOR***/
