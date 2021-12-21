@@ -4,7 +4,8 @@ function enviar_form() {
     // create new form to post (can't access action property of MassUpdate form due to action input)
     var newForm = document.createElement('form');
     newForm.method = 'post';
-    newForm.action = 'index.php?entryPoint=exportarrequerimientos';
+    //newForm.action = 'index.php?entryPoint=exportarrequerimientos';
+    newForm.action = 'index.php?module=Veta_Requerimiento&action=newlist';
     newForm.name = 'newForm';
     newForm.id = 'newForm';
     newForm.target = '_blank';
@@ -37,13 +38,13 @@ function enviar_form() {
     var moduleInput = document.createElement('input');
     moduleInput.name = 'module';
     moduleInput.type = 'hidden';
-    moduleInput.value = 'Cases';
+    moduleInput.value = 'Veta_Requerimiento';
     newForm.appendChild(moduleInput);
 
     var actionInput = document.createElement('input');
     actionInput.name = 'action';
     actionInput.type = 'hidden';
-    actionInput.value = 'index';
+    actionInput.value = 'newlist';
     newForm.appendChild(actionInput);
     document.body.appendChild(newForm);
 

@@ -44,28 +44,6 @@ $dictionary['Veta_ServicioCliente']['fields']['soel_referido'] = array(
 );
 
 
-
-$dictionary['Veta_ServicioCliente']['fields']['soel_fecha_expiracion_visa'] = array(
-    'name' => 'soel_fecha_expiracion_visa',
-    'vname' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
-    'type' => 'date',
-    'source' => 'non-db',
-    'enable_range_search' => true,
-    'options' => 'date_range_search_dom',
-);
-
-
-$dictionary['Veta_ServicioCliente']['fields']['soel_fecha_viaje'] = array(
-    'name' => 'soel_fecha_viaje',
-    'vname' => 'LBL_SOEL_FECHA_VIAJE',
-    'type' => 'datetime',
-    'source' => 'non-db',
-    'enable_range_search' => true,
-    'options' => 'date_range_search_dom',
-
-    );
-
-
 // created: 2021-09-02 13:15:21
 $dictionary["Veta_ServicioCliente"]["fields"]["veta_serviciocliente_opportunities"] = array (
   'name' => 'veta_serviciocliente_opportunities',
@@ -100,6 +78,34 @@ $dictionary["Veta_ServicioCliente"]["fields"]["veta_serviciocliente_opportunitie
 );
 
 
+
+$dictionary['Veta_ServicioCliente']['fields']['soel_fecha_expiracion_visa'] = array(
+    'name' => 'soel_fecha_expiracion_visa',
+    'vname' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
+    'type' => 'date',
+    'source' => 'non-db',
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
+);
+
+
+$dictionary['Veta_ServicioCliente']['fields']['soel_fecha_viaje'] = array(
+    'name' => 'soel_fecha_viaje',
+    'vname' => 'LBL_SOEL_FECHA_VIAJE',
+    'type' => 'datetime',
+    'source' => 'non-db',
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
+
+    );
+
+
+ // created: 2021-02-16 13:24:24
+$dictionary['Veta_ServicioCliente']['fields']['fecha_proximo_contacto']['options']='date_range_search_dom';
+$dictionary['Veta_ServicioCliente']['fields']['fecha_proximo_contacto']['enable_range_search']='1';
+
+ 
+
  // created: 2021-02-16 13:23:47
 $dictionary['Veta_ServicioCliente']['fields']['fecha_expiracion_visa']['options']='date_range_search_dom';
 $dictionary['Veta_ServicioCliente']['fields']['fecha_expiracion_visa']['enable_range_search']='1';
@@ -109,12 +115,6 @@ $dictionary['Veta_ServicioCliente']['fields']['fecha_expiracion_visa']['enable_r
  // created: 2021-02-16 13:23:51
 $dictionary['Veta_ServicioCliente']['fields']['fecha_ultimo_contacto']['options']='date_range_search_dom';
 $dictionary['Veta_ServicioCliente']['fields']['fecha_ultimo_contacto']['enable_range_search']='1';
-
- 
-
- // created: 2021-02-16 13:24:24
-$dictionary['Veta_ServicioCliente']['fields']['fecha_proximo_contacto']['options']='date_range_search_dom';
-$dictionary['Veta_ServicioCliente']['fields']['fecha_proximo_contacto']['enable_range_search']='1';
 
  
 ?>
