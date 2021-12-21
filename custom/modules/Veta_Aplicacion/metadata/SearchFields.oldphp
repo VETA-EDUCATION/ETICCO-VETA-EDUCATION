@@ -125,36 +125,21 @@ $searchFields['Veta_Aplicacion'] = array (
   ),
   'range_soel_fecha_cierre' => 
   array (
-    'query_type' => 'format',
-    'operator' => 'subquery',
-    'subquery' => 'select va.id from veta_aplicacion va
-        INNER JOIN veta_aplicacion_opportunities_c vaoc ON va.id = vaoc.veta_aplicacion_opportunitiesveta_aplicacion_idb AND vaoc.deleted = 0                                    
-        INNER JOIN opportunities o ON vaoc.veta_aplicacion_opportunitiesopportunities_ida = o.id AND o.deleted = 0
-        INNER JOIN opportunities_cstm oc ON o.id = oc.id_c
-        and oc.fecha_cierre_c >= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') and oc.fecha_cierre_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
-    'db_field' => array ( 0 => 'id', ),
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
   ),
   'start_range_soel_fecha_cierre' => 
   array (
-    'query_type' => 'format',
-    'operator' => 'subquery',
-    'subquery' => 'select va.id from veta_aplicacion va
-        INNER JOIN veta_aplicacion_opportunities_c vaoc ON va.id = vaoc.veta_aplicacion_opportunitiesveta_aplicacion_idb AND vaoc.deleted = 0                                    
-        INNER JOIN opportunities o ON vaoc.veta_aplicacion_opportunitiesopportunities_ida = o.id AND o.deleted = 0
-        INNER JOIN opportunities_cstm oc ON o.id = oc.id_c
-        and oc.fecha_cierre_c >= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
-    'db_field' => array ( 0 => 'id', ),
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
   ),
   'end_range_soel_fecha_cierre' => 
   array (
-    'query_type' => 'format',
-    'operator' => 'subquery',
-    'subquery' => 'select va.id from veta_aplicacion va
-        INNER JOIN veta_aplicacion_opportunities_c vaoc ON va.id = vaoc.veta_aplicacion_opportunitiesveta_aplicacion_idb AND vaoc.deleted = 0                                    
-        INNER JOIN opportunities o ON vaoc.veta_aplicacion_opportunitiesopportunities_ida = o.id AND o.deleted = 0
-        INNER JOIN opportunities_cstm oc ON o.id = oc.id_c
-        and oc.fecha_cierre_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
-    'db_field' => array ( 0 => 'id', ),
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
   ),
   'range_fecha_inicio' => 
   array (

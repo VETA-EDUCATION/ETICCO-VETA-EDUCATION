@@ -1163,7 +1163,7 @@ function actualizar_TRM()
 {
     $consecutivo = 1;
     
-    $auth = base64_encode("prueba359256063:j9smguuqnaerc89350ecavtflp");
+    $auth = base64_encode("vetaeducationconsultancy511972847:l7uha0t899m5nno8323ceh21f2");
     $context = stream_context_create([
     "http" => [
         "header" => "Authorization: Basic $auth"
