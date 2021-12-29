@@ -62,23 +62,31 @@ $searchFields[ $module_name ] = array(
 
     'assigned_user_id'         => array( 'query_type' => 'default' ),
 
-    //Range Search Support
+    //region date_entered
     'range_date_entered'       => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'start_range_date_entered' => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'end_range_date_entered'   => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
+    //endregion
 
+    //region date_modified
     'range_date_modified'       => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'start_range_date_modified' => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'end_range_date_modified'   => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
+    //endregion
 
+    //region fecha_proximo_contacto
     'range_fecha_proximo_contacto'       => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'start_range_fecha_proximo_contacto' => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'end_range_fecha_proximo_contacto'   => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
+    //endregion
 
+    //region fecha_ultimo_contacto
     'range_fecha_ultimo_contacto'       => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'start_range_fecha_ultimo_contacto' => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
     'end_range_fecha_ultimo_contacto'   => array( 'query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true ),
+    //endregion
 
+    //region soel_fecha_viaje
     'range_soel_fecha_viaje'       =>
         array(
             'query_type' => 'format',
@@ -121,7 +129,44 @@ $searchFields[ $module_name ] = array(
                             WHERE veta_serviciocliente.deleted = 0 AND veta_requerimiento.fecha_viaje <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field'   => array( 0 => 'id', ),
         ),
-    //Range Search Support
+    //endregion
+
+    //region soel_limite_luz_verde
+    'range_soel_limite_luz_verde'       =>
+        array(
+            'query_type' => 'format',
+            'operator'   => 'subquery',
+            'subquery'   => 'SELECT veta_serviciocliente.id AS ID FROM veta_serviciocliente 
+                            INNER JOIN veta_serviciocliente_opportunities_c ON veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesveta_serviciocliente_idb = veta_serviciocliente.id AND veta_serviciocliente_opportunities_c.deleted = 0  
+                            INNER JOIN opportunities ON opportunities.id = veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesopportunities_ida AND opportunities.deleted = 0 
+                            INNER JOIN opportunities_cstm ON opportunities_cstm.id_c = opportunities.id 
+                            WHERE veta_serviciocliente.deleted = 0 AND opportunities_cstm.limite_luz_verde_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') AND opportunities_cstm.limite_luz_verde_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
+            'db_field'   => array( 0 => 'id', ),
+        ),
+    'start_range_soel_limite_luz_verde' =>
+        array(
+            'query_type' => 'format',
+            'operator'   => 'subquery',
+            'subquery'   => 'SELECT veta_serviciocliente.id AS ID FROM veta_serviciocliente 
+                            INNER JOIN veta_serviciocliente_opportunities_c ON veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesveta_serviciocliente_idb = veta_serviciocliente.id AND veta_serviciocliente_opportunities_c.deleted = 0  
+                            INNER JOIN opportunities ON opportunities.id = veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesopportunities_ida AND opportunities.deleted = 0 
+                            INNER JOIN opportunities_cstm ON opportunities_cstm.id_c = opportunities.id 
+                            WHERE veta_serviciocliente.deleted = 0 AND opportunities_cstm.limite_luz_verde_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
+            'db_field'   => array( 0 => 'id', ),
+        ),
+    'end_range_soel_limite_luz_verde'   =>
+        array(
+            'query_type' => 'format',
+            'operator'   => 'subquery',
+            'subquery'   => 'SELECT veta_serviciocliente.id AS ID FROM veta_serviciocliente 
+                            INNER JOIN veta_serviciocliente_opportunities_c ON veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesveta_serviciocliente_idb = veta_serviciocliente.id AND veta_serviciocliente_opportunities_c.deleted = 0  
+                            INNER JOIN opportunities ON opportunities.id = veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesopportunities_ida AND opportunities.deleted = 0
+                            INNER JOIN opportunities_cstm ON opportunities_cstm.id_c = opportunities.id
+                            WHERE veta_serviciocliente.deleted = 0 AND opportunities_cstm.limite_luz_verde_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
+            'db_field'   => array( 0 => 'id', ),
+
+        ),
+    //endregion
 
     'soel_referido' =>
         array(
@@ -141,6 +186,7 @@ $searchFields[ $module_name ] = array(
                 ),
         ),
 
+    //region soel_fecha_expiracion_visa
     'range_soel_fecha_expiracion_visa'       =>
         array(
             'query_type' => 'format',
@@ -182,5 +228,6 @@ $searchFields[ $module_name ] = array(
             'db_field'   => array( 0 => 'id', ),
         ),
 
+    //endregion
 
 );

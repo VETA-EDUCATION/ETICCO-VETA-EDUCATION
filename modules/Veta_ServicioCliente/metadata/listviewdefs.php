@@ -160,6 +160,16 @@ $listViewDefs [ $module_name ] =
             ),
         //endregion
 
+        //region SOEL_LIMITE_LUZ_VERDE
+        'SOEL_LIMITE_LUZ_VERDE'                        =>
+            array(
+                'type'    => 'datetime',
+                'label'   => 'LBL_SOEL_LIMITE_LUZ_VERDE',
+                'width'   => '10%',
+                'default' => true,
+            ),
+        //endregion
+
         //region SOEL_REFERIDO
         'SOEL_REFERIDO'                           =>
             array(

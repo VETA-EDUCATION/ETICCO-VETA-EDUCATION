@@ -44,6 +44,7 @@ $searchdefs [ $module_name ] =
                         ),
 
                         'soel_fecha_viaje'           => array( 'type' => 'datetime', 'default' => true, 'label' => 'LBL_SOEL_FECHA_VIAJE', 'width' => '10%', 'name' => 'soel_fecha_viaje', 'sortable' => false ),
+                        'soel_limite_luz_verde'      => array( 'type' => 'datetime', 'default' => true, 'label' => 'LBL_SOEL_LIMITE_LUZ_VERDE', 'width' => '10%', 'name' => 'soel_limite_luz_verde', 'sortable' => false ),
                         'soel_referido'              => array( 'type' => 'varchar', 'default' => true, 'label' => 'LBL_SOEL_REFERIDO', 'width' => '10%', 'name' => 'soel_referido', 'sortable' => false ),
                         'soel_fecha_expiracion_visa' => array( 'type' => 'date', 'default' => true, 'label' => 'LBL_SOEL_FECHA_EXPIRACION_VISA', 'width' => '10%', 'name' => 'soel_fecha_expiracion_visa', 'sortable' => false ),
 

@@ -76,6 +76,7 @@ class Veta_Requerimiento extends Basic
     public $campana;
     public $referido;
 
+
     #endregion
 
     public function bean_implements( $interface )

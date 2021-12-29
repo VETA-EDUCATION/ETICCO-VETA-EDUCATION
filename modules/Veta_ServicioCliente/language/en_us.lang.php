@@ -85,6 +85,6 @@ $mod_strings = array (
   'LBL_SOEL_FECHA_VIAJE' => 'Fecha de viaje',
   'LBL_SOEL_REFERIDO' => 'Referido',
   'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
-
+  'LBL_SOEL_LIMITE_LUZ_VERDE' => 'Fecha Limite Luz Verde',
 
 );

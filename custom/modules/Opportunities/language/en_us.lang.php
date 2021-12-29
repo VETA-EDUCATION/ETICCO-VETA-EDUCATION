@@ -66,5 +66,6 @@ $mod_strings = array (
   'LBL_SOEL_REQUERIMIENTO' => 'Requirement',
   'LBL_SOEL_ASIGNADO_APLICACION' => 'Assigned Application',
   'LBL_SOEL_ASIGNADO_SERVICIO_CLIENTE' => 'Assigned Customer Service',
-  'LBL_SOEL_ASIGNADO_VISAS' => 'Assigned Visas'
+  'LBL_SOEL_ASIGNADO_VISAS' => 'Assigned Visas',
+  'LBL_LIMITE_LUZ_VERDE' => 'Green Light Limit',
 );
