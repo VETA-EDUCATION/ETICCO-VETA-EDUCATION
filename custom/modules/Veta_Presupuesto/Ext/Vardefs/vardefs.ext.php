@@ -3,81 +3,6 @@
 
 
 // created: 2021-09-02 13:15:22
-$dictionary["Veta_Presupuesto"]["fields"]["veta_detallepresupuesto_veta_presupuesto"] = array (
-  'name' => 'veta_detallepresupuesto_veta_presupuesto',
-  'type' => 'link',
-  'relationship' => 'veta_detallepresupuesto_veta_presupuesto',
-  'source' => 'non-db',
-  'module' => 'Veta_DetallePresupuesto',
-  'bean_name' => 'Veta_DetallePresupuesto',
-  'side' => 'right',
-  'vname' => 'LBL_VETA_DETALLEPRESUPUESTO_VETA_PRESUPUESTO_FROM_VETA_DETALLEPRESUPUESTO_TITLE',
-);
-
-
-// created: 2021-09-02 13:15:22
-$dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_contacts"] = array (
-  'name' => 'veta_presupuesto_contacts',
-  'type' => 'link',
-  'relationship' => 'veta_presupuesto_contacts',
-  'source' => 'non-db',
-  'module' => 'Contacts',
-  'bean_name' => 'Contact',
-  'vname' => 'LBL_VETA_PRESUPUESTO_CONTACTS_FROM_CONTACTS_TITLE',
-  'id_name' => 'veta_presupuesto_contactscontacts_ida',
-);
-$dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_contacts_name"] = array (
-  'name' => 'veta_presupuesto_contacts_name',
-  'type' => 'relate',
-  'source' => 'non-db',
-  'vname' => 'LBL_VETA_PRESUPUESTO_CONTACTS_FROM_CONTACTS_TITLE',
-  'save' => true,
-  'id_name' => 'veta_presupuesto_contactscontacts_ida',
-  'link' => 'veta_presupuesto_contacts',
-  'table' => 'contacts',
-  'module' => 'Contacts',
-  'rname' => 'name',
-  'db_concat_fields' => 
-  array (
-    0 => 'first_name',
-    1 => 'last_name',
-  ),
-);
-$dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_contactscontacts_ida"] = array (
-  'name' => 'veta_presupuesto_contactscontacts_ida',
-  'type' => 'link',
-  'relationship' => 'veta_presupuesto_contacts',
-  'source' => 'non-db',
-  'reportable' => false,
-  'side' => 'right',
-  'vname' => 'LBL_VETA_PRESUPUESTO_CONTACTS_FROM_VETA_PRESUPUESTO_TITLE',
-);
-
-
-// created: 2021-09-02 13:15:24
-$dictionary["Veta_Presupuesto"]["fields"]["veta_recibo_veta_presupuesto"] = array (
-  'name' => 'veta_recibo_veta_presupuesto',
-  'type' => 'link',
-  'relationship' => 'veta_recibo_veta_presupuesto',
-  'source' => 'non-db',
-  'module' => 'Veta_Recibo',
-  'bean_name' => 'Veta_Recibo',
-  'side' => 'right',
-  'vname' => 'LBL_VETA_RECIBO_VETA_PRESUPUESTO_FROM_VETA_RECIBO_TITLE',
-);
-
-
-
-$dictionary['Veta_Presupuesto']['fields']['soel_asegurador'] = array(
-    'name' => 'soel_asegurador',
-    'vname' => 'LBL_SOEL_ASEGURADOR',
-    'type' => 'enum',
-    'source' => 'non-db',
-    'function' => 'getAseguradores',
-);
-
-
-// created: 2021-09-02 13:15:22
 $dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_emails"] = array (
   'name' => 'veta_presupuesto_emails',
   'type' => 'link',
@@ -163,21 +88,112 @@ $dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_leadsleads_ida"] = a
 );
 
 
+// created: 2021-09-02 13:15:22
+$dictionary["Veta_Presupuesto"]["fields"]["veta_detallepresupuesto_veta_presupuesto"] = array (
+  'name' => 'veta_detallepresupuesto_veta_presupuesto',
+  'type' => 'link',
+  'relationship' => 'veta_detallepresupuesto_veta_presupuesto',
+  'source' => 'non-db',
+  'module' => 'Veta_DetallePresupuesto',
+  'bean_name' => 'Veta_DetallePresupuesto',
+  'side' => 'right',
+  'vname' => 'LBL_VETA_DETALLEPRESUPUESTO_VETA_PRESUPUESTO_FROM_VETA_DETALLEPRESUPUESTO_TITLE',
+);
+
+
+
+$dictionary['Veta_Presupuesto']['fields']['soel_asegurador'] = array(
+    'name' => 'soel_asegurador',
+    'vname' => 'LBL_SOEL_ASEGURADOR',
+    'type' => 'enum',
+    'source' => 'non-db',
+    'function' => 'getAseguradores',
+);
+
+
+// created: 2021-09-02 13:15:22
+$dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_contacts"] = array (
+  'name' => 'veta_presupuesto_contacts',
+  'type' => 'link',
+  'relationship' => 'veta_presupuesto_contacts',
+  'source' => 'non-db',
+  'module' => 'Contacts',
+  'bean_name' => 'Contact',
+  'vname' => 'LBL_VETA_PRESUPUESTO_CONTACTS_FROM_CONTACTS_TITLE',
+  'id_name' => 'veta_presupuesto_contactscontacts_ida',
+);
+$dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_contacts_name"] = array (
+  'name' => 'veta_presupuesto_contacts_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_VETA_PRESUPUESTO_CONTACTS_FROM_CONTACTS_TITLE',
+  'save' => true,
+  'id_name' => 'veta_presupuesto_contactscontacts_ida',
+  'link' => 'veta_presupuesto_contacts',
+  'table' => 'contacts',
+  'module' => 'Contacts',
+  'rname' => 'name',
+  'db_concat_fields' => 
+  array (
+    0 => 'first_name',
+    1 => 'last_name',
+  ),
+);
+$dictionary["Veta_Presupuesto"]["fields"]["veta_presupuesto_contactscontacts_ida"] = array (
+  'name' => 'veta_presupuesto_contactscontacts_ida',
+  'type' => 'link',
+  'relationship' => 'veta_presupuesto_contacts',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_VETA_PRESUPUESTO_CONTACTS_FROM_VETA_PRESUPUESTO_TITLE',
+);
+
+
+// created: 2021-09-02 13:15:24
+$dictionary["Veta_Presupuesto"]["fields"]["veta_recibo_veta_presupuesto"] = array (
+  'name' => 'veta_recibo_veta_presupuesto',
+  'type' => 'link',
+  'relationship' => 'veta_recibo_veta_presupuesto',
+  'source' => 'non-db',
+  'module' => 'Veta_Recibo',
+  'bean_name' => 'Veta_Recibo',
+  'side' => 'right',
+  'vname' => 'LBL_VETA_RECIBO_VETA_PRESUPUESTO_FROM_VETA_RECIBO_TITLE',
+);
+
+
+ // created: 2021-11-20 21:29:07
+$dictionary['Veta_Presupuesto']['fields']['tiquete_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['tiquete_c']['labelValue']='Veta Travel Tiquete';
+
+ 
+
  // created: 2021-11-20 21:27:46
 $dictionary['Veta_Presupuesto']['fields']['moneda_c']['inline_edit']='1';
 $dictionary['Veta_Presupuesto']['fields']['moneda_c']['labelValue']='Moneda Pago';
 
  
 
- // created: 2021-11-20 21:31:00
-$dictionary['Veta_Presupuesto']['fields']['tour_c']['inline_edit']='1';
-$dictionary['Veta_Presupuesto']['fields']['tour_c']['labelValue']='Veta Travel Tour';
+ // created: 2021-11-20 23:09:39
+$dictionary['Veta_Presupuesto']['fields']['usd_cop']['precision']='4';
 
  
 
- // created: 2021-11-20 21:29:07
-$dictionary['Veta_Presupuesto']['fields']['tiquete_c']['inline_edit']='1';
-$dictionary['Veta_Presupuesto']['fields']['tiquete_c']['labelValue']='Veta Travel Tiquete';
+ // created: 2021-11-20 21:29:24
+$dictionary['Veta_Presupuesto']['fields']['mmm_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['mmm_c']['labelValue']='MMM';
+
+ 
+
+ // created: 2021-11-20 23:10:21
+$dictionary['Veta_Presupuesto']['fields']['usd_mxn']['precision']='4';
+
+ 
+
+ // created: 2021-11-20 21:31:00
+$dictionary['Veta_Presupuesto']['fields']['tour_c']['inline_edit']='1';
+$dictionary['Veta_Presupuesto']['fields']['tour_c']['labelValue']='Veta Travel Tour';
 
  
 
@@ -193,29 +209,13 @@ $dictionary['Veta_Presupuesto']['fields']['aeropuerto_c']['labelValue']='Veta Tr
 
  
 
- // created: 2021-11-20 23:09:39
-$dictionary['Veta_Presupuesto']['fields']['usd_cop']['precision']='4';
-
- 
-
- // created: 2021-11-20 21:29:24
-$dictionary['Veta_Presupuesto']['fields']['mmm_c']['inline_edit']='1';
-$dictionary['Veta_Presupuesto']['fields']['mmm_c']['labelValue']='MMM';
+ // created: 2021-11-20 23:10:02
+$dictionary['Veta_Presupuesto']['fields']['aud_usd']['precision']='4';
 
  
 
  // created: 2021-11-20 23:10:37
 $dictionary['Veta_Presupuesto']['fields']['clp_usd']['precision']='4';
-
- 
-
- // created: 2021-11-20 23:10:21
-$dictionary['Veta_Presupuesto']['fields']['usd_mxn']['precision']='4';
-
- 
-
- // created: 2021-11-20 23:10:02
-$dictionary['Veta_Presupuesto']['fields']['aud_usd']['precision']='4';
 
  
 ?>

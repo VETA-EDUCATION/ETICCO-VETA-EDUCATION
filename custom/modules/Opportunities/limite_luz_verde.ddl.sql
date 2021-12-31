@@ -1,0 +1,3 @@
+INSERT INTO fields_meta_data (id, name, vname, comments, help, custom_module, type, len, required, default_value, date_modified , deleted, audited, massupdate, duplicate_merge, reportable, importable, ext1, ext2, ext3, ext4 )
+VALUES
+('Opportunitieslimite_luz_verde_c', 'limite_luz_verde_c', 'LBL_LIMITE_LUZ_VERDE', '' , '' , 'Opportunities', 'date', NULL, 0, 'now', '2021-12-17 13:27:46' , 0, 1, 0, 0, 1, 'true', '', '', '', '');

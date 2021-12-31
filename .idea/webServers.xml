@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="99766dcd-3962-4622-b3ab-5f71ffb5d4e8" name="LOCALHOST" url="http://veta.soel.com.co">
+        <fileTransfer mountedRoot="$PROJECT_DIR$" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="e9c8fe1d-696a-4b8c-a585-19364f2f0244" name="ETICCO-PRUEBAS" url="http://suitecrm.eticcosoluciones.com">
+        <fileTransfer rootFolder="/SuiteCRMVeta" host="suitecrm.eticcosoluciones.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

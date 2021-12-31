@@ -14,10 +14,6 @@ $mod_strings['LBL_VETA_HIJO_CONTACTS_FROM_VETA_HIJO_TITLE'] = 'Hijos';
 $mod_strings['LBL_VETA_SOLVENCIAECONOMICA_CONTACTS_FROM_VETA_SOLVENCIAECONOMICA_TITLE'] = 'Solvencia Economica';
 $mod_strings['LBL_VETA_PRESUPUESTO_CONTACTS_FROM_VETA_PRESUPUESTO_TITLE'] = 'Presupuestos';
 
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE'] = 'Procesos de Venta';
-
  
  // created: 2019-10-09 13:58:27
 $mod_strings['LNK_NEW_CONTACT'] = 'Create Student';
@@ -72,5 +68,9 @@ $mod_strings['LBL_EDITVIEW_PANEL6'] = 'More Info';
 $mod_strings['LBL_FECHA_EXPIRACION_VISA'] = 'Visa Expiration Date';
 
 
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE'] = 'Procesos de Venta';
 
 ?>

@@ -218,18 +218,28 @@ array (
             'label' => 'LBL_FECHA_ULTIMO_CONTACTO',
           ),
         ),
-        8 =>
+        8 => 
         array (
-          0 =>
+          0 => 
           array (
             'name' => 'fecha_presupuesto_c',
             'label' => 'LBL_FECHA_PRESUPUESTO',
           ),
-          1 => array (
-              'name' => 'REQUERIMIENTO',
-              'label' => 'LBL_SOEL_REQUERIMIENTO',
-              'customCode' => '<a href=\'index.php?module=Veta_Requerimiento&action=DetailView&record={$IDREQUERIMIENTO}\' target=\'_blank\'>{$REQUERIMIENTO}</a>',
+          1 => 
+          array (
+            'name' => 'REQUERIMIENTO',
+            'label' => 'LBL_SOEL_REQUERIMIENTO',
+            'customCode' => '<a href=\'index.php?module=Veta_Requerimiento&action=DetailView&record={$IDREQUERIMIENTO}\' target=\'_blank\'>{$REQUERIMIENTO}</a>',
           ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'limite_luz_verde_c',
+            'label' => 'LBL_LIMITE_LUZ_VERDE',
+          ),
+          1 => '',
         ),
       ),
     ),
