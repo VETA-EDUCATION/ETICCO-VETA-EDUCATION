@@ -1,8 +1,8 @@
 cache/
-config.php
-config_override.php
+/config.php
+/config_override.php
 upload/
-suitecrm.log
+*.log
 error_log
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
