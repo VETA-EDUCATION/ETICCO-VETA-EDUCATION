@@ -21459,3 +21459,897 @@ Sat Dec 18 15:13:06 2021 [15416][-none-][FATAL] Configuration variable date.time
 Sat Dec 18 15:14:07 2021 [15417][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
 Sat Dec 18 15:16:07 2021 [15418][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
 Sat Dec 18 15:18:07 2021 [15419][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mon Jan  3 22:14:15 2022 [21210][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Employees cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/UserPreferences cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Administration cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/SuiteP cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be touched
+Mon Jan  3 22:16:45 2022 [28104][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be written to
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/ACLActions cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Employees cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Users/language cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/modules/Users/language/es_ES.lang.php cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/modules/Users/language/es_ES.lang.php cannot be written to
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/modules/Users/language cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/modules/Users/language/en_us.lang.php cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/modules/Users/language/en_us.lang.php cannot be written to
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/SuiteP cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/SuiteP/css cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/SuiteP/css/Dawn cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/themes/SuiteP/css/Dawn/style.css cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/themes/SuiteP/css/Dawn/style.css cannot be written to
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/cache/ cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/include/javascript/sugar_grp1.js cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][FATAL] Exception handling in /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php:400
+Mon Jan  3 22:16:46 2022 [28104][-none-][FATAL] Exception in Controller: Creating cache/include/javascript failed: please make sure . is writable
+
+Mon Jan  3 22:16:46 2022 [28104][-none-][FATAL] backtrace:
+#0 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/jssource/minify_utils.php(162): sugar_die('Creating cache/...')
+#1 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/SugarView.php(840): ConcatenateFiles('.')
+#2 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/SugarView.php(1233): SugarView->_displayLoginJS()
+#3 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/SugarView.php(414): SugarView->renderJavascript()
+#4 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/SugarView.php(203): SugarView->displayHeader()
+#5 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#6 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#7 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/SugarApplication.php(113): SugarController->execute()
+#8 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/index.php(52): SugarApplication->execute()
+#9 {main}
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] Cannot create directory cache/themes/SuiteP cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be touched
+Mon Jan  3 22:16:46 2022 [28104][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be written to
+Mon Jan  3 22:30:06 2022 [11726][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:06 2022 [11726][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:10 2022 [11726][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:10 2022 [11726][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:25 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:25 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:25 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Unable to find relationship veta_abono_veta_recibo_c
+Mon Jan  3 22:30:29 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:29 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:29 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Unable to find relationship veta_abono_veta_recibo_c
+Mon Jan  3 22:30:29 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:29 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:29 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Unable to find relationship veta_abono_veta_recibo_c
+Mon Jan  3 22:30:30 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:30 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:30 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Unable to find relationship veta_abono_veta_recibo_c
+Mon Jan  3 22:30:36 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:36 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:39 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:39 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:39 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:39 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:30:40 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Unable to find relationship veta_abono_veta_recibo_c
+Mon Jan  3 22:30:46 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:30:46 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:31:04 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:31:04 2022 [12652][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:31:35 2022 [15091][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:31:35 2022 [15091][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:31:58 2022 [15872][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:31:58 2022 [15872][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:31:58 2022 [15872][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:31:58 2022 [15872][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:31:58 2022 [15872][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Unable to find relationship veta_abono_veta_recibo_c
+Mon Jan  3 22:33:25 2022 [18094][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:33:25 2022 [18094][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:33:36 2022 [19798][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:33:36 2022 [19798][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:35:38 2022 [25407][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:35:38 2022 [25407][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 22:38:05 2022 [31734][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 22:38:05 2022 [31734][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:02:22 2022 [45057][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] estamos en abonos ww
+Mon Jan  3 23:07:57 2022 [8578][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:07:57 2022 [8578][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:08:50 2022 [10575][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:08:50 2022 [10575][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:15 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:15 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:15 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:15 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] En abono primer cambio1moneda collegeAUDmoneda pagoAUD
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] En abono 1000
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:28 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:29 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:30 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:30 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:30 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:30 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:09:33 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:09:33 2022 [11866][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:16:00 2022 [27665][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:16:00 2022 [27665][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:18:32 2022 [34389][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:18:32 2022 [34389][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:21:10 2022 [40980][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:21:10 2022 [40980][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:22:15 2022 [43964][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:22:15 2022 [43964][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:23:27 2022 [46281][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:23:27 2022 [46281][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:23:48 2022 [46281][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:23:48 2022 [46281][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Mon Jan  3 23:23:49 2022 [46281][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Mon Jan  3 23:23:49 2022 [46281][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:34:46 2022 [37295][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:34:46 2022 [37295][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:40:33 2022 [11480][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:40:33 2022 [11480][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:40:34 2022 [11480][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:40:34 2022 [11480][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:49:21 2022 [35125][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:49:21 2022 [35125][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:49:35 2022 [35175][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Exception handling in /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php:400
+Tue Jan  4 15:49:35 2022 [35175][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Exception in Controller: Error al recuperar registro.  Este registro puede haber sido eliminado o puede que no esté autorizado para verlo.
+Tue Jan  4 15:49:35 2022 [35175][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] backtrace:
+#0 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/views/view.detail.php(102): sugar_die('Error al recupe...')
+#1 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/SugarView.php(211): ViewDetail->display()
+#2 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#3 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#4 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/SugarApplication.php(113): SugarController->execute()
+#5 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/index.php(52): SugarApplication->execute()
+#6 {main}
+Tue Jan  4 15:49:39 2022 [35175][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:49:39 2022 [35175][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:50:28 2022 [36225][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:50:28 2022 [36225][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:52:16 2022 [41506][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:52:16 2022 [41506][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:52:33 2022 [42918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Exception handling in /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php:400
+Tue Jan  4 15:52:33 2022 [42918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Exception in Controller: Error al recuperar registro.  Este registro puede haber sido eliminado o puede que no esté autorizado para verlo.
+Tue Jan  4 15:52:33 2022 [42918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] backtrace:
+#0 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/views/view.detail.php(102): sugar_die('Error al recupe...')
+#1 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/View/SugarView.php(211): ViewDetail->display()
+#2 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#3 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#4 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/include/MVC/SugarApplication.php(113): SugarController->execute()
+#5 /home/kkycjgsv/suitecrm.eticcosoluciones.com/SuiteCRMDeveloper2/index.php(52): SugarApplication->execute()
+#6 {main}
+Tue Jan  4 15:52:36 2022 [42918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:52:36 2022 [42918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:53:45 2022 [45565][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:53:45 2022 [45565][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:54:19 2022 [47511][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:54:19 2022 [47511][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:54:27 2022 [47511][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:54:27 2022 [47511][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:55:02 2022 [595][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:55:02 2022 [595][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:55:29 2022 [1913][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:55:29 2022 [1913][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:55:45 2022 [2461][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:55:45 2022 [2461][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:55:51 2022 [2461][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:55:51 2022 [2461][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:56:29 2022 [3556][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:56:29 2022 [3556][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:35 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:35 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:35 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:35 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:57:40 2022 [6100][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 15:58:46 2022 [9112][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:09:01 2022 [38905][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:09:01 2022 [38905][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:09:01 2022 [38905][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:09:01 2022 [38905][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:11:42 2022 [45953][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:11:42 2022 [45953][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:33:03 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:33:03 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:33:25 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:33:25 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:33:25 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:33:25 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:33:32 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:33:32 2022 [9474][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:34:02 2022 [11797][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:34:02 2022 [11797][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:34:53 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:34:53 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:34:53 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Tue Jan  4 16:34:53 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where veta_recibo.deleted=0 ORDER BY veta_abono_abono ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_abono' in 'order clause'
+Tue Jan  4 16:35:00 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:35:00 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:35:00 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Tue Jan  4 16:35:00 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where veta_recibo.deleted=0 ORDER BY veta_abono_abono ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_abono' in 'order clause'
+Tue Jan  4 16:35:13 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:35:13 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:35:26 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:35:26 2022 [14031][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:35:59 2022 [17060][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:35:59 2022 [17060][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:44:25 2022 [44386][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:44:25 2022 [44386][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:44:45 2022 [45104][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:44:45 2022 [45104][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 16:44:45 2022 [45104][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 16:44:45 2022 [45104][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:08:08 2022 [6284][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Tue Jan  4 19:08:08 2022 [6284][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  saved_search.id , saved_search.assigned_user_id , saved_search.name , saved_search.search_module  , jt0.user_name assigned_user_name , jt0.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod FROM saved_search   LEFT JOIN  users jt0 ON saved_search.assigned_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0 where (assigned_user_id = 9f6add7e-079c-5bf4-e85e-5f2db6e25842) AND saved_search.deleted=0 ORDER BY saved_search.date_entered DESC LIMIT 0,51: MySQL error 1054: Unknown column '9f6add7e' in 'where clause'
+Tue Jan  4 19:08:16 2022 [6284][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:08:16 2022 [6284][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:09:28 2022 [9583][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:09:28 2022 [9583][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:10:31 2022 [13220][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:10:31 2022 [13220][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:12:01 2022 [17598][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:12:01 2022 [17598][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:12:13 2022 [18559][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:12:13 2022 [18559][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:13:22 2022 [21197][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:13:22 2022 [21197][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:13:23 2022 [21197][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:13:23 2022 [21197][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:13:40 2022 [22162][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:13:40 2022 [22162][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:14:00 2022 [22162][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:14:00 2022 [22162][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:14:00 2022 [22162][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:14:00 2022 [22162][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:20:19 2022 [39032][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:20:19 2022 [39032][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:22:10 2022 [44814][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:22:10 2022 [44814][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:22:10 2022 [44814][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Tue Jan  4 19:22:10 2022 [44814][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where ((veta_recibo.name like '2485%' ) AND ( veta_abono_fechainsert like '2022-01-04 04:09:28%')) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'where clause'
+Tue Jan  4 19:22:23 2022 [44814][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:22:23 2022 [44814][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:27:46 2022 [8177][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:27:46 2022 [8177][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:28:10 2022 [10224][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:28:10 2022 [10224][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Tue Jan  4 19:30:32 2022 [15905][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Tue Jan  4 19:30:32 2022 [15905][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 13:53:24 2022 [47865][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 13:53:24 2022 [47865][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 13:54:55 2022 [2181][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 13:54:55 2022 [2181][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 13:55:28 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 13:55:28 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 13:55:28 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 13:55:28 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 13:55:28 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 13:55:28 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where ((veta_recibo.name like '2485%' ) AND ( (veta_abono_fechainsert >= '2022-01-01 05:00:00' AND veta_abono_fechainsert <= '2022-01-07 04:59:59'))) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'where clause'
+Wed Jan  5 13:55:34 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 13:55:34 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 13:55:50 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 13:55:50 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 13:55:50 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 13:55:50 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 13:55:50 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 13:55:50 2022 [4421][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where (((veta_abono_fechainsert >= '2022-01-01 05:00:00' AND veta_abono_fechainsert <= '2022-01-06 04:59:59'))) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'where clause'
+Wed Jan  5 13:55:52 2022 [5459][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 13:55:52 2022 [5459][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:00:27 2022 [17723][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:00:27 2022 [17723][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:01:46 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:01:46 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:01:46 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:01:46 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:01:46 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:01:46 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where (((veta_abono_fechainsert >= '2022-01-01 05:00:00' AND veta_abono_fechainsert <= '2022-01-06 04:59:59'))) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'where clause'
+Wed Jan  5 14:01:49 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:01:49 2022 [20262][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:03:47 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:03:47 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:03:47 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:03:47 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where veta_recibo.deleted=0 ORDER BY veta_abono_fechainsert ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'order clause'
+Wed Jan  5 14:03:53 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:03:53 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:03:53 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:03:53 2022 [25401][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where veta_recibo.deleted=0 ORDER BY veta_abono_fechainsert ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'order clause'
+Wed Jan  5 14:06:36 2022 [33521][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:06:36 2022 [33521][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:06:36 2022 [33521][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:06:36 2022 [33521][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where veta_recibo.deleted=0 ORDER BY veta_abono_fechainsert ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'order clause'
+Wed Jan  5 14:06:46 2022 [34640][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:06:46 2022 [34640][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:06:46 2022 [34640][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:06:46 2022 [34640][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where veta_recibo.deleted=0 ORDER BY veta_abono_fechainsert ASC LIMIT 0,51: MySQL error 1054: Unknown column 'veta_abono_fechainsert' in 'order clause'
+Wed Jan  5 14:07:01 2022 [35430][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:07:01 2022 [35430][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:08:18 2022 [38702][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:08:18 2022 [38702][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-07 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:08:18 2022 [38702][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:08:18 2022 [38702][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:08:22 2022 [38702][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:08:22 2022 [38702][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:08:38 2022 [39286][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:08:38 2022 [39286][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:08:38 2022 [39286][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:08:38 2022 [39286][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:08:50 2022 [39286][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:08:50 2022 [39286][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:11:24 2022 [45616][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:11:24 2022 [45616][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:11:53 2022 [992][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:11:53 2022 [992][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:11:53 2022 [992][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:11:53 2022 [992][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:11:53 2022 [992][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:11:53 2022 [992][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where ((veta_recibo.id IN (select * from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered >= CONCAT(STR_TO_DATE('01-01-2022', '%d-%m-%Y') , ' 00:00:00')) ) AND ( veta_recibo.id IN (select * from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered <= CONCAT(STR_TO_DATE('06-01-2022', '%d-%m-%Y') , ' 00:00:00')))) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1241: Operand should contain 1 column(s)
+Wed Jan  5 14:12:08 2022 [2923][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:12:08 2022 [2923][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:26:28 2022 [38962][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2021-01-21 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:26:28 2022 [38962][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2021-03-10 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:35:14 2022 [14172][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:35:14 2022 [14172][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:35:30 2022 [15374][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:35:30 2022 [15374][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-04 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:35:30 2022 [15374][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:35:30 2022 [15374][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:35:30 2022 [15374][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:35:30 2022 [15374][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where ((veta_recibo.id IN (select * from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered >= CONCAT(STR_TO_DATE('01-01-2022', '%d-%m-%Y') , ' 00:00:00')) ) AND ( veta_recibo.id IN (select * from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered <= CONCAT(STR_TO_DATE('04-01-2022', '%d-%m-%Y') , ' 00:00:00')))) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1241: Operand should contain 1 column(s)
+Wed Jan  5 14:35:50 2022 [16120][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:35:50 2022 [16120][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:35:50 2022 [16120][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:37:25 2022 [21239][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2020-08-12 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:37:25 2022 [21239][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2020-08-14 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:38:18 2022 [23639][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2020-08-12 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:38:18 2022 [23639][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2020-08-14 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:38:22 2022 [24107][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:38:22 2022 [24107][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:38:37 2022 [24901][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:38:37 2022 [24901][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 14:38:37 2022 [24901][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 14:38:37 2022 [24901][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 14:38:37 2022 [24901][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL] Mysqli_query failed.
+Wed Jan  5 14:38:37 2022 [24901][9f6add7e-079c-5bf4-e85e-5f2db6e25842][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb , jt6.id veta_abono_veta_recibo_name, jtl6.veta_abono_veta_reciboveta_abono_idb veta_abono_veta_reciboveta_abono_idb, veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0  LEFT JOIN  veta_abono_veta_recibo_c jtl6 ON veta_recibo.id=jtl6.veta_abono_veta_reciboveta_recibo_ida AND jtl6.deleted=0
+
+ LEFT JOIN  veta_abono jt6 ON jt6.id=jtl6.veta_abono_veta_reciboveta_abono_idb AND jt6.deleted=0
+ AND jt6.deleted=0 where ((veta_recibo.id IN (select * from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered >= CONCAT(STR_TO_DATE('01-01-2022', '%d-%m-%Y') , ' 00:00:00')) ) AND ( veta_recibo.id IN (select * from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered <= CONCAT(STR_TO_DATE('06-01-2022', '%d-%m-%Y') , ' 00:00:00')))) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1241: Operand should contain 1 column(s)
+Wed Jan  5 15:05:19 2022 [44623][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:05:19 2022 [44623][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:05:31 2022 [44623][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:05:31 2022 [44623][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:05:31 2022 [44623][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:05:31 2022 [44623][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:05:57 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2021-12-16 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:05:57 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:05:57 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:05:57 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:06:07 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2021-11-03 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:06:07 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:06:07 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:06:07 2022 [46918][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:09:37 2022 [7539][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:09:37 2022 [7539][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:09:37 2022 [7539][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:10:00 2022 [8233][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:10:00 2022 [8233][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:10:15 2022 [8233][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:10:15 2022 [8233][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:10:15 2022 [8233][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 15:11:40 2022 [13145][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-03 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:11:40 2022 [13145][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 15:11:40 2022 [13145][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 15:11:40 2022 [13145][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 17:06:49 2022 [8343][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 17:06:49 2022 [8343][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 17:08:49 2022 [14186][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 17:08:49 2022 [14186][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-06 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 17:08:49 2022 [14186][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 17:08:49 2022 [14186][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 19:00:37 2022 [14434][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 19:00:37 2022 [14434][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 19:24:39 2022 [23906][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 19:24:39 2022 [23906][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 19:25:53 2022 [26296][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 19:25:53 2022 [26296][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 19:25:53 2022 [26296][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 19:25:53 2022 [26296][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 19:26:58 2022 [28887][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2021-11-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 19:26:58 2022 [28887][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 19:26:58 2022 [28887][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 19:26:58 2022 [28887][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan  5 19:28:05 2022 [30639][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2021-11-01 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 19:28:05 2022 [30639][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] convert: Conversion of 2022-01-05 00:00 from d-m-Y H:i to Y-m-d failed
+Wed Jan  5 19:28:05 2022 [30639][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan  5 19:28:05 2022 [30639][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+
