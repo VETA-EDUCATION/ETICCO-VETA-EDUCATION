@@ -36,15 +36,15 @@ $dictionary["Veta_Abono"]["fields"]["veta_abono_veta_reciboveta_recibo_ida"] = a
 );
 
 
- // created: 2021-11-21 14:33:27
-$dictionary['Veta_Abono']['fields']['descuentotasa_c']['inline_edit']='1';
-$dictionary['Veta_Abono']['fields']['descuentotasa_c']['labelValue']='Descuento Tasa';
-
- 
-
  // created: 2021-11-21 14:33:09
 $dictionary['Veta_Abono']['fields']['monedapago_c']['inline_edit']='1';
 $dictionary['Veta_Abono']['fields']['monedapago_c']['labelValue']='Moneda Pago';
+
+ 
+
+ // created: 2021-11-21 14:33:27
+$dictionary['Veta_Abono']['fields']['descuentotasa_c']['inline_edit']='1';
+$dictionary['Veta_Abono']['fields']['descuentotasa_c']['labelValue']='Descuento Tasa';
 
  
 
