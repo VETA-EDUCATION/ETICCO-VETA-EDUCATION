@@ -16,17 +16,3 @@
 
 [2021-11-17 19:09:16] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'be6855f3-dac5-0457-487a-618c22f88de3' , lead_id_c = '86df739b-3fc1-1022-137e-6179dcca19d3' WHERE id = '1485e918-786f-15ad-d78c-61894fc20cda'
 
-[2021-11-17 19:18:30] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd5693709-c8be-1fff-e152-5fd73ef62004' , lead_id_c = 'a71f50ca-4287-a5aa-b4b8-5fc82bb56829' WHERE id = '8a6b80fb-b633-3af0-662f-61947ba20608'
-
-[2021-11-17 21:07:57] Veta_Recibo: person para IMAGINE person->module_name = Contacts person->id = 920a2b57-a1ea-c1db-dd6a-618a19168f7b
-
-[2021-11-17 22:05:15] Veta_Recibo: person para MCIE person->module_name = Leads person->id = 49283338-1936-e171-5d70-616bfa3fdac2
-
-[2021-11-17 22:05:47] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '205f343c-2381-7d34-9c7b-6195c3ef95e6' WHERE id = 'de9b6dda-e09d-8318-521c-6195c25d0ced'
-
-[2021-11-17 23:10:49] Veta_Recibo: person para LEXIS person->module_name = Contacts person->id = c7b50657-ca36-84e8-810b-60b49cc6ea9f
-
-[2021-11-17 23:23:09] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'c7b50657-ca36-84e8-810b-60b49cc6ea9f' , lead_id_c = '132916da-0983-d82c-e6a7-5f7a8492ebb7' WHERE id = 'e17fe843-525e-5a23-c881-6195d25dbb5d'
-
-[2021-11-17 23:23:10] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'c7b50657-ca36-84e8-810b-60b49cc6ea9f' , lead_id_c = '132916da-0983-d82c-e6a7-5f7a8492ebb7' WHERE id = 'e17fe843-525e-5a23-c881-6195d25dbb5d'
-

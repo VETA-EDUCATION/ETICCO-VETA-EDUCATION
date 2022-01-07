@@ -2,13 +2,28 @@
  //WARNING: The contents of this file are auto-generated
 
 
-$dictionary['Veta_Loo']['fields']['soel_oficina_comercial'] = array(
-    'name' => 'soel_oficina_comercial',
-    'vname' => 'LBL_SOEL_OFICINA_COMERCIAL',
-    'type' => 'enum',
-    'source' => 'non-db',
-    'function' => 'getOficinasComercial',
-    'massupdate' => false,
+// created: 2021-09-02 13:15:25
+$dictionary["Veta_Loo"]["fields"]["veta_loocorreccion_veta_loo"] = array (
+  'name' => 'veta_loocorreccion_veta_loo',
+  'type' => 'link',
+  'relationship' => 'veta_loocorreccion_veta_loo',
+  'source' => 'non-db',
+  'module' => 'Veta_LooCorreccion',
+  'bean_name' => 'Veta_LooCorreccion',
+  'side' => 'right',
+  'vname' => 'LBL_VETA_LOOCORRECCION_VETA_LOO_FROM_VETA_LOOCORRECCION_TITLE',
+);
+
+
+// created: 2021-09-02 13:15:22
+$dictionary["Veta_Loo"]["fields"]["veta_loo_activities_tasks"] = array (
+  'name' => 'veta_loo_activities_tasks',
+  'type' => 'link',
+  'relationship' => 'veta_loo_activities_tasks',
+  'source' => 'non-db',
+  'module' => 'Tasks',
+  'bean_name' => 'Task',
+  'vname' => 'LBL_VETA_LOO_ACTIVITIES_TASKS_FROM_TASKS_TITLE',
 );
 
 
@@ -46,47 +61,13 @@ $dictionary["Veta_Loo"]["fields"]["veta_loo_veta_aplicacionveta_aplicacion_ida"]
 );
 
 
-$dictionary['Veta_Loo']['fields']['soel_comercial_requerimiento'] = array(
-    'name' => 'soel_comercial_requerimiento',
-    'vname' => 'LBL_SOEL_COMERCIAL_REQUERIMIENTO',
-    'type' => 'enum',
+$dictionary['Veta_Loo']['fields']['soel_fecha_viaje'] = array(
+    'name' => 'soel_fecha_viaje',
+    'vname' => 'LBL_SOEL_FECHA_VIAJE',
+    'type' => 'datetime',
     'source' => 'non-db',
-    'function' => 'getAsignadoLeads',
-    'massupdate' => false,
-);
-
-
-// created: 2021-09-02 13:15:22
-$dictionary["Veta_Loo"]["fields"]["veta_loo_cases"] = array (
-  'name' => 'veta_loo_cases',
-  'type' => 'link',
-  'relationship' => 'veta_loo_cases',
-  'source' => 'non-db',
-  'module' => 'Cases',
-  'bean_name' => 'Case',
-  'side' => 'right',
-  'vname' => 'LBL_VETA_LOO_CASES_FROM_CASES_TITLE',
-);
-
-
-// created: 2021-09-02 13:15:22
-$dictionary["Veta_Loo"]["fields"]["veta_loo_activities_tasks"] = array (
-  'name' => 'veta_loo_activities_tasks',
-  'type' => 'link',
-  'relationship' => 'veta_loo_activities_tasks',
-  'source' => 'non-db',
-  'module' => 'Tasks',
-  'bean_name' => 'Task',
-  'vname' => 'LBL_VETA_LOO_ACTIVITIES_TASKS_FROM_TASKS_TITLE',
-);
-
-
-$dictionary['Veta_Loo']['fields']['soel_referido'] = array(
-    'name' => 'soel_referido',
-    'vname' => 'LBL_SOEL_REFERIDO',
-    'type' => 'varchar',
-    'source' => 'non-db',
-
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
 );
 
 
@@ -102,6 +83,16 @@ $dictionary["Veta_Loo"]["fields"]["veta_loo_activities_meetings"] = array (
 );
 
 
+$dictionary['Veta_Loo']['fields']['soel_oficina_comercial'] = array(
+    'name' => 'soel_oficina_comercial',
+    'vname' => 'LBL_SOEL_OFICINA_COMERCIAL',
+    'type' => 'enum',
+    'source' => 'non-db',
+    'function' => 'getOficinasComercial',
+    'massupdate' => false,
+);
+
+
 // created: 2021-09-02 13:15:22
 $dictionary["Veta_Loo"]["fields"]["veta_loo_activities_notes"] = array (
   'name' => 'veta_loo_activities_notes',
@@ -114,16 +105,12 @@ $dictionary["Veta_Loo"]["fields"]["veta_loo_activities_notes"] = array (
 );
 
 
-// created: 2021-09-02 13:15:25
-$dictionary["Veta_Loo"]["fields"]["veta_loocorreccion_veta_loo"] = array (
-  'name' => 'veta_loocorreccion_veta_loo',
-  'type' => 'link',
-  'relationship' => 'veta_loocorreccion_veta_loo',
-  'source' => 'non-db',
-  'module' => 'Veta_LooCorreccion',
-  'bean_name' => 'Veta_LooCorreccion',
-  'side' => 'right',
-  'vname' => 'LBL_VETA_LOOCORRECCION_VETA_LOO_FROM_VETA_LOOCORRECCION_TITLE',
+$dictionary['Veta_Loo']['fields']['soel_referido'] = array(
+    'name' => 'soel_referido',
+    'vname' => 'LBL_SOEL_REFERIDO',
+    'type' => 'varchar',
+    'source' => 'non-db',
+
 );
 
 
@@ -151,6 +138,19 @@ $dictionary["Veta_Loo"]["fields"]["veta_loo_activities_emails"] = array (
 );
 
 
+// created: 2021-09-02 13:15:22
+$dictionary["Veta_Loo"]["fields"]["veta_loo_cases"] = array (
+  'name' => 'veta_loo_cases',
+  'type' => 'link',
+  'relationship' => 'veta_loo_cases',
+  'source' => 'non-db',
+  'module' => 'Cases',
+  'bean_name' => 'Case',
+  'side' => 'right',
+  'vname' => 'LBL_VETA_LOO_CASES_FROM_CASES_TITLE',
+);
+
+
 $dictionary['Veta_Loo']['fields']['soel_fecha_expiracion_visa'] = array(
     'name' => 'soel_fecha_expiracion_visa',
     'vname' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
@@ -159,16 +159,6 @@ $dictionary['Veta_Loo']['fields']['soel_fecha_expiracion_visa'] = array(
     'enable_range_search' => true,
     'options' => 'date_range_search_dom',
     
-);
-
-
-$dictionary['Veta_Loo']['fields']['soel_fecha_viaje'] = array(
-    'name' => 'soel_fecha_viaje',
-    'vname' => 'LBL_SOEL_FECHA_VIAJE',
-    'type' => 'datetime',
-    'source' => 'non-db',
-    'enable_range_search' => true,
-    'options' => 'date_range_search_dom',
 );
 
 
@@ -182,6 +172,16 @@ $dictionary["Veta_Loo"]["fields"]["veta_liquidacion_veta_loo"] = array (
   'bean_name' => 'Veta_Liquidacion',
   'side' => 'right',
   'vname' => 'LBL_VETA_LIQUIDACION_VETA_LOO_FROM_VETA_LIQUIDACION_TITLE',
+);
+
+
+$dictionary['Veta_Loo']['fields']['soel_comercial_requerimiento'] = array(
+    'name' => 'soel_comercial_requerimiento',
+    'vname' => 'LBL_SOEL_COMERCIAL_REQUERIMIENTO',
+    'type' => 'enum',
+    'source' => 'non-db',
+    'function' => 'getAsignadoLeads',
+    'massupdate' => false,
 );
 
 ?>

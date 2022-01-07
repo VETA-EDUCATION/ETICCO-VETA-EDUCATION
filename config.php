@@ -451,7 +451,7 @@ $sugar_config = array (
     12 => 'htm',
     13 => 'phtml',
   ),
-  'upload_dir' => '/var/www/html/crm.australiaveta.com.dynamics/upload/',
+  'upload_dir' => 'upload/',
   'upload_maxsize' => 30000000,
   'use_common_ml_dir' => false,
   'use_real_names' => true,
