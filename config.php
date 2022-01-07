@@ -95,11 +95,11 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => '127.0.0.1',
+    'db_host_name' => 'suitecrm.eticcosoluciones.com',
     'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'root',
-    'db_password' => '9000580574',
-    'db_name' => 'vetacrm2',
+    'db_user_name' => 'kkycjgsv_crmtest',
+    'db_password' => 'Ur02017*',
+    'db_name' => 'kkycjgsv_vetacrm2',
     'db_type' => 'mysql',
     'db_port' => '',
     'db_manager' => 'MysqliManager',

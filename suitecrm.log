@@ -21459,3 +21459,111 @@ Sat Dec 18 15:13:06 2021 [15416][-none-][FATAL] Configuration variable date.time
 Sat Dec 18 15:14:07 2021 [15417][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
 Sat Dec 18 15:16:07 2021 [15418][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
 Sat Dec 18 15:18:07 2021 [15419][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Dec 29 17:09:34 2021 [15052][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:10:29 2021 [17844][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:12:29 2021 [23478][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:14:29 2021 [31433][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:15:29 2021 [34315][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:17:29 2021 [39013][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:18:29 2021 [41354][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:20:29 2021 [45874][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:21:29 2021 [48271][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:22:29 2021 [1641][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:23:30 2021 [3673][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:25:29 2021 [8003][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:26:29 2021 [10265][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:28:29 2021 [15017][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:29:29 2021 [16921][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:31:29 2021 [26594][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:32:29 2021 [30592][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:33:29 2021 [32588][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:35:29 2021 [41787][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:36:29 2021 [46206][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:37:29 2021 [48254][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:38:29 2021 [1822][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:40:30 2021 [7086][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:42:29 2021 [12579][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:43:29 2021 [14673][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:45:30 2021 [19039][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:46:30 2021 [21101][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:48:29 2021 [26120][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:50:29 2021 [30794][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:52:29 2021 [34928][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:53:29 2021 [37814][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:54:29 2021 [39852][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:55:29 2021 [41720][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:57:29 2021 [45371][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 17:58:29 2021 [47342][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:00:29 2021 [3002][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:02:29 2021 [6364][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:03:29 2021 [8877][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:04:29 2021 [10552][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:06:29 2021 [15148][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:20:19 2021 [45482][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:21:29 2021 [48046][-none-][FATAL] Could not connect to DB server 127.0.0.1 as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/ACLActions cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/Employees cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/Users/language cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/modules/Users/language/es_ES.lang.php cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/modules/Users/language/es_ES.lang.php cannot be written to
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/modules/Users/language cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/modules/Users/language/en_us.lang.php cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/modules/Users/language/en_us.lang.php cannot be written to
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes/SuiteP cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes/SuiteP/css cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes/SuiteP/css/Dawn cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/themes/SuiteP/css/Dawn/style.css cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/themes/SuiteP/css/Dawn/style.css cannot be written to
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/cache/ cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/include/javascript/sugar_grp1.js cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][FATAL] Exception handling in /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/Controller/SugarController.php:400
+Wed Dec 29 18:23:24 2021 [3863][-none-][FATAL] Exception in Controller: Creating cache/include/javascript failed: please make sure . is writable
+
+Wed Dec 29 18:23:24 2021 [3863][-none-][FATAL] backtrace:
+#0 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/jssource/minify_utils.php(162): sugar_die('Creating cache/...')
+#1 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/View/SugarView.php(840): ConcatenateFiles('.')
+#2 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/View/SugarView.php(1233): SugarView->_displayLoginJS()
+#3 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/View/SugarView.php(414): SugarView->renderJavascript()
+#4 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/View/SugarView.php(203): SugarView->displayHeader()
+#5 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#6 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#7 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/include/MVC/SugarApplication.php(113): SugarController->execute()
+#8 /home/kkycjgsv/suitecrm.eticcosoluciones.com/ETICCO-VETA-EDUCATION/index.php(52): SugarApplication->execute()
+#9 {main}
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] Cannot create directory cache/themes/SuiteP cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be touched
+Wed Dec 29 18:23:24 2021 [3863][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be written to
+Wed Dec 29 18:36:33 2021 [34632][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Cannot create directory /var/www/html/crm.australiaveta.com.dynamics/upload cannot be touched
+Wed Dec 29 22:09:08 2021 [3060][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Cannot create directory /var/www/html/crm.australiaveta.com.dynamics/upload cannot be touched
+Mon Jan  3 10:08:02 2022 [1754][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Cannot create directory /var/www/html/crm.australiaveta.com.dynamics/upload cannot be touched
+Mon Jan  3 10:08:08 2022 [1754][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Cannot create directory /var/www/html/crm.australiaveta.com.dynamics/upload cannot be touched
+Mon Jan  3 10:09:50 2022 [6812][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Cannot create directory /var/www/html/crm.australiaveta.com.dynamics/upload cannot be touched
