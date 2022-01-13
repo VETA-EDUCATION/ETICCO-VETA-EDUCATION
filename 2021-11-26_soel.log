@@ -1,0 +1,24 @@
+[2021-11-26 00:05:52] Veta_Recibo: person para TAFE WESTERN AUSTRALIA  person->module_name = Contacts person->id = 84cbeb4e-4f62-37d1-50ff-61a06b933f62
+
+[2021-11-26 11:23:17] Veta_Recibo: person para GREENWICH person->module_name = Leads person->id = ab180b2c-ba66-9c74-8f98-619ea784b3d2
+
+[2021-11-26 11:45:12] Veta_Recibo: person para EXPLORE ENGLISH person->module_name = Leads person->id = 4a78b58f-ee7e-5312-4718-618ae00a29ed
+
+[2021-11-26 14:30:52] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cfca2729-24b4-3948-8f7d-6188b38a3ea2' WHERE id = '6afc0ba1-392a-9531-f34c-61a040ac2028'
+
+[2021-11-26 14:46:08] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'b8711543-f9bd-b7b1-32e7-615d52910f52' WHERE id = 'f40f0b02-dbf5-7266-c421-61a032f665e4'
+
+[2021-11-26 15:12:21] Veta_Recibo: person para LONSDALE  person->module_name = Leads person->id = d6dc6215-5727-74ae-27b9-60dfb01a7130
+
+[2021-11-26 15:17:33] Veta_Recibo: person para OHC person->module_name = Leads person->id = 1e8d05e9-0a54-7469-babb-6191c04c8528
+
+[2021-11-26 15:30:03] Veta_Recibo: person para SMEAG ENGLISH person->module_name = Leads person->id = d6dc6215-5727-74ae-27b9-60dfb01a7130
+
+[2021-11-26 16:03:52] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '52e660dc-ac83-7954-830d-619eb3ea6bc1' , lead_id_c = '90302bec-84cc-85bf-c445-619c02eac88e' WHERE id = '73974b67-b2ed-0b8e-397a-619eb3618c38'
+
+[2021-11-26 16:27:21] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'dcd24424-235b-63b6-406a-61a013c38d51' , lead_id_c = '60aa57c9-4af1-840f-839e-6193041a9d85' WHERE id = '7d50644d-f308-d3b3-c19b-619eff35046e'
+
+[2021-11-26 16:43:16] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '1504cb39-949b-b468-25d8-5f4dcc81af8a' , lead_id_c = '' WHERE id = '602239e2-f881-a0fe-3374-619edb45bf9d'
+
+[2021-11-26 17:09:56] Veta_Recibo: person para SMEAG ENGLISH person->module_name = Leads person->id = af9cf791-a672-612d-1921-61609caf8781
+

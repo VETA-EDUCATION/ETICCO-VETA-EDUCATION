@@ -130,7 +130,7 @@ class Veta_Abono extends Basic
         $trm = new Veta_TRM();
 	$descuento = 0;
 	if($this->decuentotasa_c != null){
-		$descuento = $this->decuentotasa_c;
+		$descuento = $this->descuentotasa_c;
 	}
 
 	if($monedaCollege == $this->monedapago_c){
@@ -247,15 +247,32 @@ public function update_abono_fromdetallerecibo(){
             $detallerebs = $r->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );    
             foreach ( $detallerebs as $detalle )
             {
+		
+		if($this->descuentotasa_c != null){
+			$descuento = $this->descuentotasa_c;
+		}
+
                 $idcollege = $detalle->veta_college_id_c;
                 $college = new Veta_College();
                 $college->retrieve( $idcollege );
                 $monedaCollege = $college->moneda_c;
                 $trm = new Veta_TRM();
-                $cambio = $trm->get_trm($monedaCollege,$this->monedapago_c);
-                $GLOBALS['log']-> error("En abono".$cambio."moneda".$monedaCollege."monedapago".$this->monedapago_c); 
-                $calculo = ($this->abono_c)/($cambio*(1+(2/100)-($this->decuentotasa_c/100)));
-                $GLOBALS['log']-> error("En abono ".$calculo); 
+
+		if($monedaCollege == $this->monedapago_c){
+			$cambio = 1;
+			$calculo = ($this->abono_c)/($cambio);
+		}
+		else{        
+			$cambio = $trm->get_trm($monedaCollege,$this->monedapago_c);
+			$calculo = ($this->abono_c)/($cambio*(1-($descuento/100)));
+		}
+
+
+
+
+                //$GLOBALS['log']-> error("En abono".$cambio."moneda".$monedaCollege."monedapago".$this->monedapago_c); 
+
+                //$GLOBALS['log']-> error("En abono ".$calculo); 
                 $this->monto = $calculo;
                 parent::save( false );
             }

@@ -554,7 +554,7 @@ $searchdefs [ $module_name ] =
                         ),
                         //endregion
 
-                        //region fecha_viaje txt
+                        //region fecha_viaje
                         'fecha_viaje_txt'                        => array(
                             'label'   => 'LBL_FECHA_VIAJE_TXT',
                             'width'   => '10%',

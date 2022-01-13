@@ -16,12 +16,10 @@ class Veta_ServicioClienteHooks {
 
         $query = "SELECT  
                     veta_requerimiento.referido AS REFERIDO,
-                    veta_requerimiento.fecha_viaje AS FECHAVIAJE,
-                    opportunities_cstm.limite_luz_verde_c AS FECHALUZVERDE
+                    veta_requerimiento.fecha_viaje AS FECHAVIAJE                                   
                 FROM veta_serviciocliente
                 INNER JOIN veta_serviciocliente_opportunities_c ON veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesveta_serviciocliente_idb = veta_serviciocliente.id AND veta_serviciocliente_opportunities_c.deleted = 0 
                 INNER JOIN opportunities ON opportunities.id = veta_serviciocliente_opportunities_c.veta_serviciocliente_opportunitiesopportunities_ida AND opportunities.deleted = 0 
-                INNER JOIN opportunities_cstm ON opportunities_cstm.id_c = opportunities.id     
                 INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 0 
                 INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida AND veta_requerimiento_veta_recibo_c.deleted = 0
                 INNER JOIN veta_requerimiento ON veta_requerimiento.id =  veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida
@@ -34,18 +32,10 @@ class Veta_ServicioClienteHooks {
         $row    = $bean->db->fetchByAssoc( $result );
 
         if ( $row != null ) {
+
             $bean->soel_referido = $row[ 'REFERIDO' ];
-
-            if (!empty($row['FECHAVIAJE'])){
-                $aux                    = date_create( $row[ 'FECHAVIAJE' ] );
-                $bean->soel_fecha_viaje = date_format( $aux, $dateformat );
-            }
-
-            if (!empty($row['FECHALUZVERDE'])){
-                $aux                    = date_create( $row[ 'FECHALUZVERDE' ] );
-                $bean->soel_limite_luz_verde = date_format( $aux, $dateformat );
-            }
-
+            $aux                    = date_create( $row[ 'FECHAVIAJE' ] );
+            $bean->soel_fecha_viaje = date_format( $aux, $dateformat );
         }
 
         return $bean;

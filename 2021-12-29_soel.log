@@ -1,0 +1,6 @@
+[2021-12-29 22:25:41] Veta_Recibo: person para ALBRIGHT person->module_name = Leads person->id = b9baeff3-8a7a-5e83-3b5b-61a7972496f0
+
+[2021-12-29 22:28:08] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '9a6ec951-69b5-7ce0-50d0-61cd27136f98' WHERE id = 'dd62b297-6379-43aa-f09f-61cd26c29f47'
+
+[2021-12-29 22:39:12] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '9a6ec951-69b5-7ce0-50d0-61cd27136f98' , lead_id_c = 'b9baeff3-8a7a-5e83-3b5b-61a7972496f0' WHERE id = 'dd62b297-6379-43aa-f09f-61cd26c29f47'
+

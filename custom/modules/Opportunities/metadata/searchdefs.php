@@ -93,6 +93,14 @@ array (
         'default' => true,
         'name' => 'leads_opportunities_1_name',
       ),
+      'soel_campus' => 
+      array (
+        'type' => 'varchar',
+        'label' => 'LBL_SOEL_CAMPUS',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'soel_campus',
+      ),
       'assigned_user_id' => 
       array (
         'name' => 'assigned_user_id',
@@ -251,14 +259,6 @@ array (
         'width' => '10%',
         'name' => 'soel_fecha_viaje',
         'sortable' => false,
-      ),
-      'limite_luz_verde_c' => 
-      array (
-        'type' => 'date',
-        'default' => true,
-        'label' => 'LBL_LIMITE_LUZ_VERDE',
-        'width' => '10%',
-        'name' => 'limite_luz_verde_c',
       ),
       'soel_fecha_expiracion_visa' => 
       array (

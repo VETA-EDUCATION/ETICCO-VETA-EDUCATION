@@ -3,11 +3,5 @@
 
 
 
-$action_view_map['createlist'] = 'createlist';
-
-
 $action_view_map['new'] = 'new';
-
-
-$action_view_map['newlist'] = 'newlist';
 ?>

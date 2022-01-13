@@ -216,6 +216,13 @@ array (
     'width' => '10%',
     'default' => false,
   ),
+  'SOEL_DOCS_SOLICITADOS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_DOCS_SOLICITADOS',
+    'width' => '10%',
+    'default' => false,
+  ),
   'CREATED_BY_NAME' => 
   array (
     'width' => '10%',
@@ -226,6 +233,13 @@ array (
   array (
     'width' => '5%',
     'label' => 'LBL_MODIFIED',
+    'default' => false,
+  ),
+  'SOEL_CAMPUS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_CAMPUS',
+    'width' => '10%',
     'default' => false,
   ),
   'PENDIENTE_PAGO_COLEGIOS_C' => 
@@ -244,12 +258,26 @@ array (
     'currency_format' => true,
     'width' => '10%',
   ),
+  'SOEL_DATE_ESTUDIANTE' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_SOEL_DATE_ESTUDIANTE',
+    'width' => '10%',
+    'default' => false,
+  ),
   'FECHA_PROXIMO_CONTACTO_C' => 
   array (
     'type' => 'datetimecombo',
     'default' => false,
     'label' => 'LBL_FECHA_PROXIMO_CONTACTO',
     'width' => '10%',
+  ),
+  'SOEL_DATE_ASESOR' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_SOEL_DATE_ASESOR',
+    'width' => '10%',
+    'default' => false,
   ),
   'FECHA_ULTIMO_CONTACTO_C' => 
   array (
@@ -258,19 +286,33 @@ array (
     'label' => 'LBL_FECHA_ULTIMO_CONTACTO',
     'width' => '10%',
   ),
+  'SOEL_DOCS_APROBADOS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_DOCS_APROBADOS',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'SOEL_DOCS_CARGADOS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_DOCS_CARGADOS',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'SOEL_DOCS_PENDIENTES' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SOEL_DOCS_PENDIENTES',
+    'width' => '10%',
+    'default' => false,
+  ),
   'SOEL_REFERIDO' => 
   array (
     'type' => 'varchar',
     'label' => 'LBL_SOEL_REFERIDO',
     'width' => '10%',
     'default' => false,
-  ),
-  'LIMITE_LUZ_VERDE_C' => 
-  array (
-    'type' => 'date',
-    'default' => false,
-    'label' => 'LBL_LIMITE_LUZ_VERDE',
-    'width' => '10%',
   ),
 );
 ;

@@ -1,0 +1,82 @@
+[2021-12-14 01:17:22] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd38323b6-c062-2d69-5fc9-61a41ea09200' , lead_id_c = '49363377-6316-9eb1-a507-5f1a0aef08c7' WHERE id = '81448449-905f-9bd6-288e-61b8365b269c'
+
+[2021-12-14 01:17:54] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd38323b6-c062-2d69-5fc9-61a41ea09200' , lead_id_c = '49363377-6316-9eb1-a507-5f1a0aef08c7' WHERE id = 'a852054c-14aa-ffec-317f-61a4075c26fb'
+
+[2021-12-14 09:45:56] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '39bc82a5-8a93-0dba-ba1d-61ae3bbff9bb' , lead_id_c = 'd3ed5b4c-47f9-e738-6894-619e6a7e4c2d' WHERE id = '4951e9d2-f30e-dd3f-d12c-61ae3b3b8a18'
+
+[2021-12-14 09:45:56] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '39bc82a5-8a93-0dba-ba1d-61ae3bbff9bb' , lead_id_c = 'd3ed5b4c-47f9-e738-6894-619e6a7e4c2d' WHERE id = '4951e9d2-f30e-dd3f-d12c-61ae3b3b8a18'
+
+[2021-12-14 09:45:56] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '39bc82a5-8a93-0dba-ba1d-61ae3bbff9bb' , lead_id_c = 'd3ed5b4c-47f9-e738-6894-619e6a7e4c2d' WHERE id = '4951e9d2-f30e-dd3f-d12c-61ae3b3b8a18'
+
+[2021-12-14 10:40:22] Veta_Recibo: person para EXPLORE ENGLISH person->module_name = Contacts person->id = 59fd937d-4c5f-87af-af8c-61b8ba9b178f
+
+[2021-12-14 10:47:02] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '39bc82a5-8a93-0dba-ba1d-61ae3bbff9bb' , lead_id_c = 'd3ed5b4c-47f9-e738-6894-619e6a7e4c2d' WHERE id = '4951e9d2-f30e-dd3f-d12c-61ae3b3b8a18'
+
+[2021-12-14 10:47:02] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '39bc82a5-8a93-0dba-ba1d-61ae3bbff9bb' , lead_id_c = 'd3ed5b4c-47f9-e738-6894-619e6a7e4c2d' WHERE id = '4951e9d2-f30e-dd3f-d12c-61ae3b3b8a18'
+
+[2021-12-14 10:53:39] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'cdeec1ba-6802-6c28-ca29-61a63d8683a9' , lead_id_c = '875d023e-63b9-e919-fdf6-60a11bf6b2d9' WHERE id = '40629b6f-058b-e8ba-f0a6-61a63d2a5c5d'
+
+[2021-12-14 11:09:16] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = '67b8d515-52fe-788f-338a-61249790e9e1' WHERE id = '26677c51-16b6-838c-ba63-61b7e114790a'
+
+[2021-12-14 11:10:35] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'cdeec1ba-6802-6c28-ca29-61a63d8683a9' , lead_id_c = '875d023e-63b9-e919-fdf6-60a11bf6b2d9' WHERE id = '40629b6f-058b-e8ba-f0a6-61a63d2a5c5d'
+
+[2021-12-14 12:48:04] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'f3b2e870-f811-bfe9-4ef4-5f1909317db1' , lead_id_c = '76d2f47a-947b-1cb8-79d0-5ea25180a8a6' WHERE id = 'da41baab-bd52-7080-d14b-61b7e760f482'
+
+[2021-12-14 12:48:25] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'f3b2e870-f811-bfe9-4ef4-5f1909317db1' , lead_id_c = '76d2f47a-947b-1cb8-79d0-5ea25180a8a6' WHERE id = 'e7ae0ef7-68b6-11c5-6df9-61b7e7b28f46'
+
+[2021-12-14 12:48:46] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'f3b2e870-f811-bfe9-4ef4-5f1909317db1' , lead_id_c = '76d2f47a-947b-1cb8-79d0-5ea25180a8a6' WHERE id = 'edc9cba3-dc10-3cc6-58b1-61b7e7c432d8'
+
+[2021-12-14 12:57:15] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '5cbb84d2-1bbc-71cc-c6f3-5f87c8312c4d' , lead_id_c = '21bb9ea0-3d13-d27d-fa3d-5f7d65ab8b56' WHERE id = '81ec96fe-9ceb-84b8-33a8-61a558aeae16'
+
+[2021-12-14 15:58:04] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cc5c79e3-c27a-106b-3ecf-61b2c6f13420' WHERE id = '1d899a1a-0f4a-1ba4-5f78-61b7d7f809fe'
+
+[2021-12-14 16:50:20] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cc5c79e3-c27a-106b-3ecf-61b2c6f13420' WHERE id = '1d899a1a-0f4a-1ba4-5f78-61b7d7f809fe'
+
+[2021-12-14 17:33:52] Veta_Recibo: person para SMEAG ENGLISH person->module_name = Leads person->id = 23f0c3ba-a1c5-364a-2c0c-5f4eed19fe65
+
+[2021-12-14 17:36:19] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = 'ef4acd4e-922a-5eac-e683-61b91c27bee8' WHERE id = '6747d7a3-101e-e0c1-4c6e-61b91b8b9c84'
+
+[2021-12-14 17:38:07] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '391d3df8-4175-6e8d-4d6a-60e3ec85c4f6' , lead_id_c = '' WHERE id = '5884c6f5-49cc-f266-3171-61b7f75e0d8f'
+
+[2021-12-14 17:42:30] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '494c87d0-5649-2875-8890-617b390f97eb' , lead_id_c = '59e9c8d3-cb08-3a37-df5d-5e3618c2fe9f' WHERE id = '5bb1f4b4-7298-712f-0c9f-617b393f4c04'
+
+[2021-12-14 17:52:54] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'b041f9f6-59d1-24b3-8d79-5f571e21d852' , lead_id_c = '55e51f26-1713-5faf-af81-5f4dd47d7acb' WHERE id = '9f470234-2fee-776d-bb28-61a9ae4e1746'
+
+[2021-12-14 18:01:17] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd38323b6-c062-2d69-5fc9-61a41ea09200' , lead_id_c = '49363377-6316-9eb1-a507-5f1a0aef08c7' WHERE id = '81448449-905f-9bd6-288e-61b8365b269c'
+
+[2021-12-14 18:18:21] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '30a862da-c128-dc77-71dd-61b92655cfd4' WHERE id = '1862e5c3-d04f-01bc-f695-61b02f0443fa'
+
+[2021-12-14 18:36:29] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '49f46774-bfb9-3502-fc65-61b78170733e' , lead_id_c = 'cee201e9-a301-37a0-8c3f-6196e3e0c37b' WHERE id = 'aa8bf609-58b9-2cc8-102e-61b781b8d550'
+
+[2021-12-14 18:37:01] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'a2fc2d1e-bb97-bd75-68dd-61a7076f22c2' , lead_id_c = '8483c59f-ba9a-efe3-f859-61a704c10474' WHERE id = '5093b990-036b-9815-fc43-61a7079365bd'
+
+[2021-12-14 18:46:21] Veta_Recibo: person para RGIT - HOBART person->module_name = Leads person->id = 991302b5-93e5-7741-c317-61afecdd1ffc
+
+[2021-12-14 18:46:38] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '39bc82a5-8a93-0dba-ba1d-61ae3bbff9bb' , lead_id_c = 'd3ed5b4c-47f9-e738-6894-619e6a7e4c2d' WHERE id = '4951e9d2-f30e-dd3f-d12c-61ae3b3b8a18'
+
+[2021-12-14 18:55:57] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'cdeec1ba-6802-6c28-ca29-61a63d8683a9' , lead_id_c = '875d023e-63b9-e919-fdf6-60a11bf6b2d9' WHERE id = '40629b6f-058b-e8ba-f0a6-61a63d2a5c5d'
+
+[2021-12-14 19:16:24] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'b041f9f6-59d1-24b3-8d79-5f571e21d852' , lead_id_c = '55e51f26-1713-5faf-af81-5f4dd47d7acb' WHERE id = '9f470234-2fee-776d-bb28-61a9ae4e1746'
+
+[2021-12-14 19:21:42] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'cdeec1ba-6802-6c28-ca29-61a63d8683a9' , lead_id_c = '875d023e-63b9-e919-fdf6-60a11bf6b2d9' WHERE id = '40629b6f-058b-e8ba-f0a6-61a63d2a5c5d'
+
+[2021-12-14 19:24:41] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'a2fc2d1e-bb97-bd75-68dd-61a7076f22c2' , lead_id_c = '8483c59f-ba9a-efe3-f859-61a704c10474' WHERE id = '5093b990-036b-9815-fc43-61a7079365bd'
+
+[2021-12-14 20:01:42] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '49f46774-bfb9-3502-fc65-61b78170733e' , lead_id_c = 'cee201e9-a301-37a0-8c3f-6196e3e0c37b' WHERE id = 'aa8bf609-58b9-2cc8-102e-61b781b8d550'
+
+[2021-12-14 20:33:37] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'b0e0328a-17e0-230e-1db6-61b18ee4e600'
+
+[2021-12-14 20:33:37] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'b0e0328a-17e0-230e-1db6-61b18ee4e600'
+
+[2021-12-14 20:34:16] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'aaf498d0-c1bb-5d81-b0ca-61b18eda7761'
+
+[2021-12-14 21:34:38] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'b0e0328a-17e0-230e-1db6-61b18ee4e600'
+
+[2021-12-14 21:36:17] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'aaf498d0-c1bb-5d81-b0ca-61b18eda7761'
+
+[2021-12-14 22:47:57] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = '99b6dba0-cd1e-8ae1-544c-61b18e006b23'
+
+[2021-12-14 22:48:24] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = '9f9215b3-4488-1cf2-0693-61b18e4f85c5'
+
+[2021-12-14 22:49:04] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'a52fcf16-6c8f-23be-06cf-61b18e5e4550'
+

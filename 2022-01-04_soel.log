@@ -1,0 +1,8 @@
+[2022-01-04 20:28:54] Veta_Recibo: person para SBTA person->module_name = Leads person->id = d36e98b6-054b-bc48-0995-5e3a5025e94a
+
+[2022-01-04 20:30:06] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '8153ebd4-69a5-1d1d-9ea3-61d4f47ce19d' WHERE id = 'e093ac98-f85a-369f-a7a5-61d4f45f1647'
+
+[2022-01-04 22:19:20] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = 'e91fd53a-3c13-6524-27ba-61d50e63e9b9' WHERE id = 'ee850c81-2ef0-bc12-5a90-61a59b9317d5'
+
+[2022-01-04 23:11:09] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '8153ebd4-69a5-1d1d-9ea3-61d4f47ce19d' , lead_id_c = 'd36e98b6-054b-bc48-0995-5e3a5025e94a' WHERE id = 'e093ac98-f85a-369f-a7a5-61d4f45f1647'
+

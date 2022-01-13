@@ -37,11 +37,7 @@ array (
         0 => 
         array (
           0 => 'assigned_user_name',
-          1 => 
-          array (
-            'name' => 'limite_luz_verde_c',
-            'label' => 'LBL_LIMITE_LUZ_VERDE',
-          ),
+          1 => '',
         ),
         1 => 
         array (

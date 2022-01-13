@@ -1,0 +1,24 @@
+[2022-01-06 00:32:26] Veta_Recibo: person para ALBRIGHT person->module_name = Leads person->id = cd2dcd5a-937a-dbcb-bfa6-5efd2f33cb58
+
+[2022-01-06 00:35:55] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cd2dcd5a-937a-dbcb-bfa6-5efd2f33cb58' WHERE id = '31d9ad23-21da-96ed-98de-61d67e2974e4'
+
+[2022-01-06 10:01:40] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '52e660dc-ac83-7954-830d-619eb3ea6bc1' , lead_id_c = '90302bec-84cc-85bf-c445-619c02eac88e' WHERE id = 'c65635d2-3c8a-3756-1e92-61c0c181b36a'
+
+[2022-01-06 16:21:55] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'b0e0328a-17e0-230e-1db6-61b18ee4e600'
+
+[2022-01-06 16:27:39] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cd2dcd5a-937a-dbcb-bfa6-5efd2f33cb58' WHERE id = '31d9ad23-21da-96ed-98de-61d67e2974e4'
+
+[2022-01-06 18:10:57] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'aaf498d0-c1bb-5d81-b0ca-61b18eda7761'
+
+[2022-01-06 18:11:25] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = 'd1a0bfcb-fc36-b784-8100-61b18fd2d407' , lead_id_c = '40671207-8fa8-e733-1a2c-5ffed58cfaf2' WHERE id = 'a52fcf16-6c8f-23be-06cf-61b18e5e4550'
+
+[2022-01-06 19:52:43] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cd2dcd5a-937a-dbcb-bfa6-5efd2f33cb58' WHERE id = '31d9ad23-21da-96ed-98de-61d67e2974e4'
+
+[2022-01-06 20:21:56] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '4d51ec06-a7dc-f6b0-8cdf-61d4f0967434' , lead_id_c = '79aeca68-ac09-7cbf-6738-6184866b681e' WHERE id = '28ebcd17-2e38-cfa8-3b67-61d6315cea6d'
+
+[2022-01-06 20:47:17] Veta_Recibo: person para IH person->module_name = Leads person->id = 19382cb3-49b8-40d4-56c2-61acde3520f0
+
+[2022-01-06 20:49:52] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = 'cd2dcd5a-937a-dbcb-bfa6-5efd2f33cb58' WHERE id = '31d9ad23-21da-96ed-98de-61d67e2974e4'
+
+[2022-01-06 22:02:45] Veta_Recibo: person para SCEI person->module_name = Contacts person->id = 9595cc1f-6665-a6be-d725-5ecf6411a377
+

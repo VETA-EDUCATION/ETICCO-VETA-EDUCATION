@@ -1,0 +1,24 @@
+[2021-12-19 17:16:25] Veta_Recibo: person para GREENWICH person->module_name = Leads person->id = 1e5b0cbe-60aa-7abb-86f8-604926768009
+
+[2021-12-19 17:16:25] Veta_Recibo: person para GREENWICH person->module_name = Leads person->id = 1e5b0cbe-60aa-7abb-86f8-604926768009
+
+[2021-12-19 17:16:25] Veta_Recibo: person para GREENWICH person->module_name = Leads person->id = 1e5b0cbe-60aa-7abb-86f8-604926768009
+
+[2021-12-19 17:17:11] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '90ea275e-2216-23ef-c16f-61bfaf8b3ea8' WHERE id = '24ca0bda-daa0-762e-7f80-61bfafc0275d'
+
+[2021-12-19 17:17:11] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '90ea275e-2216-23ef-c16f-61bfaf8b3ea8' WHERE id = 'e9369597-c4a6-e8df-7ffd-61bfaf6a55c2'
+
+[2021-12-19 17:17:11] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '90ea275e-2216-23ef-c16f-61bfaf8b3ea8' WHERE id = 'ef2daf2c-49e8-a00f-f825-61bfaf0bdde0'
+
+[2021-12-19 18:05:53] Veta_Recibo: person para CASS TRAINING person->module_name = Leads person->id = 2f4c92b2-337e-a46d-7075-616e3baa689f
+
+[2021-12-19 18:07:55] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = '2f4c92b2-337e-a46d-7075-616e3baa689f' WHERE id = 'dda4bea4-2b75-3029-f3ed-61bfba6cc1b1'
+
+[2021-12-19 18:20:04] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = '2f4c92b2-337e-a46d-7075-616e3baa689f' WHERE id = 'dda4bea4-2b75-3029-f3ed-61bfba6cc1b1'
+
+[2021-12-19 18:20:25] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '' , lead_id_c = '2f4c92b2-337e-a46d-7075-616e3baa689f' WHERE id = 'dda4bea4-2b75-3029-f3ed-61bfba6cc1b1'
+
+[2021-12-19 18:22:48] Veta_Recibo: person para APC person->module_name = Leads person->id = 56dc5d7d-b09b-6a38-51e9-6169102e1624
+
+[2021-12-19 18:23:07] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '877929a6-1b0a-1bf2-5d90-61bfbeae214e' WHERE id = '8815e60e-7eba-8108-a88d-61bfbe379c34'
+

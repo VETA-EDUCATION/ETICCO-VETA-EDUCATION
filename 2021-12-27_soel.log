@@ -1,0 +1,4 @@
+[2021-12-27 04:56:57] Veta_Recibo: person para GAMA EDUCATION AND TRAINING person->module_name = Leads person->id = a25ad6b0-0763-4efe-260c-61b950fb7bc2
+
+[2021-12-27 04:57:36] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = '78d1d4e1-36ec-403b-65a7-61c98ea47e80' WHERE id = '949c0eb3-2f9f-2348-aa1e-61c98d7806b1'
+

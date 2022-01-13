@@ -1,0 +1,6 @@
+[2021-11-28 17:48:03] Veta_Recibo: person para TAFE NSW person->module_name = Leads person->id = 49363377-6316-9eb1-a507-5f1a0aef08c7
+
+[2021-11-28 18:19:28] Veta_Recibo: person para GREENWICH person->module_name = Leads person->id = 21787bb6-b3bc-6ab3-a6a0-619bebdeb1c6
+
+[2021-11-28 19:29:22] Veta Aplicacion::actualizar_contacto linea 200 : UPDATE veta_aplicacion SET contact_id_c = 'd38323b6-c062-2d69-5fc9-61a41ea09200' WHERE id = 'a852054c-14aa-ffec-317f-61a4075c26fb'
+

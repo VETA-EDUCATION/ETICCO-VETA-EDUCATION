@@ -1,0 +1,6 @@
+[2021-12-25 11:16:09] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '87afd031-bd4d-969f-4308-61c3b112be28' , lead_id_c = '82cf52e9-9093-b876-0262-618dde6c7c77' WHERE id = '8a6ed9b8-a639-80c6-84cf-61c3b1a4b920'
+
+[2021-12-25 11:16:09] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '87afd031-bd4d-969f-4308-61c3b112be28' , lead_id_c = '82cf52e9-9093-b876-0262-618dde6c7c77' WHERE id = '8a6ed9b8-a639-80c6-84cf-61c3b1a4b920'
+
+[2021-12-25 11:28:08] Veta Aplicacion::save linea 188 UPDATE veta_aplicacion SET contact_id_c = '87afd031-bd4d-969f-4308-61c3b112be28' , lead_id_c = '82cf52e9-9093-b876-0262-618dde6c7c77' WHERE id = '8a6ed9b8-a639-80c6-84cf-61c3b1a4b920'
+
