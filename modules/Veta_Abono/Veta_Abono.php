@@ -129,7 +129,7 @@ class Veta_Abono extends Basic
         $monedaCollege = $college->moneda_c;
         $trm = new Veta_TRM();
 	$descuento = 0;
-	if($this->decuentotasa_c != null){
+	if($this->descuentotasa_c != null){
 		$descuento = $this->descuentotasa_c;
 	}
 
