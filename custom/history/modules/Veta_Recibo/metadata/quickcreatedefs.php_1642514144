@@ -2,22 +2,15 @@
 $module_name = 'Veta_Recibo';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'hidden' => 
-        array (
-          0 => '<input type="hidden" id="asegurador" name="asegurador" value="{$fields.asegurador.value}">',
-        ),
-      ),
       'includes' => 
       array (
         0 => 
         array (
-          'file' => 'modules/Veta_Recibo/javascript/seguro_soel.js',
+          'file' => 'modules/Veta_Presupuesto/javascript/seguro_soel.js',
         ),
       ),
       'maxColumns' => '2',
@@ -101,15 +94,10 @@ array (
         array (
           0 => 
           array (
-            'name' => 'moneda_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONEDA',
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
           ),
-          1 => '',
-        ),
-        4 => 
-        array (
-          0 => 'description',
         ),
       ),
       'lbl_editview_panel1' => 
@@ -118,13 +106,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'soel_asegurador',
-            'label' => 'LBL_SOEL_ASEGURADOR',
-            'type' => 'enum',
-            'function' => 
-            array (
-              'name' => 'getAseguradores',
-            ),
+            'name' => 'asegurador',
+            'label' => 'LBL_ASEGURADOR',
           ),
           1 => 
           array (
