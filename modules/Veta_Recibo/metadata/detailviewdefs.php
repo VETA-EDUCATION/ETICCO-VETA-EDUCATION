@@ -51,6 +51,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_DETAILVIEW_PANEL2' => 
         array (
           'newTab' => false,
@@ -88,6 +93,15 @@ array (
         array (
           0 => 
           array (
+            'name' => 'veta_requerimiento_veta_recibo_name',
+            'label' => 'LBL_VETA_REQUERIMIENTO_VETA_RECIBO_FROM_VETA_REQUERIMIENTO_TITLE',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'veta_recibo_opportunities_name',
             'label' => 'LBL_VETA_RECIBO_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE',
           ),
@@ -97,7 +111,7 @@ array (
             'label' => 'LBL_DESCUENTO',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -112,7 +126,7 @@ array (
             'label' => 'LBL_DEPARTAMENTO',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -122,7 +136,7 @@ array (
           ),
           1 => 'assigned_user_name',
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -137,7 +151,17 @@ array (
             'label' => 'LBL_DATE_MODIFIED',
           ),
         ),
-        6 => 
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'moneda_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONEDA',
+          ),
+          1 => '',
+        ),
+        8 => 
         array (
           0 => 'description',
         ),
@@ -193,6 +217,44 @@ array (
             'name' => 'total_visa',
             'label' => 'LBL_TOTAL_VISA',
           ),
+        ),
+      ),
+      'lbl_detailview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'hospedaje_c',
+            'label' => 'LBL_HOSPEDAJE',
+          ),
+          1 => 
+          array (
+            'name' => 'mmm_c',
+            'label' => 'LBL_MMM',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'aeropuerto_c',
+            'label' => 'LBL_AEROPUERTO',
+          ),
+          1 => 
+          array (
+            'name' => 'tiquete_c',
+            'label' => 'LBL_TIQUETE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tour_c',
+            'label' => 'LBL_TOUR',
+          ),
+          1 => '',
         ),
       ),
       'lbl_detailview_panel2' => 

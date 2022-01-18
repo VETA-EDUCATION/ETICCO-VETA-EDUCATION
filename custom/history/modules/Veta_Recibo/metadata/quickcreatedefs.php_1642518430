@@ -2,22 +2,15 @@
 $module_name = 'Veta_Recibo';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'hidden' => 
-        array (
-          0 => '<input type="hidden" id="asegurador" name="asegurador" value="{$fields.asegurador.value}">',
-        ),
-      ),
       'includes' => 
       array (
         0 => 
         array (
-          'file' => 'modules/Veta_Recibo/javascript/seguro_soel.js',
+          'file' => 'modules/Veta_Presupuesto/javascript/seguro_soel.js',
         ),
       ),
       'maxColumns' => '2',
@@ -43,6 +36,11 @@ array (
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_QUICKCREATE_PANEL2' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -101,15 +99,10 @@ array (
         array (
           0 => 
           array (
-            'name' => 'moneda_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONEDA',
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
           ),
-          1 => '',
-        ),
-        4 => 
-        array (
-          0 => 'description',
         ),
       ),
       'lbl_editview_panel1' => 
@@ -118,13 +111,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'soel_asegurador',
-            'label' => 'LBL_SOEL_ASEGURADOR',
-            'type' => 'enum',
-            'function' => 
-            array (
-              'name' => 'getAseguradores',
-            ),
+            'name' => 'asegurador',
+            'label' => 'LBL_ASEGURADOR',
           ),
           1 => 
           array (
@@ -133,6 +121,11 @@ array (
           ),
         ),
         1 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        2 => 
         array (
           0 => 
           array (
@@ -145,6 +138,44 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TIPO_SEGURO',
           ),
+        ),
+      ),
+      'lbl_quickcreate_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'hospedaje_c',
+            'label' => 'LBL_HOSPEDAJE',
+          ),
+          1 => 
+          array (
+            'name' => 'mmm_c',
+            'label' => 'LBL_MMM',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'aeropuerto_c',
+            'label' => 'LBL_AEROPUERTO',
+          ),
+          1 => 
+          array (
+            'name' => 'tiquete_c',
+            'label' => 'LBL_TIQUETE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tour_c',
+            'label' => 'LBL_TOUR',
+          ),
+          1 => '',
         ),
       ),
     ),

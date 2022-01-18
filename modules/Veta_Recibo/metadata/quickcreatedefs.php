@@ -40,6 +40,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_QUICKCREATE_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
     ),
     'panels' => 
@@ -94,6 +99,16 @@ array (
         array (
           0 => 
           array (
+            'name' => 'moneda_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONEDA',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
             'name' => 'description',
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
@@ -117,6 +132,11 @@ array (
         ),
         1 => 
         array (
+          0 => '',
+          1 => '',
+        ),
+        2 => 
+        array (
           0 => 
           array (
             'name' => 'duracion',
@@ -128,6 +148,44 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TIPO_SEGURO',
           ),
+        ),
+      ),
+      'lbl_quickcreate_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'hospedaje_c',
+            'label' => 'LBL_HOSPEDAJE',
+          ),
+          1 => 
+          array (
+            'name' => 'mmm_c',
+            'label' => 'LBL_MMM',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'aeropuerto_c',
+            'label' => 'LBL_AEROPUERTO',
+          ),
+          1 => 
+          array (
+            'name' => 'tiquete_c',
+            'label' => 'LBL_TIQUETE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tour_c',
+            'label' => 'LBL_TOUR',
+          ),
+          1 => '',
         ),
       ),
     ),
