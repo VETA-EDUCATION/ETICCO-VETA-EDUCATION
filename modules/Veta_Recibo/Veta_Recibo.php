@@ -149,7 +149,7 @@ class Veta_Recibo extends Basic
         if ( $this->is_gerente_contable() )
         {
             $this->set_consecutivo();
-            //$this->update_totals( false );
+            $this->update_totals( false );
 
             //if( $this->estado != 'Descartado' and $this->estado != 'Devolucion_Proceso' and $this->estado != 'Devolucion_Finalizado' and $this->estado != 'Nuevo' ) {
             if ( $this->estado == 'Nuevo' or $this->estado == 'Abono' or $this->estado == 'Pagado' )
@@ -573,7 +573,7 @@ $GLOBALS['log']-> error("Update totals moneda1".$monedaCollege);
             $this->subtotal    += ( $d->total_curso * 1 );
 	    $GLOBALS['log']-> error("En save".$this->subtotal); 
             $c = new Veta_College();
-            $c->retrieve( $d->veta_college_id1_c );
+            $c->retrieve( $d->veta_college_id_c );
             $monedaCollege = $c-> moneda_c;
         }
 $GLOBALS['log']-> error("Update totals moneda2".$monedaCollege); 
@@ -583,6 +583,9 @@ $GLOBALS['log']-> error("Update totals moneda2".$monedaCollege);
         $trm = new Veta_TRM();
         //$trm = $trm->get_trm();
 	$usd = $trm->get_trm($monedaCollege,"USD");
+	
+	$GLOBALS['log']-> error("dolares".$usd); 
+	
         $pesos = $trm->get_trm("USD","COP");
 
         $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 )+ ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 );
