@@ -2,19 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2021-09-02 13:15:25
-$dictionary["Veta_DetalleRecibo"]["fields"]["veta_detallereciboitem_veta_detallerecibo"] = array (
-  'name' => 'veta_detallereciboitem_veta_detallerecibo',
-  'type' => 'link',
-  'relationship' => 'veta_detallereciboitem_veta_detallerecibo',
-  'source' => 'non-db',
-  'module' => 'Veta_DetalleReciboItem',
-  'bean_name' => 'Veta_DetalleReciboItem',
-  'side' => 'right',
-  'vname' => 'LBL_VETA_DETALLERECIBOITEM_VETA_DETALLERECIBO_FROM_VETA_DETALLERECIBOITEM_TITLE',
-);
-
-
 // created: 2021-09-02 13:15:24
 $dictionary["Veta_DetalleRecibo"]["fields"]["veta_detallerecibo_veta_recibo"] = array (
   'name' => 'veta_detallerecibo_veta_recibo',
@@ -46,6 +33,19 @@ $dictionary["Veta_DetalleRecibo"]["fields"]["veta_detallerecibo_veta_reciboveta_
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_VETA_DETALLERECIBO_VETA_RECIBO_FROM_VETA_DETALLERECIBO_TITLE',
+);
+
+
+// created: 2021-09-02 13:15:25
+$dictionary["Veta_DetalleRecibo"]["fields"]["veta_detallereciboitem_veta_detallerecibo"] = array (
+  'name' => 'veta_detallereciboitem_veta_detallerecibo',
+  'type' => 'link',
+  'relationship' => 'veta_detallereciboitem_veta_detallerecibo',
+  'source' => 'non-db',
+  'module' => 'Veta_DetalleReciboItem',
+  'bean_name' => 'Veta_DetalleReciboItem',
+  'side' => 'right',
+  'vname' => 'LBL_VETA_DETALLERECIBOITEM_VETA_DETALLERECIBO_FROM_VETA_DETALLERECIBOITEM_TITLE',
 );
 
 ?>

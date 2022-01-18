@@ -3,6 +3,30 @@
 
 
  // created: 2021-09-02 13:15:25
+$layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_veta_recibo'] = array (
+  'order' => 100,
+  'module' => 'Veta_Recibo',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_REQUERIMIENTO_VETA_RECIBO_FROM_VETA_RECIBO_TITLE',
+  'get_subpanel_data' => 'veta_requerimiento_veta_recibo',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2021-09-02 13:15:25
 $layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_veta_presupuesto'] = array (
   'order' => 100,
   'module' => 'Veta_Presupuesto',
@@ -11,6 +35,30 @@ $layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_veta_pr
   'sort_by' => 'id',
   'title_key' => 'LBL_VETA_REQUERIMIENTO_VETA_PRESUPUESTO_FROM_VETA_PRESUPUESTO_TITLE',
   'get_subpanel_data' => 'veta_requerimiento_veta_presupuesto',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2021-08-02 14:43:50
+$layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_cases_1'] = array (
+  'order' => 100,
+  'module' => 'Cases',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_REQUERIMIENTO_CASES_1_FROM_CASES_TITLE',
+  'get_subpanel_data' => 'veta_requerimiento_cases_1',
   'top_buttons' => 
   array (
     0 => 
@@ -134,54 +182,6 @@ $layout_defs["Veta_Requerimiento"]["subpanel_setup"]['history'] = array (
     ),
   ),
   'get_subpanel_data' => 'history',
-);
-
-
- // created: 2021-08-02 14:43:50
-$layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_cases_1'] = array (
-  'order' => 100,
-  'module' => 'Cases',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_REQUERIMIENTO_CASES_1_FROM_CASES_TITLE',
-  'get_subpanel_data' => 'veta_requerimiento_cases_1',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
- // created: 2021-09-02 13:15:25
-$layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_veta_recibo'] = array (
-  'order' => 100,
-  'module' => 'Veta_Recibo',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_REQUERIMIENTO_VETA_RECIBO_FROM_VETA_RECIBO_TITLE',
-  'get_subpanel_data' => 'veta_requerimiento_veta_recibo',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
 );
 
 ?>

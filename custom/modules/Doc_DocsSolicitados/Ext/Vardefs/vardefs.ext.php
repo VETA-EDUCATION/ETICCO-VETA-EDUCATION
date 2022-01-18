@@ -3,19 +3,6 @@
 
 
 // created: 2021-08-07 18:53:01
-$dictionary["Doc_DocsSolicitados"]["fields"]["doc_docssolicitados_doc_documentos"] = array (
-  'name' => 'doc_docssolicitados_doc_documentos',
-  'type' => 'link',
-  'relationship' => 'doc_docssolicitados_doc_documentos',
-  'source' => 'non-db',
-  'module' => 'Doc_Documentos',
-  'bean_name' => 'Doc_Documentos',
-  'side' => 'right',
-  'vname' => 'LBL_DOC_DOCSSOLICITADOS_DOC_DOCUMENTOS_FROM_DOC_DOCUMENTOS_TITLE',
-);
-
-
-// created: 2021-08-07 18:53:01
 $dictionary["Doc_DocsSolicitados"]["fields"]["doc_docssolicitados_opportunities"] = array (
   'name' => 'doc_docssolicitados_opportunities',
   'type' => 'link',
@@ -46,6 +33,19 @@ $dictionary["Doc_DocsSolicitados"]["fields"]["doc_docssolicitados_opportunitieso
   'reportable' => false,
   'side' => 'right',
   'vname' => 'LBL_DOC_DOCSSOLICITADOS_OPPORTUNITIES_FROM_DOC_DOCSSOLICITADOS_TITLE',
+);
+
+
+// created: 2021-08-07 18:53:01
+$dictionary["Doc_DocsSolicitados"]["fields"]["doc_docssolicitados_doc_documentos"] = array (
+  'name' => 'doc_docssolicitados_doc_documentos',
+  'type' => 'link',
+  'relationship' => 'doc_docssolicitados_doc_documentos',
+  'source' => 'non-db',
+  'module' => 'Doc_Documentos',
+  'bean_name' => 'Doc_Documentos',
+  'side' => 'right',
+  'vname' => 'LBL_DOC_DOCSSOLICITADOS_DOC_DOCUMENTOS_FROM_DOC_DOCUMENTOS_TITLE',
 );
 
 ?>
