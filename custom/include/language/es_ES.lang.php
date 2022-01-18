@@ -1,6 +1,302 @@
-<?php$app_strings[ 'LBL_TABGROUP_MARKETING' ]                                = 'Admisiones';$app_strings[ 'LBL_TABGROUP_SUPPORT' ]                                  = 'Contabilidad';$app_strings[ 'LBL_TABGROUP_COLLABORATION' ]                            = 'Visas';$app_strings[ 'LBL_GROUPTAB5_1519001474' ]                              = 'Colaboracion';$app_strings[ 'LBL_GROUPTAB6_1519001474' ]                              = 'Mercadeo';$app_strings[ 'LBL_GROUPTAB6_1532376488' ]                              = 'Servicio al Cliente';$app_strings[ 'LBL_GROUPTAB5_1570639422' ]                              = 'Servicio al Cliente';$app_strings[ 'LBL_GROUPTAB6_1570639503' ]                              = 'Colaboración';$app_list_strings[ 'moduleList' ][ 'Veta_Recibo' ]                      = 'Cuentas de Cobro';$app_list_strings[ 'moduleListSingular' ][ 'Veta_Recibo' ]              = 'Cuenta de Cobro';$app_list_strings[ 'moduleList' ][ 'Opportunities' ]                    = 'Procesos de Venta';$app_list_strings[ 'moduleListSingular' ][ 'Opportunities' ]            = 'Proceso de Venta';$app_list_strings[ 'record_type_display' ][ 'Opportunities' ]           = 'Proceso de Venta';$app_list_strings[ 'parent_type_display' ][ 'Opportunities' ]           = 'Proceso de Venta';$app_list_strings[ 'record_type_display_notes' ][ 'Opportunities' ]     = 'Proceso de Venta';$app_list_strings[ 'moduleList' ][ 'Leads' ]                            = 'Prospectos';$app_list_strings[ 'moduleListSingular' ][ 'Leads' ]                    = 'Prospecto';$app_list_strings[ 'record_type_display' ][ 'Leads' ]                   = 'Prospecto';$app_list_strings[ 'parent_type_display' ][ 'Leads' ]                   = 'Prospecto';$app_list_strings[ 'record_type_display_notes' ][ 'Leads' ]             = 'Prospecto';$app_list_strings[ 'moduleList' ][ 'Contacts' ]                         = 'Estudiantes';$app_list_strings[ 'moduleListSingular' ][ 'Contacts' ]                 = 'Estudiante';$app_list_strings[ 'record_type_display' ][ 'Contacts' ]                = 'Estudiante';$app_list_strings[ 'parent_type_display' ][ 'Contacts' ]                = 'Estudiante';$app_list_strings[ 'record_type_display_notes' ][ 'Contacts' ]          = 'Estudiante';$app_list_strings[ 'parent_type_display' ][ 'Veta_Aplicacion' ]         = 'Aplicacion';$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Aplicacion' ]   = 'Aplicacion';$app_list_strings[ 'record_type_display' ][ 'Veta_Aplicacion' ]         = 'Aplicacion';$app_list_strings[ 'parent_type_display' ][ 'Veta_COE' ]                = 'COE';$app_list_strings[ 'record_type_display_notes' ][ 'Veta_COE' ]          = 'COE';$app_list_strings[ 'record_type_display' ][ 'Veta_COE' ]                = 'COE';$app_list_strings[ 'parent_type_display' ][ 'Veta_Liquidacion' ]        = 'Liquidacion';$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Liquidacion' ]  = 'Liquidacion';$app_list_strings[ 'record_type_display' ][ 'Veta_Liquidacion' ]        = 'Liquidacion';$app_list_strings[ 'parent_type_display' ][ 'Veta_Loo' ]                = 'Carta de Oferta';$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Loo' ]          = 'Carta de Oferta';$app_list_strings[ 'record_type_display' ][ 'Veta_Loo' ]                = 'Carta de Oferta';$app_list_strings[ 'parent_type_display' ][ 'Veta_PagoColegios' ]       = 'Pago a Colegios';$app_list_strings[ 'record_type_display_notes' ][ 'Veta_PagoColegios' ] = 'Pago a Colegios';$app_list_strings[ 'record_type_display' ][ 'Veta_PagoColegios' ]       = 'Pago a Colegios';$app_list_strings[ 'parent_type_display' ][ 'Veta_Visa' ]               = 'Visa';$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Visa' ]         = 'Visa';$app_list_strings[ 'record_type_display' ][ 'Veta_Visa' ]               = 'Visa';$GLOBALS[ 'app_list_strings' ][ 'tipo_identificacion_list' ] = array(    ''                   => '',    'Cedula'             => 'Cedula',    'Cedula_Extranjeria' => 'Cedula de Extranjeria',    'Pasaporte'          => 'Pasaporte',    'Tarjeta_Identidad'  => 'Tarjeta de Identidad',);$GLOBALS[ 'app_list_strings' ][ 'genero_list' ] = array(    'Hombre' => 'Hombre',    'Mujer'  => 'Mujer',);$GLOBALS[ 'app_list_strings' ][ 'estado_civil_list' ] = array(    ''            => '',    'Casado'      => 'Casado',    'Divorciado'  => 'Divorciado',    'Separado'    => 'Separado',    'Soltero'     => 'Soltero',    'Union_Libre' => 'Unión Libre',);$GLOBALS[ 'app_list_strings' ][ 'nivel_ingles_list' ] = array(    ''   => '',    'A1' => 'A1 - Basico',    'A2' => 'A2 - Basico',    'B1' => 'B1 - Independiente',    'B2' => 'B2 - Independiente',    'C1' => 'C1 - Competente',    'C2' => 'C2 - Competente',);$GLOBALS[ 'app_list_strings' ][ 'nivel_estudios_list' ] = array(    ''             => '',    'Bachillerato' => 'Bachillerato',    'Tecnico'      => 'Tecnico',    'Tecnologico'  => 'Tecnologico',    'Universidad'  => 'Universidad',    'Postgrado'    => 'Postgrado',);$GLOBALS[ 'app_list_strings' ][ 'procedencia_fondos_list' ] = array(    ''         => '',    'Abuelos'  => 'Abuelos',    'Empresa'  => 'Empresa',    'Hermanos' => 'Hermanos',    'Padres'   => 'Padres',    'Propios'  => 'Propios',    'Tios'     => 'Tios',);$GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list' ] = array(    'Nuevo'      => 'Nuevo',    'Devuelto'   => 'Devuelto',    'Pendiente'  => 'Pendiente',    'Listo'      => 'Listo',    'Verificada' => 'Verificada por Admisiones',    'Enviada'    => 'Enviada',);$GLOBALS[ 'app_list_strings' ][ 'tipo_curso_list' ] = array(    'Elicos' => 'Elicos',    'HE'     => 'HE',    'Vet'    => 'Vet',);$GLOBALS[ 'app_list_strings' ][ 'estado_loo_list' ] = array(    'Enviado'   => 'Enviado',    'Listo'     => 'Listo',    'Nuevo'     => 'Nuevo',    'Pendiente' => 'Pendiente',);$GLOBALS[ 'app_list_strings' ][ 'estado_notificacion_pago_colegios_list' ] = array(    'Nuevo'  => 'Nuevo',    'Pagado' => 'Pagado',);$GLOBALS[ 'app_list_strings' ][ 'sales_stage_dom' ] = array(    'Inicio'               => 'Inicio',    'Aplicacion'           => 'Aplicación',    'Liquidacion'          => 'Liquidación',    'LOO'                  => 'LOO - Carta de Oferta',    'Pagado'               => 'Pagado',    'COE'                  => 'COE',    'Preparacion_Embajada' => 'Preparación Embajada',    'Visa'                 => 'Visa',    'Entrega_Australia'    => 'Entrega Australia',    'Perdido'              => 'Perdido',);$GLOBALS[ 'app_list_strings' ][ 'estado_recoleccion_documento_list' ] = array(    'Completado'   => 'Completado',    'Pendiente'    => 'Pendiente',    'No_Requerido' => 'No Requerido',    'Solicitud_1'  => 'Solicitud 1',    'Solicitud_2'  => 'Solicitud 2',    'Solvencia'    => 'Solvencia',    'Visas'        => 'Visas',    'Largo_Plazo'  => 'Largo Plazo',    'SUFI'         => 'SUFI',);$GLOBALS[ 'app_list_strings' ][ 'lead_status_dom' ] = array(    ''            => '',    'Asignado'    => 'Asignado',    'Converted'   => 'Cerrado',    'Descartado'  => 'Descartado',    'Largo_Plazo' => 'Largo Plazo',    'Potencial'   => 'Potencial',    'Inmediato'   => 'Inmediato',);
-$GLOBALS[ 'app_list_strings' ][ 'estado_gestion_comercial_list' ] = array(    'Cotizacion'           => 'Cotización',    'Solicitud_Aplicacion' => 'Solicitud de Aplicación',    'Aplicacion_Pendiente' => 'Aplicación Pendiente',);
-$GLOBALS[ 'app_list_strings' ][ 'sales_stage_list' ] = array(    'Progreso'   => 'En Progreso',    'Descartado' => 'Descartado',    'Finalizado' => 'Finalizado',);$GLOBALS[ 'app_list_strings' ][ 'estado_pago_institucion_list' ] = array(    ''                           => '',    'Pago_Institucion'           => 'Pago a Institución',    'Aprobacion_Pago_Incorrecto' => 'Aprobación de Pago Incorrecto',    'Aprobacion_Pago'            => 'Aprobacion de Pago',    'Pagado'                     => 'Pagado',);$GLOBALS[ 'app_list_strings' ][ 'estado_admisiones_list' ] = array(    'Aplicacion'                        => 'Aplicacion',    'EPT_Solicitado'                    => 'EPT Solicitado',    'EPT_Enviado'                       => 'EPT Enviado',    'EPT_Recibido'                      => 'EPT Recibido',    'Solicitud_Aplicacion'              => 'Solicitud de Aplicación',    'Aplicacion_Pendiente'              => 'Aplicación Pendiente',    'Aplicacion_Enviada'                => 'Aplicación Enviada',    'Aplicacion_Descartada'             => 'Aplicación Descartada',    'Requerimiento_LOO'                 => 'Requerimiento para Carta de Oferta',    'Requerimiento_Listo'               => 'Requerimiento Listo',    'Requerimiento_Enviado'             => 'Requerimiento Enviado',    'Carta_Oferta_Recibida'             => 'Carta de Oferta Recibida',    'Carta_Oferta_Condicional'          => 'Carta de Oferta Recibida Condicional',    'Carta_Oferta_Enviada_Estudiante'   => 'Carta de Oferta Enviada al Estudiante',    'Carta_Oferta_Enviada_Guardada'     => 'Carta de Oferta Enviada Guardada',    'Solicitud_Correccion_Carta_Oferta' => 'Solicitud de Corrección Carta Oferta',    'Carta_Oferta_Firmada'              => 'Carta de Oferta Firmada',    'COE_Solicitado'                    => 'COE Solicitado',    'Requerimiento_COE'                 => 'Requerimiento para COE',    'Solicitud_Correccion_COE'          => 'Solicitud Correccion COE',    'COE_Recibido'                      => 'COE Recibido',    'COE_Guardado_Enviado'              => 'COE Guardado o Enviado',);$GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list_2' ] = array(    'Aplicacion'            => 'Aplicacion',    'EPT_Solicitado'        => 'EPT Solicitado',    'EPT_Enviado'           => 'EPT Enviado',    'EPT_Recibido'          => 'EPT Recibido',    'EPT_Descartado'        => 'EPT Descartado',    'Aplicacion_Pendiente'  => 'Aplicacion Pendiente',    'Aplicacion_Enviada'    => 'Aplicación Enviada',    'Aplicacion_Descartada' => 'Aplicacion Descartada',);$GLOBALS[ 'app_list_strings' ][ 'estado_loo_list_2' ]        = array(    'Requerimiento_LOO'                 => 'Requerimiento para Carta de Oferta',    'Requerimiento_Listo'               => 'Requerimiento Listo',    'Requerimiento_Enviado'             => 'Requerimiento Enviado',    'Carta_Oferta_Recibida'             => 'Carta de Oferta Recibida',    'Carta_Oferta_Condicional'          => 'Carta de Oferta Recibida Condicional',    'Carta_Oferta_Enviada_Estudiante'   => 'Carta de Oferta Enviada al Estudiante',    'Carta_Oferta_Enviada_Guardada'     => 'Carta de Oferta Enviada Guardada',    'Solicitud_Correccion_Carta_Oferta' => 'Solicitud Correccion Carta Oferta',    'Carta_Oferta_Firmada'              => 'Carta de Oferta Firmada',    'Descartada'                        => 'Descartada',);$GLOBALS[ 'app_list_strings' ][ 'estado_visa_list' ] = array(    'Pendiente_Luz_Verde'      => 'Pendiente Luz Verde',    'HAP_ID_Solicitar'         => 'HAP ID Solicitar',    'HAP_ID_Solicitado'        => 'HAP ID Solicitado',    'HAP_ID_Confirmado'        => 'HAP ID Confirmado',    'Aplicacion_Incompleta'    => 'Aplicación Incompleta',    'Visa_Falta_Documentos'    => 'Visa Falta Documentos',    'Visa_Aplicada'            => 'Visa Aplicada',    'Biometricos_Solicitar'    => 'Biometricos Solicitar',    'Biometricos_Solicitado'   => 'Biometricos Solicitado',    'Biometricos_Confirmado'   => 'Biometricos Confirmado',    'Requerimiento_1'          => 'Requerimiento 1',    'Requerimiento_2'          => 'Requerimiento 2',    'Requerimiento_Recibido'   => 'Requerimiento Recibido',    'Requerimiento_Contestado' => 'Requerimiento Contestado',    'Requerimiento_Enviado'    => 'Requerimiento Enviado',    'Requerimiento_Completo'   => 'Requerimiento Completo',    'Seguimiento'              => 'Seguimiento',    'Visa_Otorgada'            => 'Visa Otorgada',    'Visa_Negada'              => 'Visa Negada',    'Visa_Reaplicable'         => 'Visa Reaplicable',    'Descartada'               => 'Descartada',);$GLOBALS[ 'app_list_strings' ][ 'estado_pago_colegios_list' ] = array(    'Pago_Institucion'           => 'Pago a Institución',    'Aprobacion_Pago_Incorrecto' => 'Aprobación de Pago Incorrecto',    'Aprobacion_Pago'            => 'Aprobación de Pago',    'Pagado'                     => 'Pagado',    'Solicitar_COE'              => 'Solicitar COE',    'Descartada'                 => 'Descartada',);$GLOBALS[ 'app_list_strings' ][ 'lead_source_dom' ] = array(    ''                      => '',    'ClienGo'               => 'ClienGo',    'Event'                 => 'Event',    'Facebook'              => 'Facebook',    'Mercado_Institucional' => 'Mercado Institucional',    'Mercado_Natural'       => 'Mercado Natural',    'Pagina_Web'            => 'Pagina Web',    'Referido_Australia'    => 'Referido Australia',    'Referido_Colombia'     => 'Referido Colombia',    'Referido_Veta'         => 'Referido Veta',    'Seminarios'            => 'Seminarios',    'TypeForms'             => 'Type Forms',    'WhatsApp'              => 'WhatsApp',);$GLOBALS[ 'app_list_strings' ][ 'jornada_list' ]       = array(    'undefined' => '',    'Manana'    => 'Mañana',    'Tarde'     => 'Tarde',    'Noche'     => 'Noche',    'Weekend'   => 'Weekend',    'Weekday'   => 'Weekday',);$GLOBALS[ 'app_list_strings' ][ 'coe_estado_list' ]    = array(    'COE_Solicitado'            => 'COE Solicitado',    'Requerimiento_COE'         => 'Requerimiento para COE',    'Solicitud_Correccion_COE'  => 'Solicitud Corrección COE',    'COE_Recibido'              => 'COE Recibido',    'COE_Guardado_Enviado'      => 'COE Guardado o Enviado',    'Descartado'                => 'Descartado',    'COE_Requerimiento_Listo'   => 'Requerimiento Listo',    'COE_Requerimiento_Enviado' => 'Requerimiento Enviado',);$GLOBALS[ 'app_list_strings' ][ 'seguro_activo_list' ] = array(    'Si' => 'Si',    'No' => 'No',);
+<?php
+
+$app_strings[ 'LBL_TABGROUP_MARKETING' ]                                = 'Admisiones';
+$app_strings[ 'LBL_TABGROUP_SUPPORT' ]                                  = 'Contabilidad';
+$app_strings[ 'LBL_TABGROUP_COLLABORATION' ]                            = 'Visas';
+$app_strings[ 'LBL_GROUPTAB5_1519001474' ]                              = 'Colaboracion';
+$app_strings[ 'LBL_GROUPTAB6_1519001474' ]                              = 'Mercadeo';
+$app_strings[ 'LBL_GROUPTAB6_1532376488' ]                              = 'Servicio al Cliente';
+$app_strings[ 'LBL_GROUPTAB5_1570639422' ]                              = 'Servicio al Cliente';
+$app_strings[ 'LBL_GROUPTAB6_1570639503' ]                              = 'Colaboración';
+$app_list_strings[ 'moduleList' ][ 'Veta_Recibo' ]                      = 'Cuentas de Cobro';
+$app_list_strings[ 'moduleListSingular' ][ 'Veta_Recibo' ]              = 'Cuenta de Cobro';
+$app_list_strings[ 'moduleList' ][ 'Opportunities' ]                    = 'Procesos de Venta';
+$app_list_strings[ 'moduleListSingular' ][ 'Opportunities' ]            = 'Proceso de Venta';
+$app_list_strings[ 'record_type_display' ][ 'Opportunities' ]           = 'Proceso de Venta';
+$app_list_strings[ 'parent_type_display' ][ 'Opportunities' ]           = 'Proceso de Venta';
+$app_list_strings[ 'record_type_display_notes' ][ 'Opportunities' ]     = 'Proceso de Venta';
+$app_list_strings[ 'moduleList' ][ 'Leads' ]                            = 'Prospectos';
+$app_list_strings[ 'moduleListSingular' ][ 'Leads' ]                    = 'Prospecto';
+$app_list_strings[ 'record_type_display' ][ 'Leads' ]                   = 'Prospecto';
+$app_list_strings[ 'parent_type_display' ][ 'Leads' ]                   = 'Prospecto';
+$app_list_strings[ 'record_type_display_notes' ][ 'Leads' ]             = 'Prospecto';
+$app_list_strings[ 'moduleList' ][ 'Contacts' ]                         = 'Estudiantes';
+$app_list_strings[ 'moduleListSingular' ][ 'Contacts' ]                 = 'Estudiante';
+$app_list_strings[ 'record_type_display' ][ 'Contacts' ]                = 'Estudiante';
+$app_list_strings[ 'parent_type_display' ][ 'Contacts' ]                = 'Estudiante';
+$app_list_strings[ 'record_type_display_notes' ][ 'Contacts' ]          = 'Estudiante';
+$app_list_strings[ 'parent_type_display' ][ 'Veta_Aplicacion' ]         = 'Aplicacion';
+$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Aplicacion' ]   = 'Aplicacion';
+$app_list_strings[ 'record_type_display' ][ 'Veta_Aplicacion' ]         = 'Aplicacion';
+$app_list_strings[ 'parent_type_display' ][ 'Veta_COE' ]                = 'COE';
+$app_list_strings[ 'record_type_display_notes' ][ 'Veta_COE' ]          = 'COE';
+$app_list_strings[ 'record_type_display' ][ 'Veta_COE' ]                = 'COE';
+$app_list_strings[ 'parent_type_display' ][ 'Veta_Liquidacion' ]        = 'Liquidacion';
+$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Liquidacion' ]  = 'Liquidacion';
+$app_list_strings[ 'record_type_display' ][ 'Veta_Liquidacion' ]        = 'Liquidacion';
+$app_list_strings[ 'parent_type_display' ][ 'Veta_Loo' ]                = 'Carta de Oferta';
+$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Loo' ]          = 'Carta de Oferta';
+$app_list_strings[ 'record_type_display' ][ 'Veta_Loo' ]                = 'Carta de Oferta';
+$app_list_strings[ 'parent_type_display' ][ 'Veta_PagoColegios' ]       = 'Pago a Colegios';
+$app_list_strings[ 'record_type_display_notes' ][ 'Veta_PagoColegios' ] = 'Pago a Colegios';
+$app_list_strings[ 'record_type_display' ][ 'Veta_PagoColegios' ]       = 'Pago a Colegios';
+$app_list_strings[ 'parent_type_display' ][ 'Veta_Visa' ]               = 'Visa';
+$app_list_strings[ 'record_type_display_notes' ][ 'Veta_Visa' ]         = 'Visa';
+$app_list_strings[ 'record_type_display' ][ 'Veta_Visa' ]               = 'Visa';
+
+$GLOBALS[ 'app_list_strings' ][ 'tipo_identificacion_list' ] = array(
+    ''                   => '',
+    'Cedula'             => 'Cedula',
+    'Cedula_Extranjeria' => 'Cedula de Extranjeria',
+    'Pasaporte'          => 'Pasaporte',
+    'Tarjeta_Identidad'  => 'Tarjeta de Identidad',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'genero_list' ] = array(
+    'Hombre' => 'Hombre',
+    'Mujer'  => 'Mujer',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_civil_list' ] = array(
+    ''            => '',
+    'Casado'      => 'Casado',
+    'Divorciado'  => 'Divorciado',
+    'Separado'    => 'Separado',
+    'Soltero'     => 'Soltero',
+    'Union_Libre' => 'Unión Libre',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'nivel_ingles_list' ] = array(
+    ''   => '',
+    'A1' => 'A1 - Basico',
+    'A2' => 'A2 - Basico',
+    'B1' => 'B1 - Independiente',
+    'B2' => 'B2 - Independiente',
+    'C1' => 'C1 - Competente',
+    'C2' => 'C2 - Competente',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'nivel_estudios_list' ] = array(
+    ''             => '',
+    'Bachillerato' => 'Bachillerato',
+    'Tecnico'      => 'Tecnico',
+    'Tecnologico'  => 'Tecnologico',
+    'Universidad'  => 'Universidad',
+    'Postgrado'    => 'Postgrado',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'procedencia_fondos_list' ] = array(
+    ''         => '',
+    'Abuelos'  => 'Abuelos',
+    'Empresa'  => 'Empresa',
+    'Hermanos' => 'Hermanos',
+    'Padres'   => 'Padres',
+    'Propios'  => 'Propios',
+    'Tios'     => 'Tios',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list' ] = array(
+    'Nuevo'      => 'Nuevo',
+    'Devuelto'   => 'Devuelto',
+    'Pendiente'  => 'Pendiente',
+    'Listo'      => 'Listo',
+    'Verificada' => 'Verificada por Admisiones',
+    'Enviada'    => 'Enviada',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'tipo_curso_list' ] = array(
+    'Elicos' => 'Elicos',
+    'HE'     => 'HE',
+    'Vet'    => 'Vet',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_loo_list' ] = array(
+    'Enviado'   => 'Enviado',
+    'Listo'     => 'Listo',
+    'Nuevo'     => 'Nuevo',
+    'Pendiente' => 'Pendiente',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_notificacion_pago_colegios_list' ] = array(
+    'Nuevo'  => 'Nuevo',
+    'Pagado' => 'Pagado',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'sales_stage_dom' ] = array(
+    'Inicio'               => 'Inicio',
+    'Aplicacion'           => 'Aplicación',
+    'Liquidacion'          => 'Liquidación',
+    'LOO'                  => 'LOO - Carta de Oferta',
+    'Pagado'               => 'Pagado',
+    'COE'                  => 'COE',
+    'Preparacion_Embajada' => 'Preparación Embajada',
+    'Visa'                 => 'Visa',
+    'Entrega_Australia'    => 'Entrega Australia',
+    'Perdido'              => 'Perdido',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_recoleccion_documento_list' ] = array(
+    'Completado'   => 'Completado',
+    'Pendiente'    => 'Pendiente',
+    'No_Requerido' => 'No Requerido',
+    'Solicitud_1'  => 'Solicitud 1',
+    'Solicitud_2'  => 'Solicitud 2',
+    'Solvencia'    => 'Solvencia',
+    'Visas'        => 'Visas',
+    'Largo_Plazo'  => 'Largo Plazo',
+    'SUFI'         => 'SUFI',
+);
+
+
+$GLOBALS[ 'app_list_strings' ][ 'lead_status_dom' ] = array(
+    ''            => '',
+    'Asignado'    => 'Asignado',
+    'Converted'   => 'Cerrado',
+    'Descartado'  => 'Descartado',
+    'Largo_Plazo' => 'Largo Plazo',
+    'Potencial'   => 'Potencial',
+    'Inmediato'   => 'Inmediato',
+);
+$GLOBALS[ 'app_list_strings' ][ 'estado_gestion_comercial_list' ] = array(
+    'Cotizacion'           => 'Cotización',
+    'Solicitud_Aplicacion' => 'Solicitud de Aplicación',
+    'Aplicacion_Pendiente' => 'Aplicación Pendiente',
+);
+$GLOBALS[ 'app_list_strings' ][ 'sales_stage_list' ] = array(
+    'Progreso'   => 'En Progreso',
+    'Descartado' => 'Descartado',
+    'Finalizado' => 'Finalizado',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_pago_institucion_list' ] = array(
+    ''                           => '',
+    'Pago_Institucion'           => 'Pago a Institución',
+    'Aprobacion_Pago_Incorrecto' => 'Aprobación de Pago Incorrecto',
+    'Aprobacion_Pago'            => 'Aprobacion de Pago',
+    'Pagado'                     => 'Pagado',
+);
+
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_admisiones_list' ] = array(
+    'Aplicacion'                        => 'Aplicacion',
+    'EPT_Solicitado'                    => 'EPT Solicitado',
+    'EPT_Enviado'                       => 'EPT Enviado',
+    'EPT_Recibido'                      => 'EPT Recibido',
+    'Solicitud_Aplicacion'              => 'Solicitud de Aplicación',
+    'Aplicacion_Pendiente'              => 'Aplicación Pendiente',
+    'Aplicacion_Enviada'                => 'Aplicación Enviada',
+    'Aplicacion_Descartada'             => 'Aplicación Descartada',
+    'Requerimiento_LOO'                 => 'Requerimiento para Carta de Oferta',
+    'Requerimiento_Listo'               => 'Requerimiento Listo',
+    'Requerimiento_Enviado'             => 'Requerimiento Enviado',
+    'Carta_Oferta_Recibida'             => 'Carta de Oferta Recibida',
+    'Carta_Oferta_Condicional'          => 'Carta de Oferta Recibida Condicional',
+    'Carta_Oferta_Enviada_Estudiante'   => 'Carta de Oferta Enviada al Estudiante',
+    'Carta_Oferta_Enviada_Guardada'     => 'Carta de Oferta Enviada Guardada',
+    'Solicitud_Correccion_Carta_Oferta' => 'Solicitud de Corrección Carta Oferta',
+    'Carta_Oferta_Firmada'              => 'Carta de Oferta Firmada',
+    'COE_Solicitado'                    => 'COE Solicitado',
+    'Requerimiento_COE'                 => 'Requerimiento para COE',
+    'Solicitud_Correccion_COE'          => 'Solicitud Correccion COE',
+    'COE_Recibido'                      => 'COE Recibido',
+    'COE_Guardado_Enviado'              => 'COE Guardado o Enviado',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list_2' ] = array(
+    'Aplicacion'            => 'Aplicacion',
+    'EPT_Solicitado'        => 'EPT Solicitado',
+    'EPT_Enviado'           => 'EPT Enviado',
+    'EPT_Recibido'          => 'EPT Recibido',
+    'EPT_Descartado'        => 'EPT Descartado',
+    'Aplicacion_Pendiente'  => 'Aplicacion Pendiente',
+    'Aplicacion_Enviada'    => 'Aplicación Enviada',
+    'Aplicacion_Descartada' => 'Aplicacion Descartada',
+);
+$GLOBALS[ 'app_list_strings' ][ 'estado_loo_list_2' ]        = array(
+    'Requerimiento_LOO'                 => 'Requerimiento para Carta de Oferta',
+    'Requerimiento_Listo'               => 'Requerimiento Listo',
+    'Requerimiento_Enviado'             => 'Requerimiento Enviado',
+    'Carta_Oferta_Recibida'             => 'Carta de Oferta Recibida',
+    'Carta_Oferta_Condicional'          => 'Carta de Oferta Recibida Condicional',
+    'Carta_Oferta_Enviada_Estudiante'   => 'Carta de Oferta Enviada al Estudiante',
+    'Carta_Oferta_Enviada_Guardada'     => 'Carta de Oferta Enviada Guardada',
+    'Solicitud_Correccion_Carta_Oferta' => 'Solicitud Correccion Carta Oferta',
+    'Carta_Oferta_Firmada'              => 'Carta de Oferta Firmada',
+    'Descartada'                        => 'Descartada',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_visa_list' ] = array(
+    'Pendiente_Luz_Verde'      => 'Pendiente Luz Verde',
+    'HAP_ID_Solicitar'         => 'HAP ID Solicitar',
+    'HAP_ID_Solicitado'        => 'HAP ID Solicitado',
+    'HAP_ID_Confirmado'        => 'HAP ID Confirmado',
+    'Aplicacion_Incompleta'    => 'Aplicación Incompleta',
+    'Visa_Falta_Documentos'    => 'Visa Falta Documentos',
+    'Visa_Aplicada'            => 'Visa Aplicada',
+    'Biometricos_Solicitar'    => 'Biometricos Solicitar',
+    'Biometricos_Solicitado'   => 'Biometricos Solicitado',
+    'Biometricos_Confirmado'   => 'Biometricos Confirmado',
+    'Requerimiento_1'          => 'Requerimiento 1',
+    'Requerimiento_2'          => 'Requerimiento 2',
+    'Requerimiento_Recibido'   => 'Requerimiento Recibido',
+    'Requerimiento_Contestado' => 'Requerimiento Contestado',
+    'Requerimiento_Enviado'    => 'Requerimiento Enviado',
+    'Requerimiento_Completo'   => 'Requerimiento Completo',
+    'Seguimiento'              => 'Seguimiento',
+    'Visa_Otorgada'            => 'Visa Otorgada',
+    'Visa_Negada'              => 'Visa Negada',
+    'Visa_Reaplicable'         => 'Visa Reaplicable',
+    'Descartada'               => 'Descartada',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'estado_pago_colegios_list' ] = array(
+    'Pago_Institucion'           => 'Pago a Institución',
+    'Aprobacion_Pago_Incorrecto' => 'Aprobación de Pago Incorrecto',
+    'Aprobacion_Pago'            => 'Aprobación de Pago',
+    'Pagado'                     => 'Pagado',
+    'Solicitar_COE'              => 'Solicitar COE',
+    'Descartada'                 => 'Descartada',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'lead_source_dom' ] = array(
+    ''                      => '',
+    'ClienGo'               => 'ClienGo',
+    'Event'                 => 'Event',
+    'Facebook'              => 'Facebook',
+    'Mercado_Institucional' => 'Mercado Institucional',
+    'Mercado_Natural'       => 'Mercado Natural',
+    'Pagina_Web'            => 'Pagina Web',
+    'Referido_Australia'    => 'Referido Australia',
+    'Referido_Colombia'     => 'Referido Colombia',
+    'Referido_Veta'         => 'Referido Veta',
+    'Seminarios'            => 'Seminarios',
+    'TypeForms'             => 'Type Forms',
+    'WhatsApp'              => 'WhatsApp',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'jornada_list' ]       = array(
+    'undefined' => '',
+    'Manana'    => 'Mañana',
+    'Tarde'     => 'Tarde',
+    'Noche'     => 'Noche',
+    'Weekend'   => 'Weekend',
+    'Weekday'   => 'Weekday',
+);
+
+$GLOBALS[ 'app_list_strings' ][ 'coe_estado_list' ]    = array(
+    'COE_Solicitado'            => 'COE Solicitado',
+    'Requerimiento_COE'         => 'Requerimiento para COE',
+    'Solicitud_Correccion_COE'  => 'Solicitud Corrección COE',
+    'COE_Recibido'              => 'COE Recibido',
+    'COE_Guardado_Enviado'      => 'COE Guardado o Enviado',
+    'Descartado'                => 'Descartado',
+    'COE_Requerimiento_Listo'   => 'Requerimiento Listo',
+    'COE_Requerimiento_Enviado' => 'Requerimiento Enviado',
+);
+$GLOBALS[ 'app_list_strings' ][ 'seguro_activo_list' ] = array(
+    'Si' => 'Si',
+    'No' => 'No',
+);
 $GLOBALS['app_list_strings']['estado_requerimiento_list']=array (
   'Asignado' => 'Asignado',
   'Inmediato' => 'Inmediato',
@@ -147,6 +443,7 @@ $GLOBALS['app_list_strings']['departamentos_list']=array (
 $GLOBALS['app_list_strings']['ciudades_list']=array (
   'Colombia_Casanare_Yopal' => 'Yopal',
   'Australia_NGDS_Wollongong' => 'Wollongong',
+  'Australia_NGDS_Byron_Bay' => 'Byron_Bay',
   'New_Zealand_New_Zealand_Wellington' => 'Wellington',
   'Colombia_Meta_Villavicencio' => 'Villavicencio',
   'Canada_Canada_Vancouver' => 'Vancouver',
