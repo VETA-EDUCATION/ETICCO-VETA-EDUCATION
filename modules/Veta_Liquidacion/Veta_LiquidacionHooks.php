@@ -151,7 +151,8 @@ class Veta_LiquidacionHooks
                     leads_cstm.ciudad_c AS CIUDAD,     
                     leads_cstm.fecha_expiracion_visa_c AS FECHAEXPIRACIONVISA,
                     leads.date_modified AS FECHAMODIFICACION,
-                    leads_cstm.visa_c AS VISA
+                    leads_cstm.visa_c AS VISA,
+                    leads_cstm.ciudad_tmp_c AS CIUDADTMP
                     FROM veta_liquidacion
                     INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 AND veta_liquidacion.id = '" . $focus->id . "' AND veta_liquidacion.deleted = 0
                     INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
@@ -173,11 +174,13 @@ class Veta_LiquidacionHooks
 
         if ( $row != null ) {
 
-           if ( ! empty( $row[ 'FECHAEXPIRACIONVISA' ] ) )
-           {
-               $aux                               = date_create( $row[ 'FECHAEXPIRACIONVISA' ] );
-               $focus->soel_fecha_expiracion_visa = date_format( $aux, $dateformat );
-           }
+            if ( ! empty( $row[ 'FECHAEXPIRACIONVISA' ] ) )
+            {
+                $aux                               = date_create( $row[ 'FECHAEXPIRACIONVISA' ] );
+                $focus->soel_fecha_expiracion_visa = date_format( $aux, $dateformat );
+            }
+
+            $focus->soel_ciudad_tmp = $row['CIUDADTMP'];
         }
 
         return $focus;

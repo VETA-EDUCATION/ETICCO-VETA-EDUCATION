@@ -2,6 +2,30 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2021-09-02 13:15:24
+$layout_defs["Veta_COE"]["subpanel_setup"]['veta_coe_cases'] = array (
+  'order' => 100,
+  'module' => 'Cases',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_COE_CASES_FROM_CASES_TITLE',
+  'get_subpanel_data' => 'veta_coe_cases',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2021-09-02 13:15:23
 $layout_defs["Veta_COE"]["subpanel_setup"]['veta_correccioncoe_veta_coe'] = array (
   'order' => 100,
@@ -134,30 +158,6 @@ $layout_defs["Veta_COE"]["subpanel_setup"]['history'] = array (
     ),
   ),
   'get_subpanel_data' => 'history',
-);
-
-
- // created: 2021-09-02 13:15:24
-$layout_defs["Veta_COE"]["subpanel_setup"]['veta_coe_cases'] = array (
-  'order' => 100,
-  'module' => 'Cases',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_COE_CASES_FROM_CASES_TITLE',
-  'get_subpanel_data' => 'veta_coe_cases',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
 );
 
 ?>

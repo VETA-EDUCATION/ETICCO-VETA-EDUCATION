@@ -63,4 +63,5 @@ $mod_strings = array (
   'LBL_SOEL_ASIGNADO_SERVICIO_CLIENTE' => 'Asignado Servicio al Cliente',
   'LBL_SOEL_ASIGNADO_VISAS' => 'Asignado Visas',
   'LBL_LIMITE_LUZ_VERDE' => 'Limite Luz Verde',
+  'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
 );

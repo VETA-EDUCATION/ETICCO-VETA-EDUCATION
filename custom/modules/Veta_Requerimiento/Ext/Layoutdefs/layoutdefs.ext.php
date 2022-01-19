@@ -2,30 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2021-09-02 13:15:25
-$layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_veta_presupuesto'] = array (
-  'order' => 100,
-  'module' => 'Veta_Presupuesto',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_REQUERIMIENTO_VETA_PRESUPUESTO_FROM_VETA_PRESUPUESTO_TITLE',
-  'get_subpanel_data' => 'veta_requerimiento_veta_presupuesto',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
  // created: 2021-05-04 17:11:24
 $layout_defs["Veta_Requerimiento"]["subpanel_setup"]['activities'] = array (
   'order' => 10,
@@ -146,6 +122,30 @@ $layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_cases_1
   'sort_by' => 'id',
   'title_key' => 'LBL_VETA_REQUERIMIENTO_CASES_1_FROM_CASES_TITLE',
   'get_subpanel_data' => 'veta_requerimiento_cases_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2021-09-02 13:15:25
+$layout_defs["Veta_Requerimiento"]["subpanel_setup"]['veta_requerimiento_veta_presupuesto'] = array (
+  'order' => 100,
+  'module' => 'Veta_Presupuesto',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_REQUERIMIENTO_VETA_PRESUPUESTO_FROM_VETA_PRESUPUESTO_TITLE',
+  'get_subpanel_data' => 'veta_requerimiento_veta_presupuesto',
   'top_buttons' => 
   array (
     0 => 

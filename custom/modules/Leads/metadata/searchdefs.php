@@ -122,6 +122,14 @@ array (
         'width' => '10%',
         'name' => 'ciudad_c',
       ),
+      'ciudad_tmp_c' =>
+          array (
+                'type' => 'varchar',
+                'default' => true,
+                'label' => 'LBL_CIUDAD_TMP',
+                'width' => '10%',
+                'name' => 'ciudad_tmp_c',
+      ),
       'soel_oficina_comercial' => 
       array (
         'type' => 'varchar',

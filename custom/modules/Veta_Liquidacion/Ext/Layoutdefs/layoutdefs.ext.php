@@ -2,78 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2021-09-02 13:15:24
-$layout_defs["Veta_Liquidacion"]["subpanel_setup"]['veta_coe_veta_liquidacion'] = array (
-  'order' => 100,
-  'module' => 'Veta_COE',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_COE_VETA_LIQUIDACION_FROM_VETA_COE_TITLE',
-  'get_subpanel_data' => 'veta_coe_veta_liquidacion',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
- // created: 2021-09-02 13:15:21
-$layout_defs["Veta_Liquidacion"]["subpanel_setup"]['veta_liquidacion_cases'] = array (
-  'order' => 100,
-  'module' => 'Cases',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_LIQUIDACION_CASES_FROM_CASES_TITLE',
-  'get_subpanel_data' => 'veta_liquidacion_cases',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
- // created: 2021-09-02 13:15:23
-$layout_defs["Veta_Liquidacion"]["subpanel_setup"]['veta_pagos_veta_liquidacion'] = array (
-  'order' => 100,
-  'module' => 'Veta_Pagos',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_PAGOS_VETA_LIQUIDACION_FROM_VETA_PAGOS_TITLE',
-  'get_subpanel_data' => 'veta_pagos_veta_liquidacion',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
  // created: 2021-09-02 13:15:21
 $layout_defs["Veta_Liquidacion"]["subpanel_setup"]['activities'] = array (
   'order' => 10,
@@ -182,6 +110,78 @@ $layout_defs["Veta_Liquidacion"]["subpanel_setup"]['history'] = array (
     ),
   ),
   'get_subpanel_data' => 'history',
+);
+
+
+ // created: 2021-09-02 13:15:21
+$layout_defs["Veta_Liquidacion"]["subpanel_setup"]['veta_liquidacion_cases'] = array (
+  'order' => 100,
+  'module' => 'Cases',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_LIQUIDACION_CASES_FROM_CASES_TITLE',
+  'get_subpanel_data' => 'veta_liquidacion_cases',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2021-09-02 13:15:24
+$layout_defs["Veta_Liquidacion"]["subpanel_setup"]['veta_coe_veta_liquidacion'] = array (
+  'order' => 100,
+  'module' => 'Veta_COE',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_COE_VETA_LIQUIDACION_FROM_VETA_COE_TITLE',
+  'get_subpanel_data' => 'veta_coe_veta_liquidacion',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2021-09-02 13:15:23
+$layout_defs["Veta_Liquidacion"]["subpanel_setup"]['veta_pagos_veta_liquidacion'] = array (
+  'order' => 100,
+  'module' => 'Veta_Pagos',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_PAGOS_VETA_LIQUIDACION_FROM_VETA_PAGOS_TITLE',
+  'get_subpanel_data' => 'veta_pagos_veta_liquidacion',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
 );
 
 ?>

@@ -148,7 +148,8 @@ class Veta_AplicacionHooks
                     leads_cstm.ciudad_c                                  									AS CIUDAD,
                     leads_cstm.fecha_expiracion_visa_c                   									AS FECHAEXPIRACIONVISA,
                     leads.date_modified                                  									AS FECHAMODIFICACION,
-                    leads_cstm.visa_c                                    									AS VISA                    
+                    leads_cstm.visa_c                                    									AS VISA,
+                    leads_cstm.ciudad_tmp_c                                                                 AS CIUDADTMP 
                 FROM veta_aplicacion
                     INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0
                     INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND veta_recibo_opportunities_c.deleted = 0
@@ -164,6 +165,9 @@ class Veta_AplicacionHooks
         $row = $focus->db->fetchByAssoc($result);
 
         if ($row != null) {
+
+            $focus->soel_ciudad_tmp = $row['CIUDADTMP'];
+
             if (!empty($row['FECHAEXPIRACIONVISA'])) {
                 $aux = date_create($row['FECHAEXPIRACIONVISA']);
                 $focus->soel_fecha_expiracion_visa = date_format($aux, $dateformat);
