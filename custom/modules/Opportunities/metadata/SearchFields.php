@@ -724,5 +724,30 @@ $searchFields['Opportunities'] = array(
             'enable_range_search' => true,
             'is_date_field' => true,
         ),
+    'soel_ciudad_tmp' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => 'SELECT id FROM 
+            (
+            SELECT
+            venta.id,
+            prospecto_cstm.ciudad_tmp_c
+            FROM opportunities venta 
+            LEFT JOIN contacts_opportunities_1_c ON contacts_opportunities_1_c.contacts_opportunities_1opportunities_idb = venta.id AND contacts_opportunities_1_c.deleted = 0
+            LEFT JOIN contacts estudiante ON estudiante.id = contacts_opportunities_1_c.contacts_opportunities_1contacts_ida 
+            LEFT JOIN contacts_cstm estudiante_cstm ON estudiante_cstm.id_c = estudiante.id
+            LEFT JOIN leads_opportunities_1_c ON leads_opportunities_1_c.leads_opportunities_1opportunities_idb = venta.id AND leads_opportunities_1_c.deleted = 0
+            LEFT JOIN leads prospecto ON prospecto.id = leads_opportunities_1_c.leads_opportunities_1leads_ida 
+            LEFT JOIN leads_cstm prospecto_cstm ON prospecto_cstm.id_c = prospecto.id
+            LEFT JOIN leads convertido ON convertido.contact_id = estudiante.id
+            LEFT JOIN leads_cstm convertido_cstm on convertido_cstm.id_c = convertido.id
+            WHERE venta.deleted = 0) AS t 
+            WHERE  ciudad_tmp_c =  \'{0}\'',
+            'db_field' =>
+                array(
+                    0 => 'id',
+                ),
+        ),
 
 );

@@ -261,13 +261,12 @@ $queryCampus = "select vc.campus as CAMPUS from veta_curso vc
 
     private function asignar_info_person( &$bean )
     {
-
         $person = $this->get_persona( $bean );
 
         if ( isset( $person ) )
         {
-
             $bean->soel_fecha_expiracion_visa = $person->fecha_expiracion_visa_c;
+            $bean->soel_ciudad_tmp = $person->ciudad_tmp_c;
         }
 
         return $bean;

@@ -299,6 +299,17 @@ $searchdefs [$module_name] =
                                     'name' => 'getEstadosCOE'
                                 ),
                             ),
+                        //region soel_ciudad_tmp
+                        'soel_ciudad_tmp'                     =>
+                            array(
+                                'type'     => 'varchar',
+                                'default'  => true,
+                                'label'    => 'LBL_SOEL_CIUDAD_TMP',
+                                'width'    => '10%',
+                                'name'     => 'soel_ciudad_tmp',
+                                'sortable' => false,
+                            ),
+                        //endregion
                     ),
             ),
         'templateMeta' =>

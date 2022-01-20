@@ -274,5 +274,13 @@ $listViewDefs [$module_name] =
                 'default' => false,
                 'sortable' => false,
             ),
+        'SOEL_CIUDAD_TMP' =>
+            array(
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_CIUDAD_TMP',
+                'width' => '10%',
+                'default' => false,
+                'sortable' => false,
+            ),
     );
 ?>

@@ -154,6 +154,19 @@ $searchFields[ $module_name ] = array(
     ),
     //endregion
 
+    //region soel_ciudad_tmp
+    'soel_ciudad_tmp'                               => array(
+        'query_type' => 'format',
+        'operator'   => 'subquery',
+        'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
+                            INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
+                            INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
+                            INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id
+                         WHERE leads.deleted = 0 AND TRIM(leads_cstm.ciudad_tmp_c) IN  (\'{0}\')',
+        'db_field'   => array( 0 => 'id', ),
+    ),
+    //endregion
+
     //region soel_visa_lead
     'soel_visa_lead'                                 => array(
         'query_type' => 'format',

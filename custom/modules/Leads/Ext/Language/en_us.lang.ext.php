@@ -13,6 +13,13 @@ $mod_strings['LBL_VETA_SERVICIOSADICIONALES_LEADS_FROM_VETA_SERVICIOSADICIONALES
 $mod_strings['LBL_VETA_SOLVENCIAECONOMICA_LEADS_FROM_VETA_SOLVENCIAECONOMICA_TITLE'] = 'Solvencia Economica';
 $mod_strings['LBL_VETA_PRESUPUESTO_LEADS_FROM_VETA_PRESUPUESTO_TITLE'] = 'Presupuestos';
 
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_LEADS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE'] = 'Procesos de Venta';
+$mod_strings['LBL_LEADS_CASES_1_FROM_CASES_TITLE'] = 'Casos';
+
+
+$mod_strings['LBL_SOEL_AUDITORIA'] = 'Ver Observaciones';
  
  // created: 2019-10-09 12:27:58
 $mod_strings['LNK_NEW_LEAD'] = 'New Lead';
@@ -66,13 +73,6 @@ $mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
 $mod_strings['LBL_FECHA_EXPIRACION_VISA'] = 'Date Expiration Date';
 
 
-
-
-$mod_strings['LBL_SOEL_AUDITORIA'] = 'Ver Observaciones';
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_LEADS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE'] = 'Procesos de Venta';
-$mod_strings['LBL_LEADS_CASES_1_FROM_CASES_TITLE'] = 'Casos';
 
 
 $mod_strings['LBL_SOEL_AUDITORIA'] = 'Ver Observaciones';

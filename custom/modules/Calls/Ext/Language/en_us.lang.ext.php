@@ -14,8 +14,6 @@ $mod_strings['LBL_VETA_VISA_ACTIVITIES_CALLS_FROM_VETA_VISA_TITLE'] = 'Actividad
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
 $mod_strings['LBL_VETA_REQUERIMIENTO_ACTIVITIES_1_CALLS_FROM_VETA_REQUERIMIENTO_TITLE'] = 'Actividades:Requerimiento';
 
-
-$mod_strings['LBL_VIEW_ON_CAL_BUTTON'] = 'View on Calendar';
  
  // created: 2019-10-10 12:39:23
 $mod_strings['LBL_CONTACT_NAME'] = 'Contact:';
@@ -32,4 +30,6 @@ $mod_strings['LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_CALLS_FROM_VETA_PAGOCOLEGIOS_TITL
 
 
 
+
+$mod_strings['LBL_VIEW_ON_CAL_BUTTON'] = 'View on Calendar';
 ?>

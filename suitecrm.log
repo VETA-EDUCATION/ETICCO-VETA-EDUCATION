@@ -22912,3 +22912,538 @@ Tue Jan 18 09:38:37 2022 [34456][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Wa
 Tue Jan 18 09:38:37 2022 [34456][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
 Tue Jan 18 09:38:37 2022 [34456][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
 Tue Jan 18 09:38:37 2022 [34456][9f6add7e-079c-5bf4-e85e-5f2db6e25842][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:49:44 2022 [17274][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules/Employees cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules/Users cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules/UserPreferences cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/modules/Administration cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] Cannot create directory cache/themes/SuiteP cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be touched
+Wed Jan 19 10:49:44 2022 [17274][-none-][ERROR] File cache/themes/SuiteP/pathCache.php cannot be written to
+Wed Jan 19 10:50:44 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:50:48 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:50:48 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:50:51 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:00 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:00 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:01 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:01 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:03 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:08 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:08 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:10 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 10:51:10 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:51:10 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 10:51:10 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:51:10 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 10:51:10 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:51:11 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:11 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 10:51:11 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:51:11 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 10:51:11 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:51:12 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 10:51:12 2022 [17602][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 10:51:12 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:34 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:34 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:34 2022 [17604][1][FATAL] Mysqli_query failed.
+Wed Jan 19 10:51:34 2022 [17604][1][FATAL]  Query Failed:  SELECT  veta_aplicacion.id , veta_aplicacion.contact_id_c , veta_aplicacion.lead_id_c , veta_aplicacion.assigned_user_id , veta_aplicacion.name , LTRIM(RTRIM(CONCAT(IFNULL(jt0.first_name,''),' ',IFNULL(jt0.last_name,'')))) estudiante , LTRIM(RTRIM(CONCAT(IFNULL(jt1.first_name,''),' ',IFNULL(jt1.last_name,'')))) prospecto , veta_aplicacion.campus , veta_aplicacion.curso , veta_aplicacion.duracion , veta_aplicacion.intensidad , veta_aplicacion.jornada , veta_aplicacion.tipo_curso , veta_aplicacion.ciudad , veta_aplicacion.estado_aplicacion  , jt2.name veta_aplicacion_opportunities_name, jtl2.veta_aplicacion_opportunitiesopportunities_ida veta_aplicacion_opportunitiesopportunities_ida, veta_aplicacion.fecha_inicio , veta_aplicacion.fecha_recepcion_1 , veta_aplicacion.fecha_recepcion_2 , veta_aplicacion.fecha_envio , veta_aplicacion.fecha_admisiones  , jt3.user_name assigned_user_name , jt3.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_aplicacion.created_by  FROM veta_aplicacion  LEFT JOIN veta_aplicacion_cstm ON veta_aplicacion.id = veta_aplicacion_cstm.id_c  LEFT JOIN contacts jt0 ON veta_aplicacion.contact_id_c = jt0.id AND jt0.deleted=0  LEFT JOIN leads jt1 ON veta_aplicacion.lead_id_c = jt1.id AND jt1.deleted=0   LEFT JOIN  veta_aplicacion_opportunities_c jtl2 ON veta_aplicacion.id=jtl2.veta_aplicacion_opportunitiesveta_aplicacion_idb AND jtl2.deleted=0
+
+ LEFT JOIN  opportunities jt2 ON jt2.id=jtl2.veta_aplicacion_opportunitiesopportunities_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  users jt3 ON veta_aplicacion.assigned_user_id=jt3.id AND jt3.deleted=0
+
+ AND jt3.deleted=0 where ((soel_ciudad_tmp like 'Chile%')) AND veta_aplicacion.deleted=0 ORDER BY veta_aplicacion.name ASC LIMIT 0,51: MySQL error 1054: Unknown column 'soel_ciudad_tmp' in 'where clause'
+Wed Jan 19 10:51:36 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:38 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:38 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:51:47 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:52:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:53:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:54:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:55:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:56:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:57:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:58:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 10:59:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:00:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:01:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:02:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:03:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:04:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:05:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:06:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:07:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:08:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:09:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:10:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:11:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:12:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:13:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:14:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:15:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:16:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:17:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:18:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:19:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:20:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:21:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:22:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:23:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:24:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:25:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:26:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:27:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:28:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:29:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:30:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:31:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:32:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:33:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:34:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:35:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:36:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:37:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:38:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:39:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:40:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:41:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:42:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:43:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:44:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:45:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:46:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:47:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:48:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:49:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:50:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:51:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:52:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:53:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:54:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:55:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:56:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:57:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:58:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 11:59:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:00:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:01:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:02:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:03:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:04:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:05:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:06:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:07:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:08:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:09:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:10:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:11:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:12:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:13:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:14:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:15:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:16:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:17:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:18:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:19:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:20:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:21:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:22:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:23:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:24:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:25:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:26:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:27:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:28:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:29:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:30:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:31:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:32:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:33:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:34:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:35:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:36:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:37:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:38:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:39:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:40:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:41:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:42:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:43:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:44:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:45:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:46:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:47:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:48:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:49:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:50:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:51:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:52:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:53:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:54:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:55:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:56:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:57:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:58:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 12:59:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:00:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:01:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:02:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:03:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:04:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:05:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:06:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:07:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:08:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:09:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:10:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:11:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:12:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:13:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:14:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:15:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:16:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:17:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:18:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:19:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:20:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:21:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:22:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:23:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:24:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:25:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:26:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:27:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:28:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:29:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:30:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:31:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:32:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:33:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:34:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:35:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:36:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:37:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:38:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:39:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:40:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:41:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:42:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:43:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:44:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:45:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:46:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:47:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:48:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:49:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:50:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:51:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:52:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:53:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:54:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:55:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:56:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:57:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:58:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 13:59:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:00:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:01:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:02:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:03:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:04:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:05:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:06:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:07:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:08:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:09:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:10:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:11:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:12:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:13:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:14:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:15:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:16:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:17:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:18:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:19:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:20:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:21:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:22:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:23:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:24:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:25:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:26:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:47 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:48 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:50 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:50 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:51 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:27:52 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:00 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:08 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:08 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:10 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:11 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:15 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:25 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:25 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:29 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:38 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:28:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:29:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:30:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:31:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:32:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:33:41 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:34:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:35:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:36:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:37:41 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:38:41 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:39:41 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:40:41 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:41:41 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:42:41 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:41 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:47 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:49 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:50 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:51 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:52 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:43:58 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:13 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:14 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:16 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:16 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:48 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:44:51 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:45:10 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:45:14 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:46:14 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:47:14 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:48:14 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:49:14 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:50:14 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:51:14 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:52:14 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:53:14 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:54:14 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:55:14 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:56:14 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:14 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:23 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:25 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:27 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:33 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:44 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:44 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:46 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:46 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:57:48 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:58:02 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:58:03 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:58:07 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:58:23 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:58:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 14:59:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:00:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:01:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:02:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:03:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:04:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:05:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:06:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:07:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:08:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:09:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:10:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:11:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:12:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:13:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:14:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:15:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:16:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:17:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:18:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:19:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:20:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:21:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:22:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:23:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:24:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:25:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:26:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:27:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:28:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:29:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:30:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:31:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:32:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:33:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:34:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:35:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:36:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:37:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:38:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:39:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:40:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:41:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:42:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:43:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:44:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:45:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:46:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:47:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:48:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:49:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:50:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:51:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:52:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:53:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:54:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:55:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:56:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:57:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:58:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 15:59:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:00:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:01:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:02:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:03:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:04:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:05:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:06:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:07:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:08:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:09:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:10:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:11:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:12:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:13:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:14:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:15:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:16:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:17:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:18:26 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:19:26 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:20:26 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:21:26 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:22:26 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:23:26 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:24 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:26 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:27 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:29 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:30 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:36 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:39 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:39 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:41 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:53 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:24:56 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:25:56 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:26:56 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:27:56 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:28:56 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:29:56 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:30:56 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:31:56 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:32:56 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:33:56 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:34:56 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:35:56 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:36:56 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:36:57 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:36:59 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:01 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:01 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:08 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:12 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:13 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:13 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:14 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:16 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:16 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:19 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:25 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:37:28 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:38:28 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:39:28 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:40:28 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:41:28 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:42:28 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:43:28 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:44:28 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:45:28 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:46:28 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:47:28 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:09 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:11 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:12 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:13 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:20 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:22 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:22 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:22 2022 [17603][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 16:48:22 2022 [17603][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 16:48:22 2022 [17603][1][FATAL] Mysqli_query failed.
+Wed Jan 19 16:48:22 2022 [17603][1][FATAL]  Query Failed:  SELECT  veta_recibo.id , veta_recibo.veta_tiposvisa_id_c , veta_recibo.assigned_user_id , veta_recibo.name , veta_recibo.pais , veta_recibo.departamento , veta_recibo.ciudad , veta_recibo.primer_pago , veta_recibo.currency_id , jt0.name tipo_visa , veta_recibo.total_visa , veta_recibo.examen_medico , veta_recibo.seguro , veta_recibo.subtotal , veta_recibo.descuento , veta_recibo.gran_total , veta_recibo.pagado , veta_recibo.pendiente_por_pagar  , jt1.user_name assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, veta_recibo.estado  , jt2.name veta_recibo_veta_presupuesto_name, jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida veta_recibo_veta_presupuestoveta_presupuesto_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt3.first_name,''),' ',IFNULL(jt3.last_name,'')))) veta_recibo_leads_name, jtl3.veta_recibo_leadsleads_ida veta_recibo_leadsleads_ida , LTRIM(RTRIM(CONCAT(IFNULL(jt4.first_name,''),' ',IFNULL(jt4.last_name,'')))) veta_recibo_contacts_name, jtl4.veta_recibo_contactscontacts_ida veta_recibo_contactscontacts_ida , jt5.name veta_recibo_opportunities_name, jtl5.veta_recibo_opportunitiesopportunities_idb veta_recibo_opportunitiesopportunities_idb, veta_recibo.usd_cop , veta_recibo.usd_mxn , veta_recibo.usd_clp , veta_recibo.created_by  FROM veta_recibo  LEFT JOIN veta_recibo_cstm ON veta_recibo.id = veta_recibo_cstm.id_c  LEFT JOIN veta_tiposvisa jt0 ON veta_recibo.veta_tiposvisa_id_c = jt0.id AND jt0.deleted=0   LEFT JOIN  users jt1 ON veta_recibo.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  veta_recibo_veta_presupuesto_c jtl2 ON veta_recibo.id=jtl2.veta_recibo_veta_presupuestoveta_recibo_idb AND jtl2.deleted=0
+
+ LEFT JOIN  veta_presupuesto jt2 ON jt2.id=jtl2.veta_recibo_veta_presupuestoveta_presupuesto_ida AND jt2.deleted=0
+ AND jt2.deleted=0  LEFT JOIN  veta_recibo_leads_c jtl3 ON veta_recibo.id=jtl3.veta_recibo_leadsveta_recibo_idb AND jtl3.deleted=0
+
+ LEFT JOIN  leads jt3 ON jt3.id=jtl3.veta_recibo_leadsleads_ida AND jt3.deleted=0
+ AND jt3.deleted=0  LEFT JOIN  veta_recibo_contacts_c jtl4 ON veta_recibo.id=jtl4.veta_recibo_contactsveta_recibo_idb AND jtl4.deleted=0
+
+ LEFT JOIN  contacts jt4 ON jt4.id=jtl4.veta_recibo_contactscontacts_ida AND jt4.deleted=0
+ AND jt4.deleted=0  LEFT JOIN  veta_recibo_opportunities_c jtl5 ON veta_recibo.id=jtl5.veta_recibo_opportunitiesveta_recibo_ida AND jtl5.deleted=0
+
+ LEFT JOIN  opportunities jt5 ON jt5.id=jtl5.veta_recibo_opportunitiesopportunities_idb AND jt5.deleted=0
+ AND jt5.deleted=0 where ((soel_ciudad_tmp like 'Bogota%')) AND veta_recibo.deleted=0 ORDER BY veta_recibo.name ASC LIMIT 0,51: MySQL error 1054: Unknown column 'soel_ciudad_tmp' in 'where clause'
+Wed Jan 19 16:48:23 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:24 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:25 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:25 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:25 2022 [17601][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 16:48:25 2022 [17601][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 16:48:28 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:36 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:46 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:47 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:49 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:50 2022 [24947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:56 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:58 2022 [17602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:59 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:48:59 2022 [17605][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 16:48:59 2022 [17605][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 16:49:00 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:49:04 2022 [17605][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:49:59 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:01 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:02 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:03 2022 [17603][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:09 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:11 2022 [17600][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:12 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:12 2022 [17601][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 16:50:12 2022 [17601][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 16:50:14 2022 [17601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:25 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!
+Wed Jan 19 16:50:26 2022 [17604][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Veta_Recibo
+Wed Jan 19 16:50:26 2022 [17604][1][ERROR] Warning: Multiple links found for relationship veta_recibo_opportunities within module Opportunities
+Wed Jan 19 16:50:29 2022 [17604][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Halifax. Please set date.timezone="America/Halifax" in php.ini!

@@ -116,4 +116,5 @@ $mod_strings = array (
   'LBL_SOEL_COMERCIAL_REQUERIMIENTO' => 'Comercial',
   'LBL_SOEL_ESTADO_COE' => 'Estado COE',
   'LBL_SOEL_ESTADO_LOO' => 'Estado Loo',
+  'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
 );

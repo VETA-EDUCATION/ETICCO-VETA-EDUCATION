@@ -3,27 +3,14 @@
 
 
 // created: 2021-09-02 13:15:22
-$dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_meetings"] = array (
-  'name' => 'veta_pagocolegios_activities_meetings',
+$dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_emails"] = array (
+  'name' => 'veta_pagocolegios_activities_emails',
   'type' => 'link',
-  'relationship' => 'veta_pagocolegios_activities_meetings',
+  'relationship' => 'veta_pagocolegios_activities_emails',
   'source' => 'non-db',
-  'module' => 'Meetings',
-  'bean_name' => 'Meeting',
-  'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_MEETINGS_FROM_MEETINGS_TITLE',
-);
-
-
-// created: 2021-09-02 13:15:20
-$dictionary["Veta_PagoColegios"]["fields"]["veta_notificacionpagocolegio_veta_pagocolegios"] = array (
-  'name' => 'veta_notificacionpagocolegio_veta_pagocolegios',
-  'type' => 'link',
-  'relationship' => 'veta_notificacionpagocolegio_veta_pagocolegios',
-  'source' => 'non-db',
-  'module' => 'Veta_NotificacionPagoColegio',
-  'bean_name' => 'Veta_NotificacionPagoColegio',
-  'side' => 'right',
-  'vname' => 'LBL_VETA_NOTIFICACIONPAGOCOLEGIO_VETA_PAGOCOLEGIOS_FROM_VETA_NOTIFICACIONPAGOCOLEGIO_TITLE',
+  'module' => 'Emails',
+  'bean_name' => 'Email',
+  'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_EMAILS_FROM_EMAILS_TITLE',
 );
 
 
@@ -61,27 +48,16 @@ $dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_opportunitiesoppor
 );
 
 
-// created: 2021-09-02 13:15:22
-$dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_tasks"] = array (
-  'name' => 'veta_pagocolegios_activities_tasks',
+// created: 2021-09-02 13:15:20
+$dictionary["Veta_PagoColegios"]["fields"]["veta_notificacionpagocolegio_veta_pagocolegios"] = array (
+  'name' => 'veta_notificacionpagocolegio_veta_pagocolegios',
   'type' => 'link',
-  'relationship' => 'veta_pagocolegios_activities_tasks',
+  'relationship' => 'veta_notificacionpagocolegio_veta_pagocolegios',
   'source' => 'non-db',
-  'module' => 'Tasks',
-  'bean_name' => 'Task',
-  'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_TASKS_FROM_TASKS_TITLE',
-);
-
-
-// created: 2021-09-02 13:15:22
-$dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_emails"] = array (
-  'name' => 'veta_pagocolegios_activities_emails',
-  'type' => 'link',
-  'relationship' => 'veta_pagocolegios_activities_emails',
-  'source' => 'non-db',
-  'module' => 'Emails',
-  'bean_name' => 'Email',
-  'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_EMAILS_FROM_EMAILS_TITLE',
+  'module' => 'Veta_NotificacionPagoColegio',
+  'bean_name' => 'Veta_NotificacionPagoColegio',
+  'side' => 'right',
+  'vname' => 'LBL_VETA_NOTIFICACIONPAGOCOLEGIO_VETA_PAGOCOLEGIOS_FROM_VETA_NOTIFICACIONPAGOCOLEGIO_TITLE',
 );
 
 
@@ -98,6 +74,18 @@ $dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_calls"]
 
 
 // created: 2021-09-02 13:15:22
+$dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_tasks"] = array (
+  'name' => 'veta_pagocolegios_activities_tasks',
+  'type' => 'link',
+  'relationship' => 'veta_pagocolegios_activities_tasks',
+  'source' => 'non-db',
+  'module' => 'Tasks',
+  'bean_name' => 'Task',
+  'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_TASKS_FROM_TASKS_TITLE',
+);
+
+
+// created: 2021-09-02 13:15:22
 $dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_notes"] = array (
   'name' => 'veta_pagocolegios_activities_notes',
   'type' => 'link',
@@ -106,6 +94,18 @@ $dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_notes"]
   'module' => 'Notes',
   'bean_name' => 'Note',
   'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_NOTES_FROM_NOTES_TITLE',
+);
+
+
+// created: 2021-09-02 13:15:22
+$dictionary["Veta_PagoColegios"]["fields"]["veta_pagocolegios_activities_meetings"] = array (
+  'name' => 'veta_pagocolegios_activities_meetings',
+  'type' => 'link',
+  'relationship' => 'veta_pagocolegios_activities_meetings',
+  'source' => 'non-db',
+  'module' => 'Meetings',
+  'bean_name' => 'Meeting',
+  'vname' => 'LBL_VETA_PAGOCOLEGIOS_ACTIVITIES_MEETINGS_FROM_MEETINGS_TITLE',
 );
 
 ?>
