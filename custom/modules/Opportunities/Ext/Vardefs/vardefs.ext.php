@@ -178,6 +178,15 @@ $dictionary['Opportunity']['fields']['soel_visto_bueno_comercial'] = array(
     'no_default' => false,
 );
 
+$dictionary['Opportunity']['fields']['soel_localizacion'] = array(
+    'name' => 'soel_localizacion',
+    'vname' => 'LBL_SOEL_LOCALIZACION',
+    'type' => 'multienum',
+    'source' => 'non-db',
+    'options' => 'localizacion_list',
+    'massupdate' => false,
+);
+
 $dictionary['Opportunity']['fields']['soel_ciudad_tmp'] = array(
     'name' => 'soel_ciudad_tmp',
     'vname' => 'LBL_SOEL_CIUDAD_TMP',

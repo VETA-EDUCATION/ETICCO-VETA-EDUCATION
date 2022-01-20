@@ -5,6 +5,7 @@ class Veta_ReciboHooks
     function procesar( $focus, $event, $args )
     {
         $this->asignar_info_lead( $focus );
+        $this->asignar_info( $focus );
     }
 
     /**
@@ -46,13 +47,40 @@ class Veta_ReciboHooks
 
         if ( $row != null ) {
 
-            /*if ( ! empty( $row[ 'FECHAEXPIRACIONVISA' ] ) )
+            /*if ( ! empty( $row[ 'FECHAEXPIRACIONVISA' ] ) )S
             {
                 $aux                               = date_create( $row[ 'FECHAEXPIRACIONVISA' ] );
                 $focus->soel_fecha_expiracion_visa = date_format( $aux, $dateformat );
             }*/
 
             $focus->soel_ciudad_tmp = $row['CIUDADTMP'];
+        }
+
+        return $focus;
+    }
+
+    private function asignar_info( $focus )
+    {
+        global $app_list_strings, $current_user;
+        $dateformat = $current_user->getPreference( 'datef' );
+
+        $departamentos = $app_list_strings[ 'departamentos_list' ];
+        $ciudades      = $app_list_strings[ 'ciudades_list' ];
+
+        $query = "SELECT 
+                    veta_requerimiento.referido AS REFERIDO,
+                    veta_requerimiento.fecha_viaje AS FECHAVIAJE,
+                    veta_requerimiento.localizacion AS LOCALIZACION
+                    FROM veta_recibo
+                    INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id AND veta_requerimiento_veta_recibo_c.deleted = 0 
+                    INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida AND veta_requerimiento.deleted = 0
+                    WHERE veta_recibo.deleted = 0 AND veta_requerimiento.deleted = 0 AND veta_recibo.id = '" . $focus->id . "'";
+
+        $result = $focus->db->query( $query, true, "Error obteniendo informacion del prospecto asociado a la carta de oferta " . $focus->id );
+        $row    = $focus->db->fetchByAssoc( $result );
+
+        if ( $row != null ) {
+            $focus->soel_localizacion = $row[ 'LOCALIZACION' ];
         }
 
         return $focus;

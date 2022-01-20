@@ -51,6 +51,15 @@ $dictionary["Veta_Liquidacion"]["fields"]["veta_liquidacion_activities_meetings"
 );
 
 
+$dictionary['Veta_Liquidacion']['fields']['soel_localizacion'] = array(
+    'name' => 'soel_localizacion',
+    'vname' => 'LBL_SOEL_LOCALIZACION',
+    'type' => 'multienum',
+    'source' => 'non-db',
+    'options' => 'localizacion_list',
+    'massupdate' => false,
+);
+
 $dictionary['Veta_Liquidacion']['fields']['soel_ciudad_tmp'] = array(
     'name' => 'soel_ciudad_tmp',
     'vname' => 'LBL_SOEL_CIUDAD_TMP',

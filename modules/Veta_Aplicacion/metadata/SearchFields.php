@@ -438,4 +438,24 @@ $searchFields[$module_name] = array(
             'db_field' => array(0 => 'id',),
         ),
     #endregion
+
+    #region soel_localizacion
+    'soel_localizacion' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => "SELECT veta_aplicacion.id AS ID FROM veta_aplicacion 
+                            INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
+                            INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
+                            INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 0 
+                            INNER JOIN veta_recibo ON veta_recibo.id = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida
+                            INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                            INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida 
+                         WHERE veta_requerimiento.deleted = 0 and REPLACE(veta_requerimiento.localizacion, '^' , '\'' ) = " . '"\'{0}\'"',
+            'db_field' =>
+                array(
+                    0 => 'id',
+                ),
+        ),
+    #endregion
 );

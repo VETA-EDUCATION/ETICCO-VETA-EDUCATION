@@ -299,6 +299,7 @@ $searchdefs [$module_name] =
                                     'name' => 'getEstadosCOE'
                                 ),
                             ),
+
                         //region soel_ciudad_tmp
                         'soel_ciudad_tmp'                     =>
                             array(
@@ -307,6 +308,18 @@ $searchdefs [$module_name] =
                                 'label'    => 'LBL_SOEL_CIUDAD_TMP',
                                 'width'    => '10%',
                                 'name'     => 'soel_ciudad_tmp',
+                                'sortable' => false,
+                            ),
+                        //endregion
+
+                        //region soel_localizacion
+                        'soel_localizacion'                     =>
+                            array(
+                                'type'     => 'multienum',
+                                'default'  => true,
+                                'label'    => 'LBL_SOEL_LOCALIZACION',
+                                'width'    => '10%',
+                                'name'     => 'soel_localizacion',
                                 'sortable' => false,
                             ),
                         //endregion
@@ -322,5 +335,5 @@ $searchdefs [$module_name] =
                         'field' => '30',
                     ),
             ),
-    );;
+    );
 ?>

@@ -127,6 +127,6 @@ $mod_strings = array (
   'LBL_CELULAR' => 'Celular',
   'LBL_PASAPORTE' => 'Pasaporte',
   'LBL_EMAIL' => 'Email',
-  'LBL_FECHA_EXPIRACION_VISA' => 'Visa Expire Date'
-
+  'LBL_FECHA_EXPIRACION_VISA' => 'Visa Expire Date',
+  'LBL_LOCALIZACION' => 'Localizacion',
 );

@@ -238,4 +238,29 @@ $searchFields[$module_name] = array(
             'db_field' => array(0 => 'id',),
         ),
     #endregion
+
+    #region soel_localizacion
+    'soel_localizacion' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => "SELECT veta_liquidacion.id AS ID FROM veta_liquidacion
+                             INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
+                             INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
+                             INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
+                            INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
+                            INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 0 
+                            INNER JOIN veta_recibo ON veta_recibo.id = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida
+                            INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                            INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida  
+                         WHERE veta_requerimiento.deleted = 0 and REPLACE(veta_requerimiento.localizacion, '^' , '\'' ) = " . '"\'{0}\'"',
+            'db_field' =>
+                array(
+                    0 => 'id',
+                ),
+        ),
+    #endregion
+    
 );

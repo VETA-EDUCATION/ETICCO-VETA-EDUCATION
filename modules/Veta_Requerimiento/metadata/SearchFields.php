@@ -55,7 +55,7 @@ $module_name = 'Veta_Requerimiento';
 $searchFields[ $module_name ] = array(
     'name'              => array( 'query_type' => 'default' ),
 
-    'assigned_user_id'                               => array( 'query_type' => 'default' ),
+    'assigned_user_id'  => array( 'query_type' => 'default' ),
 
     //region current_user_only
     'current_user_only' => array(
@@ -609,5 +609,9 @@ $searchFields[ $module_name ] = array(
                          WHERE contacts.deleted = 0 AND contacts.date_modified <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field'   => array( 0 => 'id', ),
         ),
+    //endregion
+
+    //region localizacion
+    'localizacion' => array('query_type' => 'default'),
     //endregion
 );

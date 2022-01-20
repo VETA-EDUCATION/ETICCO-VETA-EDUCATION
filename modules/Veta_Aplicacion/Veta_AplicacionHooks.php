@@ -23,7 +23,8 @@ class Veta_AplicacionHooks
                     opportunities.date_closed AS FECHACIERRE,
                     opportunities_cstm.fecha_cierre_c AS FECHACIERRE2,
                     asignado.address_city AS OFICINACOMERCIAL,
-                    CONCAT(asignado.first_name, ' ', asignado.last_name) AS ASIGNADO
+                    CONCAT(asignado.first_name, ' ', asignado.last_name) AS ASIGNADO,
+                    veta_requerimiento.localizacion AS LOCALIZACION
                 FROM veta_aplicacion    
                     INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0
                     INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
@@ -38,6 +39,7 @@ class Veta_AplicacionHooks
         $row = $bean->db->fetchByAssoc($result);
 
         if ($row != null) {
+            $bean->soel_localizacion = $row[ 'LOCALIZACION' ];
             $bean->soel_referido = $row['REFERIDO'];
 
             if (!empty($row['FECHAVIAJE'])) {
@@ -181,7 +183,7 @@ class Veta_AplicacionHooks
     {
 
         $query = "SELECT  
-                    veta_college.name AS 'COLEGIO', veta_college.pais AS PAIS
+                    veta_college.name AS 'COLEGIO'
                 FROM veta_aplicacion
                     INNER JOIN veta_aplicacion_cstm ON veta_aplicacion_cstm.id_c = veta_aplicacion.id 
                     INNER JOIN veta_curso ON veta_curso.id = veta_aplicacion_cstm.veta_curso_id_c AND veta_curso.deleted = 0       
@@ -193,7 +195,6 @@ class Veta_AplicacionHooks
 
         if ($row != null) {
             $bean->soel_colegio = $row['COLEGIO'];
-			$bean->soel_paiscolegio = $row['PAIS'];
         }
 
         return $bean;

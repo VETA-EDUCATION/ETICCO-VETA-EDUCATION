@@ -282,5 +282,13 @@ $listViewDefs [$module_name] =
                 'default' => false,
                 'sortable' => false,
             ),
+        'SOEL_LOCALIZACION' =>
+            array(
+                'type' => 'multienum',
+                'studio' => 'visible',
+                'label' => 'LBL_SOEL_LOCALIZACION',
+                'width' => '10%',
+                'default' => false,
+            ),
     );
 ?>

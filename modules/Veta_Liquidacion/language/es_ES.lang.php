@@ -89,4 +89,5 @@ $mod_strings = array (
   'LBL_SOEL_REFERIDO' => 'Referido',
   'LBL_VETA_COE_VETA_LIQUIDACION_FROM_VETA_COE_TITLE' => 'COES',
   'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
+  'LBL_SOEL_LOCALIZACION' => 'Localizacion',
 );

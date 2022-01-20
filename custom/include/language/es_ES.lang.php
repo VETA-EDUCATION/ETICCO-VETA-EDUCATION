@@ -603,3 +603,7 @@ $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
   'Week2' => 'Week 2',
   'Week3' => 'Week 3',
 );
+$GLOBALS['app_list_strings']['localizacion_list']=array (
+    'Offshore' => 'Offshore',
+    'Onshore' => 'Onshore',
+);
