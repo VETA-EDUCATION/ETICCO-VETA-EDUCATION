@@ -330,7 +330,7 @@ class PresupuestoPDF extends FPDF
 
         $this->Cell( 100 , 6 , utf8_decode( "TOTAL PRIMER PAGO " ) , 0 , 0 , 'L' , true );
         $this->SetFont( 'Arial' , 'B' , 10 );
-        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->descuento * 1) + ( $this->p->tiquete_c * 1 )+ ( $this->p->aeropuerto_c * 1 )+ ( $this->p->tour_c * 1 )+ ( $this->p->hospedaje_c * 1 )+ ( $this->p->mmm_c * 1 );
+        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->p->descuento * 1) + ( $this->p->tiquete_c * 1 )+ ( $this->p->aeropuerto_c * 1 )+ ( $this->p->tour_c * 1 )+ ( $this->p->hospedaje_c * 1 )+ ( $this->p->mmm_c * 1 );
         $this->Cell( 20 , 6 , utf8_decode( number_format( $primer_pago * 1 * $trm->get_trm($this->moneda,$this->p->moneda_c) , 2 , ',' , '.' ) ) .' '.$this->p->moneda_c , 0 , 0 , 'R' , true );
         $this->Cell( 0 , 6 , utf8_decode( number_format( $primer_pago * 1 , 0 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' , true );
 
