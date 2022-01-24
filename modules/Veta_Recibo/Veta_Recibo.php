@@ -446,7 +446,6 @@ class Veta_Recibo extends Basic
 
         if ( isset( $p->id ) and ! empty( $p->id ) )
         {
-
             $r->assigned_user_id    = $p->assigned_user_id;
             $r->pais                = $p->pais;
             $r->departamento        = $p->departamento;
@@ -465,7 +464,7 @@ class Veta_Recibo extends Basic
             $r->total_visa          = $p->total_visa * 1;
             $r->assigned_user_id    = $p->assigned_user_id;
             $r->descuento           = $p->descuento * 1;
-	    $r->moneda_c            = $p->moneda_c;
+	        $r->moneda_c            = $p->moneda_c;
             $r->tiquete_c           =$p->tiquete_c * 1;
             $r->mmm_c               =$p->mmm_c * 1;
             $r->hospedaje_c         =$p->hospedaje_c * 1;
@@ -491,7 +490,6 @@ class Veta_Recibo extends Basic
 
             foreach ( $requerimientos as $requerimiento )
             {
-
                 $r->load_relationship( 'veta_requerimiento_veta_recibo' );
                 $r->veta_requerimiento_veta_recibo->add( $requerimiento->id );
             }
@@ -500,7 +498,6 @@ class Veta_Recibo extends Basic
 
             foreach ( $dps as $d )
             {
-
                 $dt                    = new Veta_DetalleRecibo();
                 $dt->name              = $d->name;
                 $dt->description       = $d->description;
@@ -523,7 +520,7 @@ class Veta_Recibo extends Basic
 
                 $dt->load_relationship( 'veta_detallerecibo_veta_recibo' );
                 $dt->veta_detallerecibo_veta_recibo->add( $r->id );
-$GLOBALS['log']-> error("En save detallerecibo".$this->subtotal); 
+                $GLOBALS['log']-> error("En save detallerecibo".$this->subtotal);
             }
 
             $p->load_relationship( 'veta_recibo_veta_presupuesto' );
@@ -540,11 +537,11 @@ $GLOBALS['log']-> error("En save detallerecibo".$this->subtotal);
 
             foreach ( $contacts as $contact )
             {
-
                 $r->load_relationship( 'veta_recibo_contacts' );
                 $r->veta_recibo_contacts->add( $contact->id );
             }
-	    $this->update_totals( false );
+
+	        $this->update_totals( );
         }
 
         return $r;
@@ -560,25 +557,29 @@ $GLOBALS['log']-> error("En save detallerecibo".$this->subtotal);
         $this->primer_pago = 0;
         $this->subtotal    = 0;
         $this->gran_total  = 0;
-	$monedaCollege = "";
+	    $monedaCollege = "";
 
-$GLOBALS['log']-> error("Update totals moneda1".$monedaCollege); 
+        $GLOBALS['log']-> error("Update totals moneda1".$monedaCollege);
 
-        $dets = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
+        $r = new Veta_Recibo();
+        $r->retrieve( $this->id );
+
+        //$dets = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
+        $dets = $r->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
 
         foreach ( $dets as $d )
         {
-
             $this->primer_pago += ( $d->deposito * 1 ) - ( $d->bono * 1 );
             $this->subtotal    += ( $d->total_curso * 1 );
-	    $GLOBALS['log']-> error("En save".$this->subtotal); 
+	        $GLOBALS['log']-> error("En save".$this->subtotal);
             $c = new Veta_College();
             $c->retrieve( $d->veta_college_id_c );
             $monedaCollege = $c-> moneda_c;
         }
-$GLOBALS['log']-> error("Update totals moneda2".$monedaCollege); 
 
-        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 );
+        $GLOBALS['log']-> error("Update totals moneda2".$monedaCollege);
+
+        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) - ( $this->descuento * 1 );
 
         $trm = new Veta_TRM();
         //$trm = $trm->get_trm();

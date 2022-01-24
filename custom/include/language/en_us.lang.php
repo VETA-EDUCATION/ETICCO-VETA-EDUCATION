@@ -262,15 +262,6 @@ $GLOBALS['app_list_strings']['ciudades_list']=array (
   'Estados_Unidos_Estados_Unidos_Chicago' => 'Chicago',
   'Canada_Canada_New_Brunswick' => 'New Brunswick',
 );
-$GLOBALS['app_list_strings']['moneda_list']=array (
-  'COP' => 'COP',
-  'CAD' => 'CAD',
-  'MXN' => 'MXN',
-  'CLP' => 'CLP',
-  'AUD' => 'AUD',
-  'EUR' => 'EUR',
-  'USD' => 'USD',
-);
 $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
   'Preparacion_Embajada' => 'Preparation for the embassy',
   'Creado' => 'Created',
@@ -305,4 +296,14 @@ $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
   'Week1' => 'Week 1',
   'Week2' => 'Week 2',
   'Week3' => 'Week 3',
+);
+$GLOBALS['app_list_strings']['moneda_list']=array (
+  'COP' => 'COP',
+  'CAD' => 'CAD',
+  'MXN' => 'MXN',
+  'CLP' => 'CLP',
+  'AUD' => 'AUD',
+  'EUR' => 'EUR',
+  'USD' => 'USD',
+  'PEN' => 'PEN',
 );
