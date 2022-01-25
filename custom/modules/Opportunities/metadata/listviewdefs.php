@@ -266,6 +266,55 @@ $listViewDefs ['Opportunities'] =
                 'default' => false,
             ),
 
+        'SOEL_DOCS_SOLICITADOS' =>
+            array (
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_DOCS_SOLICITADOS',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_CAMPUS' =>
+            array (
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_CAMPUS',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_DATE_ESTUDIANTE' =>
+            array (
+                'type' => 'datetime',
+                'label' => 'LBL_SOEL_DATE_ESTUDIANTE',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_DATE_ASESOR' =>
+            array (
+                'type' => 'datetime',
+                'label' => 'LBL_SOEL_DATE_ASESOR',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_DOCS_APROBADOS' =>
+            array (
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_DOCS_APROBADOS',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_DOCS_CARGADOS' =>
+            array (
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_DOCS_CARGADOS',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_DOCS_PENDIENTES' =>
+            array (
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_DOCS_PENDIENTES',
+                'width' => '10%',
+                'default' => false,
+            ),
         'LIMITE_LUZ_VERDE_C' =>
             array(
                 'type' => 'date',
