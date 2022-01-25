@@ -672,7 +672,22 @@ $searchFields['Opportunities'] = array(
                             WHERE contacts_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')*/',
             'db_field' => array(0 => 'id',),
         ),
-
+    'soel_campus' =>
+        array (
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => 'select o.id from opportunities o 
+                    inner join veta_recibo_opportunities_c vroc on o.id = vroc.veta_recibo_opportunitiesopportunities_idb 
+                    inner join veta_recibo vr on vroc.veta_recibo_opportunitiesveta_recibo_ida = vr.id 
+                    inner join veta_detallerecibo_veta_recibo_c vdvrc on vr.id = vdvrc.veta_detallerecibo_veta_reciboveta_recibo_ida 
+                    inner join veta_detallerecibo vd on vdvrc.veta_detallerecibo_veta_reciboveta_detallerecibo_idb = vd.id 
+                    inner join veta_curso vc on vd.veta_curso_id_c = vc.id 
+                    where vc.campus like  (\'{0}\')',
+            'db_field' =>
+                array (
+                    0 => 'id',
+                ),
+        ),
     'range_limite_luz_verde' =>
         array(
             'query_type' => 'default',

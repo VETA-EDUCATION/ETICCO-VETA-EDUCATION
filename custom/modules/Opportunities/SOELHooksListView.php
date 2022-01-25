@@ -61,6 +61,117 @@ class SOELHooksListView
             $focus->soel_visto_bueno_comercial = $row[ 'visto_bueno_comercial' ];
             $focus->soel_visto_bueno_visas     = $row[ 'visto_bueno_visas' ];
         }
+
+        $querySolicitados =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM 
+(select COUNT(*) as SUMAS from doc_docssolicitados dd , doc_docssolicitados_opportunities_c ddoc 
+where dd.id = ddoc.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb 
+and ddoc.deleted = 0 and dd.deleted =0
+and ddoc.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."' UNION ALL
+select count(*) AS SUMAS from doc_documentos_adic_opportunities_c ddaoc 
+where ddaoc.deleted = 0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb ='".$focus->id."') T1";
+
+        $resultSolicitados = $focus->db->query($querySolicitados, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowSolicitados = $focus->db->fetchByAssoc($resultSolicitados);
+
+        $docssolicitados = 0;
+        if($rowSolicitados != null){
+            $focus->soel_docs_solicitados = $rowSolicitados['CUENTA'];
+            $docssolicitados = $rowSolicitados['CUENTA'];
+        }
+
+        $queryPendientes =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM(
+SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
+WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Aprobado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
+UNION ALL
+select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
+where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
+and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+        $resultPendientes = $focus->db->query($queryPendientes, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowPendientes = $focus->db->fetchByAssoc($resultPendientes);
+
+        if($rowPendientes != null){
+            $focus->soel_docs_cargados = $rowPendientes['CUENTA'];
+            $focus->soel_docs_pendientes = $docssolicitados - $rowPendientes['CUENTA'];
+        }
+
+        $queryCargados =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM(
+SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
+WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Cargado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
+UNION ALL
+select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
+where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
+and dda.estadodocumento ='Cargado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+        $resultCargados = $focus->db->query($queryCargados, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowCargados = $focus->db->fetchByAssoc($resultCargados);
+
+        if($rowCargados != null){
+            $focus->soel_docs_cargados = $rowCargados['CUENTA'];
+        }
+
+        $queryAprobados =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM(
+			SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
+			WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Aprobado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
+			UNION ALL
+			select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
+			where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
+			and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+        $resultAprobados = $focus->db->query($queryAprobados, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowAprobados = $focus->db->fetchByAssoc($resultAprobados);
+
+        if($rowAprobados != null){
+            $focus->soel_docs_aprobados = $rowAprobados['CUENTA'];
+        }
+
+        $queryFechaEstudiantes = "select dd.date_entered as fecha
+		from doc_docssolicitados dd , doc_docssolicitados_opportunities_c docop
+		where docop.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."' 
+		and docop.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb = dd.id 
+		UNION
+		select dc.date_modified as fecha 
+		from doc_comentarios dc , doc_comentarios_opportunities_c dcoc 
+		where dc.id = dcoc.doc_comentarios_opportunitiesdoc_comentarios_idb 
+		and dcoc.doc_comentarios_opportunitiesopportunities_ida ='".$focus->id."' 
+		and dc.date_entered is null
+		UNION
+		select dda.fechacargado as fecha from doc_documentos_adic dda ,doc_docssolicitados_opportunities_c ddoc where dda.id = ddoc.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and ddoc.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."' order by fecha desc limit 1";
+        $resultFechaEstudiantes = $focus->db->query($queryFechaEstudiantes, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowFechaEstudiantes = $focus->db->fetchByAssoc($resultFechaEstudiantes);
+        if($rowFechaEstudiantes != null){
+            $focus->soel_date_estudiante = $rowFechaEstudiantes['fecha'];
+        }
+
+        $queryFechaAsesor = "select dd.fechaaprobado as fecha
+from doc_docssolicitados dd , doc_docssolicitados_opportunities_c docop
+where docop.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."'
+and dd.id = docop.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb 
+UNION
+select dc.date_entered as fecha 
+from doc_comentarios dc , doc_comentarios_opportunities_c dcoc 
+where dc.id = dcoc.doc_comentarios_opportunitiesdoc_comentarios_idb 
+and dcoc.doc_comentarios_opportunitiesopportunities_ida ='".$focus->id."' 
+UNION
+select dda.fechaaprobado as fecha from doc_documentos_adic dda ,doc_docssolicitados_opportunities_c ddoc where dda.id = ddoc.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and ddoc.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."'
+order by fecha desc limit 1
+";
+        $resultFechaAsesor = $focus->db->query($queryFechaAsesor, true, "Error obteniendo el visto bueno comercial del requerimiento");
+        $rowFechaAsesor= $focus->db->fetchByAssoc($resultFechaAsesor);
+        if($rowFechaAsesor!= null){
+            $focus->soel_date_asesor= $rowFechaAsesor['fecha'];
+        }
+
+        $queryCampus = "select vc.campus as CAMPUS from veta_curso vc 
+                        inner join veta_detallerecibo vd on vc.id = vd.veta_curso_id_c 
+                        inner join veta_detallerecibo_veta_recibo_c vdvrc on vd.id = vdvrc.veta_detallerecibo_veta_reciboveta_detallerecibo_idb 
+                        inner join veta_recibo vr on vdvrc.veta_detallerecibo_veta_reciboveta_recibo_ida = vr.id 
+                        inner join veta_recibo_opportunities_c vroc on vr.id = vroc.veta_recibo_opportunitiesveta_recibo_ida 
+                        where vroc.veta_recibo_opportunitiesopportunities_idb ='".$focus->id."' order by vc.intake desc limit 1";
+
+        $resultCampus = $focus->db->query($queryCampus, true, "Error obteniendo campus");
+        $rowCampus = $focus->db->fetchByAssoc($resultCampus);
+        if($rowCampus!= null){
+            $focus->soel_campus= $rowCampus['CAMPUS'];
+        }
+
     }
 
     private function get_person( Opportunity $o )
