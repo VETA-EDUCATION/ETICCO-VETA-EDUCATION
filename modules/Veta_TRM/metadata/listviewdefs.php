@@ -9,32 +9,32 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'PESOS' => 
+  'MONEDAFROM_C' => 
   array (
-    'type' => 'decimal',
-    'label' => 'LBL_PESOS',
-    'width' => '10%',
+    'type' => 'varchar',
     'default' => true,
-  ),
-  'AUD' => 
-  array (
-    'type' => 'decimal',
-    'label' => 'LBL_AUD',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'MXN' => 
-  array (
-    'type' => 'decimal',
-    'default' => true,
-    'label' => 'LBL_MXN',
+    'label' => 'LBL_MONEDAFROM',
     'width' => '10%',
   ),
-  'CLP' => 
+  'MONEDATO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_MONEDATO',
+    'width' => '10%',
+  ),
+  'TRM_C' => 
   array (
     'type' => 'decimal',
     'default' => true,
-    'label' => 'LBL_CLP',
+    'label' => 'LBL_TRM',
+    'width' => '10%',
+  ),
+  'TASAADM_C' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_TASAADM',
     'width' => '10%',
   ),
   'DATE_MODIFIED' => 

@@ -46,6 +46,20 @@ array (
       array (
         0 => 
         array (
+          0 => 
+          array (
+            'name' => 'abono_c',
+            'label' => 'LBL_ABONO',
+          ),
+          1 => 
+          array (
+            'name' => 'monedapago_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONEDAPAGO',
+          ),
+        ),
+        1 => 
+        array (
           0 => 'name',
           1 => 
           array (
@@ -53,7 +67,7 @@ array (
             'label' => 'LBL_MONTO',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 'assigned_user_name',
           1 => 
@@ -62,11 +76,16 @@ array (
             'label' => 'LBL_VETA_ABONO_VETA_RECIBO_FROM_VETA_RECIBO_TITLE',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 'description',
+          1 => 
+          array (
+            'name' => 'descuentotasa_c',
+            'label' => 'LBL_DESCUENTOTASA',
+          ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
