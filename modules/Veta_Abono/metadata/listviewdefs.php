@@ -18,6 +18,13 @@ array (
     'width' => '10%',
     'default' => true,
   ),
+  'ABONO_C' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_ABONO',
+    'width' => '10%',
+  ),
   'MONTO' => 
   array (
     'type' => 'currency',
@@ -26,13 +33,20 @@ array (
     'currency_format' => true,
     'width' => '10%',
   ),
-  'ASSIGNED_USER_NAME' => 
+  'MONEDAPAGO_C' => 
   array (
-    'width' => '9%',
-    'label' => 'LBL_ASSIGNED_TO_NAME',
-    'module' => 'Employees',
-    'id' => 'ASSIGNED_USER_ID',
+    'type' => 'dynamicenum',
     'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_MONEDAPAGO',
+    'width' => '10%',
+  ),
+  'DESCUENTOTASA_C' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_DESCUENTOTASA',
+    'width' => '10%',
   ),
   'DATE_ENTERED' => 
   array (

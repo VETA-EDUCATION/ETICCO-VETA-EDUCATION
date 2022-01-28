@@ -38,26 +38,26 @@ array (
         array (
           0 => 
           array (
-            'name' => 'aud',
-            'label' => 'LBL_AUD',
+            'name' => 'name',
+            'label' => 'LBL_NAME',
           ),
           1 => 
           array (
-            'name' => 'pesos',
-            'label' => 'LBL_PESOS',
+            'name' => 'monedafrom_c',
+            'label' => 'LBL_MONEDAFROM',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'mxn',
-            'label' => 'LBL_MXN',
+            'name' => 'monedato_c',
+            'label' => 'LBL_MONEDATO',
           ),
           1 => 
           array (
-            'name' => 'clp',
-            'label' => 'LBL_CLP',
+            'name' => 'tasaadm_c',
+            'label' => 'LBL_TASAADM',
           ),
         ),
         2 => 

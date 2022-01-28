@@ -282,12 +282,5 @@ $listViewDefs [$module_name] =
                 'default' => false,
                 'sortable' => false,
             ),
-        'SOEL_PAISCOLEGIO' => 
-          array (
-            'type' => 'varchar',
-            'label' => 'LBL_SOEL_PAISCOLEGIO',
-            'width' => '10%',
-            'default' => true,
-          ),
     );
 ?>
