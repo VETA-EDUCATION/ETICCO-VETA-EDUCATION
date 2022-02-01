@@ -12,6 +12,7 @@ class PresupuestoPDF extends FPDF
 
     public function generate_pdf( Veta_Presupuesto $p ) {
 
+        global $sugar_config;
         $this->p = $p;
         //$this = new PresupuestoPDF( 'P' , 'mm' , 'Letter' );
 
@@ -21,7 +22,8 @@ class PresupuestoPDF extends FPDF
         $this->print_details();
         $this->print_notas();
 
-        $this->Output( $this->p->id . '.pdf' );
+        //$this->Output( $this->p->id . '.pdf' );
+        $this->Output( $sugar_config[ 'upload_dir' ]  .  $this->p->id . '.pdf' , 'F');
     }
 
     public function header() {
@@ -271,7 +273,8 @@ class PresupuestoPDF extends FPDF
 
         $this->Cell( 100 , 6 , utf8_decode( "TOTAL PRIMER PAGO " ) , 0 , 0 , 'L' , true );
         $this->SetFont( 'Arial' , 'B' , 10 );
-        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->descuento * 1);
+        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->p->descuento * 1);
+
         $this->Cell( 0 , 6 , utf8_decode( number_format( $primer_pago * 1 , 0 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
 
         $this->Ln( 8 );

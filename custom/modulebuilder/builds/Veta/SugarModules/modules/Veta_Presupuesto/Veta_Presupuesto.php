@@ -43,6 +43,13 @@ require_once( 'modules/Veta_TiposVisa/Veta_TiposVisa.php' );
 
 class Veta_Presupuesto extends Basic
 {
+    public const REQUERIMIENTOINFOCOMPLETADO = 'No se puede crear el presupuesto porque el estado es Info o Completado';
+    public const REQUERIMIENTOSINREFERIDO = 'No se puede crear el presupuesto porque el requerimiento no tiene un referido';
+    public const REQUERIMIENTOSINFUENTE = 'No se puede crear el presupuesto porque el requerimiento no tiene fuente';
+    public const PROSPECTOSINEMAIL = 'No se puede crear el presupuesto porque el prospecto no tiene email';
+    public const PROSPECTOSINCELULAR = 'No se puede crear el presupuesto porque el prospecto no tiene el celular';
+    public const RECIBOCREADONOPRESUPUESTO = 'No es posible salvar el presupuesto porque ya se creo un recibo';
+
     public $new_schema = true;
     public $module_dir = 'Veta_Presupuesto';
     public $object_name = 'Veta_Presupuesto';
@@ -114,34 +121,17 @@ class Veta_Presupuesto extends Basic
     }
 
     /**
-     * Este metodo verifica que el presupuesto no sea asignado a un prospecto convertido
+     * Este metodo salva un presupuesto validando que el email y el teléfono esten creados en el prospecto y el que el referido y la fuente esten creados en el requerimiento
+     * @param false $check_notify
+     * @return string
      */
-    /*private function verificar_prospecto()
-    {
-
-        if ( ! isset( $this->id ) || empty( $this->id ) ) {
-
-            if ( $_REQUEST[ "relate_to" ] == 'veta_presupuesto_leads' ) {
-
-                $l = new Lead();
-                $l->retrieve( $_REQUEST[ "relate_id" ] );
-
-                if ( $l->converted ) {
-                    $this->redireccionar( 'No se puede crear un presupuesto para un prospecto convertido', $this->id );
-                }
-            }
-        }
-    } */
-
     public function save( $check_notify = false )
     {
-        //$this->verificar_prospecto();
         $requerimiento = new Veta_Requerimiento();
 
         if ( $_REQUEST[ "relate_to" ] == 'veta_requerimiento_veta_presupuesto' ) {
             $requerimiento->retrieve( $_REQUEST[ "relate_id" ] );
-        }
-        else {
+        } else {
             $requerimiento  = null;
             $requerimientos = $this->get_linked_beans( 'veta_requerimiento_veta_presupuesto', 'Veta_Requerimiento' );
 
@@ -151,7 +141,36 @@ class Veta_Presupuesto extends Basic
         }
 
         if ( ! isset( $requerimiento ) or $requerimiento->estado == 'Info' or $requerimiento->estado == 'Completado' ) {
-            $this->redireccionar( 'No se puede crear el presupuesto porque el estado es Info o Completado', $this->id );
+            $this->redireccionar( Veta_Presupuesto::REQUERIMIENTOINFOCOMPLETADO, $this->id );
+        }
+
+
+        if( empty($requerimiento->referido)){
+            $this->redireccionar( Veta_Presupuesto::REQUERIMIENTOSINREFERIDO, $this->id );
+        }
+
+        if(empty($requerimiento->fuente)){
+            $this->redireccionar(Veta_Presupuesto::REQUERIMIENTOSINFUENTE, $this->id);
+        }
+
+        $prospectos = $requerimiento->get_linked_beans( 'veta_requerimiento_leads', 'Lead' );
+
+        foreach ( $prospectos as $prospecto ) {
+
+            /**
+             * Esta validacion se elimina porque ahora se valida la fuente en el requerimiento y no en el prospecto
+             */
+            /*if ( empty( $prospecto->lead_source ) ) {
+                $this->redireccionar( 'No se puede crear el presupuesto porque el prospecto no tiene fuente', $this->id  );
+            }*/
+
+            if ( empty( $prospecto->email1 ) ) {
+                $this->redireccionar( Veta_Presupuesto::PROSPECTOSINEMAIL, $this->id );
+            }
+
+            if ( empty( $prospecto->phone_mobile ) ) {
+                $this->redireccionar( Veta_Presupuesto::PROSPECTOSINCELULAR, $this->id );
+            }
         }
 
         $recibos = $this->get_linked_beans( 'veta_recibo_veta_presupuesto', 'Veta_Recibo' );
@@ -176,7 +195,7 @@ class Veta_Presupuesto extends Basic
 
             return $aux;
         } else {
-            $this->redireccionar( 'No es posible salvar el presupuesto porque ya se creo un recibo', $this->id );
+            $this->redireccionar( Veta_Presupuesto::RECIBOCREADONOPRESUPUESTO , $this->id );
         }
     }
 
@@ -217,17 +236,17 @@ class Veta_Presupuesto extends Basic
             $requerimiento = new Veta_Requerimiento();
             $requerimiento->retrieve( $_REQUEST[ "relate_id" ] );
 
-            $presupuestos = $requerimiento->get_linked_beans( 'veta_requerimiento_veta_presupuesto', 'Veta_Presupuesto' );
+            $presupuestos = $requerimiento->get_linked_beans( 'veta_requerimiento_veta_presupuesto',
+                'Veta_Presupuesto' );
 
             if ( count( $presupuestos ) == 1 and empty( $requerimiento->fecha_primer_presupuesto ) ) {
 
                 if ( $presupuestos[ 0 ]->id == $this->id ) {
-                    $result = $this->db->query( "UPDATE veta_requerimiento SET fecha_primer_presupuesto = (SELECT date_entered FROM veta_presupuesto WHERE id = '" . $this->id . "') WHERE id = '" . $requerimiento->id . "'", true, "Error actualizando la fecha del primer presupuesto del requerimiento" );
+                    $result = $this->db->query( "UPDATE veta_requerimiento SET fecha_primer_presupuesto = (SELECT date_entered FROM veta_presupuesto WHERE id = '" . $this->id . "') WHERE id = '" . $requerimiento->id . "'",
+                        true, "Error actualizando la fecha del primer presupuesto del requerimiento" );
                 }
             }
-        } 
-
-        
+        }
     }
 
     public function mark_deleted( $id )
@@ -240,10 +259,11 @@ class Veta_Presupuesto extends Basic
         if ( count( $recibos ) == 0 ) {
             parent::mark_deleted( $id ); // TODO: Change the autogenerated stub
         } else {
-            $this->redireccionar( 'No es posible salvar el presupuesto porque ya se creo un recibo', $p->id );
+            $this->redireccionar( Veta_DetallePresupuesto::RECIBOCREADONOPRESUPUESTO , $p->id );
         }
 
     }
+
 
     /**
      * Este metodo actualiza los totales usando los detalles asociados al presupuesto
@@ -262,12 +282,12 @@ class Veta_Presupuesto extends Basic
             $this->subtotal    += ( $d->total_curso * 1 );
         }
 
-        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 );
+        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) - ( $this->descuento * 1 );
 
         $trm = new Veta_TRM();
         $trm = $trm->get_trm();
 
-        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 );
+        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 );
         $this->usd        = $this->gran_total * $trm->aud;
         $this->pesos      = $this->usd * $trm->pesos * 1;
         $this->mxn        = $this->usd * $trm->mxn * 1;
@@ -281,6 +301,11 @@ class Veta_Presupuesto extends Basic
         parent::save( false );
     }
 
+    /**
+     * Muestra un mensaje de error en pantalla
+     * @param $msg Es el mensaje a mostrar
+     * @param $registro Es el registro que contiene el error
+     */
     public function redireccionar( $msg, $registro )
     {
         if ( ! empty( $registro ) ) {
@@ -296,7 +321,8 @@ class Veta_Presupuesto extends Basic
             echo "<script>alert('" . $msg . "')</script>";
         }
 
-        exit;
+        //exit;
+        sugar_die($msg);
     }
 
 }

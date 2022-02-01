@@ -5,4 +5,5 @@ $dictionary['Veta_Requerimiento']['fields']['soel_oficina_comercial'] = array(
     'type' => 'enum',
     'source' => 'non-db',
     'function' => 'getOficinasComercial',
+    'massupdate' => false,
 );

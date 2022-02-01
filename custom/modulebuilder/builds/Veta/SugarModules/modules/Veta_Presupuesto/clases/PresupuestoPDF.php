@@ -12,6 +12,7 @@ class PresupuestoPDF extends FPDF
 
     public function generate_pdf( Veta_Presupuesto $p ) {
 
+        global $sugar_config;
         $this->p = $p;
         //$this = new PresupuestoPDF( 'P' , 'mm' , 'Letter' );
 
@@ -21,7 +22,8 @@ class PresupuestoPDF extends FPDF
         $this->print_details();
         $this->print_notas();
 
-        $this->Output( $this->p->id . '.pdf' );
+        //$this->Output( $this->p->id . '.pdf' );
+        $this->Output( $sugar_config[ 'upload_dir' ]  .  $this->p->id . '.pdf' , 'F');
     }
 
     public function header() {
@@ -77,6 +79,9 @@ class PresupuestoPDF extends FPDF
         $c = new Veta_College();
         $c->retrieve( $d->veta_college_id1_c );
 
+        $curso = new Veta_Curso();
+        $curso->retrieve($d->veta_curso_id_c);
+
         $this->Ln( 7 );
         $this->SetFont( 'Arial' , 'B' , 9 );
         //$this->Cell( 50 , 3 , utf8_decode( strtoupper( $c->name ) . ucwords( ' ' . $app_list_strings[ 'ciudades_list' ][ $c->ciudad ] ) . ', ' . ucwords( $app_list_strings[ 'pais_list' ][ $c->pais ] ) ) , 0 , 0 , 'L' );
@@ -103,7 +108,7 @@ class PresupuestoPDF extends FPDF
 
         // $this->Ln( 5 );
         $this->Cell( 5 );
-        $this->Cell( 50 , 3 , utf8_decode( 'Duración: ' ) , 0 , 0 , 'L' );
+        $this->Cell( 50 , 3 , utf8_decode( $curso->tipo_curso == 'Vet' ? 'Término' :'Duración: ' ) , 0 , 0 , 'L' );
         $this->Cell( 0 , 3 , utf8_decode( ucwords( $d->duracion ) . " semanas " ) , 0 , 0 , 'R' );
 
         // ---------------------------------------------------- PRECIO X SEMANA ----------------------------------------
@@ -259,10 +264,17 @@ class PresupuestoPDF extends FPDF
         $this->SetFont( 'Arial' , 'B' , 10 );
         $this->Cell( 0 , 6 , '$ ' . utf8_decode( number_format( $this->p->pesos * 1 , 0 , ',' , '.' ) )  , 0 , 0 , 'R' , true );   */
 
+        $this->Cell( 100 , 6 , utf8_decode( "DESCUENTO " ) , 0 , 0 , 'L' , true );
+        $this->SetFont( 'Arial' , 'B' , 10 );
+        $descuento = ( $this->p->descuento * 1 );
+        $this->Cell( 0 , 6 , utf8_decode( number_format( $descuento * 1 , 0 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
+
+        $this->Ln( 7 );
 
         $this->Cell( 100 , 6 , utf8_decode( "TOTAL PRIMER PAGO " ) , 0 , 0 , 'L' , true );
         $this->SetFont( 'Arial' , 'B' , 10 );
-        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->descuento * 1);
+        $primer_pago = ( $this->total_depositos * 1 ) + ( $this->p->examen_medico * 1 ) + ( $this->p->seguro * 1 ) + ( $this->p->total_visa * 1 ) - ($this->p->descuento * 1);
+
         $this->Cell( 0 , 6 , utf8_decode( number_format( $primer_pago * 1 , 0 , ',' , '.' ) ) . ' AUD' , 0 , 0 , 'R' , true );
 
         $this->Ln( 8 );

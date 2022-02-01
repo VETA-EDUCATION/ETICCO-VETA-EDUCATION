@@ -127,7 +127,7 @@ array (
   ),
   'USD_COP' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => false,
     'label' => 'LBL_USD_COP',
     'width' => '10%',
@@ -173,14 +173,14 @@ array (
   ),
   'CLP_USD' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => false,
     'label' => 'LBL_CLP_USD',
     'width' => '10%',
   ),
   'USD_MXN' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => false,
     'label' => 'LBL_USD_MXN',
     'width' => '10%',

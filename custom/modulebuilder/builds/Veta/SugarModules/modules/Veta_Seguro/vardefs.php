@@ -81,9 +81,9 @@ $dictionary['Veta_Seguro'] = array(
     'required' => true,
     'name' => 'single',
     'vname' => 'LBL_SINGLE',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -95,27 +95,19 @@ $dictionary['Veta_Seguro'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'couple' => 
   array (
     'required' => true,
     'name' => 'couple',
     'vname' => 'LBL_COUPLE',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -127,27 +119,19 @@ $dictionary['Veta_Seguro'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'family' => 
   array (
     'required' => true,
     'name' => 'family',
     'vname' => 'LBL_FAMILY',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -159,18 +143,10 @@ $dictionary['Veta_Seguro'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'name' => 
   array (
@@ -208,4 +184,4 @@ $dictionary['Veta_Seguro'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Seguro', 'Veta_Seguro', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Seguro', 'Veta_Seguro', array('basic','assignable','security_groups'));

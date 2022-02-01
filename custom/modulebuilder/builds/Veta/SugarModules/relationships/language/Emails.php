@@ -6,3 +6,4 @@ $mod_strings['LBL_VETA_COE_ACTIVITIES_EMAILS_FROM_VETA_COE_TITLE'] = 'Actividade
 $mod_strings['LBL_VETA_LOO_ACTIVITIES_EMAILS_FROM_VETA_LOO_TITLE'] = 'Actividades:Carta de Oferta';
 $mod_strings['LBL_VETA_LIQUIDACION_ACTIVITIES_EMAILS_FROM_VETA_LIQUIDACION_TITLE'] = 'Actividades:Liquidacion';
 $mod_strings['LBL_VETA_VISA_ACTIVITIES_EMAILS_FROM_VETA_VISA_TITLE'] = 'Actividades:Visa';
+$mod_strings['LBL_VETA_RECIBO_EMAILS_FROM_VETA_RECIBO_TITLE'] = 'Recibo';

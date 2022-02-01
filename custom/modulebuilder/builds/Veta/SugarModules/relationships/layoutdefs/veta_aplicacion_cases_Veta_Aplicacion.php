@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:20
+ // created: 2022-01-28 10:24:57
 $layout_defs["Veta_Aplicacion"]["subpanel_setup"]['veta_aplicacion_cases'] = array (
   'order' => 100,
   'module' => 'Cases',

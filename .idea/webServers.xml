@@ -12,6 +12,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="be86c434-6457-40ed-835d-7dcd02ff9a56" name="DESPLIEGUE" url="http://veta.soel.com.co">
+        <fileTransfer rootFolder="/var/www/html/crm.australiaveta.com.soel" accessType="SFTP" host="192.168.1.78" port="22" sshConfigId="c5475dc6-1b8a-4e20-8297-6d12fddf5e35" sshConfig="soel@192.168.1.78:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

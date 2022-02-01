@@ -1,5 +1,5 @@
 <?php
-// created: 2020-10-14 00:58:37
+// created: 2022-01-28 10:25:06
 $dictionary["veta_solvenciaeconomica_contacts"] = array (
   'true_relationship_type' => 'one-to-many',
   'relationships' => 

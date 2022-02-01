@@ -40,5 +40,13 @@ $listViewDefs [ $module_name ] =
                 'width'   => '10%',
                 'default' => true,
             ),
+        'SOEL_REQUERIMIENTO' =>
+            array (
+                'type' => 'varchar',
+                'label' => 'LBL_SOEL_REQUERIMIENTO',
+                'width' => '10%',
+                'default' => true,
+                'sortable' => false,
+            ),
     );;
 ?>

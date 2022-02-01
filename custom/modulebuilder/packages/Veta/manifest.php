@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Veta',
-  'published_date' => '2020-10-14 00:58:17',
+  'published_date' => '2022-01-28 14:24:54',
   'type' => 'module',
-  'version' => 1602637099,
+  'version' => 1643379895,
   'remove_tables' => 'prompt',
 );
 

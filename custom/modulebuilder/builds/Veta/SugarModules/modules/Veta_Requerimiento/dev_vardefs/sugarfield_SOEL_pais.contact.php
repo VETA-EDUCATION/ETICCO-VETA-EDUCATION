@@ -5,4 +5,5 @@ $dictionary['Veta_Requerimiento']['fields']['soel_pais_contact'] = array(
     'type' => 'enum',
     'source' => 'non-db',
     'options' => 'pais_list',
+    'massupdate' => false,
 );

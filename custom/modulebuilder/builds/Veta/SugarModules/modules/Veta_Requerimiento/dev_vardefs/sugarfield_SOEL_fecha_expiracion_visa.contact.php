@@ -6,4 +6,5 @@ $dictionary['Veta_Requerimiento']['fields']['soel_fecha_expiracion_visa_contact'
     'source' => 'non-db',
     'enable_range_search' => true,
     'options' => 'date_range_search_dom',
+    'massupdate' => false,
 );

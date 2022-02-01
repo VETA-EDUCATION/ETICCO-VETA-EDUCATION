@@ -144,7 +144,7 @@ class Veta_Aplicacion extends Basic
                 $l->contact_id_c          = $this->contact_id_c;
                 $l->lead_id_c             = $this->lead_id_c;
                 $l->estado_loo            = 'Requerimiento_LOO';
-                $l->fecha_expiracion_visa = $o->fecha_expiracion_visa_c;
+                //$l->fecha_expiracion_visa = $o->fecha_expiracion_visa_c; /* Esta linea se comenta porque ahora la fecha de expiracion de la visa es de lectura */
                 $l->save();
 
                 $l->load_relationship( 'veta_loo_veta_aplicacion' );
@@ -194,9 +194,9 @@ class Veta_Aplicacion extends Basic
             $lid = $l == null ? '' : $l->id;
             $cid = $c == null ? '' : $c->id;
 
-            $q = "UPDATE veta_aplicacion SET contact_id_c = '" . $cid . "' , lead_id_c = '" . $lid . "' , fecha_expiracion_visa = '" . $o->fecha_expiracion_visa_c . "' WHERE id = '" . $tmpid . "'";
+            $q = "UPDATE veta_aplicacion SET contact_id_c = '" . $cid . "' , lead_id_c = '" . $lid . "' WHERE id = '" . $tmpid . "'";
             $this->registrar_log( 'Veta Aplicacion::save linea 188 ' . $q );
-            $res = $this->db->query( $q , true , "Error actualizando la fecha de expiración de la visa desde la aplicacion : " );
+            $res = $this->db->query( $q , true , "Error actualizando la información del contacto y el prospecto desde la aplicacion : " );
         }
 
 
@@ -303,10 +303,10 @@ class Veta_Aplicacion extends Basic
      */
     private function propagar_info_oportunidad( Opportunity $o , $person ) {
 
-        if(!empty($person->fecha_expiracion_visa_c)){
+        /*if(!empty($person->fecha_expiracion_visa_c)){
             $q = "UPDATE opportunities_cstm SET fecha_expiracion_visa_c = '" . $person->fecha_expiracion_visa_c . "'  WHERE id_c = '" . $o->id . "'";
             $res = $this->db->query( $q , true , "Error actualizando la fecha de expiración de la visa de la oportunidad : " );
-        }
+        } */
 
 
         $aplicaciones = $o->get_linked_beans( 'veta_aplicacion_opportunities' , 'Veta_Aplicacion' );

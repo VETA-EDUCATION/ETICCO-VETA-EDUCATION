@@ -138,12 +138,15 @@ class Veta_Liquidacion extends Basic
     private function establecer_estudiante() {
 
         $o = $this->obtener_oportunidad();
-        $es = $o->get_linked_beans( 'contacts_opportunities_1' , 'Contacts' );
 
-        foreach( $es as $e ) {
+        if(isset($o)) {
+            $es = $o->get_linked_beans( 'contacts_opportunities_1' , 'Contacts' );
 
-            $this->contact_id_c = $e->id;
-            $this->fecha_expiracion_visa = $e->fecha_expiracion_visa_c;
+            foreach( $es as $e ) {
+
+                $this->contact_id_c = $e->id;
+                $this->fecha_expiracion_visa = $e->fecha_expiracion_visa_c;
+            }
         }
 
         parent::save( false );
@@ -197,7 +200,7 @@ class Veta_Liquidacion extends Basic
         $this->save();
     }
 
-    private function obtener_recibo() {
+    public function obtener_recibo() {
 
         $r = null;
         $o = $this->obtener_oportunidad();
@@ -227,7 +230,8 @@ class Veta_Liquidacion extends Basic
                 $curso = new Veta_Curso();
                 $curso->retrieve( $det->veta_curso_id_c );
 
-                if( $curso->name == $a->curso )
+                //if( $curso->name == $a->curso )
+		        if( $curso->id == $a->veta_curso_id_c )
                     $d = $det;
             }
         }
@@ -260,7 +264,7 @@ class Veta_Liquidacion extends Basic
         $r = $this->obtener_recibo();
         $d = $this->obtener_detalle_recibo();
 
-        if( ( ( $r->pagado * 1 ) - ( $this->total_pagado_otros_coes() ) ) >= ( $d->deposito * 1 ) )
+        if( ( ( $r->gran_total*1 - $r->pendiente_por_pagar * 1) - ( $this->total_pagado_otros_coes() ) ) >= ( $d->deposito * 1 ) )
             $pagado = true;
 
         return $pagado;
@@ -299,7 +303,7 @@ class Veta_Liquidacion extends Basic
 
             $d = $this->obtener_detalle_recibo();
 
-            $this->monto = $d->total_curso * 1;
+            //$this->monto = $d->total_curso * 1;
             $aux = parent::save( $check_nofify );
         }
 
@@ -339,10 +343,7 @@ class Veta_Liquidacion extends Basic
                 $res = $db->query($sql);
                 $this->redireccionar('No se puede solicitar el COE porque hay un pendiente en cartera, por favor revisar que lo que el estudiante ha pagado en el recibo sea mayor al total del curso mas lo pagado de otros coes', $this->id);
             }
-
-
         }
-
 
         $this->establecer_estudiante();
         return $aux;

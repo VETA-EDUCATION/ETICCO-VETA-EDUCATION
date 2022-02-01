@@ -14,7 +14,7 @@ global $app_list_strings;
 
 $l = new Lead();
 
-$q   = "select id, single, couple, family from veta_seguro where name = '" . $asegurador . "' and duracion = " . $duracion . " and deleted = 0 order by date_entered desc";
+$q   = "select id, single, couple, family from veta_seguro where name = '" . trim($asegurador) . "' and duracion = " . $duracion . " and deleted = 0 order by date_entered desc";
 
 //echo $q;
 
@@ -32,7 +32,8 @@ while( $row = $l->db->fetchByAssoc( $res ) ) {
         $seguro = $row[ 'family' ];
 }
 
-show_msg( $seguro );
+
+show_msg( format_number($seguro) );
 
 
 function show_msg($data)

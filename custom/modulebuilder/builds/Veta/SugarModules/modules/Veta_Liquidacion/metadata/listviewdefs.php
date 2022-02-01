@@ -29,13 +29,7 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'FECHA_EXPIRACION_VISA' => 
-  array (
-    'type' => 'datetimecombo',
-    'label' => 'LBL_FECHA_EXPIRACION_VISA',
-    'width' => '10%',
-    'default' => true,
-  ),
+
   'MONTO' => 
   array (
     'type' => 'currency',
@@ -119,6 +113,46 @@ array (
     'width' => '10%',
     'default' => false,
   ),
+  'SOEL_FECHA_EXPIRACION_VISA' =>
+      array (
+          'type' => 'datetime',
+          'label' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
+          'width' => '10%',
+          'default' => true,
+          'sortable' => false,
+      ),
+  'SOEL_REFERIDO' =>
+      array (
+          'type' => 'varchar',
+          'label' => 'LBL_SOEL_REFERIDO',
+          'width' => '10%',
+          'default' => true,
+      ),
+  'SOEL_FECHA_VIAJE' =>
+      array (
+          'type' => 'datetime',
+          'label' => 'LBL_SOEL_FECHA_VIAJE',
+          'width' => '10%',
+          'default' => true,
+      ),
+    'SOEL_CIUDAD_TMP' =>
+        array(
+            'type' => 'varchar',
+            'label' => 'LBL_SOEL_CIUDAD_TMP',
+            'width' => '10%',
+            'default' => false,
+            'sortable' => false,
+        ),
+    'SOEL_LOCALIZACION' =>
+        array(
+            'type' => 'multienum',
+            'studio' => 'visible',
+            'label' => 'LBL_SOEL_LOCALIZACION',
+            'width' => '10%',
+            'default' => false,
+        ),
+
+  
 );
 ;
 ?>

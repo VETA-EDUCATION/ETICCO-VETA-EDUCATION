@@ -18,7 +18,7 @@ class Veta_ReciboViewSend extends ViewEdit
         global $sugar_config;
 
         $emailObj = new Email();
-        $path_pdf = $r->id . ".pdf";
+        $path_pdf = $sugar_config['upload_dir'] . $r->id . ".pdf";
 
         $note = new Note();
         $note->id = create_guid();
@@ -129,6 +129,7 @@ class Veta_ReciboViewSend extends ViewEdit
 
     function preDisplay() {
 
+        global $sugar_config;
         $o = null;
 
         $r = new Veta_Recibo();
@@ -162,7 +163,7 @@ class Veta_ReciboViewSend extends ViewEdit
             if(empty($tEmail->id))
                 $this->redireccionar('No fue posible enviar el email porque no existe la plantilla de correo con id recibo', $r->id);
 
-            if( $media->send_email( $o->email1 , $tEmail->body_html , $tEmail->subject, $r->id . '.pdf' ) ) {
+            if( $media->send_email( $o->email1 , $tEmail->body_html , $tEmail->subject, $sugar_config['upload_dir'] . $r->id . '.pdf' ) ) {
 
                 $emailObj = $this->crear_email($o->email1, $r, $tEmail);
                 $nota = $this->crear_nota($r, $emailObj);

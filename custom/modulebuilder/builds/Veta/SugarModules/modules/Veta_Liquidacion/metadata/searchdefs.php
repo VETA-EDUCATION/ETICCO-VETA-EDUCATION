@@ -65,14 +65,7 @@ array (
         'id' => 'LEAD_ID_C',
         'name' => 'prospecto',
       ),
-      'fecha_expiracion_visa' => 
-      array (
-        'type' => 'datetimecombo',
-        'label' => 'LBL_FECHA_EXPIRACION_VISA',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'fecha_expiracion_visa',
-      ),
+
       'veta_liquidacion_veta_loo_name' => 
       array (
         'type' => 'relate',
@@ -127,6 +120,56 @@ array (
         'default' => true,
         'name' => 'asesor_comercial',
       ),
+      'soel_referido' =>
+          array (
+              'type' => 'varchar',
+              'default' => true,
+              'label' => 'LBL_SOEL_REFERIDO',
+              'width' => '10%',
+              'name' => 'soel_referido',
+              'sortable' => false,
+          ),
+      'soel_fecha_viaje' =>
+          array (
+              'type' => 'datetime',
+              'default' => true,
+              'label' => 'LBL_SOEL_FECHA_VIAJE',
+              'width' => '10%',
+              'name' => 'soel_fecha_viaje',
+              'sortable' => false,
+          ),
+      'soel_fecha_expiracion_visa' =>
+          array (
+              'type' => 'datetime',
+              'default' => true,
+              'label' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
+              'width' => '10%',
+              'name' => 'soel_fecha_expiracion_visa',
+              'sortable' => false,
+          ),
+
+        //region soel_ciudad_tmp
+        'soel_ciudad_tmp'                     =>
+            array(
+                'type'     => 'varchar',
+                'default'  => true,
+                'label'    => 'LBL_SOEL_CIUDAD_TMP',
+                'width'    => '10%',
+                'name'     => 'soel_ciudad_tmp',
+                'sortable' => false,
+            ),
+        //endregion
+        //region soel_localizacion
+        'soel_localizacion'                     =>
+            array(
+                'type'     => 'multienum',
+                'default'  => true,
+                'label'    => 'LBL_SOEL_LOCALIZACION',
+                'width'    => '10%',
+                'name'     => 'soel_localizacion',
+                'sortable' => false,
+            ),
+        //endregion
     ),
   ),
   'templateMeta' => 

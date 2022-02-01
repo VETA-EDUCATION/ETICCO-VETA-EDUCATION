@@ -82,4 +82,8 @@ $mod_strings = array (
   'LBL_FECHA_EXPIRACION_VISA' => 'Fecha Expiracion Visa',
   'LBL_FECHA_PROXIMO_CONTACTO' => 'Fecha Proximo Contacto',
   'LBL_FECHA_ULTIMO_CONTACTO' => 'Fecha Ultimo Contacto',
+  'LBL_SOEL_FECHA_VIAJE' => 'Fecha de viaje',
+  'LBL_SOEL_REFERIDO' => 'Referido',
+  'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
+  'LBL_SOEL_LIMITE_LUZ_VERDE' => 'Fecha Limite Luz Verde',
 );

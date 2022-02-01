@@ -144,7 +144,7 @@ class Veta_DetallePresupuesto extends Basic
             return $aux;
         }
         else
-            $presupuesto->redireccionar('No se puede salvar porque el presupuesto ya genero un recibo', $presupuesto->id);
+            $presupuesto->redireccionar('No se puede salvar porque el presupuesto ya genero una cuenta de cobro', $presupuesto->id);
     }
 
     private function redireccionar( $msg , $registro ) {

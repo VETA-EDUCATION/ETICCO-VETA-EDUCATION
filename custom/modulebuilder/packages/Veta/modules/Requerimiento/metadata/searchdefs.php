@@ -312,6 +312,18 @@ $searchdefs [ $module_name ] =
                             ),
                         //endregion
 
+                        //region soel_ciudad_tmp
+                        'soel_ciudad_tmp'                     =>
+                            array(
+                                'type'     => 'varchar',
+                                'default'  => true,
+                                'label'    => 'LBL_SOEL_CIUDAD_TMP',
+                                'width'    => '10%',
+                                'name'     => 'soel_ciudad_tmp',
+                                'sortable' => false,
+                            ),
+                        //endregion
+
                         //region soel_visa_lead
                         'soel_visa_lead'                     =>
                             array(
@@ -554,6 +566,15 @@ $searchdefs [ $module_name ] =
                         ),
                         //endregion
 
+                        //region fecha_viaje txt
+                        'fecha_viaje_txt'                        => array(
+                            'label'   => 'LBL_FECHA_VIAJE_TXT',
+                            'width'   => '10%',
+                            'default' => true,
+                            'name'    => 'fecha_viaje_txt'
+                        ),
+                        //endregion
+
                         //region fecha_proximo_contacto
                         'fecha_proximo_contacto'             =>
                             array(
@@ -609,6 +630,17 @@ $searchdefs [ $module_name ] =
                                 'name'     => 'soel_fecha_expiracion_visa_contact',
                                 'sortable' => false,
                             ),
+                        //endregion
+
+                        //region localizacion
+                        'fuente'                             => array(
+                            'type'    => 'multienum',
+                            'studio'  => 'visible',
+                            'label'   => 'LBL_LOCALIZACION',
+                            'width'   => '10%',
+                            'default' => true,
+                            'name'    => 'localizacion'
+                        ),
                         //endregion
                     ),
             ),

@@ -21,7 +21,7 @@ class Veta_COEViewMsg extends ViewEdit
     {
         $number = $_REQUEST['number'];
         echo $this->msg[$number];
-        //soel
+
     }
     
 }

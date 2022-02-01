@@ -43,12 +43,19 @@ if ( ! defined( 'sugarEntry' ) || ! sugarEntry )
     die( 'Not A Valid Entry Point' );
 }
 
+global $current_user;
+$dateformat = $current_user->getPreference('datef');
+$parts = array('m', 'd', 'Y');
+$dateformat = str_replace( 'm', '%m', $dateformat );
+$dateformat = str_replace( 'd', '%d', $dateformat );
+$dateformat = str_replace( 'Y', '%Y', $dateformat );
+
 $module_name = 'Veta_Requerimiento';
 
 $searchFields[ $module_name ] = array(
     'name'              => array( 'query_type' => 'default' ),
 
-    'assigned_user_id'                               => array( 'query_type' => 'default' ),
+    'assigned_user_id'  => array( 'query_type' => 'default' ),
 
     //region current_user_only
     'current_user_only' => array(
@@ -143,6 +150,19 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
                             INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id
                          WHERE leads.deleted = 0 AND TRIM(leads_cstm.ciudad_c) IN  (\'{0}\')',
+        'db_field'   => array( 0 => 'id', ),
+    ),
+    //endregion
+
+    //region soel_ciudad_tmp
+    'soel_ciudad_tmp'                               => array(
+        'query_type' => 'format',
+        'operator'   => 'subquery',
+        'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
+                            INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
+                            INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
+                            INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id
+                         WHERE leads.deleted = 0 AND TRIM(leads_cstm.ciudad_tmp_c) IN  (\'{0}\')',
         'db_field'   => array( 0 => 'id', ),
     ),
     //endregion
@@ -462,7 +482,7 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
                             INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id
-                         WHERE leads.deleted = 0 AND leads_cstm.fecha_expiracion_visa_c >=  \'{0} 00:00:00\' AND leads_cstm.fecha_expiracion_visa_c <= \'{0} 23:59:59\'',
+                         WHERE leads.deleted = 0 AND leads_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') AND leads_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
         'db_field'   => array( 0 => 'id', ),
 
     ),
@@ -473,7 +493,7 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
                             INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id
-                         WHERE leads.deleted = 0 AND leads_cstm.fecha_expiracion_visa_c >=  \'{0} 00:00:00\'',
+                         WHERE leads.deleted = 0 AND leads_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
         'db_field'   => array( 0 => 'id', ),
 
     ),
@@ -484,7 +504,7 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
                             INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id
-                         WHERE leads.deleted = 0 AND leads_cstm.fecha_expiracion_visa_c <= \'{0} 23:59:59\'',
+                         WHERE leads.deleted = 0 AND leads_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
         'db_field'   => array( 0 => 'id', ),
 
     ),
@@ -497,7 +517,7 @@ $searchFields[ $module_name ] = array(
         'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
-                         WHERE leads.deleted = 0 AND leads.date_modified >=  \'{0} 00:00:00\' AND leads.date_modified <= \'{0} 23:59:59\'',
+                         WHERE leads.deleted = 0 AND leads.date_modified >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') AND leads.date_modified <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
         'db_field'   => array( 0 => 'id', ),
     ),
     'start_range_soel_fecha_modificacion_lead'       => array(
@@ -506,7 +526,7 @@ $searchFields[ $module_name ] = array(
         'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
-                         WHERE leads.deleted = 0 AND leads.date_modified >=  \'{0} 00:00:00\'',
+                         WHERE leads.deleted = 0 AND leads.date_modified >= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
         'db_field'   => array( 0 => 'id', ),
     ),
     'end_range_soel_fecha_modificacion_lead'         => array(
@@ -515,7 +535,7 @@ $searchFields[ $module_name ] = array(
         'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0 
                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida
-                         WHERE leads.deleted = 0 AND leads.date_modified <= \'{0} 23:59:59\'',
+                         WHERE leads.deleted = 0 AND leads.date_modified <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
         'db_field'   => array( 0 => 'id', ),
     ),
     //endregion
@@ -529,7 +549,7 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_contacts_c.deleted = 0 
                             INNER JOIN contacts ON contacts.id = veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida
                             INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
-                         WHERE contacts.deleted = 0 AND contacts_cstm.fecha_expiracion_visa_c >=  \'{0} 00:00:00\' AND contacts_cstm.fecha_expiracion_visa_c <= \'{0} 23:59:59\'',
+                         WHERE contacts.deleted = 0 AND contacts_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') AND contacts_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field'   => array( 0 => 'id', ),
 
         ),
@@ -541,7 +561,7 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_contacts_c.deleted = 0 
                             INNER JOIN contacts ON contacts.id = veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida
                             INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
-                         WHERE contacts.deleted = 0 AND contacts_cstm.fecha_expiracion_visa_c >=  \'{0} 00:00:00\'',
+                         WHERE contacts.deleted = 0 AND contacts_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
             'db_field'   => array( 0 => 'id', ),
 
         ),
@@ -553,7 +573,7 @@ $searchFields[ $module_name ] = array(
                             INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_contacts_c.deleted = 0 
                             INNER JOIN contacts ON contacts.id = veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida
                             INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
-                         WHERE contacts.deleted = 0 AND contacts_cstm.fecha_expiracion_visa_c <= \'{0} 23:59:59\'',
+                         WHERE contacts.deleted = 0 AND contacts_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field'   => array( 0 => 'id', ),
         ),
     //endregion
@@ -566,7 +586,7 @@ $searchFields[ $module_name ] = array(
             'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
                             INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_contacts_c.deleted = 0 
                             INNER JOIN contacts ON contacts.id = veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida
-                         WHERE contacts.deleted = 0 AND contacts.date_modified >=  \'{0} 00:00:00\' AND contacts.date_modified <= \'{0} 23:59:59\'',
+                         WHERE contacts.deleted = 0 AND contacts.date_modified >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') AND contacts.date_modified <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field'   => array( 0 => 'id', ),
         ),
     'start_range_soel_fecha_modificacion_contact'    =>
@@ -576,7 +596,7 @@ $searchFields[ $module_name ] = array(
             'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
                             INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_contacts_c.deleted = 0 
                             INNER JOIN contacts ON contacts.id = veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida
-                         WHERE contacts.deleted = 0 AND contacts.date_modified >=  \'{0} 00:00:00\'',
+                         WHERE contacts.deleted = 0 AND contacts.date_modified >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
             'db_field'   => array( 0 => 'id', ),
         ),
     'end_range_soel_fecha_modificacion_contact'      =>
@@ -586,8 +606,12 @@ $searchFields[ $module_name ] = array(
             'subquery'   => 'SELECT veta_requerimiento.id AS ID FROM veta_requerimiento
                             INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_contacts_c.deleted = 0 
                             INNER JOIN contacts ON contacts.id = veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida
-                         WHERE contacts.deleted = 0 AND contacts.date_modified <= \'{0} 23:59:59\'',
+                         WHERE contacts.deleted = 0 AND contacts.date_modified <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field'   => array( 0 => 'id', ),
         ),
+    //endregion
+
+    //region localizacion
+    'localizacion' => array('query_type' => 'default'),
     //endregion
 );

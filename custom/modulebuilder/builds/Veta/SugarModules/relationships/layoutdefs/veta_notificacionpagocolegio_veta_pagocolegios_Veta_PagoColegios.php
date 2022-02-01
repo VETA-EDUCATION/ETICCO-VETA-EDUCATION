@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:30
+ // created: 2022-01-28 10:25:02
 $layout_defs["Veta_PagoColegios"]["subpanel_setup"]['veta_notificacionpagocolegio_veta_pagocolegios'] = array (
   'order' => 100,
   'module' => 'Veta_NotificacionPagoColegio',

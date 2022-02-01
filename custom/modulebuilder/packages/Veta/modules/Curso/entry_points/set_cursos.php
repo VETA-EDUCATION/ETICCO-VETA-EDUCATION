@@ -46,7 +46,7 @@ function show_msg( $code , $msg ) {
 }
 
 $body = json_decode(file_get_contents( 'php://input' ));
-//salvar_cursos( $body->cursos );
+salvar_cursos( $body->cursos );
 
-$curso = new Veta_Curso();
-$curso->procesar_cursos();
+//$curso = new Veta_Curso();
+//$curso->procesar_cursos();
