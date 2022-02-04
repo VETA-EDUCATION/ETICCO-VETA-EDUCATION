@@ -43,6 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $module_name = 'Veta_Recibo';
+
+global $timedate, $current_user;
+$dateformat = $current_user->getPreference('datef');
+$parts = array('m', 'd', 'Y');
+$dateformat = str_replace('m', '%m', $dateformat);
+$dateformat = str_replace('d', '%d', $dateformat);
+$dateformat = str_replace('Y', '%Y', $dateformat);
+
 $searchFields[$module_name] = array(
     'name' => array('query_type' => 'default'),
     'current_user_only' => array(
