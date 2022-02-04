@@ -110,4 +110,34 @@ $searchFields[$module_name] = array(
                 ),
         ),
     #endregion
+	'range_veta_abono_fechainsert' => 
+  array (
+    'query_type' => 'format',
+    'operator' => 'subquery',
+    'subquery'=>'select vr.id from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida and vavrc.deleted = 0
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered >= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') and va.date_entered <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
+    'db_field' => array ( 0 => 'id', ),
+  ),
+  'start_range_veta_abono_fechainsert' => 
+  array (
+    'query_type' => 'format',
+    'operator' => 'subquery',
+    'subquery'=>'select vr.id from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered >= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
+    'db_field' => array ( 0 => 'id', ),
+  ),
+  'end_range_veta_abono_fechainsert' => 
+  array (
+    'query_type' => 'format',
+    'operator' => 'subquery',
+    'subquery'=>'select vr.id from veta_recibo vr 
+                    inner join veta_abono_veta_recibo_c vavrc on vr.id = vavrc.veta_abono_veta_reciboveta_recibo_ida 
+                    inner join veta_abono va on vavrc.veta_abono_veta_reciboveta_abono_idb = va.id
+                    and va.date_entered <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
+    'db_field' => array ( 0 => 'id', ),
+  ),
 );
