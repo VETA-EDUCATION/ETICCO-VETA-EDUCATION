@@ -38,14 +38,29 @@ array (
         array (
           0 => 
           array (
-            'name' => 'monto',
-            'label' => 'LBL_MONTO',
+            'name' => 'abono_c',
+            'label' => 'LBL_ABONO',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'monedapago_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONEDAPAGO',
+          ),
         ),
         1 => 
         array (
+          0 => 
+          array (
+            'name' => 'descuentotasa_c',
+            'label' => 'LBL_DESCUENTOTASA',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
           0 => 'description',
+          1 => '',
         ),
       ),
     ),

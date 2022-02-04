@@ -263,72 +263,14 @@ array (
     'width' => '10%',
     'default' => false,
   ),
-    'SOEL_CIUDAD_TMP' =>
-        array(
+  'SOEL_CIUDAD_TMP' =>
+  array(
             'type' => 'varchar',
             'label' => 'LBL_SOEL_CIUDAD_TMP',
             'width' => '10%',
             'default' => false,
             'sortable' => false,
   ),
-  'VETA_ABONO_VETA_RECIBO_NAME' => 
-  array (
-    'type' => 'relate',
-    'link' => true,
-    'label' => 'LBL_VETA_ABONO_VETA_RECIBO_FROM_VETA_ABONO_TITLE',
-    'id' => 'VETA_ABONO_VETA_RECIBOVETA_ABONO_IDB',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'VETA_ABONO_MONEDACOLEG' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_ABONO_MONEDACOLEG',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'VETA_ABONO_FECHAINSERT' => 
-  array (
-    'type' => 'datetime',
-    'label' => 'LBL_ABONO_FECHAINSERT',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'VETA_ABONO_TRM' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_ABONO_TRM',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'VETA_ABONO_ABONO' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_ABONO_ABONO',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'VETA_ABONO_MONTO' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_ABONO_MONTO',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'VETA_ABONO_MONEDAPAGO' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_ABONO_MONEDAPAGO',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'SOEL_LOCALIZACION' =>
-        array(
-            'type' => 'multienum',
-            'studio' => 'visible',
-            'label' => 'LBL_SOEL_LOCALIZACION',
-            'width' => '10%',
-            'default' => true,
-  ),
 );
+;
 ?>
