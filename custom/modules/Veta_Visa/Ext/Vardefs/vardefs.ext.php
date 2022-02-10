@@ -1,3 +1,5 @@
+
+text/x-generic vardefs.ext.php ( PHP script, ASCII text )
 <?php 
  //WARNING: The contents of this file are auto-generated
 
@@ -79,6 +81,34 @@ $dictionary["Veta_Visa"]["fields"]["veta_visa_veta_servicioclienteveta_servicioc
   'reportable' => false,
   'side' => 'left',
   'vname' => 'LBL_VETA_VISA_VETA_SERVICIOCLIENTE_FROM_VETA_SERVICIOCLIENTE_TITLE',
+);
+
+
+$dictionary['Veta_Visa']['fields']['soel_ciudad_tmp'] = array(
+    'name' => 'soel_ciudad_tmp',
+    'vname' => 'LBL_SOEL_CIUDAD_TMP',
+    'type' => 'varchar',
+    'source' => 'non-db',
+);
+
+
+$dictionary['Veta_Visa']['fields']['soel_referido'] = array(
+    'name' => 'soel_referido',
+    'vname' => 'LBL_SOEL_REFERIDO',
+    'type' => 'varchar',
+    'source' => 'non-db',
+);
+
+
+// created: 2021-09-02 13:15:23
+$dictionary["Veta_Visa"]["fields"]["veta_visa_activities_notes"] = array (
+  'name' => 'veta_visa_activities_notes',
+  'type' => 'link',
+  'relationship' => 'veta_visa_activities_notes',
+  'source' => 'non-db',
+  'module' => 'Notes',
+  'bean_name' => 'Note',
+  'vname' => 'LBL_VETA_VISA_ACTIVITIES_NOTES_FROM_NOTES_TITLE',
 );
 
 
