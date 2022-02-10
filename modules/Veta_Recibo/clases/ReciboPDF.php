@@ -451,9 +451,11 @@ class ReciboPDF extends FPDF
         $this->SetFillColor( 23 , 44 , 255 );
         $this->SetTextColor( 255 , 255 , 255 );
 
-        $this->Cell( 30 , 6 , utf8_decode( 'FECHA' ) , 0 , 0 , 'L' , true );
-        $this->Cell( 140 , 6 , utf8_decode( 'DESCRIPCION' ) , 0 , 0 , 'L' , true );
-        $this->Cell( 0 , 6 , utf8_decode( 'MONTO' ) , 0 , 0 , 'R' , true );
+        $this->Cell( 30 , 3 , utf8_decode( 'FECHA' ) , 0 , 0 , 'L' , true );
+        $this->Cell( 40 , 3 , utf8_decode( 'DESCRIPCION' ) , 0 , 0 , 'L' , true );
+        $this->Cell( 30 , 3 , utf8_decode( 'CANTIDAD DEV' ) , 0 , 0 , 'L' , true );
+        $this->Cell( 30 , 3 , utf8_decode( 'MONEDA' ) , 0 , 0 , 'L' , true );
+        $this->Cell( 0 , 3 , utf8_decode( 'MONTO' ) , 0 , 0 , 'R' , true );
 
         $this->Ln( 4 );
 
@@ -472,7 +474,9 @@ class ReciboPDF extends FPDF
 
         $this->Ln( 4 );
         $this->Cell( 30 , 3 , utf8_decode( substr( $d->date_entered , 0 , 10 ) ) , 0 , 0 , 'L' );
-        $this->MultiCell( 140 , 3 , utf8_decode( $d->description ) , 0 , 'J' , false );
+        $this->Cell( 40 , 3 , utf8_decode( $d->description ) , 0 , 'J' , false );
+        $this->Cell( 30 , 3 , utf8_decode( number_format( ( $d->cantidaddev_c ) , 2 , ',' , '.' ) ) , 0 , 0 , 'L' );
+        $this->Cell( 30 , 3 , utf8_decode(  $d->monedadevolucion_c ) , 0 , 0 , 'L' );
         $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->monto ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
 
     }

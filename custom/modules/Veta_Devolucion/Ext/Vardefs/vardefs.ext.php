@@ -35,4 +35,16 @@ $dictionary["Veta_Devolucion"]["fields"]["veta_devolucion_veta_reciboveta_recibo
   'vname' => 'LBL_VETA_DEVOLUCION_VETA_RECIBO_FROM_VETA_DEVOLUCION_TITLE',
 );
 
+
+ // created: 2022-02-09 15:16:31
+$dictionary['Veta_Devolucion']['fields']['monedadevolucion_c']['inline_edit']='1';
+$dictionary['Veta_Devolucion']['fields']['monedadevolucion_c']['labelValue']='Moneda Devolucion';
+
+ 
+
+ // created: 2022-02-09 15:47:11
+$dictionary['Veta_Devolucion']['fields']['cantidaddev_c']['inline_edit']='1';
+$dictionary['Veta_Devolucion']['fields']['cantidaddev_c']['labelValue']='Cantidad Devuelta';
+
+ 
 ?>

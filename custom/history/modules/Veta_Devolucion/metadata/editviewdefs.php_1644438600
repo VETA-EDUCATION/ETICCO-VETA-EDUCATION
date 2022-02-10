@@ -45,20 +45,6 @@ array (
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'monedadevolucion_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONEDADEVOLUCION',
-          ),
-          1 => 
-          array (
-            'name' => 'cantidaddev_c',
-            'label' => 'LBL_CANTIDADDEV',
-          ),
-        ),
-        2 => 
-        array (
           0 => 'description',
         ),
       ),

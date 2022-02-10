@@ -2,7 +2,7 @@
 $module_name = 'Veta_Devolucion';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
@@ -47,19 +47,10 @@ array (
         array (
           0 => 
           array (
-            'name' => 'monedadevolucion_c',
-            'studio' => 'visible',
-            'label' => 'LBL_MONEDADEVOLUCION',
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
           ),
-          1 => 
-          array (
-            'name' => 'cantidaddev_c',
-            'label' => 'LBL_CANTIDADDEV',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 'description',
         ),
       ),
     ),

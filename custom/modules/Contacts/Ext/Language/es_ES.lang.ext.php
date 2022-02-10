@@ -2,7 +2,11 @@
  //WARNING: The contents of this file are auto-generated
 
 
-$mod_strings['LBL_SOEL_CREACION'] = 'Creacion Prospecto';
+$mod_strings['LBL_SOEL_FUENTE'] = 'Fuente del Prospecto';
+
+
+$mod_strings['LBL_SOEL_OFICINA_COMERCIAL'] = 'Oficina';
+
 
 
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
@@ -18,11 +22,11 @@ $mod_strings['LBL_VETA_SOLVENCIAECONOMICA_CONTACTS_FROM_VETA_SOLVENCIAECONOMICA_
 $mod_strings['LBL_VETA_PRESUPUESTO_CONTACTS_FROM_VETA_PRESUPUESTO_TITLE'] = 'Presupuestos';
 
 
+$mod_strings['LBL_SOEL_CREACION'] = 'Creacion Prospecto';
+
+
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
 $mod_strings['LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE'] = 'Proceso de Venta';
-
-
-$mod_strings['LBL_SOEL_FUENTE'] = 'Fuente del Prospecto';
 
  
  // created: 2019-10-09 13:58:27
@@ -73,10 +77,6 @@ $mod_strings['LBL_EDITVIEW_PANEL5'] = 'Australia';
 $mod_strings['LBL_EDITVIEW_PANEL6'] = 'Más Información';
 $mod_strings['LBL_FECHA_EXPIRACION_VISA'] = 'Fecha Expiración Visa';
 
-
-
-
-$mod_strings['LBL_SOEL_OFICINA_COMERCIAL'] = 'Oficina';
 
 
 ?>

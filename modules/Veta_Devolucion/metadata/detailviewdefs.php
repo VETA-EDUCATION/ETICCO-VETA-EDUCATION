@@ -1,3 +1,4 @@
+
 <?php
 $module_name = 'Veta_Devolucion';
 $viewdefs [$module_name] = 
@@ -57,16 +58,30 @@ array (
         array (
           0 => 
           array (
+            'name' => 'monedadevolucion_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MONEDADEVOLUCION',
+          ),
+          1 => 
+          array (
+            'name' => 'cantidaddev_c',
+            'label' => 'LBL_CANTIDADDEV',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'veta_devolucion_veta_recibo_name',
             'label' => 'LBL_VETA_DEVOLUCION_VETA_RECIBO_FROM_VETA_RECIBO_TITLE',
           ),
           1 => '',
         ),
-        2 => 
+        3 => 
         array (
           0 => 'description',
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
