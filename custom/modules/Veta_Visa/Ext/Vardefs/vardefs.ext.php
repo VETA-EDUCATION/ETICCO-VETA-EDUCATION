@@ -48,6 +48,14 @@ $dictionary["Veta_Visa"]["fields"]["veta_visa_veta_servicioclienteveta_servicioc
 );
 
 
+$dictionary['Veta_Visa']['fields']['soel_ciudad_tmp'] = array(
+    'name' => 'soel_ciudad_tmp',
+    'vname' => 'LBL_SOEL_CIUDAD_TMP',
+    'type' => 'varchar',
+    'source' => 'non-db',
+);
+
+
 $dictionary['Veta_Visa']['fields']['soel_referido'] = array(
     'name' => 'soel_referido',
     'vname' => 'LBL_SOEL_REFERIDO',

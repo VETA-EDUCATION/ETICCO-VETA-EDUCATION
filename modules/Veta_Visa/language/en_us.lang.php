@@ -101,5 +101,6 @@ $mod_strings = array (
   'LBL_SOEL_REFERIDO' => 'Referred',
   'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Visa Expire Date',
   'LBL_EDITVIEW_PANEL1' => 'Requirements',
-  'LBL_SOEL_REQUERIMIENTO' => 'Requirement'
+  'LBL_SOEL_REQUERIMIENTO' => 'Requirement',
+  'LBL_SOEL_CIUDAD_TMP' => 'Tmp City',
 );
