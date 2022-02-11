@@ -9,21 +9,6 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'CANTIDADDEV_C' => 
-  array (
-    'type' => 'decimal',
-    'default' => true,
-    'label' => 'LBL_CANTIDADDEV',
-    'width' => '10%',
-  ),
-  'MONEDADEVOLUCION_C' => 
-  array (
-    'type' => 'dynamicenum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_MONEDADEVOLUCION',
-    'width' => '10%',
-  ),
   'MONTO' => 
   array (
     'type' => 'currency',

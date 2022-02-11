@@ -2,6 +2,30 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2021-09-02 13:15:20
+$layout_defs["Veta_PagoColegios"]["subpanel_setup"]['veta_notificacionpagocolegio_veta_pagocolegios'] = array (
+  'order' => 100,
+  'module' => 'Veta_NotificacionPagoColegio',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_VETA_NOTIFICACIONPAGOCOLEGIO_VETA_PAGOCOLEGIOS_FROM_VETA_NOTIFICACIONPAGOCOLEGIO_TITLE',
+  'get_subpanel_data' => 'veta_notificacionpagocolegio_veta_pagocolegios',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2021-09-02 13:15:22
 $layout_defs["Veta_PagoColegios"]["subpanel_setup"]['activities'] = array (
   'order' => 10,
@@ -110,30 +134,6 @@ $layout_defs["Veta_PagoColegios"]["subpanel_setup"]['history'] = array (
     ),
   ),
   'get_subpanel_data' => 'history',
-);
-
-
- // created: 2021-09-02 13:15:20
-$layout_defs["Veta_PagoColegios"]["subpanel_setup"]['veta_notificacionpagocolegio_veta_pagocolegios'] = array (
-  'order' => 100,
-  'module' => 'Veta_NotificacionPagoColegio',
-  'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
-  'title_key' => 'LBL_VETA_NOTIFICACIONPAGOCOLEGIO_VETA_PAGOCOLEGIOS_FROM_VETA_NOTIFICACIONPAGOCOLEGIO_TITLE',
-  'get_subpanel_data' => 'veta_notificacionpagocolegio_veta_pagocolegios',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
 );
 
 ?>
