@@ -161,7 +161,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_pago' => 
@@ -183,7 +184,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_otorgada' => 
@@ -205,7 +207,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_expiracion_visa' => 
@@ -227,7 +230,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_firma_acta' => 
@@ -249,7 +253,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_examenes_medicos' => 
@@ -271,7 +276,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_avac' => 
@@ -293,7 +299,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_exp_req1' => 
@@ -315,7 +322,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_exp_req2' => 
@@ -337,7 +345,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_exp_req3' => 
@@ -359,7 +368,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_expiracion_requerimiento' => 
@@ -381,7 +391,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_recibido' => 
@@ -403,7 +414,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_req1' => 
@@ -425,7 +437,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_req2' => 
@@ -447,7 +460,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_req3' => 
@@ -469,7 +483,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_ultimo_requerimiento' => 
@@ -491,7 +506,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_requerimiento' => 
@@ -513,7 +529,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'fecha_expiracion' => 
@@ -535,7 +552,8 @@ $dictionary['Veta_Visa'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
     'dbType' => 'datetime',
   ),
   'user_id_c' => 
@@ -596,4 +614,4 @@ $dictionary['Veta_Visa'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Visa', 'Veta_Visa', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Visa', 'Veta_Visa', array('basic','assignable','security_groups'));

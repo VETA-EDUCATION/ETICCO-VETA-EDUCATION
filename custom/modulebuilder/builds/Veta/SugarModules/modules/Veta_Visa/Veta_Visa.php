@@ -72,8 +72,9 @@ class Veta_Visa extends Basic
     public $fecha_otorgada;
     public $fecha_pago;
 
-    public function bean_implements( $interface ) {
-        switch( $interface ) {
+    public function bean_implements($interface)
+    {
+        switch ($interface) {
             case 'ACL':
                 return true;
         }
@@ -105,19 +106,21 @@ class Veta_Visa extends Basic
         parent::save( false );
     } */
 
-    public function obtener_oportunidad() {
+    public function obtener_oportunidad()
+    {
 
         $o = null;
 
-        $oportunidades = $this->get_linked_beans( 'veta_visa_opportunities' , 'Opportunity' );
+        $oportunidades = $this->get_linked_beans('veta_visa_opportunities', 'Opportunity');
 
-        foreach( $oportunidades as $op ) {
+        foreach ($oportunidades as $op) {
             $o = $op;
         }
         return $o;
     }
 
-    public function save( $check_notify = false ) {
+    public function save($check_notify = false)
+    {
 
         /*if( $this->estado == 'Aprobada' )
             $this->establecer_oportunidad_visada();*/
@@ -130,23 +133,30 @@ class Veta_Visa extends Basic
         /*if( $this->estado == 'Aprobada' )
             $this->actualizar_fecha_expiracion();*/
 
-        $aux = parent::save( $check_notify );
+        $aux = parent::save($check_notify);
 
-        $oportunidades = $this->get_linked_beans( 'veta_visa_opportunities' , 'Opportunity' );
+        $oportunidades = $this->get_linked_beans('veta_visa_opportunities', 'Opportunity');
 
         // Se actualiza el estado en la oportunidad
-        foreach( $oportunidades as $o ) {
+        foreach ($oportunidades as $o) {
 
             $o->estado_visas_c = $this->estado;
             $o->user_id1_c = $this->assigned_user_id;
             $o->save();
         }
 
-        if($this->estado == 'Visa_Otorgada' ){
-            $c = new Contact();
-            $c->retrieve($this->contact_id_c);
-            $c->fecha_expiracion_visa_c = $this->fecha_expiracion;
-            $c->save(false);
+        if ($this->estado == 'Visa_Otorgada' && !empty($this->fecha_expiracion)) {
+
+            $sql = "SELECT id FROM leads WHERE contact_id = '" . $this->contact_id_c . "' AND leads.deleted = 0";
+            $res = $this->db->query($sql, "Se produjo un error mientras se actualizaba la fecha de expiracion de la visa del prospecto asociado al contacto " . $this->contact_id_c);
+
+            while ($row = $this->db->fetchRow($res)) {
+
+                $lead = new Lead();
+                $lead->retrieve($row['id']);
+                $lead->fecha_expiracion_visa_c = $this->fecha_expiracion;
+                $lead->save(false);
+            }
         }
 
         return $aux;
@@ -208,8 +218,9 @@ class Veta_Visa extends Basic
         }
     }  */
 
-    private function redireccionar( $msg , $registro ) {
-        if( ! empty( $registro ) ) {
+    private function redireccionar($msg, $registro)
+    {
+        if (!empty($registro)) {
             $aux = "<script>
                       var registro='" . $registro . "';";
 
@@ -218,8 +229,7 @@ class Veta_Visa extends Basic
                  </script>";
 
             echo $aux;
-        }
-        else {
+        } else {
             echo "<script>alert('" . $msg . "')</script>";
         }
 
@@ -286,7 +296,8 @@ class Veta_Visa extends Basic
     /**
      * Este metodo establece el estado de una visa como descartada.
      */
-    public function descartar(){
+    public function descartar()
+    {
 
         $this->estado = 'Descartada';
         parent::save(false);

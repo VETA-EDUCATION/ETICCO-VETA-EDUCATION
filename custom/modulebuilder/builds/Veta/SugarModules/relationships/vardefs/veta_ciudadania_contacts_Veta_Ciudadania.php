@@ -1,5 +1,5 @@
 <?php
-// created: 2020-10-14 00:58:22
+// created: 2022-01-28 10:24:58
 $dictionary["Veta_Ciudadania"]["fields"]["veta_ciudadania_contacts"] = array (
   'name' => 'veta_ciudadania_contacts',
   'type' => 'link',

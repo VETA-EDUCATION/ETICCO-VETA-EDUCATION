@@ -5,5 +5,6 @@ $dictionary['Veta_Requerimiento']['fields']['soel_campana_contact'] = array(
     'type' => 'enum',
     'source' => 'non-db',
     'function' => 'getCampanaLeads',
+    'massupdate' => false,
 );
 

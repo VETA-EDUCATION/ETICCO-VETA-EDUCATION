@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:37
+ // created: 2022-01-28 10:25:07
 $layout_defs["Contacts"]["subpanel_setup"]['veta_serviciosadicionales_contacts'] = array (
   'order' => 100,
   'module' => 'Veta_ServiciosAdicionales',

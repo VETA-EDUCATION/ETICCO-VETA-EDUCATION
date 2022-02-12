@@ -72,8 +72,9 @@ $dictionary['Veta_TRM'] = array(
     'required' => false,
     'name' => 'pesos',
     'vname' => 'LBL_PESOS',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -85,18 +86,10 @@ $dictionary['Veta_TRM'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'description' => 
   array (
@@ -127,9 +120,9 @@ $dictionary['Veta_TRM'] = array(
     'required' => true,
     'name' => 'mxn',
     'vname' => 'LBL_MXN',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -141,21 +134,19 @@ $dictionary['Veta_TRM'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => false,
-    'max' => false,
+    'precision' => '2',
   ),
   'clp' => 
   array (
     'required' => true,
     'name' => 'clp',
     'vname' => 'LBL_CLP',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -167,12 +158,10 @@ $dictionary['Veta_TRM'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => false,
-    'max' => false,
+    'precision' => '2',
   ),
 ),
     'relationships' => array (
@@ -183,4 +172,4 @@ $dictionary['Veta_TRM'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_TRM', 'Veta_TRM', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_TRM', 'Veta_TRM', array('basic','assignable','security_groups'));

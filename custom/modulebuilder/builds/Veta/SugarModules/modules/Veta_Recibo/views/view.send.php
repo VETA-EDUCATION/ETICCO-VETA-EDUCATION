@@ -18,7 +18,7 @@ class Veta_ReciboViewSend extends ViewEdit
         global $sugar_config;
 
         $emailObj = new Email();
-        $path_pdf = $r->id . ".pdf";
+        $path_pdf = $sugar_config['upload_dir'] . $r->id . ".pdf";
 
         $note = new Note();
         $note->id = create_guid();
@@ -75,8 +75,8 @@ class Veta_ReciboViewSend extends ViewEdit
         return $emailObj;
     }
 
-
-    function preDisplay() {
+    //Original
+    /*function preDisplay() {
 
         $o = null;
 
@@ -110,6 +110,60 @@ class Veta_ReciboViewSend extends ViewEdit
             $media = new Media();
 
             if( $media->send_email( $o->email1 , $tEmail->body_html , $tEmail->subject, $r->id . '.pdf' ) ) {
+
+                $emailObj = $this->crear_email($o->email1, $r, $tEmail);
+                $nota = $this->crear_nota($r, $emailObj);
+
+                $r->load_relationship(veta_recibo_emails);
+                $r->veta_recibo_emails->add($emailObj->id);
+                $r->new_opportunity();
+
+            }
+            else{
+                $this->redireccionar('No fue posible enviar el email por favor revisa la configuración de correo de tu cuenta', $r->id);
+            }
+        }
+
+        header("Location: index.php?module=Veta_Recibo&action=DetailView&record=" . $r->id);
+    }*/
+
+    function preDisplay() {
+
+        global $sugar_config;
+        $o = null;
+
+        $r = new Veta_Recibo();
+        $r->retrieve( $_REQUEST[ 'rid' ] );
+
+        if( ! empty( $r->veta_recibo_contactscontacts_ida ) ) {
+
+            $o = new Contact();
+            $o->retrieve( $r->veta_recibo_contactscontacts_ida );
+        }
+
+        if( ! empty( $r->veta_recibo_leadsleads_ida ) ) {
+
+            $o = new Lead();
+            $o->retrieve( $r->veta_recibo_leadsleads_ida );
+        }
+
+        if( $o != null ) {
+
+            $tEmail = new EmailTemplate();
+            $tEmail->retrieve( 'recibo' );
+
+            $u = new User();
+            $u->retrieve($o->assigned_user_id);
+
+            $tEmail->body_html = html_entity_decode( $tEmail->body_html , ENT_COMPAT | ENT_HTML401 , "UTF-8" );
+            $tEmail->body_html = str_replace( "$" . "cliente" , $o->name , $tEmail->body_html );
+            $tEmail->body_html = str_replace( "$" . "assigned_user_name" , $u->name , $tEmail->body_html );
+
+            $media = new Media();
+            if(empty($tEmail->id))
+                $this->redireccionar('No fue posible enviar el email porque no existe la plantilla de correo con id recibo', $r->id);
+
+            if( $media->send_email( $o->email1 , $tEmail->body_html , $tEmail->subject, $sugar_config['upload_dir'] . $r->id . '.pdf' ) ) {
 
                 $emailObj = $this->crear_email($o->email1, $r, $tEmail);
                 $nota = $this->crear_nota($r, $emailObj);

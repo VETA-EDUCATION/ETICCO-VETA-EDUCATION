@@ -516,9 +516,9 @@ $dictionary['Veta_Recibo'] = array(
     'required' => false,
     'name' => 'usd_cop',
     'vname' => 'LBL_USD_COP',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -530,18 +530,10 @@ $dictionary['Veta_Recibo'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'description' => 
   array (
@@ -620,9 +612,9 @@ $dictionary['Veta_Recibo'] = array(
     'required' => false,
     'name' => 'usd_mxn',
     'vname' => 'LBL_USD_MXN',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -634,29 +626,21 @@ $dictionary['Veta_Recibo'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'usd_clp' => 
   array (
     'required' => false,
     'name' => 'usd_clp',
     'vname' => 'LBL_USD_CLP',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
-    'comments' => '0',
+    'comments' => '',
     'help' => '',
     'importable' => 'true',
     'duplicate_merge' => 'disabled',
@@ -666,12 +650,10 @@ $dictionary['Veta_Recibo'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => false,
-    'max' => false,
+    'precision' => '2',
   ),
   'asegurador' => 
   array (
@@ -776,4 +758,4 @@ $dictionary['Veta_Recibo'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Recibo', 'Veta_Recibo', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Recibo', 'Veta_Recibo', array('basic','assignable','security_groups'));

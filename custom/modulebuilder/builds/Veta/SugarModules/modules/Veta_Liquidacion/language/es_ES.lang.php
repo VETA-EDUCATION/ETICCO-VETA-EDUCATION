@@ -84,4 +84,10 @@ $mod_strings = array (
   'LBL_PROSPECTO' => 'Prospecto',
   'LBL_ASESOR_COMERCIAL_USER_ID' => 'Asesor Comercial (relacionado Usuarios ID)',
   'LBL_ASESOR_COMERCIAL' => 'Asesor Comercial',
+  'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
+  'LBL_SOEL_FECHA_VIAJE' => 'Fecha Viaje',
+  'LBL_SOEL_REFERIDO' => 'Referido',
+  'LBL_VETA_COE_VETA_LIQUIDACION_FROM_VETA_COE_TITLE' => 'COES',
+  'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
+  'LBL_SOEL_LOCALIZACION' => 'Localizacion',
 );

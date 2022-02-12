@@ -1,5 +1,5 @@
 <?php
-// created: 2020-10-14 00:58:30
+// created: 2022-01-28 10:25:02
 $dictionary["Veta_NotificacionPagoColegio"]["fields"]["veta_notificacionpagocolegio_veta_pagocolegios"] = array (
   'name' => 'veta_notificacionpagocolegio_veta_pagocolegios',
   'type' => 'link',

@@ -114,31 +114,21 @@ array (
         array (
           0 => 
           array (
-            'name' => 'estado',
-            'studio' => 'visible',
-            'label' => 'LBL_ESTADO',
-          ),
-          1 => 
-          array (
             'name' => 'estado_loo',
             'studio' => 'visible',
             'label' => 'LBL_ESTADO_LOO',
           ),
-        ),
-        6 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-          1 => '',
         ),
-        7 => 
+        6 => 
         array (
           0 => 'description',
         ),
-        8 => 
+        7 => 
         array (
           0 => 'date_entered',
           1 => 'date_modified',

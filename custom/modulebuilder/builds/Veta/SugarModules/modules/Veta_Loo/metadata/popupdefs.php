@@ -10,7 +10,6 @@ $popupMeta = array (
   'fecha_firma' => 'veta_loo.fecha_firma',
   'fecha_envio' => 'veta_loo.fecha_envio',
   'veta_loo_veta_aplicacion_name' => 'veta_loo.veta_loo_veta_aplicacion_name',
-  'estado' => 'veta_loo.estado',
   'name' => 'veta_loo.name',
   'estudiante' => 'veta_loo.estudiante',
   'estado_loo' => 'veta_loo.estado_loo',
@@ -23,7 +22,6 @@ $popupMeta = array (
   7 => 'fecha_firma',
   8 => 'fecha_envio',
   9 => 'veta_loo_veta_aplicacion_name',
-  10 => 'estado',
   11 => 'name',
   12 => 'estudiante',
   13 => 'estado_loo',
@@ -92,14 +90,6 @@ $popupMeta = array (
     'label' => 'LBL_FECHA_ENVIO',
     'width' => '10%',
     'name' => 'fecha_envio',
-  ),
-  'estado' => 
-  array (
-    'type' => 'enum',
-    'studio' => 'visible',
-    'label' => 'LBL_ESTADO',
-    'width' => '10%',
-    'name' => 'estado',
   ),
   'estado_loo' => 
   array (

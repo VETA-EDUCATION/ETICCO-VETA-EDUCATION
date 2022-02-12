@@ -38,6 +38,7 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+require_once ('modules/Veta_College/Veta_College.php');
 
 class Veta_Curso extends Basic
 {
@@ -86,6 +87,24 @@ class Veta_Curso extends Basic
         }
 
         return false;
+    }
+
+    /**
+     * Este metodo salva un curso
+     * @param false $notify
+     * @return mixed
+     */
+    public function save($notify=false){
+
+        global $app_list_strings;
+        $ciudades = $app_list_strings['ciudades_list'];
+        
+        $college = new Veta_College();
+        $college->retrieve( $this->veta_college_id_c);
+        //$this->campus = $ciudades[$college->ciudad];
+        $this->campus = $college->ciudad;
+        
+        return parent::save($notify);
     }
 
     public function procesar_cursos(){

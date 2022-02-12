@@ -1,152 +1,52 @@
-Los siguientes archivos fueron modificados por SOEL
+PASOS PAQUETE DE INSTALACIÓN
 
-- custom/Extension/modules/Contacts/Ext/Layoutdefs/removesubpanel.php (Requiere reparacion y reconstruccion rapida)
-- custom/Extension/modules/Opportunities/Ext/Layoutdefs/removesubpanel.php (Requiere reparacion y reconstruccion rapida)
-- custom/Extension/modules/Opportunities/Ext/Layoutdefs/veta_coe_opportunities_Opportunities.php (Requiere reparacion y reconstruccion rapida)
-- custom/Extension/modules/Opportunities/Ext/Layoutdefs/veta_visa_opportunities_Opportunities.php (Requiere reparacion y reconstruccion rapida)
-- custom/Extension/modules/Opportunities/Ext/Vardefs/sugarfield_asesor_servicio_cliente_c.php (Requiere reparacion y reconstruccion rapida)
-- custom/Extension/modules/Leads/Ext/Vardefs/sugarfield_fecha_expiracion_visa_c.php ( Se habilita la busqueda por rango de fecha de la expiracion de la visa)
-- custom/Extension/modules/Leads/Ext/Layoutdefs/veta_recibo_leads_Leads.php (Se quitan botones del subpanel de recibo, requiere reparacion)
-- custom/Extension/modules/Veta_Presupuesto/Ext/Layoutdefs/veta_recibo_veta_presupuesto_Veta_Presupuesto.php (Se quitan botones del subpanel de recibo , requiere reparacion y reconstruccion rapida)
-- custom/Extension/modules/Veta_Recibo/Ext/Layoutdefs/veta_detallereciboitem_veta_recibo_Veta_Recibo.php (Se quitan botones del subpanel de recibo, requiere reparacion)
-- custom/Extension/modules/Veta_Recibo/Ext/Layoutdefs/veta_recibo_emails_Veta_Recibo.php (Se quitan botones del subpanel de recibo, requiere reparacion)
-- custom/Extension/modules/Veta_Recibo/Ext/Layoutdefs/veta_aobono_veta_recibo_Veta_Recibo.php (Se quita boton de seleccionar del subpanel requiere reparacion)
-- custom/Extension/modules/Veta_Recibo/Ext/Layoutdefs/veta_detallerecibo_veta_recibo_Veta_Recibo.php (Se quita boton de seleccionar del subpanel requiere reparacion)
-- custom/Extension/modules/Veta_Liquidacion/Ext/Layoutdefs/veta_coe_veta_liquidacion_Veta_Liquidacion.php (Se quitan botones del subpanel de coe, requiere reparacion)
-- custom/Extension/modules/Veta_Loo/Ext/Layoutdefs/veta_liquidacion_veta_loo_Veta_Loo.php (Se quitan botones del subpanel de loo, requiere reparacion)
-- custom/Extension/modules/Veta_Aplicacion/Ext/Layoutdefs/veta_coe_veta_aplicacion_Veta_Aplicacion.php (Se quitan botones del subpanel de loo, requiere reparacion)
+1. TENER EN CUENTA QUE ARCHIVOS DEBEMOS INCLUIR EN EL MANIFIESTO
 
+Los cambios que no incluye el manifiesto creado por el constructor de módulos no incluyen las personalizaciones de:
 
-- custom/modules/Cases/SOELHooks.php
-- custom/modules/Cases/logic_hooks.php
-- custom/modules/Calls/SOELHooks.php
-- custom/modules/Calls/logic_hooks.php
-- custom/modules/Calls/metadata/subpanels/ForActivities.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Calls/metadata/subpanels/ForHistory.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Campaigns/controller.php (Se habilita la vista de edicion)
-- custom/modules/Campaigns/metadata/detailviewdefs.php ( Se agrega la caracteristica de copiar id de campaña al clipboard)
-- custom/modules/Campaigns/javascript/copiarid.js (Permite copiar id de campaña al clipboard)
-- custom/modules/Leads/logic_hooks.php ( Se agrega hook para asignar departamento y pais)
-- custom/modules/Leads/SOELHooks.php ( Se agrega hook para asignar departamento y pais)
-- custom/modules/Tasks/SOELHooks.php
-- custom/modules/Tasks/logic_hooks.php
-- custom/modules/Tasks/metadata/subpanels/ForActivities.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Tasks/metadata/subpanels/ForHistory.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Notes/SOELNotesHooks.php
-- custom/modules/Notes/logic_hooks.php
-- custom/modules/Notes/metadata/subpanels/ForHistory.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Meetings/SOELHooks.php
-- custom/modules/Meetings/SOELMeetingsHooks.php
-- custom/modules/Meetings/logic_hooks.php
-- custom/modules/Meetings/controller.php
-- custom/modules/Meetings/views/view.msg.php
-- custom/modules/Meetings/metadata/subpanels/ForActivities.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Meetings/metadata/subpanels/ForHistory.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Leads/metadata/convertdefs.php
-- custom/modules/Emails/metadata/subpanels/ForHistory.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Emails/metadata/subpanels/ForUnlinkedEmailHistory.php (Requiere reparacion y reconstruccion rapida)
-- custom/modules/Opportunities/views/view.edit.php
-- custom/modules/Opportunities/logic_hooks.php
-- custom/modules/Opportunities/SOELHooks.php
-- custom/modules/Opportunities/Menu.php
-- modules/Schedulers/_AddJobsHere.php
-- modules/Schedulers/language/es_ES.lang
-- modules/Schedulers/language/en_us.lang
-- modules/Leads/views/view.convertlead.php        =>    Ojo este archivo difiere en la nueva version
-- modules/Opportunities/Menu.php
-- include/phpmailer/class.phpmailer.php
-- custom/modules/Leads/entry_points/obtenerlistasubicacion.php (Servicio web usado para formulario de whatsapp)
+ - vardefs
+ - layoutdefs
+ - logic_hooks.php
+ - actionviewmap
 
-Los siguientes archivos son modificados por SOEL para los modulos de Veta
+ Se debe verificar que en la ruta <SUITECRM>/custom/modulebuilder/packages/Veta/modules/<MODULO> estén creadas las carpetas
+ si es que el módulo requiere estas personalizaciones.
 
-- modules/Veta_Aplicacion/Veta_Aplicacion.php
-- modules/Veta_COE/Veta_COE.php
-- modules/Veta_COE/controller.php
-- modules/Veta_COE/views/view.msg.php
-- modules/Veta_CorreccionCOE/Veta_CorreccionCOE.php
-- modules/Veta_Liquidacion/Veta_Liquidacion.php
-- modules/Veta_Loo/Veta_Loo.php
-- modules/Veta_LooCorreccion/Veta_LooCorreccion.php
-- modules/Veta_PagoColegios/Veta_PagoColegios.php
-- modules/Veta_Pagos/Veta_Pagos.php
+ - dev_vardefs
+ - dev_layoutdefs
+ - dev_actionviewmap
 
-- La plantilla de primera cita debe tener como id primera_cita
-- La plantilla de alerta loo debe tener como oid alerta_loo
-- La plantilla de prospecto no contactado debe tener como id prospecto_no_contactado
+ Tambien en esta ubicacion (<SUITECRM>/custom/modulebuilder/packages/Veta/modules/<MODULO>) se debe incluir el archivo
+ logic_hooks.php en caso de que lo hallamos personalizado
 
---------------- VETA PRESUPUESTO ------------------------------------------
-modules/Veta_Presupuesto/metadata/DetailViewdefs.php -> Se añaden las opciones de generar pdf y enviar presupuesto
-custom/Extension/modules/Veta_Presupuesto/Ext/Layoutdefs/veta_recibo_veta_presupuesto_Veta_Presupuesto.php  -> se quitan las opciones de crear y seleccionar recibo desde subpanel  (Requiere reparacion y reconstruccion rapida)
-custom/Extension/modules/Veta_Presupuesto/Ext/Layoutdefs/veta_presupuesto_emails_Veta_Presupuesto.php  -> se quitan las opciones de crear y seleccionar email desde subpanel  (Requiere reparacion y reconstruccion rapida)
+ 2. AJUSTAR EL ARCHIVO manifest.soel.php
 
---------------- VETA RECIBO -----------------------------------------------
-modules/Veta_Recibo/Menu.php
-modules/Veta_Recibo/metadata/detailviewdefs.php
+ El archivo manifest.soel.php sirve como plantilla para incluir en el manifiesto del paquete las personalizaciones
+ realizadas y que la instalación del paquete se encargara de desplegar, se debe actualizar desde donde comienza el comentario
+ "/** START SOEL **/"
+
+ Por ejemplo :
+
+  /** START SOEL **/
+
+       #region Veta_Aplicacion
+       32 =>
+           array (
+               'from' => '<basepath>/SugarModules/modules/Veta_Aplicacion/dev_vardefs',
+               'to' => 'custom/Extension/modules/Veta_Aplicacion/Ext/Vardefs',
+           ),
+
+  En este ejemplo le indicamos al manifiesto que copie el contenido de la carpeta dev_vardefs en la carpeta Vardefs usada por
+  el framework de extension
 
 
-- El archivo custom/include/language/es_ES.lang.php debe contener las siguientes lineas:
+  3. EXPORTAR EL PAQUETE DESDE EL CONSTRUCTOR DE MODULOS
 
-// Las siguientes lineas son añadidas por SOEL para que se relacionen los modulos personalizados con las actividades
-$app_list_strings['parent_type_display']['Veta_Aplicacion']='Aplicacion';
-$app_list_strings['record_type_display_notes']['Veta_Aplicacion']='Aplicacion';
-$app_list_strings['record_type_display']['Veta_Aplicacion']='Aplicacion';
+  Se debe exportar, (ojo no confundir con deplegar) el paquete Veta esto genera un archivo .zip dentro del .zip se encuentra
+  el archivo manifest.php, debemos abrirlo y actualizarlo con el contenido que creamos en el paso 2 , se deben actualizar las
+  claves del arreglo copy ya que es posible que no coincidan.
 
-$app_list_strings['parent_type_display']['Veta_COE']='COE';
-$app_list_strings['record_type_display_notes']['Veta_COE']='COE';
-$app_list_strings['record_type_display']['Veta_COE']='COE';
+  4. INSTALAR EL PAQUETE USANDO EL CARGADOR DE MODULOS
 
-$app_list_strings['parent_type_display']['Veta_Liquidacion']='Liquidacion';
-$app_list_strings['record_type_display_notes']['Veta_Liquidacion']='Liquidacion';
-$app_list_strings['record_type_display']['Veta_Liquidacion']='Liquidacion';
+  Se usa el cargador de modulos para instalar el paquete veta.
 
-$app_list_strings['parent_type_display']['Veta_Loo']='Carta de Oferta';
-$app_list_strings['record_type_display_notes']['Veta_Loo']='Carta de Oferta';
-$app_list_strings['record_type_display']['Veta_Loo']='Carta de Oferta';
-
-$app_list_strings['parent_type_display']['Veta_PagoColegios']='Pago a Colegios';
-$app_list_strings['record_type_display_notes']['Veta_PagoColegios']='Pago a Colegios';
-$app_list_strings['record_type_display']['Veta_PagoColegios']='Pago a Colegios';
-
-$app_list_strings['parent_type_display']['Veta_Visa']='Visa';
-$app_list_strings['record_type_display_notes']['Veta_Visa']='Visa';
-$app_list_strings['record_type_display']['Veta_Visa']='Visa';
-
-// OJO
-//Se cambia el tipo de dato de la fecha de expiracion de la visa, originalmente es date pero se cambia a datetime para permitir la busqueda por rango de fechas
-update fields_meta_data set type = 'datetime' where id = 'Leadsfecha_expiracion_visa_c';
-
-
-
-
-// Pendientes
-
-- Modulo de Oportunidad : Desactivar boton nuevo COE en el subpanel - OK
-- En el subpanel de actividades no aparece el estudiante - OK
-- Editar vista de edicion del caso quitar las relaciones con liquidacion, visa y visa de la vista - OK
-- Cuando se genera la primera cita del prospecto se envia exitosamente el correo con el acta y la cotizacion pero la pantalla queda en blanco y el estado de la cita no cambia- OK
-- Crear relacion entre caso y oportunidad - OK
-- Revisar cuando se genera la primera cita y se adjunta el acta y la cotizacion se esta creando un nuevo prospecto en blanco - OK
-- Hacer que el campo de asesor de servicio al cliente del modulo de Oportunidad tenga la opcion de actualizacion masiva. - OK
-- Modificar el subpanel de caso para que aparezca el nombre del estudiante en lugar del nombre de la cuenta. - OK
-- En la vista de lista del modulo de casos no se esta mostrando el estudiante, esto es porque cuando se creo la funcionalidad de relacionar el estudiante no existia la relacion entre caso y oportunidad. -  OK
-- No se esta mostrando el estudiante automaticamente en la liquidacion, el comercial genera una liquidacion y esta no esta tomando el nombre del estudiante. - OK.
-- Revisar porque al COE y a la correccion del COE no les esta apareciendo el estudiante. (OK)
-- Vista de Edicion de la correccion del COE no debe tener el campo para seleccionar estudiante.(OK)
-- En el COE primero se genero una correccion y se corrigio y luego se crea un caso y el estado continua como Listo y no como Pendiente OK
-- Pago a colegios no esta mostrando el estudiante. (OK)
-- Visa no muestra el estudiante (OK)
-- Importar configuracion del correo - OK
-- Se presenta un bug que no permite crear una reunion despues de la primera cita (OK)
-- No se actualiza la fecha de expiracion de la visa de prospecto, estudiante,  oportunidad (OK)
-- Se presenta un bug que consiste en que se intenta salvar la primera cita despues de realizada y crea un prospecto en blanco (OK)
-- Cuando se realiza una actualizacion masiva del prospecto la ciudad se actualiza sola y toma un valor que no le corresponde - Pendiente (Un bug que necesito reportar a SuiteCRM) - (OK)
-- Verificar que el formato de fecha de los usuarios sea DD-MM-YYYY - OK
-- Revisar que pasa cuando se crea una actividad al estudiante deberia aparecer relacionado el estudiante en la actividad. - OK
-- A Natalia Gallego no le aparece el menu de servicio al cliente - OK
-
-- Colocar en la vista de lista del modulo de notas el campo descripcion (Nota) - OK
-- Revisar el saldo pendiente de pago en la oportunidad - OK
-- Revisar la vista de lista de la oportunidad porque el monto aparece mal - OK.
-
-
-- Crear

@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:21
+ // created: 2022-01-28 10:24:58
 $layout_defs["Leads"]["subpanel_setup"]['veta_ciudadania_leads'] = array (
   'order' => 100,
   'module' => 'Veta_Ciudadania',

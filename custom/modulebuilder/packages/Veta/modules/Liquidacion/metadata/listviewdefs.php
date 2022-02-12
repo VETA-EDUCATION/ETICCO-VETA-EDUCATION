@@ -119,6 +119,7 @@ array (
           'label' => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
           'width' => '10%',
           'default' => true,
+          'sortable' => false,
       ),
   'SOEL_REFERIDO' =>
       array (
@@ -134,7 +135,22 @@ array (
           'width' => '10%',
           'default' => true,
       ),
-
+    'SOEL_CIUDAD_TMP' =>
+        array(
+            'type' => 'varchar',
+            'label' => 'LBL_SOEL_CIUDAD_TMP',
+            'width' => '10%',
+            'default' => false,
+            'sortable' => false,
+        ),
+    'SOEL_LOCALIZACION' =>
+        array(
+            'type' => 'multienum',
+            'studio' => 'visible',
+            'label' => 'LBL_SOEL_LOCALIZACION',
+            'width' => '10%',
+            'default' => false,
+        ),
 
   
 );

@@ -86,6 +86,90 @@ $searchFields[$module_name] = array(
     ),
     //Range Search Support
 
+    #region Fecha de Solicitud
+    'range_fecha_solicitud' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_solicitud' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_solicitud' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #end region
+
+    #region Fecha de Correccion
+    'range_fecha_correccion' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_correccion' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_correccion' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #end region
+    
+    #region Fecha de Correccion 2
+    'range_fecha_correccion2' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_correccion2' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_correccion2' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #end region
+
+    #region Fecha Envio Estudiante
+    'range_fecha_envio_estudiante' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'start_range_fecha_envio_estudiante' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    'end_range_fecha_envio_estudiante' =>
+        array(
+            'query_type' => 'default',
+            'enable_range_search' => true,
+            'is_date_field' => true,
+        ),
+    #endregion
+
     'range_soel_fecha_viaje' =>
         array (
             'query_type' => 'format',
@@ -95,7 +179,7 @@ $searchFields[$module_name] = array(
                            INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0
                              INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                              INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                              INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                              INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
                              INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
@@ -115,7 +199,7 @@ $searchFields[$module_name] = array(
                             INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0 
                              INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                              INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                              INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                              INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
                              INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
@@ -135,7 +219,7 @@ $searchFields[$module_name] = array(
                             INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0 
                              INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                              INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                              INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                              INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
                              INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
@@ -155,28 +239,14 @@ $searchFields[$module_name] = array(
                             INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0
                              INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                              INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                              INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                              INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0   
                              INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
                              INNER JOIN leads_opportunities_1_c ON leads_opportunities_1_c.leads_opportunities_1opportunities_idb = opportunities.id AND leads_opportunities_1_c.deleted = 0 
                              INNER JOIN leads ON leads.id = leads_opportunities_1_c.leads_opportunities_1leads_ida AND leads.deleted = 0 
                              INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id 
-                             WHERE leads_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') and leads_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')
-                             UNION 
-                             SELECT veta_coe.id AS ID FROM veta_coe 
-                             INNER JOIN veta_coe_veta_liquidacion_c ON veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_coe_idb = veta_coe.id AND veta_coe_veta_liquidacion_c.deleted = 0 
-                             INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0
-                             INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
-                             INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
-                             INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
-                             INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
-                             INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
-                             INNER JOIN contacts_opportunities_1_c ON contacts_opportunities_1_c.contacts_opportunities_1opportunities_idb = opportunities.id AND contacts_opportunities_1_c.deleted = 0 
-                             INNER JOIN contacts ON contacts.id = contacts_opportunities_1_c.contacts_opportunities_1contacts_ida AND contacts.deleted = 0 
-                             INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id 
-                             WHERE contacts_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') and contacts_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
+                             WHERE leads_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') and leads_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field' => array ( 0 => 'id', ),
 
         ),
@@ -189,28 +259,14 @@ $searchFields[$module_name] = array(
                             INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0
                              INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                              INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                              INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                              INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
                              INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
                              INNER JOIN leads_opportunities_1_c ON leads_opportunities_1_c.leads_opportunities_1opportunities_idb = opportunities.id AND leads_opportunities_1_c.deleted = 0 
                              INNER JOIN leads ON leads.id = leads_opportunities_1_c.leads_opportunities_1leads_ida AND leads.deleted = 0 
                              INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id 
-                             WHERE leads_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\') 
-                             UNION 
-                             SELECT veta_coe.id AS ID FROM veta_coe 
-                            INNER JOIN veta_coe_veta_liquidacion_c ON veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_coe_idb = veta_coe.id AND veta_coe_veta_liquidacion_c.deleted = 0 
-                            INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0 
-                             INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
-                             INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
-                             INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
-                             INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
-                             INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
-                             INNER JOIN contacts_opportunities_1_c ON contacts_opportunities_1_c.contacts_opportunities_1opportunities_idb = opportunities.id AND contacts_opportunities_1_c.deleted = 0 
-                             INNER JOIN contacts ON contacts.id = contacts_opportunities_1_c.contacts_opportunities_1contacts_ida AND contacts.deleted = 0 
-                             INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id 
-                             WHERE contacts_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
+                             WHERE leads_cstm.fecha_expiracion_visa_c >=  CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 00:00:00\')',
             'db_field' => array ( 0 => 'id', ),
         ),
     'end_range_soel_fecha_expiracion_visa' =>
@@ -222,31 +278,16 @@ $searchFields[$module_name] = array(
                             INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0 
                              INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                              INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                              INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                              INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0 
                              INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
                              INNER JOIN leads_opportunities_1_c ON leads_opportunities_1_c.leads_opportunities_1opportunities_idb = opportunities.id AND leads_opportunities_1_c.deleted = 0 
                              INNER JOIN leads ON leads.id = leads_opportunities_1_c.leads_opportunities_1leads_ida AND leads.deleted = 0 
                              INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id 
-                             WHERE leads_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')
-                             UNION 
-                             SELECT veta_coe.id AS ID FROM veta_coe 
-                            INNER JOIN veta_coe_veta_liquidacion_c ON veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_coe_idb = veta_coe.id AND veta_coe_veta_liquidacion_c.deleted = 0 
-                            INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0
-                             INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
-                             INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                             INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
-                             INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
-                             INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
-                             INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
-                             INNER JOIN contacts_opportunities_1_c ON contacts_opportunities_1_c.contacts_opportunities_1opportunities_idb = opportunities.id AND contacts_opportunities_1_c.deleted = 0 
-                             INNER JOIN contacts ON contacts.id = contacts_opportunities_1_c.contacts_opportunities_1contacts_ida AND contacts.deleted = 0 
-                             INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id 
-                             WHERE contacts_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
+                             WHERE leads_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')',
             'db_field' => array ( 0 => 'id', ),
         ),
-
     'soel_referido' =>
         array (
             'query_type' => 'format',
@@ -256,7 +297,7 @@ $searchFields[$module_name] = array(
                            INNER JOIN veta_liquidacion ON veta_liquidacion.id = veta_coe_veta_liquidacion_c.veta_coe_veta_liquidacionveta_liquidacion_ida AND veta_liquidacion.deleted = 0
                            INNER JOIN veta_liquidacion_veta_loo_c ON veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_liquidacion_idb = veta_liquidacion.id AND veta_liquidacion_veta_loo_c.deleted = 0 
                            INNER JOIN veta_loo ON veta_loo.id = veta_liquidacion_veta_loo_c.veta_liquidacion_veta_looveta_loo_ida AND veta_loo.deleted = 0
-                           INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND vetacrm.veta_loo_veta_aplicacion_c.deleted = 0
+                           INNER JOIN veta_loo_veta_aplicacion_c ON veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_loo_idb = veta_loo.id AND veta_loo_veta_aplicacion_c.deleted = 0
                            INNER JOIN veta_aplicacion ON veta_aplicacion.id = veta_loo_veta_aplicacion_c.veta_loo_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion.deleted = 0
                            INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 0  
                            INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
@@ -270,4 +311,42 @@ $searchFields[$module_name] = array(
                     0 => 'id',
                 ),
         ),
+    #region oficina_comercial
+    'soel_oficina_comercial' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => 'SELECT veta_coe.id AS ID 
+                            FROM veta_coe
+                                INNER JOIN veta_coe_veta_aplicacion_c ON veta_coe_veta_aplicacion_c.veta_coe_veta_aplicacionveta_coe_idb = veta_coe.id AND veta_coe_veta_aplicacion_c.deleted = 0
+                                INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_coe_veta_aplicacion_c.veta_coe_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion_opportunities_c.deleted = 0  
+                                INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
+                                INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 0 
+                                INNER JOIN veta_recibo ON veta_recibo.id = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida
+                                INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                                INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida 
+                                INNER JOIN users ON users.id = veta_requerimiento.assigned_user_id 
+                            WHERE users.deleted = 0 AND users.address_city IN  (\'{0}\')',
+            'db_field' => array(0 => 'id',),
+        ),
+    #endregion
+
+    #region soel_comercial_requerimiento
+    'soel_comercial_requerimiento' => array(
+        'query_type' => 'format',
+        'operator' => 'subquery',
+        'subquery' => 'SELECT veta_coe.id AS ID 
+                            FROM veta_coe 
+                                INNER JOIN veta_coe_veta_aplicacion_c ON veta_coe_veta_aplicacion_c.veta_coe_veta_aplicacionveta_coe_idb = veta_coe.id AND veta_coe_veta_aplicacion_c.deleted = 0
+                                INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_coe_veta_aplicacion_c.veta_coe_veta_aplicacionveta_aplicacion_ida AND veta_aplicacion_opportunities_c.deleted = 0  
+                                INNER join opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 0 
+                                INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 0 
+                                INNER JOIN veta_recibo ON veta_recibo.id = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida
+                                INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                                INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida 
+                                INNER JOIN users ON users.id = veta_requerimiento.assigned_user_id 
+                            WHERE users.deleted = 0 AND users.id IN  (\'{0}\')',
+        'db_field' => array(0 => 'id',),
+    ),
+    #endregion
 );

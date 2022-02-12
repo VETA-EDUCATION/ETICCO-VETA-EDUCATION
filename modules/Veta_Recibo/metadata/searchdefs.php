@@ -151,6 +151,14 @@ array (
                 'sortable' => false,
             ),
         //endregion
+		'veta_abono_fechainsert' => 
+			  array (
+				'type' => 'datetime',
+				'label' => 'LBL_ABONO_FECHAINSERT',
+				'width' => '10%',
+				'default' => true,
+				'name' => 'veta_abono_fechainsert',
+			  ),
     ),
   ),
   'templateMeta' => 

@@ -275,9 +275,9 @@ $dictionary['Veta_Presupuesto'] = array(
     'required' => false,
     'name' => 'usd_cop',
     'vname' => 'LBL_USD_COP',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -289,18 +289,10 @@ $dictionary['Veta_Presupuesto'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'usd' => 
   array (
@@ -546,9 +538,9 @@ $dictionary['Veta_Presupuesto'] = array(
     'required' => false,
     'name' => 'usd_mxn',
     'vname' => 'LBL_USD_MXN',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -560,27 +552,19 @@ $dictionary['Veta_Presupuesto'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'clp_usd' => 
   array (
     'required' => false,
     'name' => 'clp_usd',
     'vname' => 'LBL_CLP_USD',
-    'type' => 'int',
+    'type' => 'decimal',
     'massupdate' => 0,
-    'default' => '0',
+    'default' => '0.00000',
     'no_default' => false,
     'comments' => '',
     'help' => '',
@@ -592,18 +576,10 @@ $dictionary['Veta_Presupuesto'] = array(
     'reportable' => true,
     'unified_search' => false,
     'merge_filter' => 'disabled',
-    'len' => '255',
+    'len' => '18',
     'size' => '20',
     'enable_range_search' => false,
-    'disable_num_format' => '',
-    'min' => 0,
-    'max' => false,
-    'validation' => 
-    array (
-      'type' => 'range',
-      'min' => 0,
-      'max' => false,
-    ),
+    'precision' => '2',
   ),
   'asegurador' => 
   array (
@@ -708,4 +684,4 @@ $dictionary['Veta_Presupuesto'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Presupuesto', 'Veta_Presupuesto', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Presupuesto', 'Veta_Presupuesto', array('basic','assignable','security_groups'));

@@ -11,7 +11,7 @@ array (
   ),
   'PESOS' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'label' => 'LBL_PESOS',
     'width' => '10%',
     'default' => true,
@@ -25,14 +25,14 @@ array (
   ),
   'MXN' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => true,
     'label' => 'LBL_MXN',
     'width' => '10%',
   ),
   'CLP' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => true,
     'label' => 'LBL_CLP',
     'width' => '10%',

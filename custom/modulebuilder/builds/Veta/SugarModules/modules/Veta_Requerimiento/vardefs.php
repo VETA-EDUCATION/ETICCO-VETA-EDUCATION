@@ -135,7 +135,8 @@ $dictionary['Veta_Requerimiento'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
   ),
   'presupuesto' => 
   array (
@@ -246,7 +247,8 @@ $dictionary['Veta_Requerimiento'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
   ),
   'fecha_ultimo_contacto' => 
   array (
@@ -267,7 +269,8 @@ $dictionary['Veta_Requerimiento'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
   ),
   'campaign_id_c' => 
   array (
@@ -382,7 +385,32 @@ $dictionary['Veta_Requerimiento'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
+    'options' => 'date_range_search_dom',
+  ),
+  'localizacion' => 
+  array (
+    'required' => false,
+    'name' => 'localizacion',
+    'vname' => 'LBL_LOCALIZACION',
+    'type' => 'multienum',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => '',
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => 100,
+    'size' => '20',
+    'options' => 'localizacion_list',
+    'studio' => 'visible',
+    'isMultiSelect' => true,
   ),
 ),
     'relationships' => array (
@@ -393,4 +421,4 @@ $dictionary['Veta_Requerimiento'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Requerimiento', 'Veta_Requerimiento', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Requerimiento', 'Veta_Requerimiento', array('basic','assignable','security_groups'));

@@ -146,6 +146,7 @@ $listViewDefs [ $module_name ] =
                 'label'   => 'LBL_SOEL_FECHA_EXPIRACION_VISA',
                 'width'   => '10%',
                 'default' => true,
+                'sortable' => false,
             ),
         //endregion
 
@@ -154,6 +155,16 @@ $listViewDefs [ $module_name ] =
             array(
                 'type'    => 'datetime',
                 'label'   => 'LBL_SOEL_FECHA_VIAJE',
+                'width'   => '10%',
+                'default' => true,
+            ),
+        //endregion
+
+        //region SOEL_LIMITE_LUZ_VERDE
+        'SOEL_LIMITE_LUZ_VERDE'                        =>
+            array(
+                'type'    => 'datetime',
+                'label'   => 'LBL_SOEL_LIMITE_LUZ_VERDE',
                 'width'   => '10%',
                 'default' => true,
             ),

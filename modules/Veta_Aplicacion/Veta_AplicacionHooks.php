@@ -183,7 +183,7 @@ class Veta_AplicacionHooks
     {
 
         $query = "SELECT  
-                    veta_college.name AS 'COLEGIO'
+                    veta_college.name AS 'COLEGIO', veta_college.pais AS PAIS
                 FROM veta_aplicacion
                     INNER JOIN veta_aplicacion_cstm ON veta_aplicacion_cstm.id_c = veta_aplicacion.id 
                     INNER JOIN veta_curso ON veta_curso.id = veta_aplicacion_cstm.veta_curso_id_c AND veta_curso.deleted = 0       
@@ -195,6 +195,7 @@ class Veta_AplicacionHooks
 
         if ($row != null) {
             $bean->soel_colegio = $row['COLEGIO'];
+            $bean->soel_paiscolegio = $row['PAIS'];
         }
 
         return $bean;

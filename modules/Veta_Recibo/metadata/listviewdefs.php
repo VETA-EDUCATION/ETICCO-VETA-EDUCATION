@@ -270,18 +270,6 @@ array (
             'width' => '10%',
             'default' => false,
             'sortable' => false,
-        ),
-
-    'SOEL_LOCALIZACION' =>
-        array(
-            'type' => 'multienum',
-            'studio' => 'visible',
-            'label' => 'LBL_SOEL_LOCALIZACION',
-            'width' => '10%',
-            'default' => false,
-        ),
-
-
   ),
   'VETA_ABONO_VETA_RECIBO_NAME' => 
   array (
@@ -333,6 +321,14 @@ array (
     'label' => 'LBL_ABONO_MONEDAPAGO',
     'width' => '10%',
     'default' => true,
+  ),
+  'SOEL_LOCALIZACION' =>
+        array(
+            'type' => 'multienum',
+            'studio' => 'visible',
+            'label' => 'LBL_SOEL_LOCALIZACION',
+            'width' => '10%',
+            'default' => true,
   ),
 );
 ?>

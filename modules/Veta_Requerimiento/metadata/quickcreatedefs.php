@@ -120,6 +120,15 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
+        7 =>
+              array(
+                  0 =>
+                      array(
+                          'name' => 'localizacion',
+                          'label' => 'LBL_LOCALIZACION',
+                          'studio' => 'visible',
+                      ),
+              ),
       ),
     ),
   ),

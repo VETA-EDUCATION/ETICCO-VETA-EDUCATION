@@ -247,6 +247,7 @@ class Veta_COE extends Basic
 
         $this->estado_loo = 'Descartado';
         parent::save(false);
-        //Diego 
+
+
     }
 }

@@ -87,4 +87,9 @@ $mod_strings = array (
   'LBL_ESTADO_LOO' => 'Estado LOO',
   'LBL_PROSPECTO_LEAD_ID' => 'Prospecto (relacionado Prospecto ID)',
   'LBL_PROSPECTO' => 'Prospecto',
+  'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
+  'LBL_SOEL_FECHA_VIAJE' => 'Fecha Viaje',
+  'LBL_SOEL_REFERIDO' => 'Referido',
+  'LBL_SOEL_OFICINA_COMERCIAL' => 'Oficina',
+  'LBL_SOEL_COMERCIAL_REQUERIMIENTO' => 'Asesor Comercial',
 );

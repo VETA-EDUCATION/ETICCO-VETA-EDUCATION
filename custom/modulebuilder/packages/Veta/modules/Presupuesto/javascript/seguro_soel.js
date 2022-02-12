@@ -2,6 +2,10 @@
 
 YAHOO.util.Event.onDOMReady(function () {
 
+    $("#soel_asegurador option").filter(function() {
+        return $(this).text() == document.getElementById('asegurador').value;
+    }).attr('selected', true);
+
     $("#seguro").attr('readonly', 'readonly');
     $("input[name='Veta_Presupuesto_subpanel_full_form_button']").hide();
 
@@ -18,13 +22,14 @@ function actualizar_seguro() {
     var duracion = document.getElementById('duracion').value;
     var tipo = document.getElementById('tipo_seguro').value;
 
-    console.log('Asegurador', asegurador);
+    // console.log('Asegurador', asegurador);
     
 
     if (asegurador != '' && duracion != '' ) {
 
         $("input[name='Veta_Presupuesto_subpanel_save_button']").hide();
-        
+
+        document.getElementById('asegurador').value = $("#soel_asegurador option:selected").text();
 
         var url = window.location.protocol + '//' + window.location.hostname + window.location.pathname + '?entryPoint=obtenerseguro&asegurador=' + asegurador + '&duracion=' + duracion + '&tipo=' + tipo;
 

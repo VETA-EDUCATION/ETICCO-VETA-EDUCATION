@@ -1,5 +1,5 @@
 <?php
-// created: 2020-10-14 00:58:28
+// created: 2022-01-28 10:24:59
 $dictionary["Case"]["fields"]["veta_loo_cases"] = array (
   'name' => 'veta_loo_cases',
   'type' => 'link',

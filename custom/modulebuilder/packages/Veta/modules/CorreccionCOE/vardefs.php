@@ -37,66 +37,57 @@
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
-
-$dictionary['Veta_CorreccionCOE'] = array(
-    'table' => 'veta_correccioncoe',
-    'audited' => true,
-    'inline_edit' => true,
-    'duplicate_merge' => true,
-    'fields' => array (
-  'description' => 
+$vardefs = array (
+  'fields' => 
   array (
-    'name' => 'description',
-    'vname' => 'LBL_DESCRIPTION',
-    'type' => 'text',
-    'comment' => 'Full text of the note',
-    'rows' => '6',
-    'cols' => '80',
-    'required' => false,
-    'massupdate' => 0,
-    'no_default' => false,
-    'comments' => 'Full text of the note',
-    'help' => '',
-    'importable' => 'true',
-    'duplicate_merge' => 'disabled',
-    'duplicate_merge_dom_value' => '0',
-    'audited' => true,
-    'inline_edit' => '',
-    'reportable' => true,
-    'unified_search' => false,
-    'merge_filter' => 'disabled',
-    'size' => '20',
-    'studio' => 'visible',
+    'description' => 
+    array (
+      'name' => 'description',
+      'vname' => 'LBL_DESCRIPTION',
+      'type' => 'text',
+      'comment' => 'Full text of the note',
+      'rows' => '6',
+      'cols' => '80',
+      'required' => false,
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Full text of the note',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => true,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'studio' => 'visible',
+    ),
+    'fecha_correccion' => 
+    array (
+      'required' => false,
+      'name' => 'fecha_correccion',
+      'vname' => 'LBL_FECHA_CORRECCION',
+      'type' => 'datetimecombo',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+      'dbType' => 'datetime',
+    ),
   ),
-  'fecha_correccion' => 
+  'relationships' => 
   array (
-    'required' => false,
-    'name' => 'fecha_correccion',
-    'vname' => 'LBL_FECHA_CORRECCION',
-    'type' => 'datetimecombo',
-    'massupdate' => 0,
-    'no_default' => false,
-    'comments' => '',
-    'help' => '',
-    'importable' => 'true',
-    'duplicate_merge' => 'disabled',
-    'duplicate_merge_dom_value' => '0',
-    'audited' => false,
-    'inline_edit' => '',
-    'reportable' => true,
-    'unified_search' => false,
-    'merge_filter' => 'disabled',
-    'size' => '20',
-    'enable_range_search' => false,
-    'dbType' => 'datetime',
   ),
-),
-    'relationships' => array (
-),
-    'optimistic_locking' => true,
-    'unified_search' => true,
 );
-if (!class_exists('VardefManager')) {
-        require_once('include/SugarObjects/VardefManager.php');
-}
-VardefManager::createVardef('Veta_CorreccionCOE', 'Veta_CorreccionCOE', array('basic','assignable','security_groups'));

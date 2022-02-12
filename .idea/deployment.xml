@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="LOCALHOST" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="DESPLIEGUE">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ETICCO-PRUEBAS">
         <serverdata>
           <mappings>

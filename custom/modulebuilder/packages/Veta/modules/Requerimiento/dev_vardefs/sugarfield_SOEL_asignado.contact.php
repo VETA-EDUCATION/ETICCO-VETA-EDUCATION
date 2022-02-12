@@ -5,4 +5,5 @@ $dictionary['Veta_Requerimiento']['fields']['soel_asignado_contact'] = array(
     'type' => 'enum',
     'source' => 'non-db',
     'function' => 'getAsignadoLeads',
+    'massupdate' => false,
 );

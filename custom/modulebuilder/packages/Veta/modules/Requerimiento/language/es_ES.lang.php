@@ -120,4 +120,13 @@ $mod_strings = array (
   'LBL_REFERIDO' => 'Referido por',
   'LBL_COMERCIAL' => 'Asesor Comercial',
   'LBL_CAMPANA' => 'Campaña',
+  'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
+  'LBL_CARRERA_UNIVERSITARIA' => 'Carrera Universitaria',
+  'LBL_TRABAJO_ACTUAL' => 'Trabajo Actual',
+  'LBL_TEL_CASA' => 'Telefono Casa',
+  'LBL_CELULAR' => 'Celular',
+  'LBL_PASAPORTE' => 'Pasaporte',
+  'LBL_EMAIL' => 'Email',
+  'LBL_FECHA_EXPIRACION_VISA' => 'Visa Expire Date',
+  'LBL_LOCALIZACION' => 'Localizacion',
 );

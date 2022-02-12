@@ -18,7 +18,7 @@ class Veta_PresupuestoViewSend extends ViewEdit
         global $sugar_config;
 
         $emailObj = new Email();
-        $path_pdf = $p->id . ".pdf";
+        $path_pdf = $sugar_config['upload_dir'] . $p->id . ".pdf";
 
         $note = new Note();
         $note->id = create_guid();
@@ -77,6 +77,7 @@ class Veta_PresupuestoViewSend extends ViewEdit
 
     function preDisplay() {
 
+        global $sugar_config;
         $o = null;
 
         $p = new Veta_Presupuesto();
@@ -108,7 +109,7 @@ class Veta_PresupuestoViewSend extends ViewEdit
 
             $media = new Media();
 
-            if( $media->send_email( $o->email1 , $tEmail->body_html , $tEmail->subject, $p->id . '.pdf' ) ) {
+            if( $media->send_email( $o->email1 , $tEmail->body_html , $tEmail->subject, $sugar_config['upload_dir'] . $p->id . '.pdf' ) ) {
 
                 $emailObj = $this->crear_email($o->email1, $p, $tEmail);
                 $nota = $this->crear_nota($p, $emailObj);

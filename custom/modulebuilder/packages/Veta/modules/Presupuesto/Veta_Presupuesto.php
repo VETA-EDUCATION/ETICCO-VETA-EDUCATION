@@ -247,8 +247,6 @@ class Veta_Presupuesto extends Basic
                 }
             }
         }
-
-
     }
 
     public function mark_deleted( $id )
@@ -284,7 +282,7 @@ class Veta_Presupuesto extends Basic
             $this->subtotal    += ( $d->total_curso * 1 );
         }
 
-        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 );
+        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) - ( $this->descuento * 1 );
 
         $trm = new Veta_TRM();
         $trm = $trm->get_trm();

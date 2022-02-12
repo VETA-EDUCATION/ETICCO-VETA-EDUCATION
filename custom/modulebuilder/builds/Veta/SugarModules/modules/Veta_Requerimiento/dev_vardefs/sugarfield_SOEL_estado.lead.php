@@ -5,4 +5,5 @@ $dictionary['Veta_Requerimiento']['fields']['soel_estado_lead'] = array(
     'type' => 'enum',
     'source' => 'non-db',
     'options' => 'lead_status_dom',
+    'massupdate' => false,
 );

@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:31
+ // created: 2022-01-28 10:25:06
 $layout_defs["Veta_PagoColegios"]["subpanel_setup"]['activities'] = array (
   'order' => 10,
   'sort_order' => 'desc',
