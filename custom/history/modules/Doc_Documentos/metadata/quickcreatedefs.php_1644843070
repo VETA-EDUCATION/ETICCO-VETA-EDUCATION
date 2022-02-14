@@ -2,7 +2,7 @@
 $module_name = 'Doc_Documentos';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
@@ -39,17 +39,17 @@ array (
           0 => 'name',
           1 => 
           array (
-            'name' => 'recursos',
-            'label' => 'LBL_RECURSOS',
+            'name' => 'ayuda',
+            'label' => 'LBL_AYUDA',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'solicitadopor',
-            'studio' => 'visible',
-            'label' => 'LBL_SOLICITADOPOR',
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
           ),
           1 => 
           array (
@@ -61,28 +61,23 @@ array (
         array (
           0 => 
           array (
-            'name' => 'ayuda',
-            'label' => 'LBL_AYUDA',
+            'name' => 'observaciones',
+            'label' => 'LBL_OBSERVACIONES',
           ),
           1 => 
           array (
-            'name' => 'observaciones',
-            'label' => 'LBL_OBSERVACIONES',
+            'name' => 'recursos',
+            'label' => 'LBL_RECURSOS',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'idiomaicq_c',
+            'name' => 'solicitadopor',
             'studio' => 'visible',
-            'label' => 'LBL_IDIOMAICQ',
+            'label' => 'LBL_SOLICITADOPOR',
           ),
-          1 => '',
-        ),
-        4 => 
-        array (
-          0 => 'description',
           1 => '',
         ),
       ),

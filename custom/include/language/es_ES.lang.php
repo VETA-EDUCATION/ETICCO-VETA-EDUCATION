@@ -607,3 +607,7 @@ $GLOBALS['app_list_strings']['localizacion_list']=array (
     'Offshore' => 'Offshore',
     'Onshore' => 'Onshore',
 );
+$GLOBALS['app_list_strings']['idiomaicq_list']=array (
+  'ESP' => 'Español',
+  'ENG' => 'Inglés',
+);
