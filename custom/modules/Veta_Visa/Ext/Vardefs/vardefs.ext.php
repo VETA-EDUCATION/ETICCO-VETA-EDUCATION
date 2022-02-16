@@ -1,5 +1,3 @@
-
-text/x-generic vardefs.ext.php ( PHP script, ASCII text )
 <?php 
  //WARNING: The contents of this file are auto-generated
 
