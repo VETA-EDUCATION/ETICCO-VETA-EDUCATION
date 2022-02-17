@@ -635,7 +635,7 @@ $GLOBALS['app_list_strings']['localizacion_list']=array (
     'Offshore' => 'Offshore',
     'Onshore' => 'Onshore',
 );
-<?php
+
 
 $app_strings[ 'LBL_TABGROUP_MARKETING' ]                                    = 'Admissions';
 $app_strings[ 'LBL_TABGROUP_SUPPORT' ]                                      = 'Accounting';

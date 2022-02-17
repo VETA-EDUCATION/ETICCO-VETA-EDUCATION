@@ -103,4 +103,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Requirements',
   'LBL_SOEL_REQUERIMIENTO' => 'Requirement',
   'LBL_SOEL_CIUDAD_TMP' => 'Tmp City',
+  'LBL_SOEL_LOCALIZACION' => 'Location',
 );

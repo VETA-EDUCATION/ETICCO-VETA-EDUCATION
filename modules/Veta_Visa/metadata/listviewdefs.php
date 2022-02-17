@@ -26,5 +26,6 @@ $listViewDefs [ $module_name ] =
         'VETA_VISA_VETA_SERVICIOCLIENTE_NAME' => array( 'type' => 'relate', 'link' => true, 'label' => 'LBL_VETA_VISA_VETA_SERVICIOCLIENTE_FROM_VETA_SERVICIOCLIENTE_TITLE', 'id' => 'VETA_VISA_VETA_SERVICIOCLIENTEVETA_SERVICIOCLIENTE_IDB', 'width' => '10%', 'default' => true, ),
         'SOEL_REQUERIMIENTO'                  => array( 'type' => 'varchar', 'label' => 'LBL_SOEL_REQUERIMIENTO', 'width' => '10%', 'default' => true, 'sortable' => false, ),
         'SOEL_CIUDAD_TMP'                     => array( 'type' => 'varchar', 'label' => 'LBL_SOEL_CIUDAD_TMP', 'width' => '10%', 'default' => true, 'sortable' => false, ),
+        'SOEL_LOCALIZACION'                   => array( 'type' => 'multienum', 'studio' => 'visible', 'label' => 'LBL_SOEL_LOCALIZACION', 'width' => '10%', 'default' => false, 'sortable' => false, ),
     );
 ?>

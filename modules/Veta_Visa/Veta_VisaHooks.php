@@ -17,7 +17,8 @@ class Veta_VisaHooks
                     veta_requerimiento.referido AS REFERIDO,
                     veta_requerimiento.fecha_viaje AS FECHAVIAJE,
                     veta_requerimiento.id AS ID_REQUERIMIENTO,
-                    veta_requerimiento.name AS REQUERIMIENTO
+                    veta_requerimiento.name AS REQUERIMIENTO,
+                    veta_requerimiento.localizacion AS LOCALIZACION       
                 FROM veta_visa 
                 INNER JOIN veta_visa_veta_serviciocliente_c ON veta_visa_veta_serviciocliente_c.veta_visa_veta_servicioclienteveta_visa_ida = veta_visa.id 
                 INNER JOIN veta_serviciocliente ON veta_serviciocliente.id = veta_visa_veta_serviciocliente_c.veta_visa_veta_servicioclienteveta_serviciocliente_idb AND veta_serviciocliente.deleted = 0
@@ -34,6 +35,7 @@ class Veta_VisaHooks
 
         if ( $row != null ) {
 
+            $bean->soel_localizacion = $row[ 'LOCALIZACION' ];
             $bean->soel_referido = $row[ 'REFERIDO' ];
             //$bean->soel_fecha_viaje = $row[ 'FECHAVIAJE' ];
             $aux = date_create($row[ 'FECHAVIAJE' ]);

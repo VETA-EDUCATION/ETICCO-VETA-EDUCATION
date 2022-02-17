@@ -37,6 +37,7 @@ $searchdefs [ $module_name ] =
                         'veta_visa_opportunities_name'        => array( 'type' => 'relate', 'link' => true, 'label' => 'LBL_VETA_VISA_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE', 'id' => 'VETA_VISA_OPPORTUNITIESOPPORTUNITIES_IDA', 'width' => '10%', 'default' => true, 'name' => 'veta_visa_opportunities_name' ),
                         'veta_visa_veta_serviciocliente_name' => array( 'type' => 'relate', 'link' => true, 'label' => 'LBL_VETA_VISA_VETA_SERVICIOCLIENTE_FROM_VETA_SERVICIOCLIENTE_TITLE', 'id' => 'VETA_VISA_VETA_SERVICIOCLIENTEVETA_SERVICIOCLIENTE_IDB', 'width' => '10%', 'default' => true, 'name' => 'veta_visa_veta_serviciocliente_name' ),
                         'soel_ciudad_tmp'                     => array( 'type' => 'varchar', 'default' => true, 'label' => 'LBL_SOEL_CIUDAD_TMP', 'width' => '10%', 'name' => 'soel_ciudad_tmp', 'sortable' => false ),
+                        'soel_localizacion'                   => array( 'type' => 'multienum', 'default'  => true, 'label' => 'LBL_SOEL_LOCALIZACION', 'width' => '10%', 'name' => 'soel_localizacion', 'sortable' => false ),
                     ),
             ),
         'templateMeta' => array( 'maxColumns' => '3', 'maxColumnsBasic' => '4', 'widths' => array( 'label' => '10', 'field' => '30' ) ),
