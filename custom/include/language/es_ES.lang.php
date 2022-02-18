@@ -211,6 +211,7 @@ $GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list_2' ] = array(
     'Aplicacion_Pendiente'  => 'Aplicacion Pendiente',
     'Aplicacion_Enviada'    => 'Aplicación Enviada',
     'Aplicacion_Descartada' => 'Aplicacion Descartada',
+    'Descartada_Nuevo_Curso' => 'Descartada por nuevo curso',
 );
 $GLOBALS[ 'app_list_strings' ][ 'estado_loo_list_2' ]        = array(
     'Requerimiento_LOO'                 => 'Requerimiento para Carta de Oferta',
@@ -247,6 +248,7 @@ $GLOBALS[ 'app_list_strings' ][ 'estado_visa_list' ] = array(
     'Visa_Negada'              => 'Visa Negada',
     'Visa_Reaplicable'         => 'Visa Reaplicable',
     'Descartada'               => 'Descartada',
+    'Nuevo_Proceso_Ventas' => 'Nuevo Proceso de Ventas',
 );
 
 $GLOBALS[ 'app_list_strings' ][ 'estado_pago_colegios_list' ] = array(
@@ -559,6 +561,15 @@ $GLOBALS['app_list_strings']['ciudades_list']=array (
   'Estados_Unidos_Estados_Unidos_Chicago' => 'Chicago',
   'Canada_Canada_New_Brunswick' => 'New Brunswick',
 );
+$GLOBALS['app_list_strings']['moneda_list']=array (
+  'COP' => 'COP',
+  'CAD' => 'CAD',
+  'MXN' => 'MXN',
+  'CLP' => 'CLP',
+  'AUD' => 'AUD',
+  'EUR' => 'EUR',
+  'USD' => 'USD',
+);
 $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
   'Preparacion_Embajada' => 'Preparación para la embajada',
   'Creado' => 'Creado',
@@ -593,15 +604,13 @@ $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
   'Week1' => 'Week 1',
   'Week2' => 'Week 2',
   'Week3' => 'Week 3',
+  'Nuevo_Proceso_Ventas' => 'Nuevo Proceso de Ventas',
 );
-
-$GLOBALS['app_list_strings']['moneda_list']=array (
-  'COP' => 'COP',
-  'CAD' => 'CAD',
-  'MXN' => 'MXN',
-  'CLP' => 'CLP',
-  'AUD' => 'AUD',
-  'EUR' => 'EUR',
-  'USD' => 'USD',
-  'PEN' => 'PEN',
+$GLOBALS['app_list_strings']['localizacion_list']=array (
+    'Offshore' => 'Offshore',
+    'Onshore' => 'Onshore',
+);
+$GLOBALS['app_list_strings']['idiomaicq_list']=array (
+  'ESP' => 'Español',
+  'ENG' => 'Inglés',
 );

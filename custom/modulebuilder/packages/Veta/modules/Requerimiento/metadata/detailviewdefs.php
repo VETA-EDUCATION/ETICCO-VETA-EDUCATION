@@ -163,10 +163,49 @@ array (
             'label' => 'LBL_DATE_MODIFIED',
           ),
         ),
-        10 => 
+        10 =>
         array (
           0 => 'description',
         ),
+        11 =>
+        array (
+          0 =>
+          array (
+                   'name' => 'TEL_CASA',
+                   'label' => 'LBL_TEL_CASA',
+                   'customCode' => '{$TELCASA}',
+          ),
+          1 =>
+              array (
+                  'name' => 'CELULAR',
+                  'label' => 'LBL_CELULAR',
+                  'customCode' => '{$CELULAR}',
+              ),
+        ),
+        12 =>
+            array (
+                0 =>
+                    array (
+                        'name' => 'PASAPORTE',
+                        'label' => 'LBL_PASAPORTE',
+                        'customCode' => '{$PASAPORTE}',
+                    ),
+                1 =>
+                    array (
+                        'name' => 'EMAIL',
+                        'label' => 'LBL_EMAIL',
+                        'customCode' => '{$EMAIL}',
+                    ),
+            ),
+          13 =>
+              array (
+                  0 =>
+                      array (
+                          'name' => 'localizacion',
+                          'label' => 'LBL_LOCALIZACION',
+                          'studio' => 'visible',
+                      ),
+              ),
       ),
     ),
   ),

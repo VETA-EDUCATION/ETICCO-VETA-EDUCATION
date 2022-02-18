@@ -318,7 +318,7 @@ class ListViewData {
 		//C.L. - Fix for 23461
 
         //SOEL
-      //echo "<LI>$main_query</LI>";
+     // echo "<LI>$main_query</LI>";
 		if(empty($_REQUEST['action']) || $_REQUEST['action'] != 'Popup') {
           	   $_SESSION['export_where'] = $ret_array['where'];
 		}

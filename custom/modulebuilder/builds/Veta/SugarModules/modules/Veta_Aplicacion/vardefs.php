@@ -508,8 +508,9 @@ $dictionary['Veta_Aplicacion'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
     'dbType' => 'datetime',
+    'options' => 'date_range_search_dom',
   ),
   'fecha_recepcion_1' => 
   array (
@@ -530,8 +531,9 @@ $dictionary['Veta_Aplicacion'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
     'dbType' => 'datetime',
+    'options' => 'date_range_search_dom',
   ),
   'fecha_recepcion_2' => 
   array (
@@ -552,8 +554,9 @@ $dictionary['Veta_Aplicacion'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
     'dbType' => 'datetime',
+    'options' => 'date_range_search_dom',
   ),
   'fecha_expiracion_visa' => 
   array (
@@ -574,8 +577,9 @@ $dictionary['Veta_Aplicacion'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
     'dbType' => 'datetime',
+    'options' => 'date_range_search_dom',
   ),
   'fecha_inicio' => 
   array (
@@ -596,8 +600,9 @@ $dictionary['Veta_Aplicacion'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
     'dbType' => 'datetime',
+    'options' => 'date_range_search_dom',
   ),
   'fecha_envio' => 
   array (
@@ -618,8 +623,9 @@ $dictionary['Veta_Aplicacion'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'size' => '20',
-    'enable_range_search' => false,
+    'enable_range_search' => true,
     'dbType' => 'datetime',
+    'options' => 'date_range_search_dom',
   ),
 ),
     'relationships' => array (
@@ -630,4 +636,4 @@ $dictionary['Veta_Aplicacion'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Aplicacion', 'Veta_Aplicacion', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Aplicacion', 'Veta_Aplicacion', array('basic','assignable','security_groups'));

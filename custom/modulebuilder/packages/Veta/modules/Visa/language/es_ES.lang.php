@@ -101,6 +101,7 @@ $mod_strings = array (
   'LBL_SOEL_FECHA_VIAJE' => 'Fecha Viaje',
   'LBL_SOEL_REFERIDO' => 'Referido',
   'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
-
-
+  'LBL_SOEL_REQUERIMIENTO' => 'Requerimiento',
+  'LBL_SOEL_CIUDAD_TMP' => 'Ciudad Tmp',
+  'LBL_SOEL_LOCALIZACION' => 'Localizacion',
 );

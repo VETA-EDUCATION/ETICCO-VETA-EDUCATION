@@ -46,48 +46,50 @@ require_once( 'modules/Veta_ServicioCliente/Veta_ServicioCliente.php' );
 
 class Veta_Recibo extends Basic
 {
-    public $new_schema = true;
-    public $module_dir = 'Veta_Recibo';
+    #region Atributos
+    public $new_schema  = true;
+    public $module_dir  = 'Veta_Recibo';
     public $object_name = 'Veta_Recibo';
-    public $table_name = 'veta_recibo';
-    public $importable = false;
+    public $table_name  = 'veta_recibo';
+    public $importable  = false;
 
-    public $id;
-    public $name;
-    public $date_entered;
-    public $date_modified;
-    public $modified_user_id;
-    public $modified_by_name;
-    public $created_by;
-    public $created_by_name;
-    public $description;
-    public $deleted;
-    public $created_by_link;
-    public $modified_user_link;
-    public $assigned_user_id;
-    public $assigned_user_name;
-    public $assigned_user_link;
-    public $SecurityGroups;
-    public $pais;
-    public $departamento;
-    public $ciudad;
-    public $primer_pago;
-    public $currency_id;
-    public $subtotal;
-    public $gran_total;
-    public $pendiente_por_pagar;
-    public $pagado;
-    public $estado;
-    public $examen_medico;
-    public $seguro;
-    public $total_visa;
-    public $veta_curso_id_c;
+    public  $id;
+    public  $name;
+    public  $date_entered;
+    public  $date_modified;
+    public  $modified_user_id;
+    public  $modified_by_name;
+    public  $created_by;
+    public  $created_by_name;
+    public  $description;
+    public  $deleted;
+    public  $created_by_link;
+    public  $modified_user_link;
+    public  $assigned_user_id;
+    public  $assigned_user_name;
+    public  $assigned_user_link;
+    public  $SecurityGroups;
+    public  $pais;
+    public  $departamento;
+    public  $ciudad;
+    public  $primer_pago;
+    public  $currency_id;
+    public  $subtotal;
+    public  $gran_total;
+    public  $pendiente_por_pagar;
+    public  $pagado;
+    public  $estado;
+    public  $examen_medico;
+    public  $seguro;
+    public  $total_visa;
+    public  $veta_curso_id_c;
     private $no_verificar_proceso_venta = false;
-
+    #endregion
 
     public function bean_implements( $interface )
     {
-        switch ( $interface ) {
+        switch ( $interface )
+        {
             case 'ACL':
                 return true;
         }
@@ -97,14 +99,15 @@ class Veta_Recibo extends Basic
 
     private function set_consecutivo()
     {
+        if ( ! isset( $this->id ) || empty( $this->id ) )
+        {
 
-        if ( ! isset( $this->id ) || empty( $this->id ) ) {
-
-            $query  = "SELECT COUNT(id) AS num from veta_recibo limit 1";
+            $query  = "SELECT COUNT(id) AS num FROM veta_recibo LIMIT 1";
             $result = $this->db->query( $query, true, "Error obteniendo el consecutivo del recibo" );
             $row    = $this->db->fetchByAssoc( $result );
 
-            if ( $row != null ) {
+            if ( $row != null )
+            {
                 $this->name = $row[ 'num' ] + 1;
             }
         }
@@ -112,11 +115,10 @@ class Veta_Recibo extends Basic
 
     private function actualizar_oportunidad()
     {
-
         $o = $this->obtener_oportunidad( $this->id );
 
-        if ( $o != null ) {
-
+        if ( $o != null )
+        {
             $o->estado_cartera_c    = $this->estado;
             $o->pendiente_cartera_c = $this->pendiente_por_pagar * 1;
             $o->save();
@@ -125,12 +127,12 @@ class Veta_Recibo extends Basic
 
     public function has_proceso_ventas()
     {
-
         $tiene = false;
 
         $o = $this->obtener_oportunidad( $this->id );
 
-        if ( $o != null ) {
+        if ( $o != null )
+        {
 
             $tiene = true;
         }
@@ -140,51 +142,84 @@ class Veta_Recibo extends Basic
 
     public function save( $check_notify = false )
     {
-
-
         /*if( $this->has_proceso_ventas() and $this->no_verificar_proceso_venta == false) {
 
             $this->redireccionar( 'No se puede actualizar porque ya existe un proceso de ventas', $this->id );
         } */
 
-        if ( $this->is_gerente_contable() ) {
-
+        if ( $this->is_gerente_contable() )
+        {
             $this->set_consecutivo();
+            $this->update_totals( false );
 
             //if( $this->estado != 'Descartado' and $this->estado != 'Devolucion_Proceso' and $this->estado != 'Devolucion_Finalizado' and $this->estado != 'Nuevo' ) {
-            if ( $this->estado == 'Nuevo' or $this->estado == 'Abono' or $this->estado == 'Pagado' ) {
-
-                if ( $this->pagado * 1 > 0 ) {
+            if ( $this->estado == 'Nuevo' or $this->estado == 'Abono' or $this->estado == 'Pagado' )
+            {
+                if ( $this->pagado * 1 > 0 )
+                {
                     $this->estado = 'Abono';
                 }
 
-                if ( $this->pendiente_por_pagar * 1 <= 0 ) {
+                if ( $this->pendiente_por_pagar * 1 <= 0 )
+                {
                     $this->estado = 'Pagado';
                 }
             }
 
             $this->actualizar_oportunidad();
             $this->no_verificar_proceso_venta = false;
+
             return parent::save( $check_notify ); // TODO: Change the autogenerated stub
-        } else {
+        }
+        else
+        {
             $this->redireccionar( 'Solo puede salvar un recibo un gerente contable' );
         }
     }
 
     public function get_person()
     {
-
         $p = null;
 
         $leads    = $this->get_linked_beans( 'veta_recibo_leads', 'Leads' );
         $contacts = $this->get_linked_beans( 'veta_recibo_contacts', 'Contacts' );
 
-        foreach ( $leads as $lead ) {
+        foreach ( $leads as $lead )
+        {
             $p = $lead;
         }
 
-        foreach ( $contacts as $contact ) {
+        foreach ( $contacts as $contact )
+        {
             $p = $contact;
+        }
+
+        return $p;
+    }
+
+    public function get_contact(){
+
+        $p = null;
+
+        $contacts = $this->get_linked_beans( 'veta_recibo_contacts', 'Contacts' );
+
+        foreach ( $contacts as $contact )
+        {
+            $p = $contact;
+        }
+
+        return $p;
+    }
+
+    public function get_lead(){
+
+        $p = null;
+
+        $leads    = $this->get_linked_beans( 'veta_recibo_leads', 'Leads' );
+
+        foreach ( $leads as $lead )
+        {
+            $p = $lead;
         }
 
         return $p;
@@ -198,14 +233,14 @@ class Veta_Recibo extends Basic
      */
     public function obtener_oportunidad( $rid )
     {
-
         $o = null;
         $r = new Veta_Recibo();
         $r->retrieve( $rid );
 
         $oportunidades = $r->get_linked_beans( 'veta_recibo_opportunities', 'Opportunity' );
 
-        foreach ( $oportunidades as $op ) {
+        foreach ( $oportunidades as $op )
+        {
             $o = $op;
         }
 
@@ -214,13 +249,12 @@ class Veta_Recibo extends Basic
 
     public function new_opportunity() : Opportunity
     {
-
         global $timedate;
 
         $o = $this->obtener_oportunidad( $this->id );
-        // Si no existe oportunidad
-        if ( $o == null ) {
 
+        if ( $o == null ) // Si no existe oportunidad
+        {
             $pre = new Veta_Presupuesto();
             $pre->retrieve( $this->veta_recibo_veta_presupuestoveta_presupuesto_ida );
 
@@ -237,9 +271,12 @@ class Veta_Recibo extends Basic
 
             $detalles = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
 
-            if ( count( $detalles ) > 0 ) {
+            if ( count( $detalles ) > 0 )
+            {
                 $o->estado_admisiones_c = "Aplicacion";
-            } else {
+            }
+            else
+            {
                 $o->estado_admisiones_c = "";
             }
 
@@ -252,12 +289,11 @@ class Veta_Recibo extends Basic
 
             $pa = $this->get_primer_abono();
 
-            if ( isset( $pa ) ) {
-
+            if ( isset( $pa ) )
+            {
                 $o->date_closed    = $timedate->to_db_date( $pa->date_entered );
                 $o->fecha_cierre_c = $timedate->to_db( $pa->date_entered );
             }
-
 
             //$o->veta_recibo_id_c = $this->id;
             $o->asesor_servicio_cliente_c = "1";  //Todo: En una proxima fase
@@ -268,7 +304,6 @@ class Veta_Recibo extends Basic
             $o->load_relationship( 'veta_recibo_opportunities' );
             $o->veta_recibo_opportunities->add( $this->id );
 
-
             $this->activar_servicio_cliente( $o );
             $this->activar_aplicacion( $o );
         }
@@ -278,7 +313,6 @@ class Veta_Recibo extends Basic
 
     private function get_servicio_cliente()
     {
-
         $sc = new Veta_ServicioCliente();
 
         $query = "SELECT veta_serviciocliente.id AS ID FROM veta_serviciocliente
@@ -290,7 +324,8 @@ class Veta_Recibo extends Basic
         $result = $this->db->query( $query, true, "Error obteniendo el consecutivo del recibo" );
         $row    = $this->db->fetchByAssoc( $result );
 
-        if ( $row != null ) {
+        if ( $row != null )
+        {
             $sc->retrieve( $row[ 'ID' ] );
         }
 
@@ -299,7 +334,6 @@ class Veta_Recibo extends Basic
 
     private function activar_servicio_cliente( Opportunity $o )
     {
-
         $person = $this->get_person();
 
         // Se activa el area de servicio al cliente y de aplicacion.
@@ -307,11 +341,18 @@ class Veta_Recibo extends Basic
         $sc->assigned_user_id = '';   // Todo: proxima fase ver como asignar automaticamente
         $sc->estado           = 'Preparacion_Embajada';
 
-        if ( $person->module_name == 'Contacts' ) {
+        if( !empty($sc->id) )
+        {
+            $sc->estado = 'Nuevo_Proceso_Ventas';
+        }
+
+        if ( $person->module_name == 'Contacts' )
+        {
             $sc->contact_id_c = $person->id;
         }
 
-        if ( $person->module_name == 'Leads' ) {
+        if ( $person->module_name == 'Leads' )
+        {
             $sc->lead_id_c = $person->id;
         }
 
@@ -324,26 +365,67 @@ class Veta_Recibo extends Basic
         $sc->load_relationship( 'veta_serviciocliente_opportunities' );
         $sc->veta_serviciocliente_opportunities->add( $o->id );
 
+        /*** Esta parte del codigo crea la relación entre la oportunidad y las visas cuando se elimina un proceso de venta y se vuelve a enviar la cuenta de cobro ***/
+        $visas = $sc->get_linked_beans( 'veta_visa_veta_serviciocliente', 'Veta_Visa' );
+        $o->load_relationship( 'veta_visa_opportunities' );
+
+        foreach ( $visas as $v )
+        {
+            $o->veta_visa_opportunities->add( $v->id );
+
+            if( !empty($sc->id) ){
+                $v->estado = 'Nuevo_Proceso_Ventas';
+                $v->save(false);
+            }
+        }
+    }
+
+    private function get_aplicaciones(Veta_DetalleRecibo $detalleRecibo)
+    {
+        $list = array();
+
+        $query = "SELECT veta_aplicacion.id AS ID FROM veta_aplicacion
+                    INNER JOIN veta_aplicacion_cstm ON veta_aplicacion_cstm.id_c = veta_aplicacion.id 
+                    INNER JOIN veta_aplicacion_opportunities_c ON veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesveta_aplicacion_idb = veta_aplicacion.id AND veta_aplicacion_opportunities_c.deleted = 1
+                    INNER JOIN opportunities ON opportunities.id = veta_aplicacion_opportunities_c.veta_aplicacion_opportunitiesopportunities_ida AND opportunities.deleted = 1 
+                    INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 1
+                    INNER JOIN veta_recibo ON veta_recibo.id = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida AND veta_recibo.deleted = 0 AND veta_recibo.id = '" . $this->id . "'
+                    INNER JOIN veta_detallerecibo_veta_recibo_c ON veta_detallerecibo_veta_recibo_c.veta_detallerecibo_veta_reciboveta_recibo_ida = veta_recibo.id 
+                    INNER JOIN veta_detallerecibo ON veta_detallerecibo.id = veta_detallerecibo_veta_recibo_c.veta_detallerecibo_veta_reciboveta_detallerecibo_idb AND veta_aplicacion_cstm.veta_curso_id_c = veta_detallerecibo.veta_curso_id_c";
+
+        $result = $this->db->query( $query, true, "Error obteniendo aplicacion" );
+
+        while ($row = $this->db->fetchByAssoc($result)){
+
+            if ( $row != null )
+            {
+                $a = new Veta_Aplicacion();
+                $a->retrieve( $row[ 'ID' ] );
+                array_push($list, $a);
+            }
+        }
+
+        return $list;
     }
 
     private function activar_aplicacion( Opportunity $o )
     {
-
         global $timedate;
         $person   = $this->get_person();
         $detalles = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
         $o->load_relationship( 'veta_aplicacion_opportunities' );
 
-        foreach ( $detalles as $d ) {
-
+        foreach ( $detalles as $d )
+        {
             $college = new Veta_College();
             $college->retrieve( $d->veta_college_id_c );
 
             $curso = new Veta_Curso();
             $curso->retrieve( $d->veta_curso_id_c );
 
-            $a = new Veta_Aplicacion();
+            $a_old_list = $this->get_aplicaciones( $d );
 
+            $a = new Veta_Aplicacion();
             $a->name                  = $college->name;
             $a->college               = $a->name;
             $a->estado_aplicacion     = 'Aplicacion';
@@ -353,6 +435,7 @@ class Veta_Recibo extends Basic
             $a->ciudad                = $college->ciudad;
             $a->curso                 = $curso->name;
             $a->jornada               = $curso->jornada;
+            $a->veta_curso_id_c       = $curso->id;
             $a->campus                = $curso->campus;
             $a->fecha_inicio          = $curso->intake;
             $a->duracion              = $curso->duracion;
@@ -361,13 +444,15 @@ class Veta_Recibo extends Basic
             $a->tps                   = $curso->tps;
             $a->vacaciones            = $curso->vacaciones;
 
-            if ( ! empty( $person->id ) ) {
-
-                if ( $person->module_name == 'Contacts' ) {
+            if ( ! empty( $person->id ) )
+            {
+                if ( $person->module_name == 'Contacts' )
+                {
                     $a->contact_id_c = $person->id;
                 }
 
-                if ( $person->module_name == 'Leads' ) {
+                if ( $person->module_name == 'Leads' )
+                {
                     $a->lead_id_c = $person->id;
                 }
             }
@@ -376,9 +461,31 @@ class Veta_Recibo extends Basic
 
             $a->save( false );
             $o->veta_aplicacion_opportunities->add( $a->id );
+
+            if(count($a_old_list) > 0)
+            {
+                foreach( $a_old_list as $a_old )
+                {
+                    $a_old->estado_aplicacion = 'Descartada_Nuevo_Curso';
+
+                    if(!empty($a_old->veta_curso_id_c))
+                    {
+                        $a_old->save( false );
+                        $o->veta_aplicacion_opportunities->add( $a_old->id );
+                    }
+
+                }
+            }
         }
+    }
 
+    private function update_total_visa()
+    {
+        $tipo_visa = new Veta_TiposVisa();
+        $tipo_visa->retrieve( $this->veta_tiposvisa_id_c );
 
+        $this->total_visa    = $tipo_visa->total_visa * 1;
+        $this->examen_medico = $tipo_visa->costo_examen * 1;
     }
 
     /**
@@ -389,11 +496,10 @@ class Veta_Recibo extends Basic
      */
     public function new_recibo( Veta_Presupuesto $p ) : Veta_Recibo
     {
-
         $r = new Veta_Recibo();
 
-        if ( isset( $p->id ) and ! empty( $p->id ) ) {
-
+        if ( isset( $p->id ) and ! empty( $p->id ) )
+        {
             $r->assigned_user_id    = $p->assigned_user_id;
             $r->pais                = $p->pais;
             $r->departamento        = $p->departamento;
@@ -412,8 +518,14 @@ class Veta_Recibo extends Basic
             $r->total_visa          = $p->total_visa * 1;
             $r->assigned_user_id    = $p->assigned_user_id;
             $r->descuento           = $p->descuento * 1;
+            $r->moneda_c            = $p->moneda_c;
+            $r->tiquete_c           =$p->tiquete_c * 1;
+            $r->mmm_c               =$p->mmm_c * 1;
+            $r->hospedaje_c         =$p->hospedaje_c * 1;
+            $r->aeropuerto_c        =$p->aeropuerto_c * 1;
+            $r->tour_c              =$p->tour_c * 1;
 
-            $trm = new Veta_TRM();
+            /*$trm = new Veta_TRM();
             $trm = $trm->get_trm();
 
             $r->usd   = ( $r->gran_total * 1 ) * ( $trm->aud * 1 );
@@ -424,22 +536,22 @@ class Veta_Recibo extends Basic
             $r->aud_usd = $trm->aud;
             $r->usd_cop = $trm->pesos;
             $r->usd_mxn = $trm->mxn;
-            $r->usd_clp = $trm->clp;
+            $r->usd_clp = $trm->clp;*/
 
             $r->save( false );
 
             $requerimientos = $p->get_linked_beans( 'veta_requerimiento_veta_presupuesto', 'Veta_Requerimiento' );
 
-            foreach($requerimientos as $requerimiento){
-
+            foreach ( $requerimientos as $requerimiento )
+            {
                 $r->load_relationship( 'veta_requerimiento_veta_recibo' );
                 $r->veta_requerimiento_veta_recibo->add( $requerimiento->id );
             }
 
             $dps = $p->get_linked_beans( 'veta_detallepresupuesto_veta_presupuesto', 'Veta_DetallePresupuesto' );
 
-            foreach ( $dps as $d ) {
-
+            foreach ( $dps as $d )
+            {
                 $dt                    = new Veta_DetalleRecibo();
                 $dt->name              = $d->name;
                 $dt->description       = $d->description;
@@ -462,6 +574,8 @@ class Veta_Recibo extends Basic
 
                 $dt->load_relationship( 'veta_detallerecibo_veta_recibo' );
                 $dt->veta_detallerecibo_veta_recibo->add( $r->id );
+
+                $GLOBALS['log']-> error("En save detallerecibo".$this->subtotal);
             }
 
             $p->load_relationship( 'veta_recibo_veta_presupuesto' );
@@ -470,73 +584,109 @@ class Veta_Recibo extends Basic
             $leads    = $p->get_linked_beans( 'veta_presupuesto_leads', 'Leads' );
             $contacts = $p->get_linked_beans( 'veta_presupuesto_contacts', 'Leads' );
 
-            foreach ( $leads as $lead ) {
+            foreach ( $leads as $lead )
+            {
                 $r->load_relationship( 'veta_recibo_leads' );
                 $r->veta_recibo_leads->add( $lead->id );
             }
 
-            foreach ( $contacts as $contact ) {
-
+            foreach ( $contacts as $contact )
+            {
                 $r->load_relationship( 'veta_recibo_contacts' );
                 $r->veta_recibo_contacts->add( $contact->id );
             }
+            
+            $r->update_totals();
         }
-
+        
         return $r;
     }
 
     /**
      * Este metodo actualiza los totales usando los detalles asociados al recibo
      */
-    public function update_totals()
+    public function update_totals( $save = true )
     {
+        $this->update_total_visa();
 
         $this->primer_pago = 0;
         $this->subtotal    = 0;
         $this->gran_total  = 0;
+        $monedaCollege = "";
 
-        $dets = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
+        $GLOBALS['log']-> error("Update totals moneda1".$monedaCollege);
 
-        foreach ( $dets as $d ) {
+        $r = new Veta_Recibo();
+        $r->retrieve( $this->id );
 
+        $dets = $r->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
+
+        foreach ( $dets as $d )
+        {
             $this->primer_pago += ( $d->deposito * 1 ) - ( $d->bono * 1 );
             $this->subtotal    += ( $d->total_curso * 1 );
+
+            $GLOBALS['log']-> error("En save".$this->subtotal);
+
+            $c = new Veta_College();
+            $c->retrieve( $d->veta_college_id_c );
+            $monedaCollege = $c->moneda_c;
         }
 
-        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 );
+        $GLOBALS['log']-> error("Update totals moneda2".$monedaCollege);
+
+        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) - ( $this->descuento * 1 );
 
         $trm = new Veta_TRM();
-        $trm = $trm->get_trm();
+        $usd = $trm->get_trm($monedaCollege,"USD");
+        //$trm = $trm->get_trm();
 
-        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 );
-        $this->usd        = $this->gran_total * $trm->aud;
-        $this->pesos      = $this->usd * $trm->pesos * 1;
-        $this->mxn        = $this->usd * $trm->mxn * 1;
-        $this->clp        = $this->usd * $trm->clp * 1;
+        $GLOBALS['log']-> error("dolares".$usd);
 
-        $this->aud_usd = $trm->aud;
-        $this->usd_cop = $trm->pesos;
-        $this->usd_mxn = $trm->mxn;
-        $this->usd_clp = $trm->clp;
+        $pesos = $trm->get_trm("USD","COP");
 
-        $this->update_cartera(); // Este metodo salva la cuenta de cobro
+        $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 ) + ( $this->tiquete_c * 1 ) + ( $this->aeropuerto_c * 1 ) + ( $this->tour_c * 1 ) + ( $this->hospedaje_c * 1 ) + ( $this->mmm_c * 1 );
+
+        $this->usd        = $this->gran_total * $usd;
+        $this->pesos      = $this->usd * $pesos * 1;
+        $this->mxn        = $this->usd * $trm->get_trm("USD","MXN") * 1;
+        $this->clp        = $this->usd * $trm->get_trm("USD","CLP") * 1;
+
+        $this->aud_usd = $trm->get_trm("AUD","USD");
+        $this->usd_cop = $trm->get_trm("USD","COP");
+        $this->usd_mxn = $trm->get_trm("USD","MXN");
+        $this->usd_clp = $trm->get_trm("USD","CLP");
+
+        $this->update_cartera( $save ); // Este metodo salva la cuenta de cobro
 
         //parent::save( false );
     }
 
-    public function update_cartera()
+    public function update_cartera( $save = true )
     {
-
         $abonos       = $this->get_linked_beans( 'veta_abono_veta_recibo', 'Veta_Abono' );
         $this->pagado = 0;
 
-        foreach ( $abonos as $a ) {
+        foreach ( $abonos as $a )
+        {
             $this->pagado += $a->monto * 1;
+        }
+
+        $devoluciones = $this->get_linked_beans('veta_devolucion_veta_recibo', 'Veta_Devolucion');
+
+        foreach ( $devoluciones as $d )
+        {
+            $this->pagado -= $d->monto * 1;
         }
 
         $this->pendiente_por_pagar        = ( $this->gran_total * 1 ) - ( $this->pagado * 1 );
         $this->no_verificar_proceso_venta = true;
-        $this->save( false );
+
+        if ( $save )
+        {
+            $this->save( false );
+        }
+
     }
 
     /**
@@ -566,7 +716,8 @@ class Veta_Recibo extends Basic
 
     public function redireccionar( $msg, $registro )
     {
-        if ( ! empty( $registro ) ) {
+        if ( ! empty( $registro ) )
+        {
             $aux = "<script>
                       var registro='" . $registro . "';";
 
@@ -575,7 +726,9 @@ class Veta_Recibo extends Basic
                  </script>";
 
             echo $aux;
-        } else {
+        }
+        else
+        {
             echo "<script>alert('" . $msg . "')</script>";
         }
 
@@ -584,14 +737,13 @@ class Veta_Recibo extends Basic
 
     public function convertir_prospecto()
     {
-
         global $timedate;
         $leads = $this->get_linked_beans( 'veta_recibo_leads', 'Lead' );
 
-        foreach ( $leads as $l ) {
-
-            if ( empty($l->contact_id) ) {
-
+        foreach ( $leads as $l )
+        {
+            if ( empty( $l->contact_id ) )
+            {
                 $c                          = new Contact();
                 $c->first_name              = $l->first_name;
                 $c->last_name               = $l->last_name;
@@ -626,19 +778,23 @@ class Veta_Recibo extends Basic
 
                 $c->lead_source = $l->lead_source;
 
-                if ( isset( $l->campana_id_c ) ) {
+                if ( isset( $l->campana_id_c ) )
+                {
                     $c->campaign_id = $l->campana_id_c;
                 }
 
-                if ( isset( $l->assigned_user_id ) ) {
+                if ( isset( $l->assigned_user_id ) )
+                {
                     $c->assigned_user_id = $l->assigned_user_id;
                 }
 
-                if ( isset( $l->carrera_universitaria_c ) ) {
+                if ( isset( $l->carrera_universitaria_c ) )
+                {
                     $c->carrera_universitaria_c = $l->carrera_universitaria_c;
                 }
 
-                if ( isset( $l->trabajo_actual_c ) ) {
+                if ( isset( $l->trabajo_actual_c ) )
+                {
                     $c->trabajo_actual_c = $l->trabajo_actual_c;
                 }
 
@@ -655,8 +811,8 @@ class Veta_Recibo extends Basic
 
                 $o = $this->obtener_oportunidad( $this->id );
 
-                if ( $o != null ) {
-
+                if ( $o != null )
+                {
                     $o->load_relationship( 'contacts_opportunities_1' );
                     $o->contacts_opportunities_1->add( $c->id );
                     $o->date_closed    = $timedate->to_db_date( date( $timedate->get_date_time_format() ) );
@@ -668,53 +824,64 @@ class Veta_Recibo extends Basic
         }
     }
 
+    /**
+     * Calcula el gran total en la moneda del colegio
+     * @param $monedaCollege La moneda del colegio
+     */
+    public function getGranTotalMoneda($monedaCollege){
+        $trm = new Veta_TRM();
+
+        $cambio = $trm->get_trm($monedaCollege,$this->moneda_c);
+
+        return $this->gran_total * $cambio;
+
+    }
+
     private function heredar_info( Opportunity $o, Contact $c )
     {
-
         $this->actualizar_contacto_aplicaciones( $o, $c );
         $this->actualizar_contacto_servicio_cliente( $o, $c );
         $this->actualizar_contacto_coes( $o, $c );
         $this->actualizar_contacto_casos( $o, $c );
-
     }
 
     private function actualizar_contacto_aplicaciones( Opportunity $o, Contact $c )
     {
-
         $aplicaciones = $o->get_linked_beans( 'veta_aplicacion_opportunities', 'Veta_Aplicacion' );
 
-        foreach ( $aplicaciones as $a ) {
+        foreach ( $aplicaciones as $a )
+        {
             $a->actualizar_contacto( $c );
         }
     }
 
     private function actualizar_contacto_servicio_cliente( Opportunity $o, Contact $c )
     {
-
         $scs = $o->get_linked_beans( 'veta_serviciocliente_opportunities', 'Veta_ServicioCliente' );
 
-        foreach ( $scs as $sc ) {
+        foreach ( $scs as $sc )
+        {
             $sc->actualizar_contacto( $c );
         }
     }
 
     private function actualizar_contacto_coes( Opportunity $o, Contact $c )
     {
-
         $coes = $o->get_linked_beans( 'veta_coe_opportunities', 'Veta_COE' );
 
-        foreach ( $coes as $coe ) {
+        foreach ( $coes as $coe )
+        {
             $coe->actualizar_contacto( $c );
         }
     }
 
     private function actualizar_contacto_casos( Opportunity $o, Contact $c )
     {
-
         $db    = DBManagerFactory::getInstance();
         $casos = $o->get_linked_beans( 'opportunities_cases_1', 'Case' );
 
-        foreach ( $casos as $caso ) {
+        foreach ( $casos as $caso )
+        {
             $sql = "UPDATE cases_cstm SET contact_id_c = '" . $c->id . "' WHERE id_c = '" . $caso->id . "'";
             $res = $db->query( $sql );
         }
@@ -726,7 +893,8 @@ class Veta_Recibo extends Basic
         $abonos       = $this->get_linked_beans( 'veta_abono_veta_recibo', 'Veta_Abono', 'date_entered' );
         $this->pagado = 0;
 
-        foreach ( $abonos as $a ) {
+        foreach ( $abonos as $a )
+        {
             $abono = $a;
             break;
         }
@@ -743,12 +911,11 @@ class Veta_Recibo extends Basic
 
     public function mark_deleted( $id )
     {
-
         $r = new Veta_Recibo();
         $r->retrieve( $id );
 
-        if ( $r->has_proceso_ventas() ) {
-
+        if ( $r->has_proceso_ventas() )
+        {
             $r->redireccionar( 'No se puede eliminar porque ya existe un proceso de ventas', $r->id );
         }
         parent::mark_deleted( $id ); // TODO: Change the autogenerated stub

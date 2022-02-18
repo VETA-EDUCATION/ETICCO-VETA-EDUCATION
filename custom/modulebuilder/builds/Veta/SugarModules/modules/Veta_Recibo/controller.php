@@ -4,32 +4,37 @@ require_once( 'modules/Veta_Recibo/clases/ReciboPDF.php' );
 
 class Veta_ReciboController extends SugarController
 {
-    function action_observaciones() {
+    function action_observaciones()
+    {
         $this->view = 'observaciones';
     }
 
-    function action_recibo() {
+    function action_recibo()
+    {
         $this->view = 'recibo';
     }
 
-    function action_pdf() {
+    function action_pdf()
+    {
         $this->view = 'pdf';
         $this->generar_pdf();
     }
 
-    function action_send() {
+    function action_send()
+    {
         $this->view = 'send';
 
         //if( ! file_exists( $_REQUEST[ 'rid' ] . '.pdf' ) )
-            $this->generar_pdf();
+        $this->generar_pdf();
     }
 
-    function generar_pdf() {
+    function generar_pdf()
+    {
 
         $r = new Veta_Recibo();
         $r->retrieve( $_REQUEST[ 'rid' ] );
 
-        $pdf = new ReciboPDF( 'P' , 'mm' , 'Letter' );
+        $pdf = new ReciboPDF( 'P', 'mm', 'Letter' );
         $pdf->generate_pdf( $r );
     }
 
@@ -37,7 +42,7 @@ class Veta_ReciboController extends SugarController
     {
         require_once 'include/SubPanel/SubPanelViewer.php';
 
-        $js=<<<EOQ
+        $js = <<<EOQ
 <script>
 window.location.reload();
 </script>

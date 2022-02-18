@@ -316,6 +316,18 @@ array (
                 'sortable' => false,
             ),
       //endregion
+
+      //region soel_localizacion
+        'soel_localizacion'                     =>
+            array(
+                'type'     => 'multienum',
+                'default'  => true,
+                'label'    => 'LBL_SOEL_LOCALIZACION',
+                'width'    => '10%',
+                'name'     => 'soel_localizacion',
+                'sortable' => false,
+            ),
+      //endregion
     ),
   ),
   'templateMeta' => 

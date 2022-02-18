@@ -147,6 +147,29 @@ array (
               'name' => 'soel_fecha_expiracion_visa',
               'sortable' => false,
           ),
+
+        //region soel_ciudad_tmp
+        'soel_ciudad_tmp'                     =>
+            array(
+                'type'     => 'varchar',
+                'default'  => true,
+                'label'    => 'LBL_SOEL_CIUDAD_TMP',
+                'width'    => '10%',
+                'name'     => 'soel_ciudad_tmp',
+                'sortable' => false,
+            ),
+        //endregion
+        //region soel_localizacion
+        'soel_localizacion'                     =>
+            array(
+                'type'     => 'multienum',
+                'default'  => true,
+                'label'    => 'LBL_SOEL_LOCALIZACION',
+                'width'    => '10%',
+                'name'     => 'soel_localizacion',
+                'sortable' => false,
+            ),
+        //endregion
     ),
   ),
   'templateMeta' => 

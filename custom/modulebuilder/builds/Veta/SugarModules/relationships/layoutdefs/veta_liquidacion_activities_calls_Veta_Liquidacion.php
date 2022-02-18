@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:27
+ // created: 2022-01-28 10:25:05
 $layout_defs["Veta_Liquidacion"]["subpanel_setup"]['activities'] = array (
   'order' => 10,
   'sort_order' => 'desc',

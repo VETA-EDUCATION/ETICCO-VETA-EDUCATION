@@ -18,21 +18,21 @@ array (
   ),
   'SINGLE' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => true,
     'label' => 'LBL_SINGLE',
     'width' => '10%',
   ),
   'COUPLE' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => true,
     'label' => 'LBL_COUPLE',
     'width' => '10%',
   ),
   'FAMILY' => 
   array (
-    'type' => 'int',
+    'type' => 'decimal',
     'default' => true,
     'label' => 'LBL_FAMILY',
     'width' => '10%',

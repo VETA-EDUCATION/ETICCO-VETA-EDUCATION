@@ -40,6 +40,7 @@
 
 class Veta_Requerimiento extends Basic
 {
+    #region Atributos
     public $new_schema  = true;
     public $module_dir  = 'Veta_Requerimiento';
     public $object_name = 'Veta_Requerimiento';
@@ -74,6 +75,9 @@ class Veta_Requerimiento extends Basic
     public $campaign_id_c;
     public $campana;
     public $referido;
+
+
+    #endregion
 
     public function bean_implements( $interface )
     {
@@ -134,6 +138,7 @@ class Veta_Requerimiento extends Basic
     {
         if ( empty( $this->id ) and ! isset( $_REQUEST[ "relate_id" ] ) )
         {
+            $usuarios = $usuarios2 = array();
             $campaign = new Campaign();
             $campaign->retrieve( $this->campaign_id_c );
             $campaign->load_relationship( 'prospectlists' );
@@ -146,22 +151,44 @@ class Veta_Requerimiento extends Basic
                 {
                     if ( $list->list_type == 'Comerciales' )
                     {
-                        $q = "SELECT DISTINCT related_id, COUNT(veta_requerimiento.id) AS CONT 
+                        $q = "SELECT DISTINCT related_id AS USER_ID 
+                                FROM prospect_lists_prospects 
+                                INNER JOIN users ON users.id = prospect_lists_prospects.related_id AND prospect_lists_prospects.deleted = 0
+                                WHERE related_type = 'Users' AND prospect_lists_prospects.prospect_list_id = '" . $list->id . "' AND users.status = 'Active' and users.deleted = 0";
+
+                        $res = $this->db->query( $q, true, "Error los usuarios de la lista de publico objetivo : " );
+
+                        while ( $row = $this->db->fetchByAssoc( $res ) )
+                        {
+                            array_push( $usuarios, $row[ 'USER_ID' ] );
+                        }
+
+                        $q = "SELECT DISTINCT related_id, COUNT(veta_requerimiento.id) AS CONT
                                 FROM prospect_lists_prospects
                                 INNER JOIN users ON users.id = prospect_lists_prospects.related_id AND prospect_lists_prospects.deleted = 0
-                                LEFT JOIN veta_requerimiento ON veta_requerimiento.assigned_user_id = users.id AND veta_requerimiento.deleted = 0
+                                LEFT JOIN veta_requerimiento ON veta_requerimiento.assigned_user_id = users.id AND veta_requerimiento.deleted = 0 
                                 WHERE related_type = 'Users'
-                                  AND prospect_list_id =  '" . $list->id . "' 
+                                  AND prospect_list_id =  '" . $list->id . "'
                                   AND users.status = 'Active'
-                                  AND users.deleted = 0                                   
-                                GROUP BY related_id 
-                                ORDER BY CONT ASC LIMIT 1";
+                                  AND users.deleted = 0
+                                  AND veta_requerimiento.campaign_id_c =  '" . $campaign->id . "'
+                                GROUP BY related_id
+                                ORDER BY CONT DESC";
 
                         $res = $this->db->query( $q, true, "Error obteniendo el usuario : " );
 
                         while ( $row = $this->db->fetchByAssoc( $res ) )
                         {
+                            array_push( $usuarios2, $row[ 'related_id' ] );
                             $this->assigned_user_id = $row[ 'related_id' ];
+                        }
+
+                        foreach ( $usuarios as $u )
+                        {
+                            if ( ! in_array( $u, $usuarios2 ) )
+                            {
+                                $this->assigned_user_id = $u;
+                            }
                         }
                     }
                 }

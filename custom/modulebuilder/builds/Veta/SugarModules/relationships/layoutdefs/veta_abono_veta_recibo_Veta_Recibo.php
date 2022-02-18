@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:19
+ // created: 2022-01-28 10:25:07
 $layout_defs["Veta_Recibo"]["subpanel_setup"]['veta_abono_veta_recibo'] = array (
   'order' => 100,
   'module' => 'Veta_Abono',

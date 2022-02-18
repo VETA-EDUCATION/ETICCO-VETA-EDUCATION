@@ -22,23 +22,10 @@ $listViewDefs [ $module_name ] =
         'SOEL_REFERIDO'                       => array( 'type' => 'varchar', 'label' => 'LBL_SOEL_REFERIDO', 'width' => '10%', 'default' => true, ),
         'SOEL_FECHA_VIAJE'                    => array( 'type' => 'datetime', 'label' => 'LBL_SOEL_FECHA_VIAJE', 'width' => '10%', 'default' => true, ),
         'SOEL_FECHA_EXPIRACION_VISA'          => array( 'type' => 'datetime', 'label' => 'LBL_SOEL_FECHA_EXPIRACION_VISA', 'width' => '10%', 'default' => true, ),
-        'VETA_VISA_OPPORTUNITIES_NAME'        =>
-            array(
-                'type'    => 'relate',
-                'link'    => true,
-                'label'   => 'LBL_VETA_VISA_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE',
-                'id'      => 'VETA_VISA_OPPORTUNITIESOPPORTUNITIES_IDA',
-                'width'   => '10%',
-                'default' => true,
-            ),
-        'VETA_VISA_VETA_SERVICIOCLIENTE_NAME' =>
-            array(
-                'type'    => 'relate',
-                'link'    => true,
-                'label'   => 'LBL_VETA_VISA_VETA_SERVICIOCLIENTE_FROM_VETA_SERVICIOCLIENTE_TITLE',
-                'id'      => 'VETA_VISA_VETA_SERVICIOCLIENTEVETA_SERVICIOCLIENTE_IDB',
-                'width'   => '10%',
-                'default' => true,
-            ),
-    );;
+        'VETA_VISA_OPPORTUNITIES_NAME'        => array( 'type' => 'relate', 'link' => true, 'label' => 'LBL_VETA_VISA_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE', 'id' => 'VETA_VISA_OPPORTUNITIESOPPORTUNITIES_IDA', 'width' => '10%', 'default' => true, ),
+        'VETA_VISA_VETA_SERVICIOCLIENTE_NAME' => array( 'type' => 'relate', 'link' => true, 'label' => 'LBL_VETA_VISA_VETA_SERVICIOCLIENTE_FROM_VETA_SERVICIOCLIENTE_TITLE', 'id' => 'VETA_VISA_VETA_SERVICIOCLIENTEVETA_SERVICIOCLIENTE_IDB', 'width' => '10%', 'default' => true, ),
+        'SOEL_REQUERIMIENTO'                  => array( 'type' => 'varchar', 'label' => 'LBL_SOEL_REQUERIMIENTO', 'width' => '10%', 'default' => true, 'sortable' => false, ),
+        'SOEL_CIUDAD_TMP'                     => array( 'type' => 'varchar', 'label' => 'LBL_SOEL_CIUDAD_TMP', 'width' => '10%', 'default' => true, 'sortable' => false, ),
+        'SOEL_LOCALIZACION'                   => array( 'type' => 'multienum', 'studio' => 'visible', 'label' => 'LBL_SOEL_LOCALIZACION', 'width' => '10%', 'default' => false, 'sortable' => false, ),
+    );
 ?>

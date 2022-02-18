@@ -75,7 +75,6 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
   'LBL_VETA_RECIBO_SUBPANEL_TITLE' => 'Cuenta de Cobro',
   'LBL_NEW_FORM_TITLE' => 'Nuevo Cuenta de Cobro',
-
   'LBL_PAIS' => 'Pais',
   'LBL_DEPARTAMENTO' => 'Departamento',
   'LBL_CIUDAD' => 'Ciudad',
@@ -102,9 +101,11 @@ $mod_strings = array (
   'LBL_ASEGURADOR' => 'Asegurador',
   'LBL_DURACION' => 'Duracion (meses)',
   'LBL_TIPO_SEGURO' => 'Tipo de Seguro',
-  'LBL_DESCUENTO' => 'Descuento',
   'LBL_EDITVIEW_PANEL1' => 'Seguro',
   'LBL_DETAILVIEW_PANEL1' => 'SERVICIOS',
-  'LBL_DETAILVIEW_PANEL2' => 'TOTALES' ,
+  'LBL_DETAILVIEW_PANEL2' => 'TOTALES',
   'LBL_SOEL_ASEGURADOR' => 'Asegurador',
+  'LBL_VETA_DEVOLUCION_VETA_RECIBO_FROM_VETA_DEVOLUCION_TITLE' => 'Devoluciones',
+  'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
+  'LBL_SOEL_LOCALIZACION' => 'Localizacion',
 );

@@ -98,4 +98,8 @@ $mod_strings = array (
   'LBL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
   'LBL_ASESOR_COMERCIAL_USER_ID' => 'Asesor Comercial (relacionado Usuarios ID)',
   'LBL_ASESOR_COMERCIAL' => 'Asesor Comercial',
+  'LBL_SOEL_FECHA_VIAJE' => 'Fecha Viaje',
+  'LBL_SOEL_REFERIDO' => 'Referido',
+  'LBL_SOEL_FECHA_EXPIRACION_VISA' => 'Fecha Expiración Visa',
+  'LBL_SOEL_REQUERIMIENTO' => 'Requerimiento',
 );

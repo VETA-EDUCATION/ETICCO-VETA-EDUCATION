@@ -136,8 +136,11 @@ class Veta_Loo extends Basic
                 $l->user_id_c             = $this->obtener_oportunidad()->assigned_user_id;
                 $l->save( false );
 
-                //$l->load_relationship('veta_liquidacion_opportunities');
-                //$l->veta_liquidacion_opportunities->add($this->id) ;
+                $l->load_relationship('veta_liquidacion_veta_loo');
+                $l->veta_liquidacion_veta_loo->add($this->id);
+
+               // $l->load_relationship('veta_liquidacion_opportunities');
+               // $l->veta_liquidacion_opportunities->add($this->id) ;
             }
         }
         else {
@@ -257,9 +260,12 @@ class Veta_Loo extends Basic
     private function actualizar_oportunidad() {
 
         $o                      = $this->obtener_oportunidad();
-        $o->estado_admisiones_c = $this->estado_loo;
-        $o->save( false );
 
+        if(isset($o) and get_class($o) == 'Opportunity' )   {
+
+            $o->estado_admisiones_c = $this->estado_loo;
+            $o->save( false );
+        }
     }
 
     public  function obtener_oportunidad() {

@@ -672,22 +672,22 @@ $searchFields['Opportunities'] = array(
                             WHERE contacts_cstm.fecha_expiracion_visa_c <= CONCAT(STR_TO_DATE(\'{0}\', \'' . $dateformat . '\') , \' 23:59:59\')*/',
             'db_field' => array(0 => 'id',),
         ),
-'soel_campus' => 
-  array (
-    'query_type' => 'format',
-    'operator' => 'subquery',
-    'subquery' => 'select o.id from opportunities o 
+    'soel_campus' =>
+        array (
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => 'select o.id from opportunities o 
                     inner join veta_recibo_opportunities_c vroc on o.id = vroc.veta_recibo_opportunitiesopportunities_idb 
                     inner join veta_recibo vr on vroc.veta_recibo_opportunitiesveta_recibo_ida = vr.id 
                     inner join veta_detallerecibo_veta_recibo_c vdvrc on vr.id = vdvrc.veta_detallerecibo_veta_reciboveta_recibo_ida 
                     inner join veta_detallerecibo vd on vdvrc.veta_detallerecibo_veta_reciboveta_detallerecibo_idb = vd.id 
                     inner join veta_curso vc on vd.veta_curso_id_c = vc.id 
                     where vc.campus like  (\'{0}\')',
-    'db_field' => 
-    array (
-      0 => 'id',
-    ),
-  ),
+            'db_field' =>
+                array (
+                    0 => 'id',
+                ),
+        ),
     'range_limite_luz_verde' =>
         array(
             'query_type' => 'default',
@@ -724,6 +724,7 @@ $searchFields['Opportunities'] = array(
             'enable_range_search' => true,
             'is_date_field' => true,
         ),
+
     'soel_ciudad_tmp' =>
         array(
             'query_type' => 'format',
@@ -744,6 +745,22 @@ $searchFields['Opportunities'] = array(
             LEFT JOIN leads_cstm convertido_cstm on convertido_cstm.id_c = convertido.id
             WHERE venta.deleted = 0) AS t 
             WHERE  ciudad_tmp_c =  \'{0}\'',
+            'db_field' =>
+                array(
+                    0 => 'id',
+                ),
+        ),
+
+    'soel_localizacion' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => "SELECT opportunities.id AS ID FROM opportunities
+                            INNER JOIN veta_recibo_opportunities_c ON veta_recibo_opportunities_c.veta_recibo_opportunitiesopportunities_idb = opportunities.id AND veta_recibo_opportunities_c.deleted = 0 
+                            INNER JOIN veta_recibo ON veta_recibo.id = veta_recibo_opportunities_c.veta_recibo_opportunitiesveta_recibo_ida
+                            INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                            INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida 
+                         WHERE veta_requerimiento.deleted = 0 and REPLACE(veta_requerimiento.localizacion, '^' , '\'' ) = " . '"\'{0}\'"',
             'db_field' =>
                 array(
                     0 => 'id',

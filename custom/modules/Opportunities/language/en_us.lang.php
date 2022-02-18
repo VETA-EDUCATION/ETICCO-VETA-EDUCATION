@@ -69,4 +69,5 @@ $mod_strings = array (
   'LBL_SOEL_ASIGNADO_VISAS' => 'Assigned Visas',
   'LBL_LIMITE_LUZ_VERDE' => 'Green Light Limit',
   'LBL_SOEL_CIUDAD_TMP' => 'TMP City',
+  'LBL_SOEL_LOCALIZACION' => 'Location',
 );

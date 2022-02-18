@@ -1,5 +1,5 @@
 <?php
-// created: 2020-10-14 00:58:31
+// created: 2022-01-28 10:25:06
 $dictionary["veta_pagocolegios_opportunities"] = array (
   'true_relationship_type' => 'one-to-many',
   'relationships' => 

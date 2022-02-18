@@ -86,6 +86,15 @@ $dictionary["Veta_Aplicacion"]["fields"]["veta_aplicacion_activities_notes"] = a
 );
 
 
+$dictionary['Veta_Aplicacion']['fields']['soel_localizacion'] = array(
+    'name' => 'soel_localizacion',
+    'vname' => 'LBL_SOEL_LOCALIZACION',
+    'type' => 'multienum',
+    'source' => 'non-db',
+    'options' => 'localizacion_list',
+    'massupdate' => false,
+);
+
 $dictionary['Veta_Aplicacion']['fields']['soel_estado_coe'] = array(
     'name' => 'soel_estado_coe',
     'vname' => 'LBL_SOEL_ESTADO_COE',

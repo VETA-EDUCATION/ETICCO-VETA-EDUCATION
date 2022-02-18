@@ -77,4 +77,4 @@ $dictionary['Veta_OtrosNombres'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_OtrosNombres', 'Veta_OtrosNombres', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_OtrosNombres', 'Veta_OtrosNombres', array('basic','assignable','security_groups'));

@@ -90,6 +90,16 @@ array (
         array (
           0 => 
           array (
+            'name' => 'idiomaicq_c',
+            'studio' => 'visible',
+            'label' => 'LBL_IDIOMAICQ',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
             'name' => 'solicitadopor',
             'studio' => 'visible',
             'label' => 'LBL_SOLICITADOPOR',

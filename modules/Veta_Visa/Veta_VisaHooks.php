@@ -17,7 +17,8 @@ class Veta_VisaHooks
                     veta_requerimiento.referido AS REFERIDO,
                     veta_requerimiento.fecha_viaje AS FECHAVIAJE,
                     veta_requerimiento.id AS ID_REQUERIMIENTO,
-                    veta_requerimiento.name AS REQUERIMIENTO
+                    veta_requerimiento.name AS REQUERIMIENTO,
+                    veta_requerimiento.localizacion AS LOCALIZACION       
                 FROM veta_visa 
                 INNER JOIN veta_visa_veta_serviciocliente_c ON veta_visa_veta_serviciocliente_c.veta_visa_veta_servicioclienteveta_visa_ida = veta_visa.id 
                 INNER JOIN veta_serviciocliente ON veta_serviciocliente.id = veta_visa_veta_serviciocliente_c.veta_visa_veta_servicioclienteveta_serviciocliente_idb AND veta_serviciocliente.deleted = 0
@@ -34,6 +35,7 @@ class Veta_VisaHooks
 
         if ( $row != null ) {
 
+            $bean->soel_localizacion = $row[ 'LOCALIZACION' ];
             $bean->soel_referido = $row[ 'REFERIDO' ];
             //$bean->soel_fecha_viaje = $row[ 'FECHAVIAJE' ];
             $aux = date_create($row[ 'FECHAVIAJE' ]);
@@ -71,7 +73,8 @@ class Veta_VisaHooks
                     contacts_cstm.fecha_expiracion_visa_c AS FECHAEXPIRACIONVISA,
                     contacts.date_modified AS FECHAMODIFICACION,
                     contacts_cstm.visa_c AS VISA,
-                    campaigns.name as CAMPANA                                   
+                    campaigns.name as CAMPANA,
+                    leads_cstm.ciudad_tmp_c AS CIUDADTMP
                 FROM contacts 
                 INNER JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
                 INNER JOIN veta_requerimiento_contacts_c ON veta_requerimiento_contacts_c.veta_requerimiento_contactscontacts_ida = contacts.id AND veta_requerimiento_contacts_c.deleted = 0 
@@ -86,6 +89,8 @@ class Veta_VisaHooks
                 INNER JOIN veta_visa ON veta_visa.id = veta_visa_veta_serviciocliente_c.veta_visa_veta_servicioclienteveta_visa_ida     
                 LEFT JOIN users asignado ON asignado.id = contacts.assigned_user_id AND asignado.deleted = 0
                 LEFT JOIN campaigns ON campaigns.id = contacts.campaign_id AND campaigns.deleted = 0 
+                LEFT JOIN leads ON leads.contact_id = contacts.id AND leads.deleted = 0 
+                LEFT JOIN leads_cstm ON leads_cstm.id_c = leads.id 
                 WHERE veta_visa.deleted = 0 AND veta_visa.id = '" . $focus->id . "'";
 
         /*$query = "SELECT contacts.id AS ID,
@@ -128,6 +133,7 @@ class Veta_VisaHooks
 
             $aux = date_create($row[ 'FECHAEXPIRACIONVISA' ]);
             $focus->soel_fecha_expiracion_visa = date_format($aux, $dateformat);
+            $focus->soel_ciudad_tmp = $row['CIUDADTMP'];
 
             //$focus->soel_fecha_expiracion_visa = $row[ 'FECHAEXPIRACIONVISA' ];
             /*$focus->soel_asignado_contact              = $row[ 'ASIGNADO' ];

@@ -67,8 +67,9 @@ class Veta_Pagos extends Basic
     public $monto;
     public $currency_id;
 
-    public function bean_implements( $interface ) {
-        switch( $interface ) {
+    public function bean_implements($interface)
+    {
+        switch ($interface) {
             case 'ACL':
                 return true;
         }
@@ -76,53 +77,57 @@ class Veta_Pagos extends Basic
         return false;
     }
 
-    public function obtener_oportunidad() {
+    public function obtener_oportunidad()
+    {
 
         $o = null;
 
-        $liquidaciones = $this->get_linked_beans( 'veta_pagos_veta_liquidacion' , 'Veta_Liquidacion' );
+        $liquidaciones = $this->get_linked_beans('veta_pagos_veta_liquidacion', 'Veta_Liquidacion');
 
-        foreach( $liquidaciones as $liq ) {
+        foreach ($liquidaciones as $liq) {
             $o = $liq->obtener_oportunidad();
         }
 
         return $o;
     }
 
-    public function save( $check_notify = false ) {
+    public function save($check_notify = false)
+    {
 
-        $this->name = number_format( $this->monto , 0 , ',' , '.' );
-        $aux = parent::save( $check_notify );
+        $this->name = number_format($this->monto, 0, ',', '.');
+        $aux = parent::save($check_notify);
 
         // Obtenemos la liquidacion y la salvamos para forzar la actualizacion de los valores en la oportunidad
-        $liquidaciones = $this->get_linked_beans( 'veta_pagos_veta_liquidacion' , 'Veta_Liquidacion' );
+        $liquidaciones = $this->get_linked_beans('veta_pagos_veta_liquidacion', 'Veta_Liquidacion');
 
-        foreach( $liquidaciones as $liquidacion )
-            $liquidacion->actualizar_total(  );
+        foreach ($liquidaciones as $liquidacion)
+            $liquidacion->actualizar_total();
 
         $this->heredar_info();
 
         return $aux;
     }
 
-    private function heredar_info() {
+    private function heredar_info()
+    {
 
-        $lqs = $this->get_linked_beans( 'veta_pagos_veta_liquidacion' , 'Veta_Liquidacion' );
+        $lqs = $this->get_linked_beans('veta_pagos_veta_liquidacion', 'Veta_Liquidacion');
 
-        foreach( $lqs as $l ) {
+        foreach ($lqs as $l) {
 
             $this->contact_id_c = $l->contact_id_c;
             $this->lead_id_c = $l->lead_id_c;
             $this->fecha_expiracion_visa = $l->fecha_expiracion_visa;
         }
 
-        parent::save( false );
+        parent::save(false);
     }
 
-    public function actualizar_contacto( Contact $c){
+    public function actualizar_contacto(Contact $c)
+    {
 
         $db = DBManagerFactory::getInstance();
-        $sql = "UPDATE veta_pagos SET contact_id_c = '". $c->id . "' WHERE id = '" . $this->id . "'";
+        $sql = "UPDATE veta_pagos SET contact_id_c = '" . $c->id . "' WHERE id = '" . $this->id . "'";
         $res = $db->query($sql);
     }
 

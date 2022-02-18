@@ -1,5 +1,5 @@
 <?php
- // created: 2020-10-14 00:58:37
+ // created: 2022-01-28 10:25:06
 $layout_defs["Contacts"]["subpanel_setup"]['veta_solvenciaeconomica_contacts'] = array (
   'order' => 100,
   'module' => 'Veta_SolvenciaEconomica',

@@ -631,6 +631,17 @@ $searchdefs [ $module_name ] =
                                 'sortable' => false,
                             ),
                         //endregion
+
+                        //region localizacion
+                        'fuente'                             => array(
+                            'type'    => 'multienum',
+                            'studio'  => 'visible',
+                            'label'   => 'LBL_LOCALIZACION',
+                            'width'   => '10%',
+                            'default' => true,
+                            'name'    => 'localizacion'
+                        ),
+                        //endregion
                     ),
             ),
         'templateMeta' =>

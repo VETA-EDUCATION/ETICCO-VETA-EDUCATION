@@ -128,8 +128,8 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      //region soel_ciudad_tmp
-      'soel_ciudad_tmp'                     =>
+     //region soel_ciudad_tmp
+        'soel_ciudad_tmp'                     =>
             array(
                 'type'     => 'varchar',
                 'default'  => true,
@@ -138,7 +138,27 @@ array (
                 'name'     => 'soel_ciudad_tmp',
                 'sortable' => false,
             ),
-      //endregion
+        //endregion
+
+     //region soel_localizacion
+        'soel_localizacion'                     =>
+            array(
+                'type'     => 'multienum',
+                'default'  => true,
+                'label'    => 'LBL_SOEL_LOCALIZACION',
+                'width'    => '10%',
+                'name'     => 'soel_localizacion',
+                'sortable' => false,
+            ),
+        //endregion
+		'veta_abono_fechainsert' => 
+			  array (
+				'type' => 'datetime',
+				'label' => 'LBL_ABONO_FECHAINSERT',
+				'width' => '10%',
+				'default' => true,
+				'name' => 'veta_abono_fechainsert',
+			  ),
     ),
   ),
   'templateMeta' => 

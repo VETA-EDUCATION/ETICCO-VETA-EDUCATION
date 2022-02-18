@@ -78,4 +78,36 @@ $searchFields[$module_name] = array(
         'is_date_field' => true
     ),
     //Range Search Support
+
+    #region soel_ciudad_tmp
+    'soel_ciudad_tmp' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => 'SELECT veta_recibo.id AS ID FROM veta_recibo
+                             INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                             INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida 
+                             INNER JOIN veta_requerimiento_leads_c ON veta_requerimiento_leads_c.veta_requerimiento_leadsveta_requerimiento_idb = veta_requerimiento.id AND veta_requerimiento_leads_c.deleted = 0
+                             INNER JOIN leads ON leads.id = veta_requerimiento_leads_c.veta_requerimiento_leadsleads_ida AND leads.deleted = 0 
+                             INNER JOIN leads_cstm ON leads_cstm.id_c = leads.id 
+                            WHERE leads_cstm.ciudad_tmp_c IN  (\'{0}\')',
+            'db_field' => array(0 => 'id',),
+        ),
+    #endregion
+
+    #region soel_localizacion
+    'soel_localizacion' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => "SELECT veta_recibo.id AS ID FROM veta_recibo
+                             INNER JOIN veta_requerimiento_veta_recibo_c ON veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_recibo_idb = veta_recibo.id 
+                             INNER JOIN veta_requerimiento ON veta_requerimiento.id = veta_requerimiento_veta_recibo_c.veta_requerimiento_veta_reciboveta_requerimiento_ida   
+                         WHERE veta_requerimiento.deleted = 0 and REPLACE(veta_requerimiento.localizacion, '^' , '\'' ) = " . '"\'{0}\'"',
+            'db_field' =>
+                array(
+                    0 => 'id',
+                ),
+        ),
+    #endregion
 );

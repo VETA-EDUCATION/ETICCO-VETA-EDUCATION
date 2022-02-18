@@ -90,16 +90,11 @@ array (
         array (
           0 => 
           array (
-            'name' => 'estado',
-            'studio' => 'visible',
-            'label' => 'LBL_ESTADO',
-          ),
-          1 => 
-          array (
             'name' => 'estado_loo',
             'studio' => 'visible',
             'label' => 'LBL_ESTADO_LOO',
           ),
+          1 => '',
         ),
         5 => 
         array (

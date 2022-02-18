@@ -189,4 +189,4 @@ $dictionary['Veta_Visas'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Veta_Visas', 'Veta_Visas', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Veta_Visas', 'Veta_Visas', array('basic','assignable','security_groups'));

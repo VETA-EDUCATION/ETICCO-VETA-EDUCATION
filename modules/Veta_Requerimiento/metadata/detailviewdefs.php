@@ -197,6 +197,15 @@ array (
                         'customCode' => '{$EMAIL}',
                     ),
             ),
+          13 =>
+              array (
+                  0 =>
+                      array (
+                          'name' => 'localizacion',
+                          'label' => 'LBL_LOCALIZACION',
+                          'studio' => 'visible',
+                      ),
+              ),
       ),
     ),
   ),

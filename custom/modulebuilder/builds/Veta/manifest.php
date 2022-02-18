@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Veta',
-  'published_date' => '2020-10-14 00:58:19',
+  'published_date' => '2022-01-28 14:24:55',
   'type' => 'module',
-  'version' => 1602637099,
+  'version' => 1643379895,
   'remove_tables' => 'prompt',
 );
 
@@ -76,114 +76,114 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'module' => 'Veta_ABNTaxFile',
-      'class' => 'Veta_ABNTaxFile',
-      'path' => 'modules/Veta_ABNTaxFile/Veta_ABNTaxFile.php',
+      'module' => 'Veta_ServicioCliente',
+      'class' => 'Veta_ServicioCliente',
+      'path' => 'modules/Veta_ServicioCliente/Veta_ServicioCliente.php',
       'tab' => true,
     ),
     1 => 
-    array (
-      'module' => 'Veta_Abono',
-      'class' => 'Veta_Abono',
-      'path' => 'modules/Veta_Abono/Veta_Abono.php',
-      'tab' => false,
-    ),
-    2 => 
-    array (
-      'module' => 'Veta_Aplicacion',
-      'class' => 'Veta_Aplicacion',
-      'path' => 'modules/Veta_Aplicacion/Veta_Aplicacion.php',
-      'tab' => true,
-    ),
-    3 => 
-    array (
-      'module' => 'Veta_Ciudadania',
-      'class' => 'Veta_Ciudadania',
-      'path' => 'modules/Veta_Ciudadania/Veta_Ciudadania.php',
-      'tab' => false,
-    ),
-    4 => 
-    array (
-      'module' => 'Veta_COE',
-      'class' => 'Veta_COE',
-      'path' => 'modules/Veta_COE/Veta_COE.php',
-      'tab' => true,
-    ),
-    5 => 
-    array (
-      'module' => 'Veta_College',
-      'class' => 'Veta_College',
-      'path' => 'modules/Veta_College/Veta_College.php',
-      'tab' => true,
-    ),
-    6 => 
-    array (
-      'module' => 'Veta_CorreccionCOE',
-      'class' => 'Veta_CorreccionCOE',
-      'path' => 'modules/Veta_CorreccionCOE/Veta_CorreccionCOE.php',
-      'tab' => true,
-    ),
-    7 => 
-    array (
-      'module' => 'Veta_Curso',
-      'class' => 'Veta_Curso',
-      'path' => 'modules/Veta_Curso/Veta_Curso.php',
-      'tab' => true,
-    ),
-    8 => 
-    array (
-      'module' => 'Veta_DetallePresupuesto',
-      'class' => 'Veta_DetallePresupuesto',
-      'path' => 'modules/Veta_DetallePresupuesto/Veta_DetallePresupuesto.php',
-      'tab' => false,
-    ),
-    9 => 
-    array (
-      'module' => 'Veta_DetalleRecibo',
-      'class' => 'Veta_DetalleRecibo',
-      'path' => 'modules/Veta_DetalleRecibo/Veta_DetalleRecibo.php',
-      'tab' => false,
-    ),
-    10 => 
-    array (
-      'module' => 'Veta_DetalleReciboItem',
-      'class' => 'Veta_DetalleReciboItem',
-      'path' => 'modules/Veta_DetalleReciboItem/Veta_DetalleReciboItem.php',
-      'tab' => false,
-    ),
-    11 => 
-    array (
-      'module' => 'Veta_InformacionAcademica',
-      'class' => 'Veta_InformacionAcademica',
-      'path' => 'modules/Veta_InformacionAcademica/Veta_InformacionAcademica.php',
-      'tab' => false,
-    ),
-    12 => 
     array (
       'module' => 'Veta_InformacionLaboral',
       'class' => 'Veta_InformacionLaboral',
       'path' => 'modules/Veta_InformacionLaboral/Veta_InformacionLaboral.php',
       'tab' => false,
     ),
-    13 => 
+    2 => 
     array (
-      'module' => 'Veta_Liquidacion',
-      'class' => 'Veta_Liquidacion',
-      'path' => 'modules/Veta_Liquidacion/Veta_Liquidacion.php',
+      'module' => 'Veta_Visas',
+      'class' => 'Veta_Visas',
+      'path' => 'modules/Veta_Visas/Veta_Visas.php',
+      'tab' => false,
+    ),
+    3 => 
+    array (
+      'module' => 'Veta_COE',
+      'class' => 'Veta_COE',
+      'path' => 'modules/Veta_COE/Veta_COE.php',
       'tab' => true,
     ),
-    14 => 
+    4 => 
+    array (
+      'module' => 'Veta_Seguro',
+      'class' => 'Veta_Seguro',
+      'path' => 'modules/Veta_Seguro/Veta_Seguro.php',
+      'tab' => true,
+    ),
+    5 => 
+    array (
+      'module' => 'Veta_Aplicacion',
+      'class' => 'Veta_Aplicacion',
+      'path' => 'modules/Veta_Aplicacion/Veta_Aplicacion.php',
+      'tab' => true,
+    ),
+    6 => 
+    array (
+      'module' => 'Veta_Ciudadania',
+      'class' => 'Veta_Ciudadania',
+      'path' => 'modules/Veta_Ciudadania/Veta_Ciudadania.php',
+      'tab' => false,
+    ),
+    7 => 
+    array (
+      'module' => 'Veta_Devolucion',
+      'class' => 'Veta_Devolucion',
+      'path' => 'modules/Veta_Devolucion/Veta_Devolucion.php',
+      'tab' => true,
+    ),
+    8 => 
     array (
       'module' => 'Veta_Loo',
       'class' => 'Veta_Loo',
       'path' => 'modules/Veta_Loo/Veta_Loo.php',
       'tab' => true,
     ),
+    9 => 
+    array (
+      'module' => 'Veta_InformacionAcademica',
+      'class' => 'Veta_InformacionAcademica',
+      'path' => 'modules/Veta_InformacionAcademica/Veta_InformacionAcademica.php',
+      'tab' => false,
+    ),
+    10 => 
+    array (
+      'module' => 'Veta_Presupuesto',
+      'class' => 'Veta_Presupuesto',
+      'path' => 'modules/Veta_Presupuesto/Veta_Presupuesto.php',
+      'tab' => true,
+    ),
+    11 => 
+    array (
+      'module' => 'Veta_Curso',
+      'class' => 'Veta_Curso',
+      'path' => 'modules/Veta_Curso/Veta_Curso.php',
+      'tab' => true,
+    ),
+    12 => 
+    array (
+      'module' => 'Veta_ABNTaxFile',
+      'class' => 'Veta_ABNTaxFile',
+      'path' => 'modules/Veta_ABNTaxFile/Veta_ABNTaxFile.php',
+      'tab' => true,
+    ),
+    13 => 
+    array (
+      'module' => 'Veta_College',
+      'class' => 'Veta_College',
+      'path' => 'modules/Veta_College/Veta_College.php',
+      'tab' => true,
+    ),
+    14 => 
+    array (
+      'module' => 'Veta_Visa',
+      'class' => 'Veta_Visa',
+      'path' => 'modules/Veta_Visa/Veta_Visa.php',
+      'tab' => true,
+    ),
     15 => 
     array (
-      'module' => 'Veta_LooCorreccion',
-      'class' => 'Veta_LooCorreccion',
-      'path' => 'modules/Veta_LooCorreccion/Veta_LooCorreccion.php',
+      'module' => 'Veta_TiposVisa',
+      'class' => 'Veta_TiposVisa',
+      'path' => 'modules/Veta_TiposVisa/Veta_TiposVisa.php',
       'tab' => true,
     ),
     16 => 
@@ -195,107 +195,114 @@ $installdefs = array (
     ),
     17 => 
     array (
-      'module' => 'Veta_OtrosNombres',
-      'class' => 'Veta_OtrosNombres',
-      'path' => 'modules/Veta_OtrosNombres/Veta_OtrosNombres.php',
-      'tab' => false,
-    ),
-    18 => 
-    array (
-      'module' => 'Veta_PagoColegios',
-      'class' => 'Veta_PagoColegios',
-      'path' => 'modules/Veta_PagoColegios/Veta_PagoColegios.php',
+      'module' => 'Veta_TRM',
+      'class' => 'Veta_TRM',
+      'path' => 'modules/Veta_TRM/Veta_TRM.php',
       'tab' => true,
     ),
-    19 => 
+    18 => 
     array (
       'module' => 'Veta_Pagos',
       'class' => 'Veta_Pagos',
       'path' => 'modules/Veta_Pagos/Veta_Pagos.php',
       'tab' => true,
     ),
+    19 => 
+    array (
+      'module' => 'Veta_DetalleReciboItem',
+      'class' => 'Veta_DetalleReciboItem',
+      'path' => 'modules/Veta_DetalleReciboItem/Veta_DetalleReciboItem.php',
+      'tab' => false,
+    ),
     20 => 
+    array (
+      'module' => 'Veta_OtrosNombres',
+      'class' => 'Veta_OtrosNombres',
+      'path' => 'modules/Veta_OtrosNombres/Veta_OtrosNombres.php',
+      'tab' => false,
+    ),
+    21 => 
     array (
       'module' => 'Veta_Pasaporte',
       'class' => 'Veta_Pasaporte',
       'path' => 'modules/Veta_Pasaporte/Veta_Pasaporte.php',
       'tab' => false,
     ),
-    21 => 
-    array (
-      'module' => 'Veta_Presupuesto',
-      'class' => 'Veta_Presupuesto',
-      'path' => 'modules/Veta_Presupuesto/Veta_Presupuesto.php',
-      'tab' => true,
-    ),
     22 => 
     array (
-      'module' => 'Veta_Recibo',
-      'class' => 'Veta_Recibo',
-      'path' => 'modules/Veta_Recibo/Veta_Recibo.php',
+      'module' => 'Veta_LooCorreccion',
+      'class' => 'Veta_LooCorreccion',
+      'path' => 'modules/Veta_LooCorreccion/Veta_LooCorreccion.php',
       'tab' => true,
     ),
     23 => 
     array (
-      'module' => 'Veta_Requerimiento',
-      'class' => 'Veta_Requerimiento',
-      'path' => 'modules/Veta_Requerimiento/Veta_Requerimiento.php',
+      'module' => 'Veta_Liquidacion',
+      'class' => 'Veta_Liquidacion',
+      'path' => 'modules/Veta_Liquidacion/Veta_Liquidacion.php',
       'tab' => true,
     ),
     24 => 
-    array (
-      'module' => 'Veta_Seguro',
-      'class' => 'Veta_Seguro',
-      'path' => 'modules/Veta_Seguro/Veta_Seguro.php',
-      'tab' => true,
-    ),
-    25 => 
-    array (
-      'module' => 'Veta_ServicioCliente',
-      'class' => 'Veta_ServicioCliente',
-      'path' => 'modules/Veta_ServicioCliente/Veta_ServicioCliente.php',
-      'tab' => true,
-    ),
-    26 => 
-    array (
-      'module' => 'Veta_ServiciosAdicionales',
-      'class' => 'Veta_ServiciosAdicionales',
-      'path' => 'modules/Veta_ServiciosAdicionales/Veta_ServiciosAdicionales.php',
-      'tab' => false,
-    ),
-    27 => 
     array (
       'module' => 'Veta_SolvenciaEconomica',
       'class' => 'Veta_SolvenciaEconomica',
       'path' => 'modules/Veta_SolvenciaEconomica/Veta_SolvenciaEconomica.php',
       'tab' => false,
     ),
+    25 => 
+    array (
+      'module' => 'Veta_PagoColegios',
+      'class' => 'Veta_PagoColegios',
+      'path' => 'modules/Veta_PagoColegios/Veta_PagoColegios.php',
+      'tab' => true,
+    ),
+    26 => 
+    array (
+      'module' => 'Veta_CorreccionCOE',
+      'class' => 'Veta_CorreccionCOE',
+      'path' => 'modules/Veta_CorreccionCOE/Veta_CorreccionCOE.php',
+      'tab' => true,
+    ),
+    27 => 
+    array (
+      'module' => 'Veta_Abono',
+      'class' => 'Veta_Abono',
+      'path' => 'modules/Veta_Abono/Veta_Abono.php',
+      'tab' => false,
+    ),
     28 => 
     array (
-      'module' => 'Veta_TiposVisa',
-      'class' => 'Veta_TiposVisa',
-      'path' => 'modules/Veta_TiposVisa/Veta_TiposVisa.php',
-      'tab' => true,
+      'module' => 'Veta_ServiciosAdicionales',
+      'class' => 'Veta_ServiciosAdicionales',
+      'path' => 'modules/Veta_ServiciosAdicionales/Veta_ServiciosAdicionales.php',
+      'tab' => false,
     ),
     29 => 
     array (
-      'module' => 'Veta_TRM',
-      'class' => 'Veta_TRM',
-      'path' => 'modules/Veta_TRM/Veta_TRM.php',
+      'module' => 'Veta_Recibo',
+      'class' => 'Veta_Recibo',
+      'path' => 'modules/Veta_Recibo/Veta_Recibo.php',
       'tab' => true,
     ),
     30 => 
     array (
-      'module' => 'Veta_Visa',
-      'class' => 'Veta_Visa',
-      'path' => 'modules/Veta_Visa/Veta_Visa.php',
+      'module' => 'Veta_Requerimiento',
+      'class' => 'Veta_Requerimiento',
+      'path' => 'modules/Veta_Requerimiento/Veta_Requerimiento.php',
       'tab' => true,
     ),
     31 => 
     array (
-      'module' => 'Veta_Visas',
-      'class' => 'Veta_Visas',
-      'path' => 'modules/Veta_Visas/Veta_Visas.php',
+      'module' => 'Veta_DetalleRecibo',
+      'class' => 'Veta_DetalleRecibo',
+      'path' => 'modules/Veta_DetalleRecibo/Veta_DetalleRecibo.php',
+      'tab' => false,
+    ),
+    32 => 
+    array (
+      'module' => 'Veta_DetallePresupuesto',
+      'class' => 'Veta_DetallePresupuesto',
+      'path' => 'modules/Veta_DetallePresupuesto/Veta_DetallePresupuesto.php',
       'tab' => false,
     ),
   ),
@@ -303,138 +310,138 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_abono_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_serviciocliente_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
     ),
     1 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_aplicacion_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    2 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_aplicacion_cases_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    3 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_aplicacion_activities_calls_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    4 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_ciudadania_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    5 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_ciudadania_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    6 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_veta_aplicacion_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    7 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    8 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_cases_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    9 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_activities_calls_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    10 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_veta_liquidacion_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    11 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_correccioncoe_veta_coe_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    12 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallepresupuesto_veta_presupuesto_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    13 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallerecibo_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    14 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallereciboitem_veta_detallerecibo_Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
-    ),
-    15 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallereciboitem_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    16 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_informacionacademica_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    17 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_informacionacademica_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    18 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_informacionlaboral_leads_Leads.php',
       'to_module' => 'Leads',
     ),
-    19 => 
+    2 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_informacionlaboral_contacts_Contacts.php',
       'to_module' => 'Contacts',
     ),
-    20 => 
+    3 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_liquidacion_cases_Veta_Liquidacion.php',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visas_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    4 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visas_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    5 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_veta_aplicacion_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    6 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    7 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_cases_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    8 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_activities_calls_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    9 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_coe_veta_liquidacion_Veta_Liquidacion.php',
       'to_module' => 'Veta_Liquidacion',
     ),
-    21 => 
+    10 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_liquidacion_activities_calls_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_aplicacion_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
     ),
-    22 => 
+    11 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_liquidacion_veta_loo_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_aplicacion_cases_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
     ),
-    23 => 
+    12 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_aplicacion_activities_calls_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_ciudadania_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    14 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_ciudadania_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    15 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_devolucion_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    16 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_loo_veta_aplicacion_Veta_Aplicacion.php',
       'to_module' => 'Veta_Aplicacion',
     ),
-    24 => 
+    17 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_loo_cases_Veta_Loo.php',
       'to_module' => 'Veta_Loo',
     ),
-    25 => 
+    18 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_loo_activities_calls_Veta_Loo.php',
       'to_module' => 'Veta_Loo',
     ),
+    19 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_informacionacademica_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    20 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_informacionacademica_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    21 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_presupuesto_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    22 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_presupuesto_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    23 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_presupuesto_emails_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    24 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visa_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    25 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visa_cases_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
     26 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_loocorreccion_veta_loo_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visa_activities_calls_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
     ),
     27 => 
     array (
@@ -443,28 +450,28 @@ $installdefs = array (
     ),
     28 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_otrosnombres_leads_Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_pagos_veta_liquidacion_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
     ),
     29 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_otrosnombres_contacts_Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallereciboitem_veta_detallerecibo_Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
     ),
     30 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_pagocolegios_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallereciboitem_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
     ),
     31 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_pagocolegios_activities_calls_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_otrosnombres_leads_Leads.php',
+      'to_module' => 'Leads',
     ),
     32 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_pagos_veta_liquidacion_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_otrosnombres_contacts_Contacts.php',
+      'to_module' => 'Contacts',
     ),
     33 => 
     array (
@@ -478,439 +485,448 @@ $installdefs = array (
     ),
     35 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_presupuesto_leads_Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_loocorreccion_veta_loo_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
     ),
     36 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_presupuesto_contacts_Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_liquidacion_cases_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
     ),
     37 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_presupuesto_emails_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_liquidacion_activities_calls_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
     ),
     38 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_leads_Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_liquidacion_veta_loo_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
     ),
     39 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    40 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_veta_presupuesto_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    41 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_emails_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    42 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    43 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    44 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_veta_presupuesto_Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
-    ),
-    45 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_veta_recibo_Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
-    ),
-    46 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_serviciocliente_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    47 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_serviciosadicionales_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    48 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_serviciosadicionales_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    49 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_solvenciaeconomica_leads_Leads.php',
       'to_module' => 'Leads',
     ),
-    50 => 
+    40 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_solvenciaeconomica_contacts_Contacts.php',
       'to_module' => 'Contacts',
     ),
+    41 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_pagocolegios_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    42 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_pagocolegios_activities_calls_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    43 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_correccioncoe_veta_coe_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    44 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_abono_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    45 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_serviciosadicionales_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    46 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_serviciosadicionales_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    47 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    48 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    49 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_veta_presupuesto_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    50 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_recibo_emails_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
     51 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visa_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_contacts_Contacts.php',
+      'to_module' => 'Contacts',
     ),
     52 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visa_cases_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_leads_Leads.php',
+      'to_module' => 'Leads',
     ),
     53 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visa_activities_calls_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_veta_presupuesto_Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
     ),
     54 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visas_leads_Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_requerimiento_veta_recibo_Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
     ),
     55 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_visas_contacts_Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallerecibo_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    56 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/veta_detallepresupuesto_veta_presupuesto_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
     ),
   ),
   'relationships' => 
   array (
     0 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_abono_veta_reciboMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_serviciocliente_opportunitiesMetaData.php',
     ),
     1 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionlaboral_leadsMetaData.php',
     ),
     2 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_casesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionlaboral_contactsMetaData.php',
     ),
     3 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_callsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visas_leadsMetaData.php',
     ),
     4 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_meetingsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visas_contactsMetaData.php',
     ),
     5 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_notesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_veta_aplicacionMetaData.php',
     ),
     6 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_tasksMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_opportunitiesMetaData.php',
     ),
     7 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_casesMetaData.php',
     ),
     8 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_ciudadania_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_callsMetaData.php',
     ),
     9 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_ciudadania_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_meetingsMetaData.php',
     ),
     10 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_veta_aplicacionMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_notesMetaData.php',
     ),
     11 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_tasksMetaData.php',
     ),
     12 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_casesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_emailsMetaData.php',
     ),
     13 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_callsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_veta_liquidacionMetaData.php',
     ),
     14 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_meetingsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_opportunitiesMetaData.php',
     ),
     15 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_notesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_casesMetaData.php',
     ),
     16 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_tasksMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_callsMetaData.php',
     ),
     17 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_activities_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_meetingsMetaData.php',
     ),
     18 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_coe_veta_liquidacionMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_notesMetaData.php',
     ),
     19 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_correccioncoe_veta_coeMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_tasksMetaData.php',
     ),
     20 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallepresupuesto_veta_presupuestoMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_aplicacion_activities_emailsMetaData.php',
     ),
     21 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallerecibo_veta_reciboMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_ciudadania_leadsMetaData.php',
     ),
     22 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallereciboitem_veta_detallereciboMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_ciudadania_contactsMetaData.php',
     ),
     23 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallereciboitem_veta_reciboMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_devolucion_veta_reciboMetaData.php',
     ),
     24 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionacademica_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_veta_aplicacionMetaData.php',
     ),
     25 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionacademica_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_casesMetaData.php',
     ),
     26 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionlaboral_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_callsMetaData.php',
     ),
     27 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionlaboral_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_meetingsMetaData.php',
     ),
     28 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_casesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_notesMetaData.php',
     ),
     29 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_callsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_tasksMetaData.php',
     ),
     30 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_meetingsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_emailsMetaData.php',
     ),
     31 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_notesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionacademica_leadsMetaData.php',
     ),
     32 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_tasksMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_informacionacademica_contactsMetaData.php',
     ),
     33 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_presupuesto_leadsMetaData.php',
     ),
     34 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_veta_looMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_presupuesto_contactsMetaData.php',
     ),
     35 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_veta_aplicacionMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_presupuesto_emailsMetaData.php',
     ),
     36 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_casesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_opportunitiesMetaData.php',
     ),
     37 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_callsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_casesMetaData.php',
     ),
     38 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_meetingsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_callsMetaData.php',
     ),
     39 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_notesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_meetingsMetaData.php',
     ),
     40 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_tasksMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_notesMetaData.php',
     ),
     41 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loo_activities_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_tasksMetaData.php',
     ),
     42 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loocorreccion_veta_looMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_emailsMetaData.php',
     ),
     43 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_notificacionpagocolegio_veta_pagocolegiosMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_veta_servicioclienteMetaData.php',
     ),
     44 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_otrosnombres_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_notificacionpagocolegio_veta_pagocolegiosMetaData.php',
     ),
     45 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_otrosnombres_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagos_veta_liquidacionMetaData.php',
     ),
     46 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallereciboitem_veta_detallereciboMetaData.php',
     ),
     47 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_callsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallereciboitem_veta_reciboMetaData.php',
     ),
     48 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_meetingsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_otrosnombres_leadsMetaData.php',
     ),
     49 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_notesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_otrosnombres_contactsMetaData.php',
     ),
     50 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_tasksMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pasaporte_leadsMetaData.php',
     ),
     51 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pasaporte_contactsMetaData.php',
     ),
     52 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagos_veta_liquidacionMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_loocorreccion_veta_looMetaData.php',
     ),
     53 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pasaporte_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_casesMetaData.php',
     ),
     54 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pasaporte_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_callsMetaData.php',
     ),
     55 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_presupuesto_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_meetingsMetaData.php',
     ),
     56 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_presupuesto_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_notesMetaData.php',
     ),
     57 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_presupuesto_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_tasksMetaData.php',
     ),
     58 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_activities_emailsMetaData.php',
     ),
     59 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_liquidacion_veta_looMetaData.php',
     ),
     60 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_veta_presupuestoMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_solvenciaeconomica_leadsMetaData.php',
     ),
     61 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_solvenciaeconomica_contactsMetaData.php',
     ),
     62 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_opportunitiesMetaData.php',
     ),
     63 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_callsMetaData.php',
     ),
     64 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_meetingsMetaData.php',
     ),
     65 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_veta_presupuestoMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_notesMetaData.php',
     ),
     66 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_veta_reciboMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_tasksMetaData.php',
     ),
     67 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_serviciocliente_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_pagocolegios_activities_emailsMetaData.php',
     ),
     68 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_serviciosadicionales_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_correccioncoe_veta_coeMetaData.php',
     ),
     69 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_serviciosadicionales_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_abono_veta_reciboMetaData.php',
     ),
     70 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_solvenciaeconomica_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_serviciosadicionales_leadsMetaData.php',
     ),
     71 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_solvenciaeconomica_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_serviciosadicionales_contactsMetaData.php',
     ),
     72 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_leadsMetaData.php',
     ),
     73 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_casesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_contactsMetaData.php',
     ),
     74 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_callsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_veta_presupuestoMetaData.php',
     ),
     75 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_meetingsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_emailsMetaData.php',
     ),
     76 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_notesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_recibo_opportunitiesMetaData.php',
     ),
     77 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_tasksMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_contactsMetaData.php',
     ),
     78 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_activities_emailsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_leadsMetaData.php',
     ),
     79 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visa_veta_servicioclienteMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_veta_presupuestoMetaData.php',
     ),
     80 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visas_leadsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_requerimiento_veta_reciboMetaData.php',
     ),
     81 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_visas_contactsMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallerecibo_veta_reciboMetaData.php',
+    ),
+    82 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/veta_detallepresupuesto_veta_presupuestoMetaData.php',
     ),
   ),
   'image_dir' => '<basepath>/icons',
@@ -918,83 +934,83 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_ABNTaxFile',
-      'to' => 'modules/Veta_ABNTaxFile',
+      'from' => '<basepath>/SugarModules/modules/Veta_ServicioCliente',
+      'to' => 'modules/Veta_ServicioCliente',
     ),
     1 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Abono',
-      'to' => 'modules/Veta_Abono',
-    ),
-    2 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Aplicacion',
-      'to' => 'modules/Veta_Aplicacion',
-    ),
-    3 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Ciudadania',
-      'to' => 'modules/Veta_Ciudadania',
-    ),
-    4 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_COE',
-      'to' => 'modules/Veta_COE',
-    ),
-    5 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_College',
-      'to' => 'modules/Veta_College',
-    ),
-    6 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_CorreccionCOE',
-      'to' => 'modules/Veta_CorreccionCOE',
-    ),
-    7 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Curso',
-      'to' => 'modules/Veta_Curso',
-    ),
-    8 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_DetallePresupuesto',
-      'to' => 'modules/Veta_DetallePresupuesto',
-    ),
-    9 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_DetalleRecibo',
-      'to' => 'modules/Veta_DetalleRecibo',
-    ),
-    10 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_DetalleReciboItem',
-      'to' => 'modules/Veta_DetalleReciboItem',
-    ),
-    11 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_InformacionAcademica',
-      'to' => 'modules/Veta_InformacionAcademica',
-    ),
-    12 => 
     array (
       'from' => '<basepath>/SugarModules/modules/Veta_InformacionLaboral',
       'to' => 'modules/Veta_InformacionLaboral',
     ),
-    13 => 
+    2 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Liquidacion',
-      'to' => 'modules/Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/modules/Veta_Visas',
+      'to' => 'modules/Veta_Visas',
     ),
-    14 => 
+    3 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_COE',
+      'to' => 'modules/Veta_COE',
+    ),
+    4 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Seguro',
+      'to' => 'modules/Veta_Seguro',
+    ),
+    5 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Aplicacion',
+      'to' => 'modules/Veta_Aplicacion',
+    ),
+    6 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Ciudadania',
+      'to' => 'modules/Veta_Ciudadania',
+    ),
+    7 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Devolucion',
+      'to' => 'modules/Veta_Devolucion',
+    ),
+    8 => 
     array (
       'from' => '<basepath>/SugarModules/modules/Veta_Loo',
       'to' => 'modules/Veta_Loo',
     ),
+    9 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_InformacionAcademica',
+      'to' => 'modules/Veta_InformacionAcademica',
+    ),
+    10 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Presupuesto',
+      'to' => 'modules/Veta_Presupuesto',
+    ),
+    11 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Curso',
+      'to' => 'modules/Veta_Curso',
+    ),
+    12 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_ABNTaxFile',
+      'to' => 'modules/Veta_ABNTaxFile',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_College',
+      'to' => 'modules/Veta_College',
+    ),
+    14 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Visa',
+      'to' => 'modules/Veta_Visa',
+    ),
     15 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_LooCorreccion',
-      'to' => 'modules/Veta_LooCorreccion',
+      'from' => '<basepath>/SugarModules/modules/Veta_TiposVisa',
+      'to' => 'modules/Veta_TiposVisa',
     ),
     16 => 
     array (
@@ -1003,212 +1019,217 @@ $installdefs = array (
     ),
     17 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_OtrosNombres',
-      'to' => 'modules/Veta_OtrosNombres',
+      'from' => '<basepath>/SugarModules/modules/Veta_TRM',
+      'to' => 'modules/Veta_TRM',
     ),
     18 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_PagoColegios',
-      'to' => 'modules/Veta_PagoColegios',
-    ),
-    19 => 
     array (
       'from' => '<basepath>/SugarModules/modules/Veta_Pagos',
       'to' => 'modules/Veta_Pagos',
     ),
+    19 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_DetalleReciboItem',
+      'to' => 'modules/Veta_DetalleReciboItem',
+    ),
     20 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_OtrosNombres',
+      'to' => 'modules/Veta_OtrosNombres',
+    ),
+    21 => 
     array (
       'from' => '<basepath>/SugarModules/modules/Veta_Pasaporte',
       'to' => 'modules/Veta_Pasaporte',
     ),
-    21 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Presupuesto',
-      'to' => 'modules/Veta_Presupuesto',
-    ),
     22 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Recibo',
-      'to' => 'modules/Veta_Recibo',
+      'from' => '<basepath>/SugarModules/modules/Veta_LooCorreccion',
+      'to' => 'modules/Veta_LooCorreccion',
     ),
     23 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Requerimiento',
-      'to' => 'modules/Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/modules/Veta_Liquidacion',
+      'to' => 'modules/Veta_Liquidacion',
     ),
     24 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Seguro',
-      'to' => 'modules/Veta_Seguro',
-    ),
-    25 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_ServicioCliente',
-      'to' => 'modules/Veta_ServicioCliente',
-    ),
-    26 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/Veta_ServiciosAdicionales',
-      'to' => 'modules/Veta_ServiciosAdicionales',
-    ),
-    27 => 
     array (
       'from' => '<basepath>/SugarModules/modules/Veta_SolvenciaEconomica',
       'to' => 'modules/Veta_SolvenciaEconomica',
     ),
+    25 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_PagoColegios',
+      'to' => 'modules/Veta_PagoColegios',
+    ),
+    26 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_CorreccionCOE',
+      'to' => 'modules/Veta_CorreccionCOE',
+    ),
+    27 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_Abono',
+      'to' => 'modules/Veta_Abono',
+    ),
     28 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_TiposVisa',
-      'to' => 'modules/Veta_TiposVisa',
+      'from' => '<basepath>/SugarModules/modules/Veta_ServiciosAdicionales',
+      'to' => 'modules/Veta_ServiciosAdicionales',
     ),
     29 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_TRM',
-      'to' => 'modules/Veta_TRM',
+      'from' => '<basepath>/SugarModules/modules/Veta_Recibo',
+      'to' => 'modules/Veta_Recibo',
     ),
     30 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Visa',
-      'to' => 'modules/Veta_Visa',
+      'from' => '<basepath>/SugarModules/modules/Veta_Requerimiento',
+      'to' => 'modules/Veta_Requerimiento',
     ),
     31 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Veta_Visas',
-      'to' => 'modules/Veta_Visas',
+      'from' => '<basepath>/SugarModules/modules/Veta_DetalleRecibo',
+      'to' => 'modules/Veta_DetalleRecibo',
+    ),
+    32 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Veta_DetallePresupuesto',
+      'to' => 'modules/Veta_DetallePresupuesto',
     ),
   ),
   'language' => 
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Abono.php',
-      'to_module' => 'Veta_Abono',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
+      'to_module' => 'Veta_ServicioCliente',
       'language' => 'en_us',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Abono.php',
-      'to_module' => 'Veta_Abono',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
+      'to_module' => 'Veta_ServicioCliente',
       'language' => 'es_ES',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     3 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     4 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
+      'to_module' => 'Veta_InformacionLaboral',
       'language' => 'en_us',
     ),
     5 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
+      'to_module' => 'Veta_InformacionLaboral',
       'language' => 'es_ES',
     ),
     6 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     7 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     8 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
+      'to_module' => 'Veta_InformacionLaboral',
       'language' => 'en_us',
     ),
     9 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
+      'to_module' => 'Veta_InformacionLaboral',
       'language' => 'es_ES',
     ),
     10 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     11 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     12 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
+      'to_module' => 'Veta_Visas',
       'language' => 'en_us',
     ),
     13 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
+      'to_module' => 'Veta_Visas',
       'language' => 'es_ES',
     ),
     14 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     15 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     16 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
+      'to_module' => 'Veta_Visas',
       'language' => 'en_us',
     ),
     17 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
+      'to_module' => 'Veta_Visas',
       'language' => 'es_ES',
     ),
     18 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     19 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     20 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     21 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     22 => 
@@ -1225,110 +1246,110 @@ $installdefs = array (
     ),
     24 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     25 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     26 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     27 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     28 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'en_us',
     ),
     29 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'es_ES',
     ),
     30 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     31 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     32 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'en_us',
     ),
     33 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'es_ES',
     ),
     34 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
-      'to_module' => 'Veta_Ciudadania',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     35 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
-      'to_module' => 'Veta_Ciudadania',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     36 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'en_us',
     ),
     37 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'es_ES',
     ),
     38 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
-      'to_module' => 'Veta_Ciudadania',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     39 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
-      'to_module' => 'Veta_Ciudadania',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     40 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'en_us',
     ),
     41 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'es_ES',
     ),
     42 => 
@@ -1345,14 +1366,14 @@ $installdefs = array (
     ),
     44 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'en_us',
     ),
     45 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'es_ES',
     ),
     46 => 
@@ -1369,302 +1390,302 @@ $installdefs = array (
     ),
     48 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'en_us',
     ),
     49 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'es_ES',
     ),
     50 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     51 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     52 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     53 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     54 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     55 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     56 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     57 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     58 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     59 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     60 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     61 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     62 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'en_us',
     ),
     63 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'es_ES',
     ),
     64 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     65 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     66 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'en_us',
     ),
     67 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'es_ES',
     ),
     68 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     69 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     70 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'en_us',
     ),
     71 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'es_ES',
     ),
     72 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     73 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     74 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'en_us',
     ),
     75 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'es_ES',
     ),
     76 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     77 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     78 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'en_us',
     ),
     79 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'es_ES',
     ),
     80 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_CorreccionCOE.php',
-      'to_module' => 'Veta_CorreccionCOE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     81 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_CorreccionCOE.php',
-      'to_module' => 'Veta_CorreccionCOE',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     82 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'en_us',
     ),
     83 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
-      'to_module' => 'Veta_COE',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'es_ES',
     ),
     84 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetallePresupuesto.php',
-      'to_module' => 'Veta_DetallePresupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     85 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetallePresupuesto.php',
-      'to_module' => 'Veta_DetallePresupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     86 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     87 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     88 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
+      'to_module' => 'Veta_Ciudadania',
       'language' => 'en_us',
     ),
     89 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
+      'to_module' => 'Veta_Ciudadania',
       'language' => 'es_ES',
     ),
     90 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     91 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     92 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
-      'to_module' => 'Veta_DetalleReciboItem',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
+      'to_module' => 'Veta_Ciudadania',
       'language' => 'en_us',
     ),
     93 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
-      'to_module' => 'Veta_DetalleReciboItem',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Ciudadania.php',
+      'to_module' => 'Veta_Ciudadania',
       'language' => 'es_ES',
     ),
     94 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     95 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     96 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
-      'to_module' => 'Veta_DetalleReciboItem',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Devolucion.php',
+      'to_module' => 'Veta_Devolucion',
       'language' => 'en_us',
     ),
     97 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
-      'to_module' => 'Veta_DetalleReciboItem',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Devolucion.php',
+      'to_module' => 'Veta_Devolucion',
       'language' => 'es_ES',
     ),
     98 => 
@@ -1681,2278 +1702,2312 @@ $installdefs = array (
     ),
     100 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
-      'to_module' => 'Veta_InformacionAcademica',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     101 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
-      'to_module' => 'Veta_InformacionAcademica',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     102 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'en_us',
     ),
     103 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
       'language' => 'es_ES',
     ),
     104 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
-      'to_module' => 'Veta_InformacionAcademica',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'en_us',
     ),
     105 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
-      'to_module' => 'Veta_InformacionAcademica',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'es_ES',
     ),
     106 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     107 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     108 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
-      'to_module' => 'Veta_InformacionLaboral',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'en_us',
     ),
     109 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
-      'to_module' => 'Veta_InformacionLaboral',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'es_ES',
     ),
     110 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     111 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     112 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
-      'to_module' => 'Veta_InformacionLaboral',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'en_us',
     ),
     113 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionLaboral.php',
-      'to_module' => 'Veta_InformacionLaboral',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'es_ES',
     ),
     114 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     115 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     116 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'en_us',
     ),
     117 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'es_ES',
     ),
     118 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     119 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     120 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'en_us',
     ),
     121 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'es_ES',
     ),
     122 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     123 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     124 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'en_us',
     ),
     125 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'es_ES',
     ),
     126 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     127 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     128 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     129 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     130 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
+      'to_module' => 'Veta_InformacionAcademica',
       'language' => 'en_us',
     ),
     131 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
+      'to_module' => 'Veta_InformacionAcademica',
       'language' => 'es_ES',
     ),
     132 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     133 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     134 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
+      'to_module' => 'Veta_InformacionAcademica',
       'language' => 'en_us',
     ),
     135 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_InformacionAcademica.php',
+      'to_module' => 'Veta_InformacionAcademica',
       'language' => 'es_ES',
     ),
     136 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     137 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     138 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'en_us',
     ),
     139 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'es_ES',
     ),
     140 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     141 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     142 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'en_us',
     ),
     143 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'es_ES',
     ),
     144 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     145 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     146 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     147 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     148 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'en_us',
     ),
     149 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'es_ES',
     ),
     150 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     151 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     152 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     153 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     154 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'en_us',
     ),
     155 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'es_ES',
     ),
     156 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     157 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     158 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'en_us',
     ),
     159 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'es_ES',
     ),
     160 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     161 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     162 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'en_us',
     ),
     163 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'es_ES',
     ),
     164 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     165 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     166 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'en_us',
     ),
     167 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'es_ES',
     ),
     168 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     169 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     170 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'en_us',
     ),
     171 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'es_ES',
     ),
     172 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     173 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     174 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'en_us',
     ),
     175 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'es_ES',
     ),
     176 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_LooCorreccion.php',
-      'to_module' => 'Veta_LooCorreccion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     177 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_LooCorreccion.php',
-      'to_module' => 'Veta_LooCorreccion',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     178 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     179 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     180 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_NotificacionPagoColegio.php',
-      'to_module' => 'Veta_NotificacionPagoColegio',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
+      'to_module' => 'Veta_ServicioCliente',
       'language' => 'en_us',
     ),
     181 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_NotificacionPagoColegio.php',
-      'to_module' => 'Veta_NotificacionPagoColegio',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
+      'to_module' => 'Veta_ServicioCliente',
       'language' => 'es_ES',
     ),
     182 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'en_us',
     ),
     183 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
       'language' => 'es_ES',
     ),
     184 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
-      'to_module' => 'Veta_OtrosNombres',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_NotificacionPagoColegio.php',
+      'to_module' => 'Veta_NotificacionPagoColegio',
       'language' => 'en_us',
     ),
     185 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
-      'to_module' => 'Veta_OtrosNombres',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_NotificacionPagoColegio.php',
+      'to_module' => 'Veta_NotificacionPagoColegio',
       'language' => 'es_ES',
     ),
     186 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     187 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     188 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
-      'to_module' => 'Veta_OtrosNombres',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pagos.php',
+      'to_module' => 'Veta_Pagos',
       'language' => 'en_us',
     ),
     189 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
-      'to_module' => 'Veta_OtrosNombres',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pagos.php',
+      'to_module' => 'Veta_Pagos',
       'language' => 'es_ES',
     ),
     190 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     191 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     192 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
+      'to_module' => 'Veta_DetalleReciboItem',
       'language' => 'en_us',
     ),
     193 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
+      'to_module' => 'Veta_DetalleReciboItem',
       'language' => 'es_ES',
     ),
     194 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
       'language' => 'en_us',
     ),
     195 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
       'language' => 'es_ES',
     ),
     196 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
+      'to_module' => 'Veta_DetalleReciboItem',
       'language' => 'en_us',
     ),
     197 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleReciboItem.php',
+      'to_module' => 'Veta_DetalleReciboItem',
       'language' => 'es_ES',
     ),
     198 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     199 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     200 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
+      'to_module' => 'Veta_OtrosNombres',
       'language' => 'en_us',
     ),
     201 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
+      'to_module' => 'Veta_OtrosNombres',
       'language' => 'es_ES',
     ),
     202 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     203 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     204 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
+      'to_module' => 'Veta_OtrosNombres',
       'language' => 'en_us',
     ),
     205 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_OtrosNombres.php',
+      'to_module' => 'Veta_OtrosNombres',
       'language' => 'es_ES',
     ),
     206 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     207 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     208 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
+      'to_module' => 'Veta_Pasaporte',
       'language' => 'en_us',
     ),
     209 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
+      'to_module' => 'Veta_Pasaporte',
       'language' => 'es_ES',
     ),
     210 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     211 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     212 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
+      'to_module' => 'Veta_Pasaporte',
       'language' => 'en_us',
     ),
     213 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
+      'to_module' => 'Veta_Pasaporte',
       'language' => 'es_ES',
     ),
     214 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     215 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     216 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_LooCorreccion.php',
+      'to_module' => 'Veta_LooCorreccion',
       'language' => 'en_us',
     ),
     217 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_LooCorreccion.php',
+      'to_module' => 'Veta_LooCorreccion',
       'language' => 'es_ES',
     ),
     218 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pagos.php',
-      'to_module' => 'Veta_Pagos',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     219 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pagos.php',
-      'to_module' => 'Veta_Pagos',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     220 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'en_us',
     ),
     221 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
+      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
+      'to_module' => 'Cases',
       'language' => 'es_ES',
     ),
     222 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
-      'to_module' => 'Veta_Pasaporte',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     223 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
-      'to_module' => 'Veta_Pasaporte',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     224 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'en_us',
     ),
     225 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'es_ES',
     ),
     226 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
-      'to_module' => 'Veta_Pasaporte',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     227 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Pasaporte.php',
-      'to_module' => 'Veta_Pasaporte',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     228 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'en_us',
     ),
     229 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'es_ES',
     ),
     230 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     231 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     232 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'en_us',
     ),
     233 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'es_ES',
     ),
     234 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     235 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     236 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'en_us',
     ),
     237 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'es_ES',
     ),
     238 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     239 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     240 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'en_us',
     ),
     241 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'es_ES',
     ),
     242 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     243 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     244 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     245 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     246 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'en_us',
     ),
     247 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
       'language' => 'es_ES',
     ),
     248 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'en_us',
     ),
     249 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
       'language' => 'es_ES',
     ),
     250 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
+      'to_module' => 'Veta_SolvenciaEconomica',
       'language' => 'en_us',
     ),
     251 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
+      'to_module' => 'Veta_SolvenciaEconomica',
       'language' => 'es_ES',
     ),
     252 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     253 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     254 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
+      'to_module' => 'Veta_SolvenciaEconomica',
       'language' => 'en_us',
     ),
     255 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
+      'to_module' => 'Veta_SolvenciaEconomica',
       'language' => 'es_ES',
     ),
     256 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     257 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     258 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     259 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     260 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     261 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     262 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'en_us',
     ),
     263 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/application.php',
+      'to_module' => 'application',
       'language' => 'es_ES',
     ),
     264 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     265 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     266 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'en_us',
     ),
     267 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
+      'to_module' => 'Calls',
       'language' => 'es_ES',
     ),
     268 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     269 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     270 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'en_us',
     ),
     271 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
+      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
+      'to_module' => 'Meetings',
       'language' => 'es_ES',
     ),
     272 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     273 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     274 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'en_us',
     ),
     275 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
+      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
+      'to_module' => 'Notes',
       'language' => 'es_ES',
     ),
     276 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     277 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     278 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
-      'to_module' => 'Veta_ServicioCliente',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'en_us',
     ),
     279 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
-      'to_module' => 'Veta_ServicioCliente',
+      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
+      'to_module' => 'Tasks',
       'language' => 'es_ES',
     ),
     280 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'en_us',
     ),
     281 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
       'language' => 'es_ES',
     ),
     282 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
-      'to_module' => 'Veta_ServiciosAdicionales',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     283 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
-      'to_module' => 'Veta_ServiciosAdicionales',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     284 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_CorreccionCOE.php',
+      'to_module' => 'Veta_CorreccionCOE',
       'language' => 'en_us',
     ),
     285 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_CorreccionCOE.php',
+      'to_module' => 'Veta_CorreccionCOE',
       'language' => 'es_ES',
     ),
     286 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
-      'to_module' => 'Veta_ServiciosAdicionales',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'en_us',
     ),
     287 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
-      'to_module' => 'Veta_ServiciosAdicionales',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_COE.php',
+      'to_module' => 'Veta_COE',
       'language' => 'es_ES',
     ),
     288 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Abono.php',
+      'to_module' => 'Veta_Abono',
       'language' => 'en_us',
     ),
     289 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Abono.php',
+      'to_module' => 'Veta_Abono',
       'language' => 'es_ES',
     ),
     290 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
-      'to_module' => 'Veta_SolvenciaEconomica',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     291 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
-      'to_module' => 'Veta_SolvenciaEconomica',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     292 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
+      'to_module' => 'Veta_ServiciosAdicionales',
       'language' => 'en_us',
     ),
     293 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
+      'to_module' => 'Veta_ServiciosAdicionales',
       'language' => 'es_ES',
     ),
     294 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
-      'to_module' => 'Veta_SolvenciaEconomica',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     295 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_SolvenciaEconomica.php',
-      'to_module' => 'Veta_SolvenciaEconomica',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     296 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
+      'to_module' => 'Veta_ServiciosAdicionales',
       'language' => 'en_us',
     ),
     297 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServiciosAdicionales.php',
+      'to_module' => 'Veta_ServiciosAdicionales',
       'language' => 'es_ES',
     ),
     298 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     299 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     300 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     301 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     302 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     303 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Cases.php',
-      'to_module' => 'Cases',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     304 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     305 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     306 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     307 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/application.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     308 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     309 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     310 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'en_us',
     ),
     311 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Calls.php',
-      'to_module' => 'Calls',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'es_ES',
     ),
     312 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'en_us',
     ),
     313 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
+      'to_module' => 'Emails',
       'language' => 'es_ES',
     ),
     314 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     315 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Meetings.php',
-      'to_module' => 'Meetings',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     316 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     317 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     318 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     319 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Notes.php',
-      'to_module' => 'Notes',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     320 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'en_us',
     ),
     321 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'es_ES',
     ),
     322 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'en_us',
     ),
     323 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Tasks.php',
-      'to_module' => 'Tasks',
+      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
+      'to_module' => 'Contacts',
       'language' => 'es_ES',
     ),
     324 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'en_us',
     ),
     325 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'es_ES',
     ),
     326 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'en_us',
     ),
     327 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Emails.php',
-      'to_module' => 'Emails',
+      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
+      'to_module' => 'Leads',
       'language' => 'es_ES',
     ),
     328 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
-      'to_module' => 'Veta_ServicioCliente',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'en_us',
     ),
     329 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_ServicioCliente.php',
-      'to_module' => 'Veta_ServicioCliente',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
       'language' => 'es_ES',
     ),
     330 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'en_us',
     ),
     331 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'es_ES',
     ),
     332 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
-      'to_module' => 'Veta_Visas',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     333 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
-      'to_module' => 'Veta_Visas',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     334 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'en_us',
     ),
     335 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Leads.php',
-      'to_module' => 'Leads',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
       'language' => 'es_ES',
     ),
     336 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
-      'to_module' => 'Veta_Visas',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
       'language' => 'en_us',
     ),
     337 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Veta_Visas.php',
-      'to_module' => 'Veta_Visas',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
       'language' => 'es_ES',
     ),
     338 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'en_us',
     ),
     339 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Contacts.php',
-      'to_module' => 'Contacts',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
       'language' => 'es_ES',
     ),
     340 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
-      'to_module' => 'application',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetallePresupuesto.php',
+      'to_module' => 'Veta_DetallePresupuesto',
       'language' => 'en_us',
     ),
     341 => 
     array (
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_DetallePresupuesto.php',
+      'to_module' => 'Veta_DetallePresupuesto',
+      'language' => 'es_ES',
+    ),
+    342 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+      'language' => 'en_us',
+    ),
+    343 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+      'language' => 'es_ES',
+    ),
+    344 => 
+    array (
       'from' => '<basepath>/SugarModules/language/application/es_ES.lang.php',
       'to_module' => 'application',
       'language' => 'es_ES',
+    ),
+    345 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
+      'to_module' => 'application',
+      'language' => 'en_us',
     ),
   ),
   'vardefs' => 
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_abono_veta_recibo_Veta_Abono.php',
-      'to_module' => 'Veta_Abono',
-    ),
-    1 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_abono_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    2 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_opportunities_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    3 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    4 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_cases_Cases.php',
-      'to_module' => 'Cases',
-    ),
-    5 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_cases_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    6 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_calls_Calls.php',
-      'to_module' => 'Calls',
-    ),
-    7 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_calls_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    8 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_meetings_Meetings.php',
-      'to_module' => 'Meetings',
-    ),
-    9 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_meetings_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    10 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_notes_Notes.php',
-      'to_module' => 'Notes',
-    ),
-    11 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_notes_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    12 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_tasks_Tasks.php',
-      'to_module' => 'Tasks',
-    ),
-    13 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_tasks_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    14 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    15 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_emails_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    16 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_leads_Veta_Ciudadania.php',
-      'to_module' => 'Veta_Ciudadania',
-    ),
-    17 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    18 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_contacts_Veta_Ciudadania.php',
-      'to_module' => 'Veta_Ciudadania',
-    ),
-    19 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    20 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_aplicacion_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    21 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_aplicacion_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    22 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_opportunities_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    23 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    24 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_cases_Cases.php',
-      'to_module' => 'Cases',
-    ),
-    25 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_cases_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    26 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_calls_Calls.php',
-      'to_module' => 'Calls',
-    ),
-    27 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_calls_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    28 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_meetings_Meetings.php',
-      'to_module' => 'Meetings',
-    ),
-    29 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_meetings_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    30 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_notes_Notes.php',
-      'to_module' => 'Notes',
-    ),
-    31 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_notes_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    32 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_tasks_Tasks.php',
-      'to_module' => 'Tasks',
-    ),
-    33 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_tasks_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    34 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    35 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_emails_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    36 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_liquidacion_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    37 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_liquidacion_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    38 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_correccioncoe_veta_coe_Veta_CorreccionCOE.php',
-      'to_module' => 'Veta_CorreccionCOE',
-    ),
-    39 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_correccioncoe_veta_coe_Veta_COE.php',
-      'to_module' => 'Veta_COE',
-    ),
-    40 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallepresupuesto_veta_presupuesto_Veta_DetallePresupuesto.php',
-      'to_module' => 'Veta_DetallePresupuesto',
-    ),
-    41 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallepresupuesto_veta_presupuesto_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    42 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallerecibo_veta_recibo_Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
-    ),
-    43 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallerecibo_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    44 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_detallerecibo_Veta_DetalleReciboItem.php',
-      'to_module' => 'Veta_DetalleReciboItem',
-    ),
-    45 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_detallerecibo_Veta_DetalleRecibo.php',
-      'to_module' => 'Veta_DetalleRecibo',
-    ),
-    46 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_recibo_Veta_DetalleReciboItem.php',
-      'to_module' => 'Veta_DetalleReciboItem',
-    ),
-    47 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    48 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_leads_Veta_InformacionAcademica.php',
-      'to_module' => 'Veta_InformacionAcademica',
-    ),
-    49 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    50 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_contacts_Veta_InformacionAcademica.php',
-      'to_module' => 'Veta_InformacionAcademica',
-    ),
-    51 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    52 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_leads_Veta_InformacionLaboral.php',
-      'to_module' => 'Veta_InformacionLaboral',
-    ),
-    53 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    54 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_contacts_Veta_InformacionLaboral.php',
-      'to_module' => 'Veta_InformacionLaboral',
-    ),
-    55 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    56 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_cases_Cases.php',
-      'to_module' => 'Cases',
-    ),
-    57 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_cases_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    58 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_calls_Calls.php',
-      'to_module' => 'Calls',
-    ),
-    59 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_calls_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    60 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_meetings_Meetings.php',
-      'to_module' => 'Meetings',
-    ),
-    61 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_meetings_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    62 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_notes_Notes.php',
-      'to_module' => 'Notes',
-    ),
-    63 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_notes_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    64 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_tasks_Tasks.php',
-      'to_module' => 'Tasks',
-    ),
-    65 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_tasks_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    66 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    67 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_emails_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    68 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_veta_loo_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    69 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_veta_loo_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    70 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_veta_aplicacion_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    71 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_veta_aplicacion_Veta_Aplicacion.php',
-      'to_module' => 'Veta_Aplicacion',
-    ),
-    72 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_cases_Cases.php',
-      'to_module' => 'Cases',
-    ),
-    73 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_cases_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    74 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_calls_Calls.php',
-      'to_module' => 'Calls',
-    ),
-    75 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_calls_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    76 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_meetings_Meetings.php',
-      'to_module' => 'Meetings',
-    ),
-    77 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_meetings_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    78 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_notes_Notes.php',
-      'to_module' => 'Notes',
-    ),
-    79 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_notes_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    80 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_tasks_Tasks.php',
-      'to_module' => 'Tasks',
-    ),
-    81 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_tasks_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    82 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    83 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_emails_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    84 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loocorreccion_veta_loo_Veta_LooCorreccion.php',
-      'to_module' => 'Veta_LooCorreccion',
-    ),
-    85 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loocorreccion_veta_loo_Veta_Loo.php',
-      'to_module' => 'Veta_Loo',
-    ),
-    86 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_notificacionpagocolegio_veta_pagocolegios_Veta_NotificacionPagoColegio.php',
-      'to_module' => 'Veta_NotificacionPagoColegio',
-    ),
-    87 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_notificacionpagocolegio_veta_pagocolegios_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    88 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_leads_Veta_OtrosNombres.php',
-      'to_module' => 'Veta_OtrosNombres',
-    ),
-    89 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    90 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_contacts_Veta_OtrosNombres.php',
-      'to_module' => 'Veta_OtrosNombres',
-    ),
-    91 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    92 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_opportunities_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    93 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    94 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_calls_Calls.php',
-      'to_module' => 'Calls',
-    ),
-    95 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_calls_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    96 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_meetings_Meetings.php',
-      'to_module' => 'Meetings',
-    ),
-    97 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_meetings_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    98 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_notes_Notes.php',
-      'to_module' => 'Notes',
-    ),
-    99 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_notes_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    100 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_tasks_Tasks.php',
-      'to_module' => 'Tasks',
-    ),
-    101 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_tasks_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    102 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    103 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_emails_Veta_PagoColegios.php',
-      'to_module' => 'Veta_PagoColegios',
-    ),
-    104 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagos_veta_liquidacion_Veta_Pagos.php',
-      'to_module' => 'Veta_Pagos',
-    ),
-    105 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagos_veta_liquidacion_Veta_Liquidacion.php',
-      'to_module' => 'Veta_Liquidacion',
-    ),
-    106 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_leads_Veta_Pasaporte.php',
-      'to_module' => 'Veta_Pasaporte',
-    ),
-    107 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    108 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_contacts_Veta_Pasaporte.php',
-      'to_module' => 'Veta_Pasaporte',
-    ),
-    109 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    110 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_leads_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    111 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    112 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_contacts_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    113 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    114 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    115 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_emails_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    116 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_leads_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    117 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    118 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_contacts_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    119 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    120 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_veta_presupuesto_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    121 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_veta_presupuesto_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    122 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    123 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_emails_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    124 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    125 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_opportunities_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    126 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_contacts_Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
-    ),
-    127 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    128 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_leads_Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
-    ),
-    129 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    130 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_presupuesto_Veta_Presupuesto.php',
-      'to_module' => 'Veta_Presupuesto',
-    ),
-    131 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_presupuesto_Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
-    ),
-    132 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_recibo_Veta_Recibo.php',
-      'to_module' => 'Veta_Recibo',
-    ),
-    133 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_recibo_Veta_Requerimiento.php',
-      'to_module' => 'Veta_Requerimiento',
-    ),
-    134 => 
-    array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciocliente_opportunities_Veta_ServicioCliente.php',
       'to_module' => 'Veta_ServicioCliente',
     ),
-    135 => 
+    1 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciocliente_opportunities_Opportunities.php',
       'to_module' => 'Opportunities',
     ),
-    136 => 
+    2 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_leads_Veta_ServiciosAdicionales.php',
-      'to_module' => 'Veta_ServiciosAdicionales',
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_leads_Veta_InformacionLaboral.php',
+      'to_module' => 'Veta_InformacionLaboral',
     ),
-    137 => 
+    3 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_leads_Leads.php',
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_leads_Leads.php',
       'to_module' => 'Leads',
     ),
-    138 => 
+    4 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_contacts_Veta_ServiciosAdicionales.php',
-      'to_module' => 'Veta_ServiciosAdicionales',
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_contacts_Veta_InformacionLaboral.php',
+      'to_module' => 'Veta_InformacionLaboral',
     ),
-    139 => 
+    5 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_contacts_Contacts.php',
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionlaboral_contacts_Contacts.php',
       'to_module' => 'Contacts',
     ),
-    140 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_leads_Veta_SolvenciaEconomica.php',
-      'to_module' => 'Veta_SolvenciaEconomica',
-    ),
-    141 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_leads_Leads.php',
-      'to_module' => 'Leads',
-    ),
-    142 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_contacts_Veta_SolvenciaEconomica.php',
-      'to_module' => 'Veta_SolvenciaEconomica',
-    ),
-    143 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_contacts_Contacts.php',
-      'to_module' => 'Contacts',
-    ),
-    144 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_opportunities_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    145 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
-    146 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_cases_Cases.php',
-      'to_module' => 'Cases',
-    ),
-    147 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_cases_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    148 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_calls_Calls.php',
-      'to_module' => 'Calls',
-    ),
-    149 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_calls_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    150 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_meetings_Meetings.php',
-      'to_module' => 'Meetings',
-    ),
-    151 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_meetings_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    152 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_notes_Notes.php',
-      'to_module' => 'Notes',
-    ),
-    153 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_notes_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    154 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_tasks_Tasks.php',
-      'to_module' => 'Tasks',
-    ),
-    155 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_tasks_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    156 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_emails_Emails.php',
-      'to_module' => 'Emails',
-    ),
-    157 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_emails_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    158 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_veta_serviciocliente_Veta_ServicioCliente.php',
-      'to_module' => 'Veta_ServicioCliente',
-    ),
-    159 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_veta_serviciocliente_Veta_Visa.php',
-      'to_module' => 'Veta_Visa',
-    ),
-    160 => 
+    6 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visas_leads_Veta_Visas.php',
       'to_module' => 'Veta_Visas',
     ),
-    161 => 
+    7 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visas_leads_Leads.php',
       'to_module' => 'Leads',
     ),
-    162 => 
+    8 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visas_contacts_Veta_Visas.php',
       'to_module' => 'Veta_Visas',
     ),
-    163 => 
+    9 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visas_contacts_Contacts.php',
       'to_module' => 'Contacts',
+    ),
+    10 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_aplicacion_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    11 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_aplicacion_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    12 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_opportunities_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    14 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_cases_Cases.php',
+      'to_module' => 'Cases',
+    ),
+    15 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_cases_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    16 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_calls_Calls.php',
+      'to_module' => 'Calls',
+    ),
+    17 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_calls_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    18 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_meetings_Meetings.php',
+      'to_module' => 'Meetings',
+    ),
+    19 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_meetings_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    20 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_notes_Notes.php',
+      'to_module' => 'Notes',
+    ),
+    21 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_notes_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    22 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_tasks_Tasks.php',
+      'to_module' => 'Tasks',
+    ),
+    23 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_tasks_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    24 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    25 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_activities_emails_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    26 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_liquidacion_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    27 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_coe_veta_liquidacion_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    28 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_opportunities_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    29 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    30 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_cases_Cases.php',
+      'to_module' => 'Cases',
+    ),
+    31 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_cases_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    32 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_calls_Calls.php',
+      'to_module' => 'Calls',
+    ),
+    33 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_calls_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    34 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_meetings_Meetings.php',
+      'to_module' => 'Meetings',
+    ),
+    35 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_meetings_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    36 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_notes_Notes.php',
+      'to_module' => 'Notes',
+    ),
+    37 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_notes_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    38 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_tasks_Tasks.php',
+      'to_module' => 'Tasks',
+    ),
+    39 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_tasks_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    40 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    41 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_aplicacion_activities_emails_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    42 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_leads_Veta_Ciudadania.php',
+      'to_module' => 'Veta_Ciudadania',
+    ),
+    43 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    44 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_contacts_Veta_Ciudadania.php',
+      'to_module' => 'Veta_Ciudadania',
+    ),
+    45 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_ciudadania_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    46 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_devolucion_veta_recibo_Veta_Devolucion.php',
+      'to_module' => 'Veta_Devolucion',
+    ),
+    47 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_devolucion_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    48 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_veta_aplicacion_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    49 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_veta_aplicacion_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    50 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_cases_Cases.php',
+      'to_module' => 'Cases',
+    ),
+    51 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_cases_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    52 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_calls_Calls.php',
+      'to_module' => 'Calls',
+    ),
+    53 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_calls_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    54 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_meetings_Meetings.php',
+      'to_module' => 'Meetings',
+    ),
+    55 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_meetings_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    56 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_notes_Notes.php',
+      'to_module' => 'Notes',
+    ),
+    57 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_notes_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    58 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_tasks_Tasks.php',
+      'to_module' => 'Tasks',
+    ),
+    59 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_tasks_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    60 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    61 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loo_activities_emails_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    62 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_leads_Veta_InformacionAcademica.php',
+      'to_module' => 'Veta_InformacionAcademica',
+    ),
+    63 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    64 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_contacts_Veta_InformacionAcademica.php',
+      'to_module' => 'Veta_InformacionAcademica',
+    ),
+    65 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_informacionacademica_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    66 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_leads_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    67 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    68 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_contacts_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    69 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    70 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    71 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_presupuesto_emails_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    72 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_opportunities_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    73 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    74 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_cases_Cases.php',
+      'to_module' => 'Cases',
+    ),
+    75 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_cases_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    76 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_calls_Calls.php',
+      'to_module' => 'Calls',
+    ),
+    77 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_calls_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    78 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_meetings_Meetings.php',
+      'to_module' => 'Meetings',
+    ),
+    79 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_meetings_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    80 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_notes_Notes.php',
+      'to_module' => 'Notes',
+    ),
+    81 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_notes_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    82 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_tasks_Tasks.php',
+      'to_module' => 'Tasks',
+    ),
+    83 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_tasks_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    84 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    85 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_activities_emails_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    86 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_veta_serviciocliente_Veta_ServicioCliente.php',
+      'to_module' => 'Veta_ServicioCliente',
+    ),
+    87 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_visa_veta_serviciocliente_Veta_Visa.php',
+      'to_module' => 'Veta_Visa',
+    ),
+    88 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_notificacionpagocolegio_veta_pagocolegios_Veta_NotificacionPagoColegio.php',
+      'to_module' => 'Veta_NotificacionPagoColegio',
+    ),
+    89 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_notificacionpagocolegio_veta_pagocolegios_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    90 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagos_veta_liquidacion_Veta_Pagos.php',
+      'to_module' => 'Veta_Pagos',
+    ),
+    91 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagos_veta_liquidacion_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    92 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_detallerecibo_Veta_DetalleReciboItem.php',
+      'to_module' => 'Veta_DetalleReciboItem',
+    ),
+    93 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_detallerecibo_Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
+    ),
+    94 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_recibo_Veta_DetalleReciboItem.php',
+      'to_module' => 'Veta_DetalleReciboItem',
+    ),
+    95 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallereciboitem_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    96 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_leads_Veta_OtrosNombres.php',
+      'to_module' => 'Veta_OtrosNombres',
+    ),
+    97 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    98 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_contacts_Veta_OtrosNombres.php',
+      'to_module' => 'Veta_OtrosNombres',
+    ),
+    99 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_otrosnombres_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    100 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_leads_Veta_Pasaporte.php',
+      'to_module' => 'Veta_Pasaporte',
+    ),
+    101 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    102 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_contacts_Veta_Pasaporte.php',
+      'to_module' => 'Veta_Pasaporte',
+    ),
+    103 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pasaporte_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    104 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loocorreccion_veta_loo_Veta_LooCorreccion.php',
+      'to_module' => 'Veta_LooCorreccion',
+    ),
+    105 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_loocorreccion_veta_loo_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    106 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_cases_Cases.php',
+      'to_module' => 'Cases',
+    ),
+    107 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_cases_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    108 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_calls_Calls.php',
+      'to_module' => 'Calls',
+    ),
+    109 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_calls_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    110 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_meetings_Meetings.php',
+      'to_module' => 'Meetings',
+    ),
+    111 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_meetings_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    112 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_notes_Notes.php',
+      'to_module' => 'Notes',
+    ),
+    113 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_notes_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    114 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_tasks_Tasks.php',
+      'to_module' => 'Tasks',
+    ),
+    115 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_tasks_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    116 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    117 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_activities_emails_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    118 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_veta_loo_Veta_Liquidacion.php',
+      'to_module' => 'Veta_Liquidacion',
+    ),
+    119 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_liquidacion_veta_loo_Veta_Loo.php',
+      'to_module' => 'Veta_Loo',
+    ),
+    120 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_leads_Veta_SolvenciaEconomica.php',
+      'to_module' => 'Veta_SolvenciaEconomica',
+    ),
+    121 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    122 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_contacts_Veta_SolvenciaEconomica.php',
+      'to_module' => 'Veta_SolvenciaEconomica',
+    ),
+    123 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_solvenciaeconomica_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    124 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_opportunities_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    125 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    126 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_calls_Calls.php',
+      'to_module' => 'Calls',
+    ),
+    127 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_calls_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    128 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_meetings_Meetings.php',
+      'to_module' => 'Meetings',
+    ),
+    129 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_meetings_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    130 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_notes_Notes.php',
+      'to_module' => 'Notes',
+    ),
+    131 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_notes_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    132 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_tasks_Tasks.php',
+      'to_module' => 'Tasks',
+    ),
+    133 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_tasks_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    134 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    135 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_pagocolegios_activities_emails_Veta_PagoColegios.php',
+      'to_module' => 'Veta_PagoColegios',
+    ),
+    136 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_correccioncoe_veta_coe_Veta_CorreccionCOE.php',
+      'to_module' => 'Veta_CorreccionCOE',
+    ),
+    137 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_correccioncoe_veta_coe_Veta_COE.php',
+      'to_module' => 'Veta_COE',
+    ),
+    138 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_abono_veta_recibo_Veta_Abono.php',
+      'to_module' => 'Veta_Abono',
+    ),
+    139 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_abono_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    140 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_leads_Veta_ServiciosAdicionales.php',
+      'to_module' => 'Veta_ServiciosAdicionales',
+    ),
+    141 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    142 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_contacts_Veta_ServiciosAdicionales.php',
+      'to_module' => 'Veta_ServiciosAdicionales',
+    ),
+    143 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_serviciosadicionales_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    144 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_leads_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    145 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    146 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_contacts_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    147 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    148 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_veta_presupuesto_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    149 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_veta_presupuesto_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    150 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_emails_Emails.php',
+      'to_module' => 'Emails',
+    ),
+    151 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_emails_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    152 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    153 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_recibo_opportunities_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    154 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_contacts_Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
+    ),
+    155 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_contacts_Contacts.php',
+      'to_module' => 'Contacts',
+    ),
+    156 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_leads_Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
+    ),
+    157 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_leads_Leads.php',
+      'to_module' => 'Leads',
+    ),
+    158 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_presupuesto_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
+    ),
+    159 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_presupuesto_Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
+    ),
+    160 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    161 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_requerimiento_veta_recibo_Veta_Requerimiento.php',
+      'to_module' => 'Veta_Requerimiento',
+    ),
+    162 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallerecibo_veta_recibo_Veta_DetalleRecibo.php',
+      'to_module' => 'Veta_DetalleRecibo',
+    ),
+    163 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallerecibo_veta_recibo_Veta_Recibo.php',
+      'to_module' => 'Veta_Recibo',
+    ),
+    164 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallepresupuesto_veta_presupuesto_Veta_DetallePresupuesto.php',
+      'to_module' => 'Veta_DetallePresupuesto',
+    ),
+    165 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/veta_detallepresupuesto_veta_presupuesto_Veta_Presupuesto.php',
+      'to_module' => 'Veta_Presupuesto',
     ),
   ),
   'layoutfields' => 
@@ -3973,118 +4028,118 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
-        'Cases' => 'veta_aplicacion_cases_name',
       ),
     ),
     3 => 
     array (
       'additional_fields' => 
       array (
-        'Calls' => 'veta_aplicacion_activities_calls_name',
       ),
     ),
     4 => 
     array (
       'additional_fields' => 
       array (
-        'Meetings' => 'veta_aplicacion_activities_meetings_name',
       ),
     ),
     5 => 
     array (
       'additional_fields' => 
       array (
-        'Notes' => 'veta_aplicacion_activities_notes_name',
       ),
     ),
     6 => 
     array (
       'additional_fields' => 
       array (
-        'Tasks' => 'veta_aplicacion_activities_tasks_name',
       ),
     ),
     7 => 
     array (
       'additional_fields' => 
       array (
+        'Cases' => 'veta_coe_cases_name',
       ),
     ),
     8 => 
     array (
       'additional_fields' => 
       array (
+        'Calls' => 'veta_coe_activities_calls_name',
       ),
     ),
     9 => 
     array (
       'additional_fields' => 
       array (
+        'Meetings' => 'veta_coe_activities_meetings_name',
       ),
     ),
     10 => 
     array (
       'additional_fields' => 
       array (
+        'Notes' => 'veta_coe_activities_notes_name',
       ),
     ),
     11 => 
     array (
       'additional_fields' => 
       array (
+        'Tasks' => 'veta_coe_activities_tasks_name',
       ),
     ),
     12 => 
     array (
       'additional_fields' => 
       array (
-        'Cases' => 'veta_coe_cases_name',
       ),
     ),
     13 => 
     array (
       'additional_fields' => 
       array (
-        'Calls' => 'veta_coe_activities_calls_name',
       ),
     ),
     14 => 
     array (
       'additional_fields' => 
       array (
-        'Meetings' => 'veta_coe_activities_meetings_name',
       ),
     ),
     15 => 
     array (
       'additional_fields' => 
       array (
-        'Notes' => 'veta_coe_activities_notes_name',
+        'Cases' => 'veta_aplicacion_cases_name',
       ),
     ),
     16 => 
     array (
       'additional_fields' => 
       array (
-        'Tasks' => 'veta_coe_activities_tasks_name',
+        'Calls' => 'veta_aplicacion_activities_calls_name',
       ),
     ),
     17 => 
     array (
       'additional_fields' => 
       array (
+        'Meetings' => 'veta_aplicacion_activities_meetings_name',
       ),
     ),
     18 => 
     array (
       'additional_fields' => 
       array (
+        'Notes' => 'veta_aplicacion_activities_notes_name',
       ),
     ),
     19 => 
     array (
       'additional_fields' => 
       array (
+        'Tasks' => 'veta_aplicacion_activities_tasks_name',
       ),
     ),
     20 => 
@@ -4121,53 +4176,53 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
+        'Cases' => 'veta_loo_cases_name',
       ),
     ),
     26 => 
     array (
       'additional_fields' => 
       array (
+        'Calls' => 'veta_loo_activities_calls_name',
       ),
     ),
     27 => 
     array (
       'additional_fields' => 
       array (
+        'Meetings' => 'veta_loo_activities_meetings_name',
       ),
     ),
     28 => 
     array (
       'additional_fields' => 
       array (
-        'Cases' => 'veta_liquidacion_cases_name',
+        'Notes' => 'veta_loo_activities_notes_name',
       ),
     ),
     29 => 
     array (
       'additional_fields' => 
       array (
-        'Calls' => 'veta_liquidacion_activities_calls_name',
+        'Tasks' => 'veta_loo_activities_tasks_name',
       ),
     ),
     30 => 
     array (
       'additional_fields' => 
       array (
-        'Meetings' => 'veta_liquidacion_activities_meetings_name',
       ),
     ),
     31 => 
     array (
       'additional_fields' => 
       array (
-        'Notes' => 'veta_liquidacion_activities_notes_name',
       ),
     ),
     32 => 
     array (
       'additional_fields' => 
       array (
-        'Tasks' => 'veta_liquidacion_activities_tasks_name',
       ),
     ),
     33 => 
@@ -4192,41 +4247,41 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
-        'Cases' => 'veta_loo_cases_name',
       ),
     ),
     37 => 
     array (
       'additional_fields' => 
       array (
-        'Calls' => 'veta_loo_activities_calls_name',
+        'Cases' => 'veta_visa_cases_name',
       ),
     ),
     38 => 
     array (
       'additional_fields' => 
       array (
-        'Meetings' => 'veta_loo_activities_meetings_name',
+        'Calls' => 'veta_visa_activities_calls_name',
       ),
     ),
     39 => 
     array (
       'additional_fields' => 
       array (
-        'Notes' => 'veta_loo_activities_notes_name',
+        'Meetings' => 'veta_visa_activities_meetings_name',
       ),
     ),
     40 => 
     array (
       'additional_fields' => 
       array (
-        'Tasks' => 'veta_loo_activities_tasks_name',
+        'Notes' => 'veta_visa_activities_notes_name',
       ),
     ),
     41 => 
     array (
       'additional_fields' => 
       array (
+        'Tasks' => 'veta_visa_activities_tasks_name',
       ),
     ),
     42 => 
@@ -4263,28 +4318,24 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
-        'Calls' => 'veta_pagocolegios_activities_calls_name',
       ),
     ),
     48 => 
     array (
       'additional_fields' => 
       array (
-        'Meetings' => 'veta_pagocolegios_activities_meetings_name',
       ),
     ),
     49 => 
     array (
       'additional_fields' => 
       array (
-        'Notes' => 'veta_pagocolegios_activities_notes_name',
       ),
     ),
     50 => 
     array (
       'additional_fields' => 
       array (
-        'Tasks' => 'veta_pagocolegios_activities_tasks_name',
       ),
     ),
     51 => 
@@ -4303,30 +4354,35 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
+        'Cases' => 'veta_liquidacion_cases_name',
       ),
     ),
     54 => 
     array (
       'additional_fields' => 
       array (
+        'Calls' => 'veta_liquidacion_activities_calls_name',
       ),
     ),
     55 => 
     array (
       'additional_fields' => 
       array (
+        'Meetings' => 'veta_liquidacion_activities_meetings_name',
       ),
     ),
     56 => 
     array (
       'additional_fields' => 
       array (
+        'Notes' => 'veta_liquidacion_activities_notes_name',
       ),
     ),
     57 => 
     array (
       'additional_fields' => 
       array (
+        'Tasks' => 'veta_liquidacion_activities_tasks_name',
       ),
     ),
     58 => 
@@ -4357,31 +4413,34 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
-        'Opportunities' => 'veta_recibo_opportunities_name',
       ),
     ),
     63 => 
     array (
       'additional_fields' => 
       array (
+        'Calls' => 'veta_pagocolegios_activities_calls_name',
       ),
     ),
     64 => 
     array (
       'additional_fields' => 
       array (
+        'Meetings' => 'veta_pagocolegios_activities_meetings_name',
       ),
     ),
     65 => 
     array (
       'additional_fields' => 
       array (
+        'Notes' => 'veta_pagocolegios_activities_notes_name',
       ),
     ),
     66 => 
     array (
       'additional_fields' => 
       array (
+        'Tasks' => 'veta_pagocolegios_activities_tasks_name',
       ),
     ),
     67 => 
@@ -4424,35 +4483,31 @@ $installdefs = array (
     array (
       'additional_fields' => 
       array (
-        'Cases' => 'veta_visa_cases_name',
       ),
     ),
     74 => 
     array (
       'additional_fields' => 
       array (
-        'Calls' => 'veta_visa_activities_calls_name',
       ),
     ),
     75 => 
     array (
       'additional_fields' => 
       array (
-        'Meetings' => 'veta_visa_activities_meetings_name',
       ),
     ),
     76 => 
     array (
       'additional_fields' => 
       array (
-        'Notes' => 'veta_visa_activities_notes_name',
+        'Opportunities' => 'veta_recibo_opportunities_name',
       ),
     ),
     77 => 
     array (
       'additional_fields' => 
       array (
-        'Tasks' => 'veta_visa_activities_tasks_name',
       ),
     ),
     78 => 
@@ -4474,6 +4529,12 @@ $installdefs = array (
       ),
     ),
     81 => 
+    array (
+      'additional_fields' => 
+      array (
+      ),
+    ),
+    82 => 
     array (
       'additional_fields' => 
       array (

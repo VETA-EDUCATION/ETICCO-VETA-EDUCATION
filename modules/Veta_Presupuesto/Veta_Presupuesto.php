@@ -287,7 +287,7 @@ class Veta_Presupuesto extends Basic
             $GLOBALS['log']-> error("En el for del detalle".$monedaCollege); 
         }
 
-        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) + ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 ) - ( $this->descuento * 1 );
+        $this->primer_pago += ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) + ( $this->total_visa * 1 ) + ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 );
         $this->gran_total = $this->subtotal + ( $this->total_visa * 1 ) + ( $this->examen_medico * 1 ) + ( $this->seguro * 1 ) - ( $this->descuento * 1 )+ ( $this->tiquete_c * 1 )+ ( $this->aeropuerto_c * 1 )+ ( $this->tour_c * 1 )+ ( $this->hospedaje_c * 1 )+ ( $this->mmm_c * 1 );
      
         if(count($dets) > 0){

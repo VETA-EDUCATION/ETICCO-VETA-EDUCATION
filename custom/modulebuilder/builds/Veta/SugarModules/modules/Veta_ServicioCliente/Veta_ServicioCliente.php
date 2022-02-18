@@ -177,7 +177,7 @@ class Veta_ServicioCliente extends Basic
             if( $o != null ) {
 
                 // Se crea la visa
-                if( $this->estado == 'Visa' and $this->esta_pagado() ) {
+                if( $this->estado == 'Visa' and $this->esta_pagado() and !$this->tiene_visa()) {
 
                     $c = new Contact();
                     $c->retrieve( $this->contact_id_c );
@@ -218,8 +218,19 @@ class Veta_ServicioCliente extends Basic
             }
         }
 
-
         return $tmp_id;
+    }
+
+    private function tiene_visa()
+    {
+        $tiene =false;
+        $visas = $this->get_linked_beans( 'veta_visa_veta_serviciocliente' , 'Veta_Visa' );
+
+        if(count($visas) > 0)
+            $tiene = true;
+
+        return $tiene;
+
     }
 
     public function redireccionar( $msg , $registro ) {

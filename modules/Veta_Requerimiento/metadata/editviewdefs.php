@@ -166,6 +166,15 @@ $viewdefs [$module_name] =
                                                 'customCode' => '{$EMAIL}',
                                             ),
                                     ),
+                                10 =>
+                                    array(
+                                        0 =>
+                                            array(
+                                                'name' => 'localizacion',
+                                                'label' => 'LBL_LOCALIZACION',
+                                                'studio' => 'visible',
+                                            ),
+                                    ),
                             ),
                     ),
             ),
