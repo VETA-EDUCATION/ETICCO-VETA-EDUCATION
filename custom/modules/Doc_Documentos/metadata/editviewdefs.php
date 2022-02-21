@@ -72,6 +72,16 @@ array (
         ),
         3 => 
         array (
+          0 => 
+          array (
+            'name' => 'idiomaicq_c',
+            'studio' => 'visible',
+            'label' => 'LBL_IDIOMAICQ',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
           0 => 'description',
           1 => '',
         ),

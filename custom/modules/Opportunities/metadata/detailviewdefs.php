@@ -239,7 +239,12 @@ array (
             'name' => 'limite_luz_verde_c',
             'label' => 'LBL_LIMITE_LUZ_VERDE',
           ),
-          1 => '',
+          1 =>
+              array (
+                  'name' => 'soel_mobile_phone_lead',
+                  'label' => 'LBL_SOEL_MOBILE_PHONE_LEAD',
+                  'customCode' => '{$soel_mobile_phone_lead}',
+              ),
         ),
       ),
     ),

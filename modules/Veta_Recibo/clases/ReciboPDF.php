@@ -19,6 +19,7 @@ class ReciboPDF extends FPDF
         $this->AddPage();
 
         $this->print_details();
+		$this->print_description_notes();
         $this->print_abonos();
         $this->print_devoluciones();
         $this->print_pendientes();
@@ -63,7 +64,7 @@ class ReciboPDF extends FPDF
         $this->Ln( 5 );
 
         $nombre = empty( $this->r->veta_recibo_leads_name ) ? $this->r->veta_recibo_contacts_name : $this->r->veta_recibo_leads_name;
-        $this->Cell( 0 , 3 , utf8_decode( strtoupper( substr( $nombre , 0 , 26 ) ) ) , 0 , 0 , 'R' );
+        $this->Cell( 0 , 3 , utf8_decode( strtoupper( substr( $nombre , 0 , 60 ) ) ) , 0 , 0 , 'R' );
 
         $this->Ln( 6 );
         $this->SetFont( 'Arial' , '' , 7 );
@@ -509,13 +510,16 @@ class ReciboPDF extends FPDF
         $this->Cell( 150 , 5 , utf8_decode( 'Tel: ' . $u->phone_mobile ) , 0 , 0 , 'L' , true );
         $this->Cell( 0 , 5 , utf8_decode( 'Tel: ' . $u->phone_work ) , 0 , 0 , 'R' , true );
     }
-
-    private function print_notas() {
-
-        $this->Ln( 5 );
+	
+	private function print_description_notes() {
+		$this->Ln( 8 );
+		$this->SetTextColor( 0 , 0 , 0 );
 
         $this->SetFont( 'Arial' , '' , 8 );
-        $this->MultiCell( 0 , 5 , utf8_decode( $this->r->description ) );
+        $this->MultiCell( 0 , 5 , utf8_decode( $this->r->description ) );		
+	}
+
+    private function print_notas() {       
 
         $this->AddPage();
 
@@ -523,7 +527,8 @@ class ReciboPDF extends FPDF
         $this->SetDrawColor(0,0,0);
         $this->SetLineWidth(0.35);
         $this->SetTextColor( 0 , 0 , 0 );
-        $this->MultiCell( 0 , 5 , utf8_decode( "COLOMBIA \r\n Banco: Bancolombia \r\n Beneficiario: Macfarlane Cruz & Asociados S.A.S. \r\n Cuenta de Ahorros No. : 869945231-06 \r\n \r\n  CHILE \r\n Banco: Estado \r\n Beneficiario: VETA EDUCACIÓN SPA \r\n Nº Cuenta: 33670420715 \r\n RUT: 77.098.367-3 \r\n  Tipo de Cuenta: Chequera Electrónica \r\n \r\n AUSTRALIA: Banco: ANZ Bank \r\n Nombre de la cuenta: VETA education Consultancy \r\n BSB Number: 012172 \r\n Nº Cuenta: 205041092 \r\n Swift code: ANZBAU3M  \r\n \r\n  MEXICO: Banco: Bancomer \r\n Beneficiario: VETA EDUCATION MEXICO S.A. de C.V.\r\n Nº Cuenta: 0113402258\r\n Nº Cuenta clabe: 0121 8000 1134 0225 86\r\n Sucursal Banco: 0017" ) ,1,'C');
+        $this->MultiCell( 0 , 5 , utf8_decode( "COLOMBIA \r\n Banco: Bancolombia \r\n Beneficiario: Macfarlane Cruz & Asociados S.A.S \r\n Cuenta de Ahorros No. : 869945231-06 \r\n \r\n  CHILE \r\n Banco: Estado \r\n Beneficiario: VETA EDUCACIÓN SPA \r\n Nº Cuenta: 33670420715 \r\n RUT: 77.098.367-3 \r\n  Tipo de Cuenta: Chequera Electrónica \r\n \r\n AUSTRALIA: Banco: ANZ Bank \r\n Nombre de la cuenta: VETA education Consultancy \r\n BSB Number: 012172 \r\n Nº Cuenta: 205041092 \r\n Swift code: ANZBAU3M  \r\n \r\n  MEXICO: Banco: Bancomer \r\n Beneficiario: VETA EDUCATION MEXICO S.A. de C.V.\r\n Nº Cuenta: 0113402258\r\n Nº Cuenta clabe: 0121 8000 1134 0225 86\r\n Sucursal Banco: 0017" ) ,1,'C');
+
         $this->Ln( 5 );
         //$this->MultiCell( 0 , 5 , $this->WriteHTML(utf8_decode( "COLOMBIA \r\n Banco: Bancolombia \r\n " )) ,1,'C');
 
