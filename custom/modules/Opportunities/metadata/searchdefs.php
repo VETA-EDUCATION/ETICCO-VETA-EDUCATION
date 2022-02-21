@@ -332,7 +332,7 @@ array (
       //region soel_mobile_phone_lead
       'soel_mobile_phone_lead'                     =>
       array(
-          'type'     => 'multienum',
+          'type'     => 'varchar',
           'default'  => true,
           'label'    => 'LBL_SOEL_MOBILE_PHONE_LEAD',
           'width'    => '10%',
