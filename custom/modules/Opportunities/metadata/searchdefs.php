@@ -328,6 +328,18 @@ array (
                 'sortable' => false,
             ),
       //endregion
+
+      //region soel_mobile_phone_lead
+      'soel_mobile_phone_lead'                     =>
+      array(
+          'type'     => 'multienum',
+          'default'  => true,
+          'label'    => 'LBL_SOEL_MOBILE_PHONE_LEAD',
+          'width'    => '10%',
+          'name'     => 'soel_mobile_phone_lead',
+          'sortable' => false,
+      ),
+      //endregion
     ),
   ),
   'templateMeta' => 
