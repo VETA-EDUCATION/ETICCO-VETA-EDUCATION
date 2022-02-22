@@ -306,6 +306,16 @@ class Veta_Recibo extends Basic
 
             $this->activar_servicio_cliente( $o );
             $this->activar_aplicacion( $o );
+        } else {
+            $o->amount = $o->amount_usdollar = $this->pesos * 1;
+            $o->monto_dolares_australianos_c = intval( $this->gran_total * 1 );
+            $o->pendiente_cartera_c = $this->pendiente_por_pagar * 1;
+
+            $o->save();
+
+            $this->actualizar_oportunidad();
+            $this->inactivar_aplicaciones($o);
+            //$this->activar_aplicacion( $o );
         }
 
         return $o;
@@ -406,6 +416,70 @@ class Veta_Recibo extends Basic
         }
 
         return $list;
+    }
+	
+	private function inactivar_aplicaciones( Opportunity $o ) {
+
+        $aplicaciones = $o->get_linked_beans( 'veta_aplicacion_opportunities', 'Veta_Aplicacion' );
+
+        foreach ( $aplicaciones as $a )
+        {
+            $this->db->query( "UPDATE veta_aplicacion SET estado_aplicacion = 'Descartada_Nuevo_Curso' WHERE id = '" . $a->id . "'" );                     
+        }
+
+        global $timedate;
+        $person   = $this->get_person();
+        $detalles = $this->get_linked_beans( 'veta_detallerecibo_veta_recibo', 'Veta_DetalleRecibo' );
+        $o->load_relationship( 'veta_aplicacion_opportunities' );
+
+        foreach ( $detalles as $d )
+        {
+            $college = new Veta_College();
+            $college->retrieve( $d->veta_college_id_c );
+
+            $curso = new Veta_Curso();
+            $curso->retrieve( $d->veta_curso_id_c );
+
+            $a = new Veta_Aplicacion();
+            $a->name                  = $college->name;
+            $a->college               = $a->name;
+            $a->estado_aplicacion     = 'Aplicacion';
+            $a->fecha_expiracion_visa = $timedate->to_db( $person->fecha_expiracion_visa_c );
+            $a->pais                  = $college->pais;
+            $a->estado                = $college->estado;
+            $a->ciudad                = $college->ciudad;
+            $a->curso                 = $curso->name;
+            $a->jornada               = $curso->jornada;
+            $a->veta_curso_id_c       = $curso->id;
+            $a->campus                = $curso->campus;
+            $a->fecha_inicio          = $curso->intake;
+            $a->duracion              = $curso->duracion;
+            $a->intensidad            = $curso->intensidad;
+            $a->tipo_curso            = $curso->tipo_curso;
+            $a->tps                   = $curso->tps;
+            $a->vacaciones            = $curso->vacaciones;
+
+            if ( ! empty( $person->id ) )
+            {
+                if ( $person->module_name == 'Contacts' )
+                {
+                    $a->contact_id_c = $person->id;
+                }
+
+                if ( $person->module_name == 'Leads' )
+                {
+                    $a->lead_id_c = $person->id;
+                }
+            }
+
+            $this->registrar_log( "Veta_Recibo: person para " . $a->name . " person->module_name = " . $person->module_name . " person->id = " . $person->id );
+
+            $a->save( false );
+            $o->veta_aplicacion_opportunities->add( $a->id );
+            
+        }
+
+        return true;
     }
 
     private function activar_aplicacion( Opportunity $o )
