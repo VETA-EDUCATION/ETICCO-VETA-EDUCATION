@@ -350,7 +350,7 @@ $listViewDefs ['Opportunities'] =
             array(
                 'type' => 'varchar',
                 'studio' => 'visible',
-                'label' => 'LBL_EMAIL_LEAD',
+                'label' => 'LBL_SOEL_EMAIL_LEAD',
                 'width' => '10%',
                 'default' => false,
             ),
