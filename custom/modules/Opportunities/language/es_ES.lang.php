@@ -66,4 +66,5 @@ $mod_strings = array (
   'LBL_SOEL_CIUDAD_TMP' => 'Ciudad TMP',
   'LBL_SOEL_LOCALIZACION' => 'Localizacion',
   'LBL_SOEL_MOBILE_PHONE_LEAD' => 'Celular',
+  'LBL_SOEL_EMAIL_LEAD' => 'Email', 
 );

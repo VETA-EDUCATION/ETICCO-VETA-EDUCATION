@@ -16,6 +16,7 @@ class OpportunitiesViewDetail extends ViewDetail
         $this->ss->assign("REQUERIMIENTO", $this->REQUERIMIENTO);
         $this->ss->assign("IDREQUERIMIENTO", $this->IDREQUERIMIENTO);
         $this->ss->assign("soel_mobile_phone_lead", $this->soel_mobile_phone_lead);
+        $this->ss->assign("soel_email_lead", $this->soel_email_lead);
         
 
         parent::display();
@@ -77,6 +78,7 @@ class OpportunitiesViewDetail extends ViewDetail
             $this->EMAIL = $lead->email1;
             $this->NOMBRE = $row['NOMBRE'];
             $this->soel_mobile_phone_lead = $row['CELULAR'];
+            $this->soel_email_lead = $lead->email1;
         }
     }
 
@@ -102,6 +104,8 @@ class OpportunitiesViewDetail extends ViewDetail
 
             $this->EMAIL = empty($this->EMAIL) ? $contact->email1 : $this->EMAIL;
             $this->NOMBRE = $row['NOMBRE'];
+            $this->soel_mobile_phone_lead = empty($this->soel_mobile_phone_lead) ? $row['CELULAR'] : $this->EMAIL;
+            $this->soel_email_lead = $this->EMAIL;
         }
     }
 }

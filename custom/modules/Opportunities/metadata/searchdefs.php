@@ -340,6 +340,18 @@ array (
           'sortable' => false,
       ),
       //endregion
+
+      //region soel_email_lead
+      'soel_email_lead'                     =>
+      array(
+          'type'     => 'varchar',
+          'default'  => true,
+          'label'    => 'LBL_SOEL_EMAIL_LEAD',
+          'width'    => '10%',
+          'name'     => 'soel_email_lead',
+          'sortable' => false,
+      ),
+      //endregion
     ),
   ),
   'templateMeta' => 

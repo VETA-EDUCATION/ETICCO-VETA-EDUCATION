@@ -239,12 +239,22 @@ array (
             'name' => 'limite_luz_verde_c',
             'label' => 'LBL_LIMITE_LUZ_VERDE',
           ),
-          1 =>
-              array (
-                  'name' => 'soel_mobile_phone_lead',
-                  'label' => 'LBL_SOEL_MOBILE_PHONE_LEAD',
-                  'customCode' => '{$soel_mobile_phone_lead}',
-              ),
+          1 => 
+          array (
+            'name' => 'soel_mobile_phone_lead',
+            'label' => 'LBL_SOEL_MOBILE_PHONE_LEAD',
+            'customCode' => '{$soel_mobile_phone_lead}',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'soel_email_lead',
+            'label' => 'LBL_SOEL_EMAIL_LEAD',
+            'customCode' => '{$soel_email_lead}',
+          ),
+          1 => '',
         ),
       ),
     ),
