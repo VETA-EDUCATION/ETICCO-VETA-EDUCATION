@@ -107,107 +107,110 @@ class ReciboPDF extends FPDF
         $curso = new Veta_Curso();
         $curso->retrieve($d->veta_curso_id_c);
 
-	$this->moneda = $c-> moneda_c;	
+		$this->moneda = $c->moneda_c;	
+		
+		if($c->name != 'CLP - NO Value') {
 
-        $this->Ln( 7 );
-        $this->SetFont( 'Arial' , 'B' , 9 );
-        //$this->Cell( 50 , 3 , utf8_decode( strtoupper( $c->name ) . ucwords( ' ' . $app_list_strings[ 'ciudades_list' ][ $c->ciudad ] ) . ', ' . ucwords( $app_list_strings[ 'pais_list' ][ $c->pais ] ) ) , 0 , 0 , 'L' );
-        //$this->Cell( 0 , 3 , utf8_decode( 'CURSO: ' . strtoupper( $d->name ) ) , 0 , 0 , 'R' );
+			$this->Ln( 7 );
+			$this->SetFont( 'Arial' , 'B' , 9 );
+			//$this->Cell( 50 , 3 , utf8_decode( strtoupper( $c->name ) . ucwords( ' ' . $app_list_strings[ 'ciudades_list' ][ $c->ciudad ] ) . ', ' . ucwords( $app_list_strings[ 'pais_list' ][ $c->pais ] ) ) , 0 , 0 , 'L' );
+			//$this->Cell( 0 , 3 , utf8_decode( 'CURSO: ' . strtoupper( $d->name ) ) , 0 , 0 , 'R' );
 
-        $this->MultiCell( 0 , 3 , utf8_decode( 'COLLEGE:' . strtoupper( $c->name ) . ucwords( ' ' . $app_list_strings[ 'ciudades_list' ][ $c->ciudad ] ) . ', ' . ucwords( $app_list_strings[ 'pais_list' ][ $c->pais ] ) ), 0 , 'L' );
-        $this->Ln( 3 );
-        $this->MultiCell(0,3,utf8_decode( 'CURSO: ' . strtoupper( $d->name )  ) , 0 , 'L' );
+			$this->MultiCell( 0 , 3 , utf8_decode( 'COLLEGE:' . strtoupper( $c->name ) . ucwords( ' ' . $app_list_strings[ 'ciudades_list' ][ $c->ciudad ] ) . ', ' . ucwords( $app_list_strings[ 'pais_list' ][ $c->pais ] ) ), 0 , 'L' );
+			$this->Ln( 3 );
+			$this->MultiCell(0,3,utf8_decode( 'CURSO: ' . strtoupper( $d->name )  ) , 0 , 'L' );
 
-        $this->Ln( 4 );
+			$this->Ln( 4 );
 
-        $this->print_line( $this->getY() );
-
-
-        // ---------------------------------------------------- FECHA DE INICIO ----------------------------------------
-
-        /* $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 50 , 3 , utf8_decode( 'Fecha de Inicio: ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , substr( $d->intake , 0 , 10 ) , 0 , 0 , 'R' );  */
-
-        // ---------------------------------------------------- DURACION ----------------------------------------
-
-        $this->Ln( 5 );
-        $this->SetFont( 'Arial' , '' , 8 );
-        $this->Cell( 5 );
-        $this->Cell( 50 , 3 , utf8_decode( $curso->tipo_curso == 'Vet' ? 'Término' :'Duración: ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( ucwords( $d->duracion ) . " semanas " ) , 0 , 0 , 'R' );
-
-        // ---------------------------------------------------- PRECIO X SEMANA ----------------------------------------
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( 'Precio por Semana ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_por_semana * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-
-        // ---------------------------------------------------- BONO DE DESCUENTO ----------------------------------------
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( 'Descuento ' . substr($d->descripcion_bono,0, 110) ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( '-' . number_format( ( $d->bono * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-        //$this->MultiCell(100,3,utf8_decode( 'Descuento ' . $d->descripcion_bono ) , 1 , 'L' );
-        //$this->MultiCell(20,3, utf8_decode( '-' . number_format( ( $d->bono * 1 ) ))  , 1 , 'L' );
+			$this->print_line( $this->getY() );
 
 
-        // ---------------------------------------------------- VALOR DEL CURSO ----------------------------------------
+			// ---------------------------------------------------- FECHA DE INICIO ----------------------------------------
 
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 50 , 3 , utf8_decode( "Valor del Curso " ) , 0 , 0 , 'L' );
-        //$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) - ( $d->inscripcion * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_curso * 1 )  , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			/* $this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 50 , 3 , utf8_decode( 'Fecha de Inicio: ' ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , substr( $d->intake , 0 , 10 ) , 0 , 0 , 'R' );  */
 
+			// ---------------------------------------------------- DURACION ----------------------------------------
 
-        // ---------------------------------------------------- OTROS ----------------------------------------
-        $detalles = $d->get_linked_beans( 'veta_detallereciboitem_veta_detallerecibo' , 'Veta_DetalleReciboItem' );
+			$this->Ln( 5 );
+			$this->SetFont( 'Arial' , '' , 8 );
+			$this->Cell( 5 );
+			$this->Cell( 50 , 3 , utf8_decode( $curso->tipo_curso == 'Vet' ? 'Término' :'Duración: ' ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( ucwords( $d->duracion ) . " semanas " ) , 0 , 0 , 'R' );
 
-        foreach( $detalles as $detalle ) {
+			// ---------------------------------------------------- PRECIO X SEMANA ----------------------------------------
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( 'Precio por Semana ' ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_por_semana * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
 
-            $this->Ln( 5 );
-            $this->Cell( 5 );
-            $this->Cell( 50 , 3 , utf8_decode( $detalle->name ) , 0 , 0 , 'L' );
-            $this->Cell( 0 , 3 , utf8_decode( number_format( ( $detalle->monto * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-        }
-
-        // ---------------------------------------------------- INSCRIPCION ----------------------------------------
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( "Valor de la Inscripción " ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( $d->inscripcion * 1 , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-
-        // ---------------------------------------------------- COSTO MATERIALES ----------------------------------------
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( 'Costo Materiales ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->costo_materiales * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-
-        // ---------------------------------------------------- COSTO EXTRA ----------------------------------------
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( 'Costo Extra '  ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode(  number_format( ( $d->costo_extra * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			// ---------------------------------------------------- BONO DE DESCUENTO ----------------------------------------
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( 'Descuento ' . substr($d->descripcion_bono,0, 110) ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( '-' . number_format( ( $d->bono * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			//$this->MultiCell(100,3,utf8_decode( 'Descuento ' . $d->descripcion_bono ) , 1 , 'L' );
+			//$this->MultiCell(20,3, utf8_decode( '-' . number_format( ( $d->bono * 1 ) ))  , 1 , 'L' );
 
 
-        // ---------------------------------------------------- TOTAL ----------------------------------------
+			// ---------------------------------------------------- VALOR DEL CURSO ----------------------------------------
 
-        $this->Ln( 5 );
-        $this->SetFont( 'Arial' , 'B' , 9 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( 'TOTAL: ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 50 , 3 , utf8_decode( "Valor del Curso " ) , 0 , 0 , 'L' );
+			//$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) - ( $d->inscripcion * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->precio_curso * 1 )  , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
 
-        $this->Ln( 5 );
-        $this->Cell( 5 );
-        $this->Cell( 100 , 3 , utf8_decode( 'DEPOSITO: ' ) , 0 , 0 , 'L' );
-        $this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->deposito * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
-        $this->total_depositos += ( $d->deposito * 1 );
-        $this->descuento += ($d->bono * 1);
 
-        $this->Ln( 7 );
+			// ---------------------------------------------------- OTROS ----------------------------------------
+			$detalles = $d->get_linked_beans( 'veta_detallereciboitem_veta_detallerecibo' , 'Veta_DetalleReciboItem' );
+
+			foreach( $detalles as $detalle ) {
+
+				$this->Ln( 5 );
+				$this->Cell( 5 );
+				$this->Cell( 50 , 3 , utf8_decode( $detalle->name ) , 0 , 0 , 'L' );
+				$this->Cell( 0 , 3 , utf8_decode( number_format( ( $detalle->monto * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			}
+
+			// ---------------------------------------------------- INSCRIPCION ----------------------------------------
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( "Valor de la Inscripción " ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( number_format( $d->inscripcion * 1 , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+
+			// ---------------------------------------------------- COSTO MATERIALES ----------------------------------------
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( 'Costo Materiales ' ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->costo_materiales * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+
+			// ---------------------------------------------------- COSTO EXTRA ----------------------------------------
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( 'Costo Extra '  ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode(  number_format( ( $d->costo_extra * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+
+
+			// ---------------------------------------------------- TOTAL ----------------------------------------
+
+			$this->Ln( 5 );
+			$this->SetFont( 'Arial' , 'B' , 9 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( 'TOTAL: ' ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->total_curso * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+
+			$this->Ln( 5 );
+			$this->Cell( 5 );
+			$this->Cell( 100 , 3 , utf8_decode( 'DEPOSITO: ' ) , 0 , 0 , 'L' );
+			$this->Cell( 0 , 3 , utf8_decode( number_format( ( $d->deposito * 1 ) , 2 , ',' , '.' ) ) . ' '. $this->moneda , 0 , 0 , 'R' );
+			$this->total_depositos += ( $d->deposito * 1 );
+			$this->descuento += ($d->bono * 1);
+
+			$this->Ln( 7 );
+		}
     }
 
     private function print_servicios( Veta_Recibo $r ) {
