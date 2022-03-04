@@ -1281,4 +1281,5 @@ $GLOBALS['app_list_strings']['Users_Department_list']=array (
   'Customer_service' => 'Customer Service',
   'Sales' => 'Sales',
   'Visas' => 'Visas',
+  'No_Department' => 'Sin Departamento',
 );

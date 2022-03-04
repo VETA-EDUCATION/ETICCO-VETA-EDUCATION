@@ -130,26 +130,6 @@ $app_list_strings['lead_source_dom'] = array (
   '' => '',
   'Mexico_Mexico_Mexico' => 'Mexico',
 );
- 
-$app_list_strings['parent_type_display'] = array (
-  'Leads' => 'Prospecto',
-  'Contacts' => 'Estudiante',
-  'Veta_Aplicacion' => 'Aplicacion',
-  'Veta_COE' => 'COE',
-  'Veta_Liquidacion' => 'Liquidacion',
-  'Veta_Loo' => 'Carta de Oferta',
-  'Veta_PagoColegios' => 'Pago a Colegios',
-  'Veta_Visa' => 'Visa',
-);$app_list_strings['record_type_display_notes'] = array (
-  'Leads' => 'Prospecto',
-  'Contacts' => 'Estudiante',
-  'Veta_Aplicacion' => 'Aplicacion',
-  'Veta_COE' => 'COE',
-  'Veta_Liquidacion' => 'Liquidacion',
-  'Veta_Loo' => 'Carta de Oferta',
-  'Veta_PagoColegios' => 'Pago a Colegios',
-  'Veta_Visa' => 'Visa',
-);
 
 /**
  *
@@ -201,6 +181,21 @@ $app_list_strings['doc_estadodocumento_list']['Cargado'] = 'Cargado';
 $app_list_strings['doc_estadodocumento_list']['Aprobado'] = 'Aprobado';
 $app_list_strings['doc_estadodocumento_list']['Rechazado'] = 'Rechazado';
 
+ 
+$app_list_strings['lead_source_dom'] = array (
+  '' => '',
+  'Facebook' => 'Facebook',
+  'Mercado_Institucional' => 'Mercado Institucional',
+  'Mercado_Natural' => 'Mercado Natural',
+  'Pagina_Web' => 'Pagina Web',
+  'Referido_Australia' => 'Referido Australia',
+  'Referido_Colombia' => 'Referido Colombia',
+  'Seminarios' => 'Seminarios',
+  'TypeForms' => 'Type Forms',
+  'ClienGo' => 'ClienGo',
+  'WhatsApp' => 'WhatsApp',
+  'EventBrite' => 'Event Brite',
+);
 
 /**
  *
@@ -446,42 +441,6 @@ $app_list_strings['lead_source_dom'] = array (
   'ClienGo' => 'ClienGo',
   'WhatsApp' => 'WhatsApp',
   'EventBrite' => 'Event Brite',
-);
- 
-$app_list_strings['lead_source_dom'] = array (
-  '' => '',
-  'Facebook' => 'Facebook',
-  'Mercado_Institucional' => 'Mercado Institucional',
-  'Mercado_Natural' => 'Mercado Natural',
-  'Pagina_Web' => 'Pagina Web',
-  'Referido_Australia' => 'Referido Australia',
-  'Referido_Colombia' => 'Referido Colombia',
-  'Seminarios' => 'Seminarios',
-  'TypeForms' => 'Type Forms',
-  'ClienGo' => 'ClienGo',
-  'WhatsApp' => 'WhatsApp',
-  'EventBrite' => 'Event Brite',
-);
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$app_list_strings['record_type_display']['Veta_Requerimiento'] = 'Requerimiento';
-$app_list_strings['parent_type_display']['Veta_Requerimiento'] = 'Requerimiento';
-$app_list_strings['record_type_display_notes']['Veta_Requerimiento'] = 'Requerimiento';
-
- 
-$app_list_strings['lead_source_dom'] = array (
-  '' => '',
-  'Facebook' => 'Facebook',
-  'Mercado_Institucional' => 'Mercado Institucional',
-  'Mercado_Natural' => 'Mercado Natural',
-  'Pagina_Web' => 'Pagina Web',
-  'Referido_Australia' => 'Referido Australia',
-  'Referido_Colombia' => 'Referido Colombia',
-  'Seminarios' => 'Seminarios',
-  'TypeForms' => 'Type Forms',
-  'ClienGo' => 'ClienGo',
-  'WhatsApp' => 'WhatsApp',
-  'EventBrite' => 'Event Brite',
 );$app_list_strings['genero_list'] = array (
   'Hombre' => 'Hombre',
   'Mujer' => 'Mujer',
@@ -607,4 +566,45 @@ $app_list_strings['lead_source_dom'] = array (
   'C1' => 'C1 - Competente',
   'C2' => 'C2 - Competente',
 );
+ 
+$app_list_strings['parent_type_display'] = array (
+  'Leads' => 'Prospecto',
+  'Contacts' => 'Estudiante',
+  'Veta_Aplicacion' => 'Aplicacion',
+  'Veta_COE' => 'COE',
+  'Veta_Liquidacion' => 'Liquidacion',
+  'Veta_Loo' => 'Carta de Oferta',
+  'Veta_PagoColegios' => 'Pago a Colegios',
+  'Veta_Visa' => 'Visa',
+);$app_list_strings['record_type_display_notes'] = array (
+  'Leads' => 'Prospecto',
+  'Contacts' => 'Estudiante',
+  'Veta_Aplicacion' => 'Aplicacion',
+  'Veta_COE' => 'COE',
+  'Veta_Liquidacion' => 'Liquidacion',
+  'Veta_Loo' => 'Carta de Oferta',
+  'Veta_PagoColegios' => 'Pago a Colegios',
+  'Veta_Visa' => 'Visa',
+);
+ 
+$app_list_strings['lead_source_dom'] = array (
+  '' => '',
+  'Facebook' => 'Facebook',
+  'Mercado_Institucional' => 'Mercado Institucional',
+  'Mercado_Natural' => 'Mercado Natural',
+  'Pagina_Web' => 'Pagina Web',
+  'Referido_Australia' => 'Referido Australia',
+  'Referido_Colombia' => 'Referido Colombia',
+  'Seminarios' => 'Seminarios',
+  'TypeForms' => 'Type Forms',
+  'ClienGo' => 'ClienGo',
+  'WhatsApp' => 'WhatsApp',
+  'EventBrite' => 'Event Brite',
+);
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['Veta_Requerimiento'] = 'Requerimiento';
+$app_list_strings['parent_type_display']['Veta_Requerimiento'] = 'Requerimiento';
+$app_list_strings['record_type_display_notes']['Veta_Requerimiento'] = 'Requerimiento';
+
 ?>

@@ -614,7 +614,9 @@ $GLOBALS['app_list_strings']['idiomaicq_list']=array (
   'ESP' => 'Español',
   'ENG' => 'Inglés',
 );
+
 $GLOBALS['app_list_strings']['Users_Department_list']=array (
+  'No_Department' => 'Sin Departamento',
   'Admissions' => 'Admisiones',
   'Accounting' => 'Contabilidad',
   'Customer_service' => 'Servicio al Cliente',
