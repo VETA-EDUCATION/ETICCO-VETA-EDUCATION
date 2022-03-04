@@ -510,6 +510,7 @@ $searchFields['Opportunities'] = array(
             'enable_range_search' => true,
             'is_date_field' => true,
         ),
+		/*
     'soel_oficina' =>
         array(
             'query_type' => 'format',
@@ -525,6 +526,17 @@ $searchFields['Opportunities'] = array(
                     INNER JOIN contacts ON contacts.id = contacts_opportunities_1_c.contacts_opportunities_1contacts_ida AND contacts.deleted = 0
                     INNER JOIN users ON users.id = contacts.assigned_user_id 
                     WHERE users.address_city IN ( \'{0}\' )',
+            'db_field' =>
+                array(
+                    0 => 'id',
+                ),
+        ),
+	*/	
+	'soel_oficina' =>
+        array(
+            'query_type' => 'format',
+            'operator' => 'subquery',
+            'subquery' => 'Select opportunities.id from opportunities where assigned_user_id in (select users.id from users where address_city = \'{0}\') ',
             'db_field' =>
                 array(
                     0 => 'id',

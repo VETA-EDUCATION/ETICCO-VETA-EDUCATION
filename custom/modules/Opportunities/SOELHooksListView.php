@@ -177,8 +177,8 @@ order by fecha desc limit 1
     private function get_person( Opportunity $o )
     {
 
-        $p = null;
-
+        $p = null;		
+		
         $leads    = $o->get_linked_beans( 'leads_opportunities_1', 'Leads' );
         $contacts = $o->get_linked_beans( 'contacts_opportunities_1', 'Contacts' );
 
@@ -191,6 +191,8 @@ order by fecha desc limit 1
         {
             $p = $contact;
         }
+		
+		$p = $o;		
 
         return $p;
     }
