@@ -1,6 +1,6 @@
 <?php
 // created: 2022-03-08 00:00:27
-$subpanel_layout['list_fields'] = array (
+$layout_defs = array (
   'name' => 
   array (
     'vname' => 'LBL_NAME',
@@ -8,19 +8,19 @@ $subpanel_layout['list_fields'] = array (
     'width' => '45%',
     'default' => true,
   ),
-  'cantidaddevolucion_c' => 
-  array (
-    'type' => 'decimal',
-    'default' => true,
-    'vname' => 'LBL_CANTIDADDEVOLUCION',
-    'width' => '10%',
-  ),
   'monedadevolucion_c' => 
   array (
     'type' => 'dynamicenum',
     'default' => true,
     'studio' => 'visible',
     'vname' => 'LBL_MONEDADEVOLUCION',
+    'width' => '10%',
+  ),
+  'cantidaddevolucion_c' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'vname' => 'LBL_CANTIDADDEVOLUCION',
     'width' => '10%',
   ),
   'monto' => 
