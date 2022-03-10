@@ -100,7 +100,8 @@ array (
         'label' => 'LBL_ASSIGNED_TO',
         'function' => 
         array (
-          'name' => 'get_user_array',
+          //'name' => 'get_user_array',
+		  'name' => 'getListCustomerService_Sales',
           'params' => 
           array (
             0 => false,
@@ -119,7 +120,7 @@ array (
         'sortable' => false,
         'function' => 
         array (
-          'name' => 'getAsignadoLeads',
+          'name' => 'getListAdmissions',
         ),
       ),
       'soel_asignado_servicio_cliente' => 
@@ -132,7 +133,7 @@ array (
         'sortable' => false,
         'function' => 
         array (
-          'name' => 'getAsignadoLeads',
+          'name' => 'getListCustomerService',
         ),
       ),
       'soel_asignado_visas' => 
@@ -145,7 +146,7 @@ array (
         'sortable' => false,
         'function' => 
         array (
-          'name' => 'getAsignadoLeads',
+          'name' => 'getListVisas',
         ),
       ),
       'estado_pago_institucion_c' => 
