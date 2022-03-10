@@ -558,7 +558,8 @@ class SOELHooksLeads
             $requirement->presupuesto = $bean->requerimiento->presupuesto;
             $requirement->campaign_id_c = $bean->requerimiento->campaign_id_c;
             $requirement->fuente = $bean->requerimiento->fuente;
-            $requirement->assigned_user_id = $bean->requerimiento->assigned_user_id;
+            $requirement->assigned_user_id = $bean->assigned_user_id;
+
 
             if (!empty($this->get_json_data())){
                 $requirement->referido = 'Leads Bridge';
