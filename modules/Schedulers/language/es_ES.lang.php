@@ -170,7 +170,8 @@ $mod_strings = array(
     'LBL_ACTUALIZAR_ESTADO_CURSOS' => 'Coloca un curso como inactivo si ya paso el tiempo de expiracion'   ,
     'LBL_ACTUALIZAR_ESTADO_REQUERIMIENTOS' => 'Actualiza el estado de los requerimientos usando la fecha de expiracion de la visa y la fecha de viaje',
     'LBL_RECALCULAR_CONSECUTIVOS' => 'Recalcula los consecutivos de los proceso de venta',
- 'LBL_ACTUALIZAR_TRM' => 'Actualiza TRM'
+    'LBL_ACTUALIZAR_TRM' => 'Actualiza TRM',
+    'LBL_SEND_EMAIL_COMMENTS' => 'Enviar email comentarios'
 
 );
 

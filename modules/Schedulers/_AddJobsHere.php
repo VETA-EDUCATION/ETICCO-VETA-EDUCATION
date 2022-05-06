@@ -88,7 +88,8 @@ $job_strings = array(
     26 => 'actualizar_estado_cursos',
     27 => 'actualizar_estado_requerimientos',
     28 => 'recalcular_consecutivos',
-    29 => 'actualizar_TRM'	
+    29 => 'actualizar_TRM',	
+    30 => 'send_email_comments'
 
 );
 
@@ -1076,6 +1077,77 @@ function send_email_alerta_loo($list, $tEmail, $user)
     return true;
 }
 
+function send_email_comments()
+{
+    
+    //$GLOBALS['log']-> error("en proceso 1");
+    require_once('modules/EmailTemplates/EmailTemplate.php');
+    require_once('modules/Administration/Administration.php');
+    require_once('include/phpmailer/class.phpmailer.php');
+    //$GLOBALS['log']-> error("en proceso 1");
+    // Enviamos el email
+    $admin = new Administration();
+    $admin->retrieveSettings();
+    $mail = new PHPMailer();  // Instantiate your new class
+    //$GLOBALS['log']-> error("en proceso 1");
+    $template = new EmailTemplate();
+    $template->retrieve('comentarios_colegio');
+    
+    
+    $db = DBManagerFactory::getInstance();
+    $query = "SELECT * FROM emails_college where estado='Pendiente'";
+    //$GLOBALS['log']-> error("en proceso 2");
+    $res = $db->query($query);
+    
+    if ($admin->settings['mail_sendtype'] == "SMTP") {
+        $mail->IsSMTP();    // set mailer to use SMTP
+    //$GLOBALS['log']-> error("en proceso 3");
+        $mail->Host = $admin->settings['mail_smtpserver'];
+        $mail->Port = $admin->settings['mail_smtpport'];
+
+        if ($admin->settings['mail_smtpauth_req']) {
+            $mail->SMTPAuth = true;
+            $mail->Username = $admin->settings['mail_smtpuser'];
+            $mail->Password = $admin->settings['mail_smtppass'];
+      //      $GLOBALS['log']-> error("en proceso 4");
+        }
+        //$GLOBALS['log']-> error("en proceso 5");
+        $mail->Mailer = "smtp";
+        $mail->SMTPKeepAlive = true;
+        $mail->ContentType = "text/html";
+        $mail->From = $admin->settings['notify_fromaddress'];
+        $mail->FromName = $admin->settings['notify_fromname'];
+        $mail->Subject = $template->subject;
+        //$GLOBALS['log']-> error("en proceso 6");
+        if ($admin->settings['mail_smtpssl'] == 1) {
+            $mail->SMTPSecure = "ssl";
+        } //  Used instead of TLS when only POP mail is selected
+
+        if ($admin->settings['mail_smtpssl'] == 2) {
+            $mail->SMTPSecure = "tls";
+        } //  Used instead of TLS when only POP mail is selected
+
+        $mail->Port = $admin->settings['mail_smtpport']; // Used instead of 587 when only POP mail is selected
+        $mail->AddAddress($user->email1);
+
+        while ($row = $db->fetchByAssoc($res)) {
+            
+            $original = array("$student", "$aplicacion");
+            $reemplazo   = array($row['nameto'],$row['aplicacion']);
+            
+            $msg = str_replace($original,$reemplazo,$template->body_html);
+            $mail->isHTML(true);
+            $mail->Body = $msg;
+            //$GLOBALS['log']-> error("en proceso 7");
+            $aux = $mail->Send();
+
+        }
+    } else {
+        $mail->mailer = "sendmail";
+    }
+    return true;
+}
+
 function calcularEdadConyuge()
 {
     $sql = "UPDATE contacts_cstm INNER JOIN contacts ON contacts.id = contacts_cstm.id_c SET edad_conyuge_c = TIMESTAMPDIFF(YEAR,nacimiento_conyuge_c,CURDATE())";
@@ -1143,6 +1215,7 @@ function actualizar_estado_requerimientos()
 
 function recalcular_consecutivos()
 {
+    $GLOBALS['log']-> error("en proceso 6");
     $consecutivo = 1;
     $db = DBManagerFactory::getInstance();
     $query = "SELECT id  FROM opportunities ORDER BY date_entered ASC";
@@ -1161,6 +1234,7 @@ function recalcular_consecutivos()
 
 function actualizar_TRM()
 {
+    
     $consecutivo = 1;
     
     $auth = base64_encode("vetaeducationconsultancy511972847:l7uha0t899m5nno8323ceh21f2");
