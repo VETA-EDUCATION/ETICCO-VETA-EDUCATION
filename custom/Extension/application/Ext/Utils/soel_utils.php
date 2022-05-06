@@ -30,6 +30,38 @@ function getAsignadoLeads()
     return $listvalues;
 }
 
+function getListCustomerService_Sales()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id,CONCAT(us.first_name , ' ' , us.last_name, ' (' ,  user_name  , ')') AS name  
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0
+								and status = 'Active'								
+								and us.id = us_cstm.id_c
+								and (
+									us_cstm.user_department_c = 'Customer_service' 
+                                    or us_cstm.user_department_c = 'Sales') 
+								ORDER BY name ASC ";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {
+            $listvalues[ $row[ 'id' ] ] = $row[ 'name' ];
+        }
+    }
+    return $listvalues;
+}
+
 function getListCustomerService()
 {
     static $listvalues = null;
