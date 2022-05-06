@@ -1,0 +1,65 @@
+<?php
+// created: 2022-03-22 12:52:23
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'date_modified' => 
+  array (
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'tipoproceso' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'vname' => 'LBL_TIPOPROCESO',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'Doc_Plantillas',
+    'width' => '4%',
+    'default' => true,
+  ),
+  'tipovisa' => 
+  array (
+    'type' => 'dynamicenum',
+    'studio' => 'visible',
+    'vname' => 'LBL_TIPOVISA',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'pais' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'vname' => 'LBL_PAIS',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'nacionalidad' => 
+  array (
+    'type' => 'dynamicenum',
+    'studio' => 'visible',
+    'vname' => 'LBL_NACIONALIDAD',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'Doc_Plantillas',
+    'width' => '5%',
+    'default' => true,
+  ),
+);

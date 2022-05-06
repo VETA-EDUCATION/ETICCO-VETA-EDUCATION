@@ -1,0 +1,41 @@
+<?php
+// created: 2022-03-22 10:57:17
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'date_modified' => 
+  array (
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'Doc_DocSolicitadosColegio',
+    'width' => '4%',
+    'default' => true,
+  ),
+  'estadodocumento' => 
+  array (
+    'type' => 'dynamicenum',
+    'studio' => 'visible',
+    'vname' => 'LBL_ESTADODOCUMENTO',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'Doc_DocSolicitadosColegio',
+    'width' => '5%',
+    'default' => true,
+  ),
+);
