@@ -1,5 +1,5 @@
 <?php
-// created: 2021-08-24 17:43:03
+// created: 2022-05-06 15:45:13
 $mod_strings = array (
   'LBL_PRESUPUESTO' => 'Presupuesto',
   'LBL_FECHA_VIAJE' => 'Fecha de Viaje',
@@ -114,4 +114,21 @@ $mod_strings = array (
   'LBL_FAX_PHONE' => 'Fax:',
   'LBL_ASSISTANT_PHONE' => 'Tel. asistente:',
   'LBL_VIAJES_REALIZADOS' => 'Viajes Realizados',
+  'LBL_NATIONALITY' => 'Nacionalidad',
+  'LBL_MOTHERTONGUE' => 'Mother tongue',
+  'LBL_PRIMARY_ADDRESS_MOBILE' => 'Mobile',
+  'LBL_CONTACTO_EMERGENCIA_FIRSTNAM' => 'First Name',
+  'LBL_CONTACTO_EMERGENCIA_FAMNAME' => 'contacto emergencia famname',
+  'LBL_NAME_SCHOOL_PROFICIENCY' => 'Name of Last School/College/University Attended',
+  'LBL_STATE_PROFICIENCY' => 'State',
+  'LBL_DATE_STARTED_PROFICIENCY' => 'Date started',
+  'LBL_DATE_COMPLETED_PROFICIENCY' => 'Date completed',
+  'LBL_QUALIFICATION_AUSTRALIA' => 'Qualification/Course',
+  'LBL_STATE_AUSTRALIA' => 'State',
+  'LBL_DATE_STARTED_AUSTRALIA' => 'Date started',
+  'LBL_DATE_COMPLETED_AUSTRALIA' => 'Date completed',
+  'LBL_INSTITUTION_BACKGROUND' => '-Name of Last School/College/University Attended',
+  'LBL_HIGHEST_BACKGROUND' => 'Highest Qualification Achieved',
+  'LBL_COUNTRY_BACKGROUND' => 'Country',
+  'LBL_DATE_ACHIEVED' => '-Date Achieved (DD/MM/YY)',
 );

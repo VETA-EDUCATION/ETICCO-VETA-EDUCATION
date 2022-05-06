@@ -466,6 +466,12 @@ $dictionary['Contact']['fields']['edad_conyuge_c']['labelValue']='Edad Conyuge';
 
  
 
+ // created: 2022-05-06 15:43:33
+$dictionary['Contact']['fields']['highest_background_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['highest_background_c']['labelValue']='Highest Qualification Achieved';
+
+ 
+
  // created: 2019-12-27 14:00:31
 $dictionary['Contact']['fields']['description']['inline_edit']='';
 $dictionary['Contact']['fields']['description']['comments']='Full text of the note';
@@ -526,6 +532,12 @@ $dictionary['Contact']['fields']['email1']['audited']=true;
 
  
 
+ // created: 2022-05-06 15:24:55
+$dictionary['Contact']['fields']['state_proficiency_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['state_proficiency_c']['labelValue']='State';
+
+ 
+
  // created: 2020-01-23 12:58:37
 $dictionary['Contact']['fields']['fecha_proximo_contacto_new_c']['inline_edit']='';
 $dictionary['Contact']['fields']['fecha_proximo_contacto_new_c']['options']='date_range_search_dom';
@@ -569,6 +581,12 @@ $dictionary['Contact']['fields']['alt_address_street']['merge_filter']='disabled
 
  
 
+ // created: 2022-05-06 15:42:52
+$dictionary['Contact']['fields']['institution_background_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['institution_background_c']['labelValue']='-Name of Last School/College/University Attended';
+
+ 
+
  // created: 2020-06-25 09:02:46
 $dictionary['Contact']['fields']['lead_id_c']['inline_edit']=1;
 
@@ -601,6 +619,12 @@ $dictionary['Contact']['fields']['assistant_phone']['audited']=true;
 $dictionary['Contact']['fields']['assistant_phone']['inline_edit']='';
 $dictionary['Contact']['fields']['assistant_phone']['comments']='Phone number of the assistant of the contact';
 $dictionary['Contact']['fields']['assistant_phone']['merge_filter']='disabled';
+
+ 
+
+ // created: 2022-05-06 15:45:13
+$dictionary['Contact']['fields']['date_achieved_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['date_achieved_c']['labelValue']='-Date Achieved (DD/MM/YY)';
 
  
 
@@ -671,6 +695,12 @@ $dictionary['Contact']['fields']['department']['audited']=true;
 
  
 
+ // created: 2022-05-06 15:14:01
+$dictionary['Contact']['fields']['primary_address_mobile_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['primary_address_mobile_c']['labelValue']='Mobile';
+
+ 
+
  // created: 2020-01-23 09:23:30
 $dictionary['Contact']['fields']['fecha_expiracion_visa_new_c']['inline_edit']='';
 $dictionary['Contact']['fields']['fecha_expiracion_visa_new_c']['options']='date_range_search_dom';
@@ -679,9 +709,21 @@ $dictionary['Contact']['fields']['fecha_expiracion_visa_new_c']['enable_range_se
 
  
 
+ // created: 2022-03-15 14:40:43
+$dictionary['Contact']['fields']['mothertongue_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['mothertongue_c']['labelValue']='Mother tongue';
+
+ 
+
  // created: 2021-08-24 17:39:10
 $dictionary['Contact']['fields']['departamento_nacimiento_c']['inline_edit']='';
 $dictionary['Contact']['fields']['departamento_nacimiento_c']['labelValue']='Departamento de Nacimiento';
+
+ 
+
+ // created: 2022-05-06 15:24:00
+$dictionary['Contact']['fields']['name_school_proficiency_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['name_school_proficiency_c']['labelValue']='Name of Last School/College/University Attended';
 
  
 
@@ -696,6 +738,12 @@ $dictionary['Contact']['fields']['alt_address_country']['merge_filter']='disable
  // created: 2021-08-24 17:28:30
 $dictionary['Contact']['fields']['email_contacto_emergencia_c']['inline_edit']='';
 $dictionary['Contact']['fields']['email_contacto_emergencia_c']['labelValue']='Email Contacto Emergencia';
+
+ 
+
+ // created: 2022-05-06 15:44:18
+$dictionary['Contact']['fields']['country_background_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['country_background_c']['labelValue']='Country';
 
  
 
@@ -753,6 +801,12 @@ $dictionary['Contact']['fields']['estado_civil_c']['labelValue']='Estado Civil';
 
  
 
+ // created: 2022-05-06 15:34:36
+$dictionary['Contact']['fields']['qualification_australia_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['qualification_australia_c']['labelValue']='Qualification/Course';
+
+ 
+
  // created: 2021-08-24 17:38:26
 $dictionary['Contact']['fields']['nacimiento_conyuge_c']['inline_edit']='';
 $dictionary['Contact']['fields']['nacimiento_conyuge_c']['options']='date_range_search_dom';
@@ -777,6 +831,12 @@ $dictionary['Contact']['fields']['ocupacion_conyuge_c']['labelValue']='Ocupació
 $dictionary['Contact']['fields']['phone_work']['inline_edit']='';
 $dictionary['Contact']['fields']['phone_work']['comments']='Work phone number of the contact';
 $dictionary['Contact']['fields']['phone_work']['merge_filter']='disabled';
+
+ 
+
+ // created: 2022-05-06 15:18:36
+$dictionary['Contact']['fields']['contacto_emergencia_famname_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['contacto_emergencia_famname_c']['labelValue']='contacto emergencia famname';
 
  
 
@@ -807,6 +867,12 @@ $dictionary['Contact']['fields']['first_name']['audited']=true;
  // created: 2021-08-24 17:28:42
 $dictionary['Contact']['fields']['direccion_c']['inline_edit']='';
 $dictionary['Contact']['fields']['direccion_c']['labelValue']='Direccion';
+
+ 
+
+ // created: 2022-05-06 15:27:58
+$dictionary['Contact']['fields']['date_completed_proficiency_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['date_completed_proficiency_c']['labelValue']='Date completed';
 
  
 
@@ -848,6 +914,12 @@ $dictionary['Contact']['fields']['ciudad_nacimiento_c']['labelValue']='Ciudad de
 
  
 
+ // created: 2022-05-06 15:40:04
+$dictionary['Contact']['fields']['state_australia_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['state_australia_c']['labelValue']='State';
+
+ 
+
  // created: 2021-08-24 17:21:32
 $dictionary['Contact']['fields']['last_name']['inline_edit']='';
 $dictionary['Contact']['fields']['last_name']['comments']='Last name of the contact';
@@ -857,9 +929,21 @@ $dictionary['Contact']['fields']['last_name']['audited']=true;
 
  
 
+ // created: 2022-05-06 15:41:29
+$dictionary['Contact']['fields']['date_completed_australia_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['date_completed_australia_c']['labelValue']='Date completed';
+
+ 
+
  // created: 2021-08-24 17:29:08
 $dictionary['Contact']['fields']['celular_contacto_emergencia_c']['inline_edit']='';
 $dictionary['Contact']['fields']['celular_contacto_emergencia_c']['labelValue']='Celular Contacto Emergencia';
+
+ 
+
+ // created: 2022-05-06 15:40:58
+$dictionary['Contact']['fields']['date_started_australia_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['date_started_australia_c']['labelValue']='Date started';
 
  
 
@@ -923,6 +1007,12 @@ $dictionary['Contact']['fields']['identificacion_australia_c']['labelValue']='Id
 
  
 
+ // created: 2022-03-15 01:38:26
+$dictionary['Contact']['fields']['nationality_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['nationality_c']['labelValue']='Nacionalidad';
+
+ 
+
  // created: 2021-08-24 17:22:21
 $dictionary['Contact']['fields']['title']['inline_edit']='';
 $dictionary['Contact']['fields']['title']['comments']='The title of the contact';
@@ -961,6 +1051,18 @@ $dictionary['Contact']['fields']['cuenta_bancaria_australia_c']['labelValue']='C
 $dictionary['Contact']['fields']['date_modified']['audited']=true;
 $dictionary['Contact']['fields']['date_modified']['comments']='Date record last modified';
 $dictionary['Contact']['fields']['date_modified']['merge_filter']='disabled';
+
+ 
+
+ // created: 2022-05-06 15:17:24
+$dictionary['Contact']['fields']['contacto_emergencia_firstnam_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['contacto_emergencia_firstnam_c']['labelValue']='First Name';
+
+ 
+
+ // created: 2022-05-06 15:27:11
+$dictionary['Contact']['fields']['date_started_proficiency_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['date_started_proficiency_c']['labelValue']='Date started';
 
  
 ?>

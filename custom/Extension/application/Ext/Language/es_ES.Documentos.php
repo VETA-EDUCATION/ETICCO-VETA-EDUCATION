@@ -39,11 +39,14 @@
  */
 
 $app_list_strings['doc_nacionalidad_list']['Colombiano'] = 'Colombiano';
-$app_list_strings['moduleList']['Doc_Plantillas'] = 'Plantillas';
 $app_list_strings['moduleList']['Doc_Comentarios'] = 'Comentarios';
+$app_list_strings['moduleList']['Doc_Plantillas'] = 'Plantillas';
 $app_list_strings['moduleList']['Doc_DocsSolicitados'] = 'Documentos Solicitados';
-$app_list_strings['moduleList']['Doc_Documentos_Adic'] = 'Documentos Adicionales';
 $app_list_strings['moduleList']['Doc_Documentos'] = 'Documentos';
+$app_list_strings['moduleList']['Doc_ComentariosColEstAge'] = 'Comentarios Col Est Age';
+$app_list_strings['moduleList']['Doc_ComentariosColAge'] = 'Comentarios Colegio Agencia';
+$app_list_strings['moduleList']['Doc_Documentos_Adic'] = 'Documentos Adicionales';
+$app_list_strings['moduleList']['Doc_DocSolicitadosColegio'] = 'Documentos Solicitados Colegio';
 $app_list_strings['doc_estadodocumento_list']['Pendiente'] = 'Pendiente';
 $app_list_strings['doc_estadodocumento_list']['Cargado'] = 'Cargado';
 $app_list_strings['doc_estadodocumento_list']['Aprobado'] = 'Aprobado';

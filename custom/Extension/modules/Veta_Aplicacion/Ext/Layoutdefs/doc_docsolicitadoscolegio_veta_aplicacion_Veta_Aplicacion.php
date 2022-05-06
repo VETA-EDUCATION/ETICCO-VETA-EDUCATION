@@ -1,13 +1,13 @@
 <?php
  // created: 2022-03-22 09:00:20
-$layout_defs["Doc_Documentos_Adic"]["subpanel_setup"]['doc_documentos_adic_opportunities'] = array (
+$layout_defs["Veta_Aplicacion"]["subpanel_setup"]['doc_docsolicitadoscolegio_veta_aplicacion'] = array (
   'order' => 100,
-  'module' => 'Opportunities',
+  'module' => 'Doc_DocSolicitadosColegio',
   'subpanel_name' => 'default',
   'sort_order' => 'asc',
   'sort_by' => 'id',
-  'title_key' => 'LBL_DOC_DOCUMENTOS_ADIC_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE',
-  'get_subpanel_data' => 'doc_documentos_adic_opportunities',
+  'title_key' => 'LBL_DOC_DOCSOLICITADOSCOLEGIO_VETA_APLICACION_FROM_DOC_DOCSOLICITADOSCOLEGIO_TITLE',
+  'get_subpanel_data' => 'doc_docsolicitadoscolegio_veta_aplicacion',
   'top_buttons' => 
   array (
     0 => 
