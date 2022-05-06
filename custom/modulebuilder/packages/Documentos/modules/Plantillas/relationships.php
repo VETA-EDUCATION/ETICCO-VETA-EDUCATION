@@ -72,4 +72,21 @@ $relationships = array (
     'from_studio' => false,
     'relationship_name' => 'doc_plantillas_opportunities',
   ),
+  'doc_plantillas_veta_college' => 
+  array (
+    'rhs_label' => 'College',
+    'lhs_label' => 'Plantillas',
+    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => 'default',
+    'lhs_module' => 'Doc_Plantillas',
+    'rhs_module' => 'Veta_College',
+    'relationship_type' => 'many-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'doc_plantillas_veta_college',
+  ),
 );

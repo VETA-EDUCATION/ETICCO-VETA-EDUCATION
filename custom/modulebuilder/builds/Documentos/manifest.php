@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Documentos',
-  'published_date' => '2021-08-07 23:53:01',
+  'published_date' => '2022-03-22 13:00:19',
   'type' => 'module',
-  'version' => 1628380381,
+  'version' => 1647954019,
   'remove_tables' => 'prompt',
 );
 
@@ -76,16 +76,16 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'module' => 'Doc_Comentarios',
-      'class' => 'Doc_Comentarios',
-      'path' => 'modules/Doc_Comentarios/Doc_Comentarios.php',
+      'module' => 'Doc_ComentariosColEstAge',
+      'class' => 'Doc_ComentariosColEstAge',
+      'path' => 'modules/Doc_ComentariosColEstAge/Doc_ComentariosColEstAge.php',
       'tab' => true,
     ),
     1 => 
     array (
-      'module' => 'Doc_DocsSolicitados',
-      'class' => 'Doc_DocsSolicitados',
-      'path' => 'modules/Doc_DocsSolicitados/Doc_DocsSolicitados.php',
+      'module' => 'Doc_Comentarios',
+      'class' => 'Doc_Comentarios',
+      'path' => 'modules/Doc_Comentarios/Doc_Comentarios.php',
       'tab' => true,
     ),
     2 => 
@@ -97,35 +97,56 @@ $installdefs = array (
     ),
     3 => 
     array (
+      'module' => 'Doc_DocsSolicitados',
+      'class' => 'Doc_DocsSolicitados',
+      'path' => 'modules/Doc_DocsSolicitados/Doc_DocsSolicitados.php',
+      'tab' => true,
+    ),
+    4 => 
+    array (
       'module' => 'Doc_Documentos_Adic',
       'class' => 'Doc_Documentos_Adic',
       'path' => 'modules/Doc_Documentos_Adic/Doc_Documentos_Adic.php',
       'tab' => false,
     ),
-    4 => 
+    5 => 
+    array (
+      'module' => 'Doc_ComentariosColAge',
+      'class' => 'Doc_ComentariosColAge',
+      'path' => 'modules/Doc_ComentariosColAge/Doc_ComentariosColAge.php',
+      'tab' => true,
+    ),
+    6 => 
     array (
       'module' => 'Doc_Documentos',
       'class' => 'Doc_Documentos',
       'path' => 'modules/Doc_Documentos/Doc_Documentos.php',
       'tab' => true,
     ),
+    7 => 
+    array (
+      'module' => 'Doc_DocSolicitadosColegio',
+      'class' => 'Doc_DocSolicitadosColegio',
+      'path' => 'modules/Doc_DocSolicitadosColegio/Doc_DocSolicitadosColegio.php',
+      'tab' => false,
+    ),
   ),
   'layoutdefs' => 
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_comentarios_opportunities_Opportunities.php',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_comentarioscolestage_opportunities_Opportunities.php',
       'to_module' => 'Opportunities',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docssolicitados_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_comentarioscolestage_opportunities_Doc_ComentariosColEstAge.php',
+      'to_module' => 'Doc_ComentariosColEstAge',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docssolicitados_doc_documentos_Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_comentarios_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
     ),
     3 => 
     array (
@@ -149,40 +170,124 @@ $installdefs = array (
     ),
     7 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_documentos_adic_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_plantillas_veta_college_Veta_College.php',
+      'to_module' => 'Veta_College',
     ),
     8 => 
     array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_plantillas_veta_college_Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
+    ),
+    9 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docssolicitados_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    10 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docssolicitados_doc_documentos_Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+    ),
+    11 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docssolicitados_doc_plantillas_Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
+    ),
+    12 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docssolicitados_doc_plantillas_Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_documentos_adic_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    14 => 
+    array (
       'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_documentos_adic_opportunities_Doc_Documentos_Adic.php',
       'to_module' => 'Doc_Documentos_Adic',
+    ),
+    15 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_comentarioscolage_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    16 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_comentarioscolage_opportunities_Doc_ComentariosColAge.php',
+      'to_module' => 'Doc_ComentariosColAge',
+    ),
+    17 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docsolicitadoscolegio_veta_aplicacion_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    18 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docsolicitadoscolegio_veta_aplicacion_Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
+    ),
+    19 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docsolicitadoscolegio_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    20 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/layoutdefs/doc_docsolicitadoscolegio_opportunities_Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
     ),
   ),
   'relationships' => 
   array (
     0 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_comentarios_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_comentarioscolestage_opportunitiesMetaData.php',
     ),
     1 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docssolicitados_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_comentarios_opportunitiesMetaData.php',
     ),
     2 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docssolicitados_doc_documentosMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_plantillas_doc_documentosMetaData.php',
     ),
     3 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_plantillas_doc_documentosMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_plantillas_opportunitiesMetaData.php',
     ),
     4 => 
     array (
-      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_plantillas_opportunitiesMetaData.php',
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_plantillas_veta_collegeMetaData.php',
     ),
     5 => 
     array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docssolicitados_opportunitiesMetaData.php',
+    ),
+    6 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docssolicitados_doc_documentosMetaData.php',
+    ),
+    7 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docssolicitados_doc_plantillasMetaData.php',
+    ),
+    8 => 
+    array (
       'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_documentos_adic_opportunitiesMetaData.php',
+    ),
+    9 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_comentarioscolage_opportunitiesMetaData.php',
+    ),
+    10 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docsolicitadoscolegio_veta_aplicacionMetaData.php',
+    ),
+    11 => 
+    array (
+      'meta_data' => '<basepath>/SugarModules/relationships/relationships/doc_docsolicitadoscolegio_opportunitiesMetaData.php',
     ),
   ),
   'image_dir' => '<basepath>/icons',
@@ -190,13 +295,13 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Doc_Comentarios',
-      'to' => 'modules/Doc_Comentarios',
+      'from' => '<basepath>/SugarModules/modules/Doc_ComentariosColEstAge',
+      'to' => 'modules/Doc_ComentariosColEstAge',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Doc_DocsSolicitados',
-      'to' => 'modules/Doc_DocsSolicitados',
+      'from' => '<basepath>/SugarModules/modules/Doc_Comentarios',
+      'to' => 'modules/Doc_Comentarios',
     ),
     2 => 
     array (
@@ -205,51 +310,66 @@ $installdefs = array (
     ),
     3 => 
     array (
-      'from' => '<basepath>/SugarModules/modules/Doc_Documentos_Adic',
-      'to' => 'modules/Doc_Documentos_Adic',
+      'from' => '<basepath>/SugarModules/modules/Doc_DocsSolicitados',
+      'to' => 'modules/Doc_DocsSolicitados',
     ),
     4 => 
     array (
+      'from' => '<basepath>/SugarModules/modules/Doc_Documentos_Adic',
+      'to' => 'modules/Doc_Documentos_Adic',
+    ),
+    5 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Doc_ComentariosColAge',
+      'to' => 'modules/Doc_ComentariosColAge',
+    ),
+    6 => 
+    array (
       'from' => '<basepath>/SugarModules/modules/Doc_Documentos',
       'to' => 'modules/Doc_Documentos',
+    ),
+    7 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/Doc_DocSolicitadosColegio',
+      'to' => 'modules/Doc_DocSolicitadosColegio',
     ),
   ),
   'language' => 
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_Comentarios.php',
-      'to_module' => 'Doc_Comentarios',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_Comentarios.php',
-      'to_module' => 'Doc_Comentarios',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_ComentariosColEstAge.php',
+      'to_module' => 'Doc_ComentariosColEstAge',
       'language' => 'en_us',
     ),
     3 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_ComentariosColEstAge.php',
+      'to_module' => 'Doc_ComentariosColEstAge',
       'language' => 'es_ES',
     ),
     4 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Comentarios.php',
+      'to_module' => 'Doc_Comentarios',
       'language' => 'en_us',
     ),
     5 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Comentarios.php',
+      'to_module' => 'Doc_Comentarios',
       'language' => 'es_ES',
     ),
     6 => 
@@ -278,26 +398,26 @@ $installdefs = array (
     ),
     10 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
       'language' => 'en_us',
     ),
     11 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
       'language' => 'es_ES',
     ),
     12 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_Documentos.php',
-      'to_module' => 'Doc_Documentos',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'en_us',
     ),
     13 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Doc_Documentos.php',
-      'to_module' => 'Doc_Documentos',
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
     14 => 
@@ -314,14 +434,14 @@ $installdefs = array (
     ),
     16 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_College.php',
+      'to_module' => 'Veta_College',
       'language' => 'en_us',
     ),
     17 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_College.php',
+      'to_module' => 'Veta_College',
       'language' => 'es_ES',
     ),
     18 => 
@@ -338,35 +458,179 @@ $installdefs = array (
     ),
     20 => 
     array (
-      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
-      'to_module' => 'Opportunities',
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
       'language' => 'en_us',
     ),
     21 => 
     array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+      'language' => 'es_ES',
+    ),
+    22 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'en_us',
+    ),
+    23 => 
+    array (
       'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
       'to_module' => 'Opportunities',
       'language' => 'es_ES',
     ),
-    22 => 
+    24 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Documentos.php',
+      'to_module' => 'Doc_Documentos',
+      'language' => 'en_us',
+    ),
+    25 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Documentos.php',
+      'to_module' => 'Doc_Documentos',
+      'language' => 'es_ES',
+    ),
+    26 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+      'language' => 'en_us',
+    ),
+    27 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+      'language' => 'es_ES',
+    ),
+    28 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
+      'language' => 'en_us',
+    ),
+    29 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
+      'language' => 'es_ES',
+    ),
+    30 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+      'language' => 'en_us',
+    ),
+    31 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+      'language' => 'es_ES',
+    ),
+    32 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'en_us',
+    ),
+    33 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'es_ES',
+    ),
+    34 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/language/Doc_Documentos_Adic.php',
       'to_module' => 'Doc_Documentos_Adic',
       'language' => 'en_us',
     ),
-    23 => 
+    35 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/language/Doc_Documentos_Adic.php',
       'to_module' => 'Doc_Documentos_Adic',
       'language' => 'es_ES',
     ),
-    24 => 
+    36 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'en_us',
+    ),
+    37 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'es_ES',
+    ),
+    38 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_ComentariosColAge.php',
+      'to_module' => 'Doc_ComentariosColAge',
+      'language' => 'en_us',
+    ),
+    39 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_ComentariosColAge.php',
+      'to_module' => 'Doc_ComentariosColAge',
+      'language' => 'es_ES',
+    ),
+    40 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+      'language' => 'en_us',
+    ),
+    41 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+      'language' => 'es_ES',
+    ),
+    42 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
+      'language' => 'en_us',
+    ),
+    43 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
+      'language' => 'es_ES',
+    ),
+    44 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'en_us',
+    ),
+    45 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Opportunities.php',
+      'to_module' => 'Opportunities',
+      'language' => 'es_ES',
+    ),
+    46 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
+      'language' => 'en_us',
+    ),
+    47 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/language/Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
+      'language' => 'es_ES',
+    ),
+    48 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/es_ES.lang.php',
       'to_module' => 'application',
       'language' => 'es_ES',
     ),
-    25 => 
+    49 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
       'to_module' => 'application',
@@ -377,63 +641,123 @@ $installdefs = array (
   array (
     0 => 
     array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_comentarioscolestage_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    1 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_comentarioscolestage_opportunities_Doc_ComentariosColEstAge.php',
+      'to_module' => 'Doc_ComentariosColEstAge',
+    ),
+    2 => 
+    array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_comentarios_opportunities_Doc_Comentarios.php',
       'to_module' => 'Doc_Comentarios',
     ),
-    1 => 
+    3 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_comentarios_opportunities_Opportunities.php',
       'to_module' => 'Opportunities',
     ),
-    2 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_opportunities_Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
-    ),
-    3 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_opportunities_Opportunities.php',
-      'to_module' => 'Opportunities',
-    ),
     4 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_doc_documentos_Doc_Documentos.php',
-      'to_module' => 'Doc_Documentos',
-    ),
-    5 => 
-    array (
-      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_doc_documentos_Doc_DocsSolicitados.php',
-      'to_module' => 'Doc_DocsSolicitados',
-    ),
-    6 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_plantillas_doc_documentos_Doc_Documentos.php',
       'to_module' => 'Doc_Documentos',
     ),
-    7 => 
+    5 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_plantillas_doc_documentos_Doc_Plantillas.php',
       'to_module' => 'Doc_Plantillas',
     ),
-    8 => 
+    6 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_plantillas_opportunities_Opportunities.php',
       'to_module' => 'Opportunities',
     ),
-    9 => 
+    7 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_plantillas_opportunities_Doc_Plantillas.php',
       'to_module' => 'Doc_Plantillas',
     ),
+    8 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_plantillas_veta_college_Veta_College.php',
+      'to_module' => 'Veta_College',
+    ),
+    9 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_plantillas_veta_college_Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
+    ),
     10 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_opportunities_Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+    ),
+    11 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    12 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_doc_documentos_Doc_Documentos.php',
+      'to_module' => 'Doc_Documentos',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_doc_documentos_Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+    ),
+    14 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_doc_plantillas_Doc_Plantillas.php',
+      'to_module' => 'Doc_Plantillas',
+    ),
+    15 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docssolicitados_doc_plantillas_Doc_DocsSolicitados.php',
+      'to_module' => 'Doc_DocsSolicitados',
+    ),
+    16 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_documentos_adic_opportunities_Opportunities.php',
       'to_module' => 'Opportunities',
     ),
-    11 => 
+    17 => 
     array (
       'from' => '<basepath>/SugarModules/relationships/vardefs/doc_documentos_adic_opportunities_Doc_Documentos_Adic.php',
       'to_module' => 'Doc_Documentos_Adic',
+    ),
+    18 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_comentarioscolage_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    19 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_comentarioscolage_opportunities_Doc_ComentariosColAge.php',
+      'to_module' => 'Doc_ComentariosColAge',
+    ),
+    20 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docsolicitadoscolegio_veta_aplicacion_Veta_Aplicacion.php',
+      'to_module' => 'Veta_Aplicacion',
+    ),
+    21 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docsolicitadoscolegio_veta_aplicacion_Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
+    ),
+    22 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docsolicitadoscolegio_opportunities_Opportunities.php',
+      'to_module' => 'Opportunities',
+    ),
+    23 => 
+    array (
+      'from' => '<basepath>/SugarModules/relationships/vardefs/doc_docsolicitadoscolegio_opportunities_Doc_DocSolicitadosColegio.php',
+      'to_module' => 'Doc_DocSolicitadosColegio',
     ),
   ),
   'layoutfields' => 

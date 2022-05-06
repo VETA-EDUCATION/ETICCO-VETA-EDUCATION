@@ -124,4 +124,4 @@ $dictionary['Doc_DocsSolicitados'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Doc_DocsSolicitados', 'Doc_DocsSolicitados', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Doc_DocsSolicitados', 'Doc_DocsSolicitados', array('basic','assignable','security_groups'));

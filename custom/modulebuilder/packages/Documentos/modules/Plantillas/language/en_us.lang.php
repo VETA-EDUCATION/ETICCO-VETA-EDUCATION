@@ -78,6 +78,5 @@ $mod_strings = array (
   'LBL_PAIS' => 'Pais',
   'LBL_TIPOVISA' => 'Tipo visa',
   'LBL_NACIONALIDAD' => 'Nacionalidad',
-  'LBL_COLLEGE_VETA_COLLEGE_ID' => 'College (related  ID)',
   'LBL_COLLEGE' => 'College',
 );

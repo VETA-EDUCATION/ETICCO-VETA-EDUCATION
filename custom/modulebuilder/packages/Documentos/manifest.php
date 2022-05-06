@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Documentos',
-  'published_date' => '2021-11-19 18:42:53',
+  'published_date' => '2022-03-22 13:00:18',
   'type' => 'module',
-  'version' => 1637347373,
+  'version' => 1647954018,
   'remove_tables' => 'prompt',
 );
 

@@ -70,4 +70,21 @@ $relationships = array (
     'from_studio' => false,
     'relationship_name' => 'doc_docssolicitados_doc_documentos',
   ),
+  'doc_docssolicitados_doc_plantillas' => 
+  array (
+    'rhs_label' => 'Plantillas',
+    'lhs_label' => 'Documentos Solicitados',
+    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => 'default',
+    'lhs_module' => 'Doc_DocsSolicitados',
+    'rhs_module' => 'Doc_Plantillas',
+    'relationship_type' => 'many-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'doc_docssolicitados_doc_plantillas',
+  ),
 );

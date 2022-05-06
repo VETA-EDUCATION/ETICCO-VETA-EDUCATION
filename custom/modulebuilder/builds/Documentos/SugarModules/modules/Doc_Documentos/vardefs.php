@@ -162,4 +162,4 @@ $dictionary['Doc_Documentos'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Doc_Documentos', 'Doc_Documentos', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Doc_Documentos', 'Doc_Documentos', array('basic','assignable','security_groups'));

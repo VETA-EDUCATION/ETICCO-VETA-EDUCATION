@@ -225,6 +225,55 @@ $dictionary['Doc_Documentos_Adic'] = array(
     'enable_range_search' => false,
     'dbType' => 'datetime',
   ),
+  'doc_plantillas_id_c' => 
+  array (
+    'required' => false,
+    'name' => 'doc_plantillas_id_c',
+    'vname' => 'LBL_PLANTILLA_DOC_PLANTILLAS_ID',
+    'type' => 'id',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => 0,
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => false,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => 36,
+    'size' => '20',
+  ),
+  'plantilla' => 
+  array (
+    'required' => false,
+    'source' => 'non-db',
+    'name' => 'plantilla',
+    'vname' => 'LBL_PLANTILLA',
+    'type' => 'relate',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => false,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => '255',
+    'size' => '20',
+    'id_name' => 'doc_plantillas_id_c',
+    'ext2' => 'Doc_Plantillas',
+    'module' => 'Doc_Plantillas',
+    'rname' => 'name',
+    'quicksearch' => 'enabled',
+    'studio' => 'visible',
+  ),
 ),
     'relationships' => array (
 ),
@@ -234,4 +283,4 @@ $dictionary['Doc_Documentos_Adic'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Doc_Documentos_Adic', 'Doc_Documentos_Adic', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Doc_Documentos_Adic', 'Doc_Documentos_Adic', array('basic','assignable','security_groups'));

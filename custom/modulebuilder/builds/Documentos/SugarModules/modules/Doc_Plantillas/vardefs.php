@@ -142,55 +142,6 @@ $dictionary['Doc_Plantillas'] = array(
     'dbType' => 'enum',
     'parentenum' => '',
   ),
-  'veta_college_id_c' => 
-  array (
-    'required' => false,
-    'name' => 'veta_college_id_c',
-    'vname' => 'LBL_COLLEGE_VETA_COLLEGE_ID',
-    'type' => 'id',
-    'massupdate' => 0,
-    'no_default' => false,
-    'comments' => '',
-    'help' => '',
-    'importable' => 'true',
-    'duplicate_merge' => 'disabled',
-    'duplicate_merge_dom_value' => 0,
-    'audited' => false,
-    'inline_edit' => true,
-    'reportable' => false,
-    'unified_search' => false,
-    'merge_filter' => 'disabled',
-    'len' => 36,
-    'size' => '20',
-  ),
-  'college' => 
-  array (
-    'required' => false,
-    'source' => 'non-db',
-    'name' => 'college',
-    'vname' => 'LBL_COLLEGE',
-    'type' => 'relate',
-    'massupdate' => 0,
-    'no_default' => false,
-    'comments' => '',
-    'help' => '',
-    'importable' => 'true',
-    'duplicate_merge' => 'disabled',
-    'duplicate_merge_dom_value' => '0',
-    'audited' => false,
-    'inline_edit' => true,
-    'reportable' => true,
-    'unified_search' => false,
-    'merge_filter' => 'disabled',
-    'len' => '255',
-    'size' => '20',
-    'id_name' => 'veta_college_id_c',
-    'ext2' => 'Veta_College',
-    'module' => 'Veta_College',
-    'rname' => 'name',
-    'quicksearch' => 'enabled',
-    'studio' => 'visible',
-  ),
 ),
     'relationships' => array (
 ),
@@ -200,4 +151,4 @@ $dictionary['Doc_Plantillas'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Doc_Plantillas', 'Doc_Plantillas', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Doc_Plantillas', 'Doc_Plantillas', array('basic','assignable','security_groups'));

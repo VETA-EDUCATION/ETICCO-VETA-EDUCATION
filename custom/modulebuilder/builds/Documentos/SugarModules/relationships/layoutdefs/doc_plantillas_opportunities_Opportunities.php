@@ -1,5 +1,5 @@
 <?php
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:19
 $layout_defs["Opportunities"]["subpanel_setup"]['doc_plantillas_opportunities'] = array (
   'order' => 100,
   'module' => 'Doc_Plantillas',

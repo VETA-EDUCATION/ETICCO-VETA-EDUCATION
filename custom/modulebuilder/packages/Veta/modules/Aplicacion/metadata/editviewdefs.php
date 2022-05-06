@@ -132,13 +132,13 @@ array (
           array (
             'name' => 'curso',
             'label' => 'LBL_CURSO',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
           1 => 
           array (
             'name' => 'jornada',
             'label' => 'LBL_JORNADA',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
         ),
         1 => 
@@ -147,7 +147,7 @@ array (
           array (
             'name' => 'campus',
             'label' => 'LBL_CAMPUS',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
           1 => '',
         ),
@@ -157,13 +157,13 @@ array (
           array (
             'name' => 'duracion',
             'label' => 'LBL_DURACION',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
           1 => 
           array (
             'name' => 'intensidad',
             'label' => 'LBL_INTENSIDAD',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
         ),
         3 => 
@@ -173,13 +173,13 @@ array (
             'name' => 'tipo_curso',
             'studio' => 'visible',
             'label' => 'LBL_TIPO_CURSO',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
           1 => 
           array (
             'name' => 'tps',
             'label' => 'LBL_TPS',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
         ),
         4 => 
@@ -188,7 +188,7 @@ array (
           array (
             'name' => 'vacaciones',
             'label' => 'LBL_VACACIONES',
-            'type'=>'readonly',
+            'type' => 'readonly',
           ),
           1 => '',
         ),
