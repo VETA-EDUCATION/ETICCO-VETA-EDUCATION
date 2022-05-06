@@ -1,5 +1,5 @@
 <?php
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:20
 $dictionary["Opportunity"]["fields"]["doc_documentos_adic_opportunities"] = array (
   'name' => 'doc_documentos_adic_opportunities',
   'type' => 'link',

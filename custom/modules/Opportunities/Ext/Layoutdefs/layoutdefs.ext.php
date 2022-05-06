@@ -26,7 +26,7 @@ $layout_defs["Opportunities"]["subpanel_setup"]['veta_pagocolegios_opportunities
 );
 
 
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:20
 $layout_defs["Opportunities"]["subpanel_setup"]['doc_documentos_adic_opportunities'] = array (
   'order' => 100,
   'module' => 'Doc_Documentos_Adic',
@@ -41,12 +41,40 @@ $layout_defs["Opportunities"]["subpanel_setup"]['doc_documentos_adic_opportuniti
     array (
       'widget_class' => 'SubPanelTopButtonQuickCreate',
     ),
-    
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
   ),
 );
 
 
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:20
+$layout_defs["Opportunities"]["subpanel_setup"]['doc_docsolicitadoscolegio_opportunities'] = array (
+  'order' => 100,
+  'module' => 'Doc_DocSolicitadosColegio',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_DOC_DOCSOLICITADOSCOLEGIO_OPPORTUNITIES_FROM_DOC_DOCSOLICITADOSCOLEGIO_TITLE',
+  'get_subpanel_data' => 'doc_docsolicitadoscolegio_opportunities',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2022-03-22 09:00:20
 $layout_defs["Opportunities"]["subpanel_setup"]['doc_docssolicitados_opportunities'] = array (
   'order' => 100,
   'module' => 'Doc_DocsSolicitados',
@@ -57,7 +85,15 @@ $layout_defs["Opportunities"]["subpanel_setup"]['doc_docssolicitados_opportuniti
   'get_subpanel_data' => 'doc_docssolicitados_opportunities',
   'top_buttons' => 
   array (
-    
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
   ),
 );
 
@@ -86,7 +122,7 @@ $layout_defs["Opportunities"]["subpanel_setup"]['veta_aplicacion_opportunities']
 );
 
 
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:19
 $layout_defs["Opportunities"]["subpanel_setup"]['doc_comentarios_opportunities'] = array (
   'order' => 100,
   'module' => 'Doc_Comentarios',
@@ -101,7 +137,35 @@ $layout_defs["Opportunities"]["subpanel_setup"]['doc_comentarios_opportunities']
     array (
       'widget_class' => 'SubPanelTopButtonQuickCreate',
     ),
-    
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2022-03-22 09:00:20
+$layout_defs["Opportunities"]["subpanel_setup"]['doc_comentarioscolage_opportunities'] = array (
+  'order' => 100,
+  'module' => 'Doc_ComentariosColAge',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_DOC_COMENTARIOSCOLAGE_OPPORTUNITIES_FROM_DOC_COMENTARIOSCOLAGE_TITLE',
+  'get_subpanel_data' => 'doc_comentarioscolage_opportunities',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
   ),
 );
 
@@ -188,7 +252,7 @@ $layout_defs["Opportunities"]["subpanel_setup"]['veta_visa_opportunities'] = arr
 );
 
 
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:19
 $layout_defs["Opportunities"]["subpanel_setup"]['doc_plantillas_opportunities'] = array (
   'order' => 100,
   'module' => 'Doc_Plantillas',
@@ -199,8 +263,11 @@ $layout_defs["Opportunities"]["subpanel_setup"]['doc_plantillas_opportunities'] 
   'get_subpanel_data' => 'doc_plantillas_opportunities',
   'top_buttons' => 
   array (
-    
     0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
     array (
       'widget_class' => 'SubPanelTopSelectButton',
       'mode' => 'MultiSelect',
@@ -233,6 +300,38 @@ $layout_defs["Opportunities"]["subpanel_setup"]['veta_coe_opportunities'] = arra
 );
 
 
+ // created: 2022-03-22 09:00:19
+$layout_defs["Opportunities"]["subpanel_setup"]['doc_comentarioscolestage_opportunities'] = array (
+  'order' => 100,
+  'module' => 'Doc_ComentariosColEstAge',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_DOC_COMENTARIOSCOLESTAGE_OPPORTUNITIES_FROM_DOC_COMENTARIOSCOLESTAGE_TITLE',
+  'get_subpanel_data' => 'doc_comentarioscolestage_opportunities',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Opportunities']['subpanel_setup']['doc_comentarioscolestage_opportunities']['override_subpanel_name'] = 'Opportunity_subpanel_doc_comentarioscolestage_opportunities';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Opportunities']['subpanel_setup']['doc_comentarioscolage_opportunities']['override_subpanel_name'] = 'Opportunity_subpanel_doc_comentarioscolage_opportunities';
+
+
 //auto-generated file DO NOT EDIT
 $layout_defs['Opportunities']['subpanel_setup']['doc_documentos_adic_opportunities']['override_subpanel_name'] = 'Opportunity_subpanel_doc_documentos_adic_opportunities';
 
@@ -247,6 +346,10 @@ $layout_defs['Opportunities']['subpanel_setup']['opportunities_cases_1']['overri
 
 //auto-generated file DO NOT EDIT
 $layout_defs['Opportunities']['subpanel_setup']['veta_coe_opportunities']['override_subpanel_name'] = 'Opportunity_subpanel_veta_coe_opportunities';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Opportunities']['subpanel_setup']['doc_docsolicitadoscolegio_opportunities']['override_subpanel_name'] = 'Opportunity_subpanel_doc_docsolicitadoscolegio_opportunities';
 
 
 //auto-generated file DO NOT EDIT

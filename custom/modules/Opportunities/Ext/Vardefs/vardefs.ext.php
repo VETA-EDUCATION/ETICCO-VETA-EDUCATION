@@ -49,7 +49,7 @@ $dictionary["Opportunity"]["fields"]["veta_pagocolegios_opportunities"] = array 
 );
 
 
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:20
 $dictionary["Opportunity"]["fields"]["doc_documentos_adic_opportunities"] = array (
   'name' => 'doc_documentos_adic_opportunities',
   'type' => 'link',
@@ -61,7 +61,19 @@ $dictionary["Opportunity"]["fields"]["doc_documentos_adic_opportunities"] = arra
 );
 
 
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:20
+$dictionary["Opportunity"]["fields"]["doc_docsolicitadoscolegio_opportunities"] = array (
+  'name' => 'doc_docsolicitadoscolegio_opportunities',
+  'type' => 'link',
+  'relationship' => 'doc_docsolicitadoscolegio_opportunities',
+  'source' => 'non-db',
+  'module' => 'Doc_DocSolicitadosColegio',
+  'bean_name' => 'Doc_DocSolicitadosColegio',
+  'vname' => 'LBL_DOC_DOCSOLICITADOSCOLEGIO_OPPORTUNITIES_FROM_DOC_DOCSOLICITADOSCOLEGIO_TITLE',
+);
+
+
+// created: 2022-03-22 09:00:20
 $dictionary["Opportunity"]["fields"]["doc_docssolicitados_opportunities"] = array (
   'name' => 'doc_docssolicitados_opportunities',
   'type' => 'link',
@@ -97,7 +109,7 @@ $dictionary["Opportunity"]["fields"]["veta_aplicacion_opportunities"] = array (
 );
 
 
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:19
 $dictionary["Opportunity"]["fields"]["doc_comentarios_opportunities"] = array (
   'name' => 'doc_comentarios_opportunities',
   'type' => 'link',
@@ -107,6 +119,18 @@ $dictionary["Opportunity"]["fields"]["doc_comentarios_opportunities"] = array (
   'bean_name' => 'Doc_Comentarios',
   'side' => 'right',
   'vname' => 'LBL_DOC_COMENTARIOS_OPPORTUNITIES_FROM_DOC_COMENTARIOS_TITLE',
+);
+
+
+// created: 2022-03-22 09:00:20
+$dictionary["Opportunity"]["fields"]["doc_comentarioscolage_opportunities"] = array (
+  'name' => 'doc_comentarioscolage_opportunities',
+  'type' => 'link',
+  'relationship' => 'doc_comentarioscolage_opportunities',
+  'source' => 'non-db',
+  'module' => 'Doc_ComentariosColAge',
+  'bean_name' => 'Doc_ComentariosColAge',
+  'vname' => 'LBL_DOC_COMENTARIOSCOLAGE_OPPORTUNITIES_FROM_DOC_COMENTARIOSCOLAGE_TITLE',
 );
 
 
@@ -299,7 +323,7 @@ $dictionary["Opportunity"]["fields"]["veta_visa_opportunities"] = array (
 );
 
 
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:19
 $dictionary["Opportunity"]["fields"]["doc_plantillas_opportunities"] = array (
   'name' => 'doc_plantillas_opportunities',
   'type' => 'link',
@@ -331,6 +355,18 @@ $dictionary['Opportunity']['fields']['soel_fecha_expiracion_visa'] = array(
     'source' => 'non-db',
     'enable_range_search' => true,
     'options' => 'date_range_search_dom',
+);
+
+
+// created: 2022-03-22 09:00:19
+$dictionary["Opportunity"]["fields"]["doc_comentarioscolestage_opportunities"] = array (
+  'name' => 'doc_comentarioscolestage_opportunities',
+  'type' => 'link',
+  'relationship' => 'doc_comentarioscolestage_opportunities',
+  'source' => 'non-db',
+  'module' => 'Doc_ComentariosColEstAge',
+  'bean_name' => 'Doc_ComentariosColEstAge',
+  'vname' => 'LBL_DOC_COMENTARIOSCOLESTAGE_OPPORTUNITIES_FROM_DOC_COMENTARIOSCOLESTAGE_TITLE',
 );
 
 

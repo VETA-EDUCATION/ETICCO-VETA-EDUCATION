@@ -63,12 +63,15 @@ class SOELHooksListView
         }
 
         $querySolicitados =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM 
-(select COUNT(*) as SUMAS from doc_docssolicitados dd , doc_docssolicitados_opportunities_c ddoc 
-where dd.id = ddoc.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb 
-and ddoc.deleted = 0 and dd.deleted =0
-and ddoc.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."' UNION ALL
-select count(*) AS SUMAS from doc_documentos_adic_opportunities_c ddaoc 
-where ddaoc.deleted = 0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb ='".$focus->id."') T1";
+            (select COUNT(*) as SUMAS from doc_docssolicitados dd , doc_docssolicitados_opportunities_c ddoc 
+            where dd.id = ddoc.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb 
+            and ddoc.deleted = 0 and dd.deleted =0
+            and ddoc.doc_docssolicitados_opportunitiesopportunities_ida ='".$focus->id."' UNION ALL
+            select count(*) AS SUMAS from doc_documentos_adic_opportunities_c ddaoc 
+            where ddaoc.deleted = 0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb ='".$focus->id."'
+            UNION ALL
+            select COUNT(*) AS SUMAS from doc_docsolicitadoscolegio_opportunities_c ddoc 
+            where ddoc.deleted = 0 and ddoc.doc_docsolicitadoscolegio_opportunitiesopportunities_idb ='".$focus->id."') T1";
 
         $resultSolicitados = $focus->db->query($querySolicitados, true, "Error obteniendo el visto bueno comercial del requerimiento");
         $rowSolicitados = $focus->db->fetchByAssoc($resultSolicitados);
@@ -80,12 +83,16 @@ where ddaoc.deleted = 0 and ddaoc.doc_documentos_adic_opportunitiesopportunities
         }
 
         $queryPendientes =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM(
-SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
-WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Aprobado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
-UNION ALL
-select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
-where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
-and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+            SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
+            WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Aprobado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
+            UNION ALL
+            select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
+            where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
+            and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."'
+            UNION ALL
+            select count(*) as SUMAS from doc_docsolicitadoscolegio dd 
+            inner join doc_docsolicitadoscolegio_opportunities_c ddoc on dd.id = ddoc.doc_docsol92bccolegio_ida and ddoc.doc_docsolicitadoscolegio_opportunitiesopportunities_idb = '".$focus->id."'
+            where dd.estadodocumento ='Aprobado' and dd.deleted = 0 ) T1";
         $resultPendientes = $focus->db->query($queryPendientes, true, "Error obteniendo el visto bueno comercial del requerimiento");
         $rowPendientes = $focus->db->fetchByAssoc($resultPendientes);
 
@@ -95,12 +102,16 @@ and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and
         }
 
         $queryCargados =	"SELECT SUM(T1.SUMAS) AS CUENTA FROM(
-SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
-WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Cargado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
-UNION ALL
-select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
-where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
-and dda.estadodocumento ='Cargado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+            SELECT count(*) as SUMAS FROM doc_docssolicitados as a, doc_docssolicitados_opportunities_c as b
+            WHERE a.id=b.doc_docssolicitados_opportunitiesdoc_docssolicitados_idb and b.deleted=0 and a.deleted=0 and a.estadodocumento= 'Cargado' and b.doc_docssolicitados_opportunitiesopportunities_ida = '".$focus->id."'
+            UNION ALL
+            select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
+            where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
+            and dda.estadodocumento ='Cargado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."'
+            UNION ALL
+            select count(*) as SUMAS from doc_docsolicitadoscolegio dd 
+            inner join doc_docsolicitadoscolegio_opportunities_c ddoc on dd.id = ddoc.doc_docsol92bccolegio_ida and ddoc.doc_docsolicitadoscolegio_opportunitiesopportunities_idb = '".$focus->id."'
+            where dd.estadodocumento ='Cargado' and dd.deleted = 0) T1";
         $resultCargados = $focus->db->query($queryCargados, true, "Error obteniendo el visto bueno comercial del requerimiento");
         $rowCargados = $focus->db->fetchByAssoc($resultCargados);
 
@@ -114,7 +125,11 @@ and dda.estadodocumento ='Cargado' and dda.deleted = 0 and ddaoc.deleted =0 and 
 			UNION ALL
 			select count(*) as SUMAS from doc_documentos_adic dda ,doc_documentos_adic_opportunities_c ddaoc 
 			where dda.id = ddaoc.doc_documentos_adic_opportunitiesdoc_documentos_adic_ida 
-			and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."') T1";
+			and dda.estadodocumento ='Aprobado' and dda.deleted = 0 and ddaoc.deleted =0 and ddaoc.doc_documentos_adic_opportunitiesopportunities_idb = '".$focus->id."'
+			UNION ALL
+            select count(*) as SUMAS from doc_docsolicitadoscolegio dd 
+            inner join doc_docsolicitadoscolegio_opportunities_c ddoc on dd.id = ddoc.doc_docsol92bccolegio_ida and ddoc.doc_docsolicitadoscolegio_opportunitiesopportunities_idb = '".$focus->id."'
+            where dd.estadodocumento ='Aprobado' and dd.deleted = 0) T1";
         $resultAprobados = $focus->db->query($queryAprobados, true, "Error obteniendo el visto bueno comercial del requerimiento");
         $rowAprobados = $focus->db->fetchByAssoc($resultAprobados);
 
