@@ -192,8 +192,8 @@ order by fecha desc limit 1
     private function get_person( Opportunity $o )
     {
 
-        $p = null;
-
+        $p = null;		
+		
         $leads    = $o->get_linked_beans( 'leads_opportunities_1', 'Leads' );
         $contacts = $o->get_linked_beans( 'contacts_opportunities_1', 'Contacts' );
 
@@ -206,6 +206,8 @@ order by fecha desc limit 1
         {
             $p = $contact;
         }
+		
+		$p = $o;		
 
         return $p;
     }
@@ -239,7 +241,7 @@ order by fecha desc limit 1
         if ( $row != null )
         {
             $bean->soel_localizacion = $row[ 'LOCALIZACION' ];
-            $bean->soel_referido = $row[ 'REFERIDO' ];
+            $bean->soel_referido = $row[ 'REFERIDO' ];                        
 
             if ( ! empty( $row[ 'FECHAVIAJE' ] ) )
             {
@@ -276,6 +278,29 @@ order by fecha desc limit 1
 
     }
 
+    public function get_estudiante( $bean )
+    {
+
+        $p = null;
+
+        $leads    = $bean->get_linked_beans( 'contacts_opportunities_1', 'Contacts' );
+        //Opportunities
+        //$contacts = $bean->get_linked_beans( 'contacts_opportunities_1', 'Contacts' );
+
+        foreach ( $leads as $lead )
+        {
+            $p = $lead;
+        }
+
+        /*foreach ( $contacts as $contact )
+        {
+            $p = $contact;
+        }*/
+
+        return $p;
+
+    }
+
     private function asignar_info_person( &$bean )
     {
         $person = $this->get_persona( $bean );
@@ -283,7 +308,22 @@ order by fecha desc limit 1
         if ( isset( $person ) )
         {
             $bean->soel_fecha_expiracion_visa = $person->fecha_expiracion_visa_c;
-            $bean->soel_ciudad_tmp = $person->ciudad_tmp_c;
+            $bean->soel_ciudad_tmp = $person->ciudad_tmp_c; 
+            $bean->soel_mobile_phone_lead = $person->phone_mobile;
+            $bean->soel_email_lead = $person->email1;
+        } else {
+            $estudiante = $this->get_estudiante( $bean );
+            if ( isset( $estudiante ) )
+            {
+                /*
+                
+                $bean->soel_ciudad_tmp = $estudiante->ciudad_tmp_c; 
+                */
+                $bean->soel_fecha_expiracion_visa = $estudiante->fecha_expiracion_visa_c;
+                $bean->soel_mobile_phone_lead = $estudiante->phone_mobile;
+                $bean->soel_email_lead = $estudiante->email1;
+            }
+
         }
 
         return $bean;

@@ -338,5 +338,21 @@ $listViewDefs ['Opportunities'] =
                 'width' => '10%',
                 'default' => false,
             ),
+            'SOEL_MOBILE_PHONE_LEAD' =>
+            array(
+                'type' => 'varchar',
+                'studio' => 'visible',
+                'label' => 'LBL_SOEL_MOBILE_PHONE_LEAD',
+                'width' => '10%',
+                'default' => false,
+            ),
+        'SOEL_EMAIL_LEAD' =>
+            array(
+                'type' => 'varchar',
+                'studio' => 'visible',
+                'label' => 'LBL_SOEL_EMAIL_LEAD',
+                'width' => '10%',
+                'default' => false,
+            ),
     );
 ?>

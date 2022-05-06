@@ -160,4 +160,5 @@ $beanFiles['Veta_LooCorreccion'] = 'modules/Veta_LooCorreccion/Veta_LooCorreccio
 $moduleList[] = 'Veta_LooCorreccion';
 
 
+ 
 ?>

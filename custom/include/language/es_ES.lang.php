@@ -211,6 +211,7 @@ $GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list_2' ] = array(
     'Aplicacion_Pendiente'  => 'Aplicacion Pendiente',
     'Aplicacion_Enviada'    => 'Aplicación Enviada',
     'Aplicacion_Descartada' => 'Aplicacion Descartada',
+    'Descartada_Nuevo_Curso' => 'Descartada por nuevo curso',
 );
 $GLOBALS[ 'app_list_strings' ][ 'estado_visa_list' ] = array(
     'Pendiente_Luz_Verde'      => 'Pendiente Luz Verde',
@@ -234,6 +235,7 @@ $GLOBALS[ 'app_list_strings' ][ 'estado_visa_list' ] = array(
     'Visa_Negada'              => 'Visa Negada',
     'Visa_Reaplicable'         => 'Visa Reaplicable',
     'Descartada'               => 'Descartada',
+    'Nuevo_Proceso_Ventas' => 'Nuevo Proceso de Ventas',
 );
 
 $GLOBALS[ 'app_list_strings' ][ 'estado_pago_colegios_list' ] = array(
@@ -578,6 +580,7 @@ $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
   'Week1' => 'Week 1',
   'Week2' => 'Week 2',
   'Week3' => 'Week 3',
+  'Nuevo_Proceso_Ventas' => 'Nuevo Proceso de Ventas',
 );
 $GLOBALS['app_list_strings']['localizacion_list']=array (
     'Offshore' => 'Offshore',

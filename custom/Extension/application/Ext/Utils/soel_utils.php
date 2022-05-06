@@ -16,7 +16,40 @@ function getAsignadoLeads()
     {
 
         global $db;
-        $query            = "SELECT id,CONCAT(first_name , ' ' , last_name, ' (' ,  user_name  , ')') AS name  FROM users WHERE deleted = 0 ORDER BY name ASC ";
+        $query            = "SELECT id, first_name, last_name, user_name  FROM users WHERE deleted = 0 and status = 'Active' ORDER BY first_name ASC ";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {
+			$full_name = $row[ 'first_name' ] . " " . $row[ 'last_name' ] ." (". $row[ 'user_name' ].")";
+            $listvalues[ $row[ 'id' ] ] = $full_name;
+        }
+    }
+    return $listvalues;
+}
+
+function getListCustomerService_Sales()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id,CONCAT(us.first_name , ' ' , us.last_name, ' (' ,  user_name  , ')') AS name  
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0
+								and status = 'Active'								
+								and us.id = us_cstm.id_c
+								and (
+									us_cstm.user_department_c = 'Customer_service' 
+                                    or us_cstm.user_department_c = 'Sales') 
+								ORDER BY name ASC ";
         $result           = $db->query( $query, false );
         $listvalues       = array();
         $listvalues[ '' ] = '';
@@ -24,6 +57,155 @@ function getAsignadoLeads()
         while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
         {
             $listvalues[ $row[ 'id' ] ] = $row[ 'name' ];
+        }
+    }
+    return $listvalues;
+}
+
+function getListCustomerService()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id,CONCAT(us.first_name , ' ' , us.last_name, ' (' ,  user_name  , ')') AS name  
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0
+								and status = 'Active'								
+								and us.id = us_cstm.id_c
+								and us_cstm.user_department_c = 'Customer_service' ORDER BY name ASC ";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {
+            $listvalues[ $row[ 'id' ] ] = $row[ 'name' ];
+        }
+    }
+    return $listvalues;
+}
+
+function getListAdmissions()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id, us.first_name , us.last_name, user_name 
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0 
+								and status = 'Active'
+								and us.id = us_cstm.id_c
+								and us_cstm.user_department_c = 'Admissions' ORDER BY first_name ASC";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {			
+			$full_name = $row[ 'first_name' ] . " " . $row[ 'last_name' ] ." (". $row[ 'user_name' ].")";
+            $listvalues[ $row[ 'id' ] ] = $full_name;
+        }
+    }
+    return $listvalues;
+}
+
+function getListSales()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id, us.first_name , us.last_name, user_name 
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0 
+								and status = 'Active'
+								and us.id = us_cstm.id_c
+								and us_cstm.user_department_c = 'Sales' ORDER BY first_name ASC";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {			
+			$full_name = $row[ 'first_name' ] . " " . $row[ 'last_name' ] ." (". $row[ 'user_name' ].")";
+            $listvalues[ $row[ 'id' ] ] = $full_name;
+        }
+    }
+    return $listvalues;
+}
+
+function getListVisas()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id, us.first_name , us.last_name, user_name 
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0 
+								and status = 'Active'
+								and us.id = us_cstm.id_c
+								and us_cstm.user_department_c = 'Visas' ORDER BY first_name ASC";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {			
+			$full_name = $row[ 'first_name' ] . " " . $row[ 'last_name' ] ." (". $row[ 'user_name' ].")";
+            $listvalues[ $row[ 'id' ] ] = $full_name;
+        }
+    }
+    return $listvalues;
+}
+
+function getListAccounting()
+{
+    static $listvalues = null;
+
+    if ( ! $listvalues )
+    {
+
+        global $db;
+        $query            = "SELECT us.id, us.first_name , us.last_name, user_name 
+							FROM 
+								users as us,
+								users_cstm as us_cstm
+							WHERE 
+								deleted = 0 
+								and status = 'Active'
+								and us.id = us_cstm.id_c
+								and us_cstm.user_department_c = 'Accounting' ORDER BY first_name ASC";
+        $result           = $db->query( $query, false );
+        $listvalues       = array();
+        $listvalues[ '' ] = '';
+
+        while ( ( $row = $db->fetchByAssoc( $result ) ) != null )
+        {			
+			$full_name = $row[ 'first_name' ] . " " . $row[ 'last_name' ] ." (". $row[ 'user_name' ].")";
+            $listvalues[ $row[ 'id' ] ] = $full_name;
         }
     }
     return $listvalues;

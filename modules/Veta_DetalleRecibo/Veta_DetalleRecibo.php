@@ -123,10 +123,12 @@ class Veta_DetalleRecibo extends Basic {
         $r = new Veta_Recibo();
         $r->retrieve( $_POST[ "relate_id" ] );
 
+        /*
         if ( $r->has_proceso_ventas() ) {
 
             $r->redireccionar( 'No se puede actualizar porque ya existe un proceso de ventas', $r->id );
         }
+        */
 
         if ( $r->is_gerente_contable() ) {
 
@@ -193,10 +195,12 @@ class Veta_DetalleRecibo extends Basic {
         $r = new Veta_Recibo();
         $r->retrieve( $this->veta_detallerecibo_veta_reciboveta_recibo_ida );
 
+        /*
         if ( $r->has_proceso_ventas() ) {
 
             $r->redireccionar( 'No se puede eliminar porque ya existe un proceso de ventas', $r->id );
         }
+        */
 
         if ( $r->is_gerente_contable() ) {
 

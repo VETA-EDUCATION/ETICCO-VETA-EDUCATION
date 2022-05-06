@@ -100,7 +100,8 @@ array (
         'label' => 'LBL_ASSIGNED_TO',
         'function' => 
         array (
-          'name' => 'get_user_array',
+          //'name' => 'get_user_array',
+		  'name' => 'getListCustomerService_Sales',
           'params' => 
           array (
             0 => false,
@@ -119,7 +120,7 @@ array (
         'sortable' => false,
         'function' => 
         array (
-          'name' => 'getAsignadoLeads',
+          'name' => 'getListAdmissions',
         ),
       ),
       'soel_asignado_servicio_cliente' => 
@@ -132,7 +133,7 @@ array (
         'sortable' => false,
         'function' => 
         array (
-          'name' => 'getAsignadoLeads',
+          'name' => 'getListCustomerService',
         ),
       ),
       'soel_asignado_visas' => 
@@ -145,7 +146,7 @@ array (
         'sortable' => false,
         'function' => 
         array (
-          'name' => 'getAsignadoLeads',
+          'name' => 'getListVisas',
         ),
       ),
       'estado_pago_institucion_c' => 
@@ -327,6 +328,30 @@ array (
                 'name'     => 'soel_localizacion',
                 'sortable' => false,
             ),
+      //endregion
+
+      //region soel_mobile_phone_lead
+      'soel_mobile_phone_lead'                     =>
+      array(
+          'type'     => 'varchar',
+          'default'  => true,
+          'label'    => 'LBL_SOEL_MOBILE_PHONE_LEAD',
+          'width'    => '10%',
+          'name'     => 'soel_mobile_phone_lead',
+          'sortable' => false,
+      ),
+      //endregion
+
+      //region soel_email_lead
+      'soel_email_lead'                     =>
+      array(
+          'type'     => 'varchar',
+          'default'  => true,
+          'label'    => 'LBL_SOEL_EMAIL_LEAD',
+          'width'    => '10%',
+          'name'     => 'soel_email_lead',
+          'sortable' => false,
+      ),
       //endregion
     ),
   ),

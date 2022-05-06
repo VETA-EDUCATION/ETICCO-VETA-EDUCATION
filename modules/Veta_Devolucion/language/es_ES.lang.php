@@ -75,4 +75,6 @@ $mod_strings = array (
   'LBL_VETA_DEVOLUCION_SUBPANEL_TITLE' => 'Devolución',
   'LBL_NEW_FORM_TITLE' => 'Nuevo Devolución',
   'LBL_MONTO' => 'Monto',
+  'LBL_CANTIDADDEVOLUCION' => 'Cantidad devolucion',
+  'LBL_MONEDADEVOLUCION' => 'Moneda Devolucion',
 );

@@ -41,7 +41,7 @@ $sugar_config = array (
       'initialNumber' => '1',
     ),
   ),
-  'cache_dir' => 'cache/',
+  'cache_dir' => 'cache/', 
   'calculate_response_time' => false,
   'calendar' => 
   array (
@@ -95,10 +95,10 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => '127.0.0.1',
-    'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'root',
-    'db_password' => '9000580574',
+    'db_host_name' => 'localhost:3306',
+    'db_host_instance' => '',
+     'db_user_name' => 'bn_suitecrm',
+    'db_password' => '4ce9ac0f71',
     'db_name' => 'vetacrm2',
     'db_type' => 'mysql',
     'db_port' => '',
@@ -406,7 +406,7 @@ $sugar_config = array (
   'session_dir' => '',
   'showDetailData' => true,
   'showThemePicker' => true,
-  'site_url' => 'https://veta.soel.com.co',
+  'site_url' => 'http://veta.soel.com.co',
   'slow_query_time_msec' => '100',
   'stack_trace_errors' => false,
   'sugar_version' => '6.5.25',
@@ -451,7 +451,7 @@ $sugar_config = array (
     12 => 'htm',
     13 => 'phtml',
   ),
-  'upload_dir' => '/var/www/html/crm.australiaveta.com.dynamics/upload/',
+  'upload_dir' => '/var/www/crm.australiaveta.com.develop/upload/',
   'upload_maxsize' => 30000000,
   'use_common_ml_dir' => false,
   'use_real_names' => true,
