@@ -212,19 +212,6 @@ $GLOBALS[ 'app_list_strings' ][ 'estado_aplicacion_list_2' ] = array(
     'Aplicacion_Enviada'    => 'Aplicación Enviada',
     'Aplicacion_Descartada' => 'Aplicacion Descartada',
 );
-$GLOBALS[ 'app_list_strings' ][ 'estado_loo_list_2' ]        = array(
-    'Requerimiento_LOO'                 => 'Requerimiento para Carta de Oferta',
-    'Requerimiento_Listo'               => 'Requerimiento Listo',
-    'Requerimiento_Enviado'             => 'Requerimiento Enviado',
-    'Carta_Oferta_Recibida'             => 'Carta de Oferta Recibida',
-    'Carta_Oferta_Condicional'          => 'Carta de Oferta Recibida Condicional',
-    'Carta_Oferta_Enviada_Estudiante'   => 'Carta de Oferta Enviada al Estudiante',
-    'Carta_Oferta_Enviada_Guardada'     => 'Carta de Oferta Enviada Guardada',
-    'Solicitud_Correccion_Carta_Oferta' => 'Solicitud Correccion Carta Oferta',
-    'Carta_Oferta_Firmada'              => 'Carta de Oferta Firmada',
-    'Descartada'                        => 'Descartada',
-);
-
 $GLOBALS[ 'app_list_strings' ][ 'estado_visa_list' ] = array(
     'Pendiente_Luz_Verde'      => 'Pendiente Luz Verde',
     'HAP_ID_Solicitar'         => 'HAP ID Solicitar',
@@ -281,17 +268,6 @@ $GLOBALS[ 'app_list_strings' ][ 'jornada_list' ]       = array(
     'Noche'     => 'Noche',
     'Weekend'   => 'Weekend',
     'Weekday'   => 'Weekday',
-);
-
-$GLOBALS[ 'app_list_strings' ][ 'coe_estado_list' ]    = array(
-    'COE_Solicitado'            => 'COE Solicitado',
-    'Requerimiento_COE'         => 'Requerimiento para COE',
-    'Solicitud_Correccion_COE'  => 'Solicitud Corrección COE',
-    'COE_Recibido'              => 'COE Recibido',
-    'COE_Guardado_Enviado'      => 'COE Guardado o Enviado',
-    'Descartado'                => 'Descartado',
-    'COE_Requerimiento_Listo'   => 'Requerimiento Listo',
-    'COE_Requerimiento_Enviado' => 'Requerimiento Enviado',
 );
 $GLOBALS[ 'app_list_strings' ][ 'seguro_activo_list' ] = array(
     'Si' => 'Si',
@@ -606,4 +582,45 @@ $GLOBALS['app_list_strings']['estado_servicio_al_cliente_list']=array (
 $GLOBALS['app_list_strings']['localizacion_list']=array (
     'Offshore' => 'Offshore',
     'Onshore' => 'Onshore',
+);
+$GLOBALS['app_list_strings']['estado_loo_list_2']=array (
+  'Requerimiento_LOO' => 'Requerimiento para Carta de Oferta',
+  'Requerimiento_Listo' => 'Requerimiento Listo',
+  'Requerimiento_Enviado' => 'Requerimiento Enviado',
+  'Carta_Oferta_Recibida' => 'Carta de Oferta Recibida',
+  'Carta_Oferta_Condicional' => 'Carta de Oferta Recibida Condicional',
+  'Carta_Oferta_Enviada_Estudiante' => 'Carta de Oferta Enviada al Estudiante',
+  'Carta_Oferta_Enviada_Guardada' => 'Carta de Oferta Enviada Guardada',
+  'Solicitud_Correccion_Carta_Oferta' => 'Solicitud Correccion Carta Oferta',
+  'Carta_Oferta_Firmada' => 'Carta de Oferta Firmada',
+  'Descartada' => 'Descartada',
+  'LOO_Sent' => 'LOO Sent',
+  'LOO_conditional_sent' => 'LOO conditional sent',
+  'LOO_correction_request' => 'LOO correction request',
+  'LOO_corrected_sent' => 'LOO corrected sent',
+  'LOO_signed' => 'LOO signed',
+);
+$GLOBALS['app_list_strings']['coe_estado_list']=array (
+  'COE_Solicitado' => 'COE Requested',
+  'Requerimiento_COE' => 'Requirement for COE',
+  'Solicitud_Correccion_COE' => 'COE Correction Request',
+  'COE_Recibido' => 'COE Recibido',
+  'COE_Guardado_Enviado' => 'COE Sent',
+  'Descartado' => 'Descartado',
+  'COE_Requerimiento_Listo' => 'Requirement Ready',
+  'COE_Requerimiento_Enviado' => 'Requirement Sent',
+  'COE_corrected_sent' => 'COE corrected sent',
+  'Release_requested' => 'Release requested',
+  'Release_under_review' => 'Release under review',
+  'Release_documents_request' => '- Release documents request',
+  'Release_documents_completes' => 'Release documents completes',
+  'Release_sent' => 'Release sent',
+);
+$GLOBALS['app_list_strings']['doc_estadodocumento_list']=array (
+  'Pendiente' => 'Pending',
+  'Cargado' => 'Loaded',
+  'Aprobado' => 'Approved',
+  'Rechazado' => 'Rejected',
+  'RechazadoColegio' => 'Rejected by College',
+  'AprobadoColegio' => 'College Approved',
 );

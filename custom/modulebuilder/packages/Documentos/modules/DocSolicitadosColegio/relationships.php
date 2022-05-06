@@ -38,23 +38,6 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $relationships = array (
-  'doc_docsolicitadoscolegio_veta_aplicacion' => 
-  array (
-    'rhs_label' => 'Aplicación',
-    'lhs_label' => 'Documentos Solicitados Colegio',
-    'lhs_subpanel' => 'default',
-    'rhs_subpanel' => 'default',
-    'lhs_module' => 'Doc_DocSolicitadosColegio',
-    'rhs_module' => 'Veta_Aplicacion',
-    'relationship_type' => 'many-to-many',
-    'readonly' => false,
-    'deleted' => false,
-    'relationship_only' => false,
-    'for_activities' => false,
-    'is_custom' => false,
-    'from_studio' => false,
-    'relationship_name' => 'doc_docsolicitadoscolegio_veta_aplicacion',
-  ),
   'doc_docsolicitadoscolegio_opportunities' => 
   array (
     'rhs_label' => 'Procesos de Venta',

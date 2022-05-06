@@ -103,6 +103,11 @@ include('custom/metadata/veta_otrosnombres_contactsMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/doc_docssolicitados_doc_plantillasMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/veta_visa_veta_coeMetaData.php');
 
 
@@ -129,6 +134,11 @@ include('custom/metadata/veta_loo_activities_notesMetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/veta_visas_leadsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/doc_plantillas_veta_collegeMetaData.php');
 
 
  
@@ -178,6 +188,11 @@ include('custom/metadata/leads_cases_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/doc_docsolicitadoscolegio_opportunitiesMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/veta_coe_activities_tasksMetaData.php');
 
 
@@ -199,6 +214,11 @@ include('custom/metadata/doc_docssolicitados_opportunitiesMetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/doc_documentos_adic_opportunitiesMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/doc_docsolicitadoscolegio_veta_aplicacionMetaData.php');
 
 
  
@@ -368,6 +388,11 @@ include('custom/metadata/veta_requerimiento_activities_1_meetingsMetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/doc_comentarioscolage_opportunitiesMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/veta_aplicacion_opportunitiesMetaData.php');
 
 
@@ -424,6 +449,11 @@ include('custom/metadata/veta_pagocolegios_activities_callsMetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/veta_coe_casesMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/doc_comentarioscolestage_opportunitiesMetaData.php');
 
 
  
