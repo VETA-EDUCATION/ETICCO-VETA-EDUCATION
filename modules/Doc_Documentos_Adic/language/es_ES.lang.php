@@ -82,4 +82,7 @@ $mod_strings = array (
   'LBL_RECURSOS' => 'Recursos',
   'LBL_OBSERVACIONES' => 'Observaciones',
   'LBL_FECHACARGADO' => 'Fecha Cargue',
+  'LBL_PLANTILLA_DOC_PLANTILLAS_ID' => 'Plantilla (relacionado Plantilla Documentos ID)',
+  'LBL_PLANTILLA' => 'Plantilla',
+  'LBL_COLEGIO' => 'Colegio',
 );

@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:19
 $dictionary["Doc_Documentos"]["fields"]["doc_plantillas_doc_documentos"] = array (
   'name' => 'doc_plantillas_doc_documentos',
   'type' => 'link',
@@ -14,7 +14,7 @@ $dictionary["Doc_Documentos"]["fields"]["doc_plantillas_doc_documentos"] = array
 );
 
 
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:20
 $dictionary["Doc_Documentos"]["fields"]["doc_docssolicitados_doc_documentos"] = array (
   'name' => 'doc_docssolicitados_doc_documentos',
   'type' => 'link',

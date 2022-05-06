@@ -78,6 +78,10 @@ $mod_strings = array (
   'LBL_PAIS' => 'Pais',
   'LBL_TIPOVISA' => 'Tipo visa',
   'LBL_NACIONALIDAD' => 'Nacionalidad',
-  'LBL_COLLEGE_VETA_COLLEGE_ID' => 'College (related  ID)',
   'LBL_COLLEGE' => 'College',
+  'LBL_DOCAPROBADOS' => 'Doc. Aprobados',
+  'LBL_DOCSOLICITADOS' => 'Doc. Solicitados',
+  'LBL_DOCCARGADOS' => 'Doc. Cargados',
+  'LBL_DOCPENDIENTES' => 'Doc. Pendientes',
+  'LBL_COLEGIO' => 'Colegio',
 );

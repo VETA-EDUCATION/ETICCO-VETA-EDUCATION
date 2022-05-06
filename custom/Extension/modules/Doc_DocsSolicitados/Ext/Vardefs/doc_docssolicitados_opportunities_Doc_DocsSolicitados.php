@@ -1,5 +1,5 @@
 <?php
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:20
 $dictionary["Doc_DocsSolicitados"]["fields"]["doc_docssolicitados_opportunities"] = array (
   'name' => 'doc_docssolicitados_opportunities',
   'type' => 'link',
@@ -31,3 +31,44 @@ $dictionary["Doc_DocsSolicitados"]["fields"]["doc_docssolicitados_opportunitieso
   'side' => 'right',
   'vname' => 'LBL_DOC_DOCSSOLICITADOS_OPPORTUNITIES_FROM_DOC_DOCSSOLICITADOS_TITLE',
 );
+
+$dictionary["Doc_DocsSolicitados"]["fields"]["ayuda"] = array(
+    'name' => 'ayuda',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    'vname' => 'LBL_AYUDA',
+);
+$dictionary["Doc_DocsSolicitados"]["fields"]["observaciones"] = array(
+    'name' => 'observaciones',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    'vname' => 'LBL_OBSERVACIONES',
+);
+$dictionary["Doc_DocsSolicitados"]["fields"]["recursos"] = array(
+    'name' => 'recursos',
+    'type' => 'url',
+    'source' => 'non-db',
+    'vname' => 'LBL_RECURSOS',
+);
+$dictionary["Doc_DocsSolicitados"]["fields"]["solicitadopor"] = array(
+    'name' => 'solicitadopor',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    'vname' => 'LBL_SOLICITADOPOR',
+);
+
+$dictionary["Doc_DocsSolicitados"]["fields"]["plantilla"] = array(
+    'name' => 'plantilla',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    'vname' => 'LBL_PLANTILLA',
+);
+$dictionary["Doc_DocsSolicitados"]["fields"]["colegio"] = array(
+    'name' => 'colegio',
+    'type' => 'varchar',
+    'source' => 'non-db',
+    'vname' => 'LBL_COLEGIO',
+);
+
+
+

@@ -77,9 +77,11 @@ $mod_strings = array (
   'LBL_URL' => 'Url',
   'LBL_ESTADODOCUMENTO' => 'Estado',
   'LBL_FECHAAPROBADO' => 'Fecha aprobado',
-'LBL_AYUDA' => 'Ayuda',
+  'LBL_AYUDA' => 'Ayuda',
   'LBL_OBSERVACIONES' => 'Observaciones',
   'LBL_SOLICITADOPOR' => 'Solicitado Por',
   'LBL_RECURSOS' => 'Recursos',
   'LBL_DESCRIPCION' => 'Descripcion',
+  'LBL_PLANTILLA' => 'Plantilla',
+  'LBL_COLEGIO' => 'Colegio',
 );

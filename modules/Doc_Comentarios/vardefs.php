@@ -53,4 +53,4 @@ $dictionary['Doc_Comentarios'] = array(
 if (!class_exists('VardefManager')) {
         require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('Doc_Comentarios', 'Doc_Comentarios', array('basic','assignable','security_groups'));
+VardefManager::createVardef('Doc_Comentarios', 'Doc_Comentarios', array('basic','assignable','security_groups'));

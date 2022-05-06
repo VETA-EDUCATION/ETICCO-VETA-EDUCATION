@@ -1,5 +1,5 @@
 <?php
- // created: 2021-08-03 19:41:26
+ // created: 2022-03-22 09:00:19
 $layout_defs["Doc_Plantillas"]["subpanel_setup"]['doc_plantillas_opportunities'] = array (
   'order' => 100,
   'module' => 'Opportunities',
@@ -11,6 +11,10 @@ $layout_defs["Doc_Plantillas"]["subpanel_setup"]['doc_plantillas_opportunities']
   'top_buttons' => 
   array (
     0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
     array (
       'widget_class' => 'SubPanelTopSelectButton',
       'mode' => 'MultiSelect',

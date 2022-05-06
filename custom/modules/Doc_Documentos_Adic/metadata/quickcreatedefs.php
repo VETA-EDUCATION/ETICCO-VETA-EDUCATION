@@ -2,7 +2,7 @@
 $module_name = 'Doc_Documentos_Adic';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
@@ -39,9 +39,9 @@ array (
           0 => 'name',
           1 => 
           array (
-            'name' => 'estadodocumento',
+            'name' => 'plantilla',
             'studio' => 'visible',
-            'label' => 'LBL_ESTADODOCUMENTO',
+            'label' => 'LBL_PLANTILLA',
           ),
         ),
       ),

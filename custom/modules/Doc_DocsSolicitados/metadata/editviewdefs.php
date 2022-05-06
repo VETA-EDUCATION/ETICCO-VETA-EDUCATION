@@ -44,6 +44,10 @@ array (
             'label' => 'LBL_ESTADODOCUMENTO',
           ),
         ),
+        1 => 
+        array (
+          0 => 'description',
+        ),
       ),
     ),
   ),

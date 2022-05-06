@@ -1,5 +1,5 @@
 <?php
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:20
 $layout_defs["Doc_DocsSolicitados"]["subpanel_setup"]['doc_docssolicitados_doc_documentos'] = array (
   'order' => 100,
   'module' => 'Doc_Documentos',

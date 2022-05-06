@@ -2,7 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2021-08-07 18:53:01
+ // created: 2022-03-22 09:00:20
 $layout_defs["Doc_Documentos_Adic"]["subpanel_setup"]['doc_documentos_adic_opportunities'] = array (
   'order' => 100,
   'module' => 'Opportunities',
