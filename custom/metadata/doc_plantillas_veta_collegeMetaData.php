@@ -1,24 +1,24 @@
 <?php
 // created: 2022-03-22 09:00:19
-$dictionary["doc_plantillas_opportunities"] = array (
+$dictionary["doc_plantillas_veta_college"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
-    'doc_plantillas_opportunities' => 
+    'doc_plantillas_veta_college' => 
     array (
       'lhs_module' => 'Doc_Plantillas',
       'lhs_table' => 'doc_plantillas',
       'lhs_key' => 'id',
-      'rhs_module' => 'Opportunities',
-      'rhs_table' => 'opportunities',
+      'rhs_module' => 'Veta_College',
+      'rhs_table' => 'veta_college',
       'rhs_key' => 'id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'doc_plantillas_opportunities_c',
-      'join_key_lhs' => 'doc_plantillas_opportunitiesdoc_plantillas_ida',
-      'join_key_rhs' => 'doc_plantillas_opportunitiesopportunities_idb',
+      'join_table' => 'doc_plantillas_veta_college_c',
+      'join_key_lhs' => 'doc_plantillas_veta_collegedoc_plantillas_ida',
+      'join_key_rhs' => 'doc_plantillas_veta_collegeveta_college_idb',
     ),
   ),
-  'table' => 'doc_plantillas_opportunities_c',
+  'table' => 'doc_plantillas_veta_college_c',
   'fields' => 
   array (
     0 => 
@@ -42,13 +42,13 @@ $dictionary["doc_plantillas_opportunities"] = array (
     ),
     3 => 
     array (
-      'name' => 'doc_plantillas_opportunitiesdoc_plantillas_ida',
+      'name' => 'doc_plantillas_veta_collegedoc_plantillas_ida',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'doc_plantillas_opportunitiesopportunities_idb',
+      'name' => 'doc_plantillas_veta_collegeveta_college_idb',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -57,7 +57,7 @@ $dictionary["doc_plantillas_opportunities"] = array (
   array (
     0 => 
     array (
-      'name' => 'doc_plantillas_opportunitiesspk',
+      'name' => 'doc_plantillas_veta_collegespk',
       'type' => 'primary',
       'fields' => 
       array (
@@ -66,12 +66,12 @@ $dictionary["doc_plantillas_opportunities"] = array (
     ),
     1 => 
     array (
-      'name' => 'doc_plantillas_opportunities_alt',
+      'name' => 'doc_plantillas_veta_college_alt',
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'doc_plantillas_opportunitiesdoc_plantillas_ida',
-        1 => 'doc_plantillas_opportunitiesopportunities_idb',
+        0 => 'doc_plantillas_veta_collegedoc_plantillas_ida',
+        1 => 'doc_plantillas_veta_collegeveta_college_idb',
       ),
     ),
   ),

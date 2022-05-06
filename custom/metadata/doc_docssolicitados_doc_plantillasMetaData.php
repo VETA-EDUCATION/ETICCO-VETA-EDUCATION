@@ -1,24 +1,24 @@
 <?php
 // created: 2022-03-22 09:00:20
-$dictionary["doc_documentos_adic_opportunities"] = array (
+$dictionary["doc_docssolicitados_doc_plantillas"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
-    'doc_documentos_adic_opportunities' => 
+    'doc_docssolicitados_doc_plantillas' => 
     array (
-      'lhs_module' => 'Doc_Documentos_Adic',
-      'lhs_table' => 'doc_documentos_adic',
+      'lhs_module' => 'Doc_DocsSolicitados',
+      'lhs_table' => 'doc_docssolicitados',
       'lhs_key' => 'id',
-      'rhs_module' => 'Opportunities',
-      'rhs_table' => 'opportunities',
+      'rhs_module' => 'Doc_Plantillas',
+      'rhs_table' => 'doc_plantillas',
       'rhs_key' => 'id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'doc_documentos_adic_opportunities_c',
-      'join_key_lhs' => 'doc_documentos_adic_opportunitiesdoc_documentos_adic_ida',
-      'join_key_rhs' => 'doc_documentos_adic_opportunitiesopportunities_idb',
+      'join_table' => 'doc_docssolicitados_doc_plantillas_c',
+      'join_key_lhs' => 'doc_docssolicitados_doc_plantillasdoc_docssolicitados_ida',
+      'join_key_rhs' => 'doc_docssolicitados_doc_plantillasdoc_plantillas_idb',
     ),
   ),
-  'table' => 'doc_documentos_adic_opportunities_c',
+  'table' => 'doc_docssolicitados_doc_plantillas_c',
   'fields' => 
   array (
     0 => 
@@ -42,13 +42,13 @@ $dictionary["doc_documentos_adic_opportunities"] = array (
     ),
     3 => 
     array (
-      'name' => 'doc_documentos_adic_opportunitiesdoc_documentos_adic_ida',
+      'name' => 'doc_docssolicitados_doc_plantillasdoc_docssolicitados_ida',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'doc_documentos_adic_opportunitiesopportunities_idb',
+      'name' => 'doc_docssolicitados_doc_plantillasdoc_plantillas_idb',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -57,7 +57,7 @@ $dictionary["doc_documentos_adic_opportunities"] = array (
   array (
     0 => 
     array (
-      'name' => 'doc_documentos_adic_opportunitiesspk',
+      'name' => 'doc_docssolicitados_doc_plantillasspk',
       'type' => 'primary',
       'fields' => 
       array (
@@ -66,12 +66,12 @@ $dictionary["doc_documentos_adic_opportunities"] = array (
     ),
     1 => 
     array (
-      'name' => 'doc_documentos_adic_opportunities_alt',
+      'name' => 'doc_docssolicitados_doc_plantillas_alt',
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'doc_documentos_adic_opportunitiesdoc_documentos_adic_ida',
-        1 => 'doc_documentos_adic_opportunitiesopportunities_idb',
+        0 => 'doc_docssolicitados_doc_plantillasdoc_docssolicitados_ida',
+        1 => 'doc_docssolicitados_doc_plantillasdoc_plantillas_idb',
       ),
     ),
   ),

@@ -1,0 +1,9 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_DOC_DOCSOLICITADOSCOLEGIO_VETA_APLICACION_FROM_VETA_APLICACION_TITLE'] = 'Aplicación';
+$mod_strings['LBL_DOC_DOCSOLICITADOSCOLEGIO_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE'] = 'Procesos de Venta';
+
+?>

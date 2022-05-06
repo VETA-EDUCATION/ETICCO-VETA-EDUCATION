@@ -1,5 +1,5 @@
 <?php
-// created: 2021-08-07 18:53:01
+// created: 2022-03-22 09:00:20
 $dictionary["doc_docssolicitados_opportunities"] = array (
   'true_relationship_type' => 'one-to-many',
   'relationships' => 

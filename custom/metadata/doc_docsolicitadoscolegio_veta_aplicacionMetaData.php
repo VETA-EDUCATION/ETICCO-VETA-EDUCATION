@@ -1,24 +1,24 @@
 <?php
 // created: 2022-03-22 09:00:20
-$dictionary["doc_documentos_adic_opportunities"] = array (
+$dictionary["doc_docsolicitadoscolegio_veta_aplicacion"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
-    'doc_documentos_adic_opportunities' => 
+    'doc_docsolicitadoscolegio_veta_aplicacion' => 
     array (
-      'lhs_module' => 'Doc_Documentos_Adic',
-      'lhs_table' => 'doc_documentos_adic',
+      'lhs_module' => 'Doc_DocSolicitadosColegio',
+      'lhs_table' => 'doc_docsolicitadoscolegio',
       'lhs_key' => 'id',
-      'rhs_module' => 'Opportunities',
-      'rhs_table' => 'opportunities',
+      'rhs_module' => 'Veta_Aplicacion',
+      'rhs_table' => 'veta_aplicacion',
       'rhs_key' => 'id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'doc_documentos_adic_opportunities_c',
-      'join_key_lhs' => 'doc_documentos_adic_opportunitiesdoc_documentos_adic_ida',
-      'join_key_rhs' => 'doc_documentos_adic_opportunitiesopportunities_idb',
+      'join_table' => 'doc_docsolicitadoscolegio_veta_aplicacion_c',
+      'join_key_lhs' => 'doc_docsol30e6colegio_ida',
+      'join_key_rhs' => 'doc_docsolicitadoscolegio_veta_aplicacionveta_aplicacion_idb',
     ),
   ),
-  'table' => 'doc_documentos_adic_opportunities_c',
+  'table' => 'doc_docsolicitadoscolegio_veta_aplicacion_c',
   'fields' => 
   array (
     0 => 
@@ -42,13 +42,13 @@ $dictionary["doc_documentos_adic_opportunities"] = array (
     ),
     3 => 
     array (
-      'name' => 'doc_documentos_adic_opportunitiesdoc_documentos_adic_ida',
+      'name' => 'doc_docsol30e6colegio_ida',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'doc_documentos_adic_opportunitiesopportunities_idb',
+      'name' => 'doc_docsolicitadoscolegio_veta_aplicacionveta_aplicacion_idb',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -57,7 +57,7 @@ $dictionary["doc_documentos_adic_opportunities"] = array (
   array (
     0 => 
     array (
-      'name' => 'doc_documentos_adic_opportunitiesspk',
+      'name' => 'doc_docsolicitadoscolegio_veta_aplicacionspk',
       'type' => 'primary',
       'fields' => 
       array (
@@ -66,12 +66,12 @@ $dictionary["doc_documentos_adic_opportunities"] = array (
     ),
     1 => 
     array (
-      'name' => 'doc_documentos_adic_opportunities_alt',
+      'name' => 'doc_docsolicitadoscolegio_veta_aplicacion_alt',
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'doc_documentos_adic_opportunitiesdoc_documentos_adic_ida',
-        1 => 'doc_documentos_adic_opportunitiesopportunities_idb',
+        0 => 'doc_docsol30e6colegio_ida',
+        1 => 'doc_docsolicitadoscolegio_veta_aplicacionveta_aplicacion_idb',
       ),
     ),
   ),

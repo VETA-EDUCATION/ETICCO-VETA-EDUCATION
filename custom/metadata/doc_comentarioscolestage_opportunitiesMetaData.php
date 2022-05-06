@@ -1,24 +1,24 @@
 <?php
 // created: 2022-03-22 09:00:19
-$dictionary["doc_plantillas_opportunities"] = array (
+$dictionary["doc_comentarioscolestage_opportunities"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
   array (
-    'doc_plantillas_opportunities' => 
+    'doc_comentarioscolestage_opportunities' => 
     array (
-      'lhs_module' => 'Doc_Plantillas',
-      'lhs_table' => 'doc_plantillas',
+      'lhs_module' => 'Doc_ComentariosColEstAge',
+      'lhs_table' => 'doc_comentarioscolestage',
       'lhs_key' => 'id',
       'rhs_module' => 'Opportunities',
       'rhs_table' => 'opportunities',
       'rhs_key' => 'id',
       'relationship_type' => 'many-to-many',
-      'join_table' => 'doc_plantillas_opportunities_c',
-      'join_key_lhs' => 'doc_plantillas_opportunitiesdoc_plantillas_ida',
-      'join_key_rhs' => 'doc_plantillas_opportunitiesopportunities_idb',
+      'join_table' => 'doc_comentarioscolestage_opportunities_c',
+      'join_key_lhs' => 'doc_coment7309lestage_ida',
+      'join_key_rhs' => 'doc_comentarioscolestage_opportunitiesopportunities_idb',
     ),
   ),
-  'table' => 'doc_plantillas_opportunities_c',
+  'table' => 'doc_comentarioscolestage_opportunities_c',
   'fields' => 
   array (
     0 => 
@@ -42,13 +42,13 @@ $dictionary["doc_plantillas_opportunities"] = array (
     ),
     3 => 
     array (
-      'name' => 'doc_plantillas_opportunitiesdoc_plantillas_ida',
+      'name' => 'doc_coment7309lestage_ida',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'doc_plantillas_opportunitiesopportunities_idb',
+      'name' => 'doc_comentarioscolestage_opportunitiesopportunities_idb',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -57,7 +57,7 @@ $dictionary["doc_plantillas_opportunities"] = array (
   array (
     0 => 
     array (
-      'name' => 'doc_plantillas_opportunitiesspk',
+      'name' => 'doc_comentarioscolestage_opportunitiesspk',
       'type' => 'primary',
       'fields' => 
       array (
@@ -66,12 +66,12 @@ $dictionary["doc_plantillas_opportunities"] = array (
     ),
     1 => 
     array (
-      'name' => 'doc_plantillas_opportunities_alt',
+      'name' => 'doc_comentarioscolestage_opportunities_alt',
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'doc_plantillas_opportunitiesdoc_plantillas_ida',
-        1 => 'doc_plantillas_opportunitiesopportunities_idb',
+        0 => 'doc_coment7309lestage_ida',
+        1 => 'doc_comentarioscolestage_opportunitiesopportunities_idb',
       ),
     ),
   ),
